@@ -1,0 +1,31 @@
+Real-World Use Case
+Primary Use Case: Weekly Budget Management for Students
+Scenario: A college student receives $100 weekly allowance and needs to track spending on:
+Food and drinks
+School supplies
+Entertainment
+Transportation
+I
+Problem Statement: Without tracking, students often overspend early in the week and run out of money. This program helps them:
+Know exactly how much they have left
+Check if they can afford items before buying
+Calculate discounts to find better deals
+See their spending patterns
+
+
+
+
+High Level Code:
+1. Get users's monthly budget
+2. show budget tracker menu
+3. Budget tracker should exit, only if exit option is chosen.
+4. Show budget status
+5. Update money on budget.
+
+PSEUDO CODE:::::::::::
+
+1. function showWelcome to print the welcome message.
+2. function getBudgetStatus to show the budget, spent amt, remaining amt=budget-spent,percentage = (spent/budget)/100, financial status.
+3. if my remaining % is > 50 = Good, remaining < 50% and > 0%, careful, if % is -ve, the over budget.
+4. A function t ocheck if I  can buy an item. It accepts item price and remaining. can buy = item price <remaining, overpriced = item price > remaining.
+5. A function to calculate the discount. It accepts item price and discount %. Final price = original price - discount price.
