@@ -29,3 +29,10 @@ PSEUDO CODE:::::::::::
 3. if my remaining % is > 50 = Good, remaining < 50% and > 0%, careful, if % is -ve, the over budget.
 4. A function t ocheck if I  can buy an item. It accepts item price and remaining. can buy = item price <remaining, overpriced = item price > remaining.
 5. A function to calculate the discount. It accepts item price and discount %. Final price = original price - discount price.
+
+Code Flow:
+1. function showWelcome()
+2. function getBudgetStatus
+3. function canBuy()
+2. Show menu for user
+2. Take i/p from user

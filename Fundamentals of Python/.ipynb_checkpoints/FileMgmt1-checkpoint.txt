@@ -1,0 +1,2 @@
+Hello again, file opened in write mode, so overwrote the existing content present before
+Hello again, file opened in append mode, adding additional data to the existing content
