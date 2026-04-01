@@ -69,10 +69,12 @@ def createDBTbls():
    query="SELECT name FROM sqlite_master WHERE type='table'"
    cursor.execute(query)
    tables = cursor.fetchall()
+   conn.close()
 
    for table in tables:
       print(f"Table name:{table}")
 
+#Function to fetch the genere from TMDB API and inserting into genre table.
 def insertGenres(apiKey):
    try:
       params = {"api_key":apiKey}
@@ -80,8 +82,17 @@ def insertGenres(apiKey):
       resp = requests.get(f"{BaseUrl}/genre/movie/list"
                           ,params=params)
       genres=resp.json()['genres']
-      print(f"type of genres: {genres}, genres: {genres}")
-      print
+      #print(f"type of genres: {genres}")
+      
+      conn = sqlite3.connect(DB)
+      cursor = conn.cursor()
+
+      cursor.executemany("INSERT INTO genres(genre_id,genre_name)" \
+      "VALUES (?,?)", [(g['id'],g['name']) for g in genres])
+
+      print(f"Checking if rows inserted: {cursor.execute("SELECT count(*) FROM genres").fetchone()}")
+      conn.commit()
+      conn.close()
    except Exception as e:
       print(f"Exception occured in insertGenres:: {e}")   
 
@@ -91,5 +102,7 @@ apiKey = os.getenv("Tmdb_Api_Key")
 print("API Key loaded successfully")
 print("-----CREATEING TABLES IN DATABASE-----")
 createDBTbls()
+
 insertGenres(apiKey=apiKey)
+
 
