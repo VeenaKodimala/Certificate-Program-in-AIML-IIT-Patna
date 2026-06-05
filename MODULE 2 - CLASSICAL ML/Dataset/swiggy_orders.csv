@@ -1,0 +1,2051 @@
+order_id,restaurant_name,city,category,order_value,delivery_time_mins,rating,order_date,time_slot,is_reorder,discount_applied,platform
+101569,Sweet Truth,Hyderabad,Desserts,745.02,46.0,,2024-12-18 19:51:00,dinner,False,97.73,iOS
+101963,Dum Pukht,Kolkata,Biryani,114.67,69.0,3.9,2024-10-26 13:16:00,lunch,False,,Android
+101693,Sweet Truth,Delhi,Desserts,243.78,18.0,3.3,2024-10-01 21:54:00,dinner,False,58.94,Android
+101873,Behrouz Biryani,Delhi,Biryani,274.41,35.0,3.6,2024-10-30 18:50:00,snacks,False,101.67,Web
+100263,Raw Pressery Kitchen,Bangalore,Healthy,343.46,32.0,,2024-12-22 12:07:00,lunch,False,13.51,Android
+100936,Paradise Biryani,Mumbai,Biryani,398.93,44.0,3.4,2024-12-14 12:33:00,lunch,True,91.12,Android
+100916,Burger King,Delhi,Burger,755.67,36.0,3.4,2024-11-14 23:05:00,dinner,False,36.92,Android
+101096,Wat-A-Burger,Bangalore,Burger,372.85,34.0,2.8,2024-11-27 12:53:00,lunch,True,,iOS
+100706,Wraps N Rolls,Surat,Rolls & Wraps,683.16,46.0,3.4,2024-10-17 12:29:00,lunch,False,,iOS
+100502,Baskin Robbins,Hyderabad,Desserts,801.46,47.0,,2024-12-05 17:38:00,snacks,True,,Android
+101451,Wok To Walk,Delhi,Chinese,520.62,,4.0,2024-11-09 13:22:00,lunch,True,,iOS
+100111,Bawarchi,Mumbai,Biryani,140.91,40.0,,2024-11-05 18:06:00,snacks,True,,Web
+101835,Chinese Box,Pune,Chinese,220.47,42.0,4.8,2024-11-15 23:14:00,dinner,False,,Android
+100545,Behrouz Biryani,Hyderabad,Biryani,363.59,40.0,2.9,2024-12-09 13:20:00,lunch,True,,Android
+101900,Roll House,Pune,Rolls & Wraps,644.46,40.0,,2024-12-01 16:01:00,snacks,False,67.06,Web
+101720,Dhaba Express,Mumbai,North Indian,261.74,32.0,3.8,2024-10-11 12:59:00,lunch,False,,Web
+100109,Punjab Grill,Mumbai,North Indian,432.57,50.0,,2024-12-25 19:00:00,dinner,True,19.41,Android
+101528,Sweet Truth,Mumbai,Desserts,195.42,45.0,3.4,2024-11-19 10:07:00,breakfast,False,,iOS
+101890,Murugan Idli Shop,Lucknow,South Indian,282.87,67.0,3.5,2024-11-01 15:06:00,snacks,True,93.67,Android
+101082,Freshmenu,Bangalore,Healthy,233.23,19.0,2.7,2024-12-14 14:47:00,lunch,False,,iOS
+101536,Paradise Biryani,Bangalore,Biryani,333.98,54.0,4.4,2024-10-01 12:30:00,lunch,False,,iOS
+101875,Empire Restaurant,Chennai,Biryani,772.82,53.0,4.1,2024-11-07 12:26:00,,False,,iOS
+101157,Chai Point,Bangalore,Beverages,255.09,43.0,3.7,2024-12-17 12:42:00,lunch,True,,Android
+101664,Behrouz Biryani,Delhi,Biryani,275.85,39.0,3.2,2024-10-12 17:00:00,snacks,False,,Android
+101993,Sweet Truth,Hyderabad,Desserts,539.8,33.0,4.7,2024-12-04 18:41:00,,True,111.85,Android
+100309,Behrouz Biryani,Pune,Biryani,488.27,37.0,3.5,2024-10-24 22:29:00,dinner,False,,iOS
+100354,Green Bowl,Bangalore,Healthy,861.24,24.0,3.9,2024-11-15 22:50:00,dinner,False,,iOS
+101191,Saffron,Bangalore,North Indian,256.9,70.0,4.0,2024-11-18 13:07:00,lunch,True,48.04,iOS
+101042,Bay Leaf,Pune,Seafood,220.34,24.0,4.2,2024-11-27 18:00:00,snacks,False,16.71,Android
+101765,Wok To Walk,Bangalore,Chinese,621.54,23.0,3.4,2024-10-04 20:57:00,dinner,True,,iOS
+100262,Pizza Hut,Lucknow,Pizza,724.73,20.0,,2024-11-03 20:57:00,dinner,True,,Web
+100985,China Town,Chennai,Chinese,594.43,,3.9,2024-10-03 18:36:00,snacks,True,80.64,iOS
+100427,Behrouz Biryani,Delhi,Biryani,205.94,36.0,2.9,2024-12-27 12:13:00,lunch,False,,Web
+101955,Moti Mahal,Kochi,North Indian,608.41,56.0,4.6,2024-10-01 09:21:00,breakfast,True,46.85,Web
+100230,Barbeque Nation,Hyderabad,North Indian,437.04,50.0,3.8,2024-12-07 13:29:00,lunch,True,83.79,Android
+101936,Wok To Walk,Pune,Chinese,211.98,67.0,5.0,2024-11-05 22:44:00,dinner,True,60.24,Android
+101839,Chai Point,Ahmedabad,Beverages,253.4,28.0,4.5,2024-10-19 16:56:00,snacks,True,,Android
+101114,Dum Pukht,Hyderabad,Biryani,143.79,44.0,2.7,2024-10-06 19:59:00,dinner,False,114.47,Android
+100591,Wraps N Rolls,Bangalore,Rolls & Wraps,186.37,62.0,4.5,2024-10-07 15:17:00,snacks,True,,Android
+101125,La Folie,Chennai,Desserts,294.93,41.0,4.1,2024-10-19 19:21:00,dinner,False,106.08,Android
+100279,Dominos,Chennai,Pizza,300.68,52.0,3.4,2024-10-05 12:14:00,lunch,True,12.35,iOS
+100260,Udupi Palace,Bangalore,South Indian,680.65,,4.0,2024-10-18 12:08:00,lunch,False,,Android
+100769,Mainland China,Mumbai,Chinese,634.55,34.0,3.7,2024-12-22 20:56:00,dinner,True,54.85,Web
+101960,Empire Restaurant,Pune,Biryani,819.9,56.0,3.4,2024-12-27 21:03:00,dinner,True,115.32,Android
+101887,Chai Point,Bangalore,Beverages,488.42,34.0,,2024-12-10 15:13:00,snacks,False,,Android
+101543,Behrouz Biryani,Hyderabad,Biryani,770.07,26.0,3.8,2024-11-16 19:00:00,dinner,False,80.03,iOS
+100526,Dhaba Express,Delhi,North Indian,345.11,51.0,3.5,2024-12-06 14:23:00,,False,,Web
+101279,Udupi Palace,Bangalore,South Indian,629.3,40.0,,2024-10-15 22:47:00,dinner,True,,iOS
+101344,Dum Pukht,Chennai,Biryani,263.41,59.0,4.1,2024-11-16 14:38:00,lunch,True,81.67,Android
+100604,Punjab Grill,Bangalore,North Indian,400.93,36.0,3.7,2024-11-01 12:09:00,lunch,True,,iOS
+101941,Baskin Robbins,Bangalore,Desserts,318.32,37.0,4.7,2024-10-01 13:58:00,lunch,False,,Android
+100929,La Folie,Hyderabad,Desserts,206.53,42.0,4.4,2024-11-03 21:32:00,dinner,False,93.85,iOS
+100962,Saravana Bhavan,Hyderabad,South Indian,685.16,67.0,3.8,2024-12-06 12:25:00,lunch,True,43.89,Android
+101466,The Burger Club,Bangalore,Burger,146.64,35.0,4.5,2024-12-26 15:30:00,snacks,False,26.57,Android
+101824,Moti Mahal,Pune,North Indian,540.57,52.0,4.7,2024-10-04 21:26:00,dinner,False,20.77,iOS
+101821,Udupi Palace,Mumbai,South Indian,428.1,58.0,2.8,2024-11-14 19:32:00,dinner,True,,Android
+100003,Chai Point,Chennai,Beverages,131.15,23.0,4.5,2024-11-01 19:44:00,dinner,True,107.38,Web
+101163,Moti Mahal,Mumbai,North Indian,900.0,,3.7,2024-12-09 14:32:00,lunch,True,,iOS
+101427,Joey's Pizza,Bangalore,Pizza,418.35,50.0,4.2,2024-10-16 19:21:00,dinner,False,,Android
+101228,MTR,Mumbai,South Indian,124.62,36.0,3.3,2024-11-12 20:06:00,dinner,True,12.49,Android
+101289,Blue Tokai,Bangalore,Beverages,227.41,39.0,4.1,2024-10-21 09:44:00,breakfast,True,,Web
+100173,Dum Pukht,Delhi,Biryani,139.1,45.0,4.8,2024-11-24 13:10:00,lunch,True,,Android
+101029,Burgerama,Mumbai,Burger,900.0,51.0,4.0,2024-12-23 21:28:00,dinner,False,58.96,Android
+100986,Bay Leaf,Delhi,Seafood,586.19,27.0,3.7,2024-12-05 13:37:00,,False,21.45,Android
+101539,Wat-A-Burger,Bangalore,Burger,336.48,65.0,3.8,2024-11-23 16:47:00,snacks,True,113.64,Android
+100883,Saffron,Bangalore,North Indian,354.79,,5.0,2024-11-07 19:39:00,dinner,False,32.18,Android
+100393,Murugan Idli Shop,Mumbai,South Indian,450.49,23.0,3.7,2024-11-23 18:39:00,,False,23.06,iOS
+101752,Starbucks,Mumbai,Beverages,271.9,42.0,4.1,2024-10-23 22:45:00,dinner,True,54.53,iOS
+101138,Sweet Truth,Delhi,Desserts,476.01,62.0,2.9,2024-10-01 10:36:00,breakfast,False,95.97,iOS
+100205,Baskin Robbins,Hyderabad,Desserts,654.77,21.0,2.8,2024-10-16 14:04:00,lunch,True,,Android
+101470,Dum Pukht,Pune,Biryani,313.51,26.0,3.7,2024-11-30 14:54:00,lunch,False,,Android
+100529,Paradise Biryani,Bangalore,Biryani,433.18,51.0,5.0,2024-10-26 15:35:00,snacks,True,116.33,Android
+101306,Saravana Bhavan,Kolkata,South Indian,252.46,37.0,3.7,2024-12-25 15:46:00,snacks,False,85.52,Web
+100035,La Pino'z,Jaipur,Pizza,490.51,47.0,3.2,2024-12-26 14:15:00,lunch,False,73.96,iOS
+100201,Oh Calcutta,Hyderabad,Seafood,432.37,38.0,2.9,2024-11-17 21:46:00,dinner,True,23.07,iOS
+101950,Barbeque Nation,Delhi,North Indian,204.78,17.0,4.2,2024-12-26 23:46:00,dinner,False,37.45,Android
+101726,Chaayos,Bangalore,Beverages,357.79,61.0,4.2,2024-11-18 16:28:00,snacks,True,,Android
+100620,Barbeque Nation,Chennai,North Indian,253.3,44.0,4.8,2024-10-05 23:39:00,dinner,False,22.67,iOS
+100839,Theobroma,Hyderabad,Desserts,80.0,29.0,3.6,2024-10-10 07:41:00,breakfast,True,,Android
+101317,Chinese Box,Delhi,Chinese,180.1,35.0,4.1,2024-10-02 12:15:00,lunch,False,,Android
+101284,Raw Pressery Kitchen,Bangalore,Healthy,230.11,26.0,5.0,2024-12-12 23:02:00,dinner,False,47.6,iOS
+101995,Wok To Walk,Pune,Chinese,900.0,27.0,4.3,2024-11-08 10:41:00,breakfast,False,105.18,Android
+101820,Wok To Walk,Delhi,Chinese,192.46,41.0,4.7,2024-12-26 15:15:00,snacks,False,93.42,iOS
+101434,Nandhini,Chennai,South Indian,150.52,42.0,,2024-12-16 10:00:00,breakfast,True,,Android
+100501,Frankie Express,Chennai,Rolls & Wraps,107.21,35.0,4.4,2024-11-22 16:42:00,snacks,True,63.23,Android
+101178,Freshmenu,Bangalore,Healthy,291.01,26.0,4.3,2024-11-22 10:23:00,breakfast,True,60.97,iOS
+101799,Paradise Biryani,Bangalore,Biryani,104.79,40.0,3.7,2024-10-03 21:37:00,dinner,False,26.77,Android
+100833,Dum Pukht,Bangalore,Biryani,285.66,48.0,5.0,2024-11-19 17:05:00,snacks,True,44.6,Android
+100621,Baskin Robbins,Bangalore,Desserts,431.03,30.0,4.5,2024-12-29 20:38:00,dinner,False,21.87,Android
+101830,Saffron,Mumbai,North Indian,465.22,32.0,3.4,2024-10-29 15:51:00,snacks,True,,Android
+101744,Paradise Biryani,Bangalore,Biryani,515.19,45.0,4.9,2024-12-24 22:30:00,dinner,False,39.08,Android
+100958,Salad Days,Bangalore,Healthy,900.0,50.0,4.9,2024-12-03 17:38:00,snacks,True,,iOS
+101509,The Roll Story,Hyderabad,Rolls & Wraps,463.37,33.0,3.6,2024-10-10 12:06:00,lunch,False,,iOS
+100329,Oven Story,Delhi,Pizza,158.53,35.0,3.0,2024-10-12 08:47:00,breakfast,False,63.11,Android
+100186,Blue Tokai,Chennai,Beverages,171.83,56.0,3.5,2024-10-27 17:17:00,snacks,False,11.47,iOS
+100141,The Roll Story,Jaipur,Rolls & Wraps,173.87,32.0,4.1,2024-10-01 13:28:00,,False,,Android
+101211,Dum Pukht,Delhi,Biryani,387.07,44.0,3.9,2024-11-27 19:24:00,dinner,False,,Android
+101314,Empire Restaurant,Pune,Biryani,202.35,44.0,,2024-12-16 20:21:00,dinner,True,79.47,Android
+101288,Kathi Roll Corner,Mumbai,Rolls & Wraps,377.99,27.0,4.1,2024-12-12 07:56:00,,True,74.22,Android
+101505,Salad Days,Delhi,Healthy,430.08,,4.0,2024-11-25 12:31:00,lunch,False,,iOS
+100340,Murugan Idli Shop,Bangalore,South Indian,852.64,,4.7,2024-10-17 14:16:00,lunch,False,90.31,Android
+101039,Dum Pukht,Bangalore,Biryani,257.28,29.0,4.3,2024-11-25 21:46:00,dinner,True,49.94,iOS
+101652,Udupi Palace,Mumbai,South Indian,173.31,32.0,4.0,2024-12-22 21:52:00,dinner,False,65.05,Android
+101776,Blue Tokai,Mumbai,Beverages,612.83,54.0,4.0,2024-11-23 12:08:00,lunch,False,,Android
+101685,McDonald's,Bangalore,Burger,387.73,30.0,2.5,2024-11-24 13:11:00,lunch,False,,Android
+101931,Blue Tokai,Hyderabad,Beverages,124.92,31.0,4.3,2024-10-01 09:32:00,breakfast,False,,iOS
+100464,Dominos,Hyderabad,Pizza,427.01,,,2024-11-14 13:11:00,lunch,False,,Android
+101122,Punjab Grill,Jaipur,North Indian,580.91,47.0,3.9,2024-11-23 20:48:00,dinner,False,,Android
+100411,Wat-A-Burger,Mumbai,Burger,711.34,63.0,3.8,2024-12-18 08:13:00,breakfast,False,90.1,Android
+100242,Bawarchi,Jaipur,Biryani,317.75,56.0,4.9,2024-10-26 12:01:00,lunch,True,32.82,Android
+101477,The Fish Shack,Pune,Seafood,309.86,64.0,4.0,2024-11-23 13:02:00,lunch,True,107.83,iOS
+100331,Dhaba Express,Mumbai,North Indian,285.23,,3.4,2024-12-04 12:12:00,lunch,False,23.2,Android
+101364,Punjab Grill,Hyderabad,North Indian,478.64,45.0,3.5,2024-10-08 19:29:00,dinner,True,,iOS
+101645,Sweet Truth,Bangalore,Desserts,608.19,41.0,4.2,2024-11-02 17:01:00,snacks,False,107.14,Android
+101034,Behrouz Biryani,Bangalore,Biryani,403.71,45.0,4.9,2024-12-29 18:27:00,snacks,False,47.72,iOS
+101174,Paradise Biryani,Mumbai,Biryani,824.82,,4.8,2024-10-31 08:17:00,breakfast,True,,iOS
+100432,The Roll Story,Pune,Rolls & Wraps,247.09,28.0,3.9,2024-11-02 18:58:00,snacks,False,65.68,Web
+101697,Trishna,Bangalore,Seafood,793.5,36.0,3.8,2024-10-10 14:22:00,lunch,True,11.32,Android
+101172,Saffron,Surat,North Indian,656.7,64.0,4.3,2024-11-19 16:57:00,snacks,True,,Web
+100701,China Town,Hyderabad,Chinese,496.4,34.0,3.3,2024-10-15 14:33:00,lunch,False,17.83,iOS
+100644,Burger King,Mumbai,Burger,596.79,63.0,4.1,2024-10-16 14:03:00,lunch,True,,Web
+100128,Empire Restaurant,Kolkata,Biryani,274.98,,2.9,2024-11-18 20:45:00,dinner,False,,Android
+100489,La Pino'z,Jaipur,Pizza,4412.81,60.0,4.0,2024-12-23 22:58:00,dinner,True,15.84,Android
+101126,La Pino'z,Hyderabad,Pizza,4893.59,32.0,,2024-11-10 18:25:00,snacks,True,105.11,Android
+100038,Dum Pukht,Bangalore,Biryani,339.49,34.0,3.9,2024-11-05 22:52:00,dinner,True,39.05,Web
+101168,Paradise Biryani,Delhi,Biryani,473.75,35.0,3.8,2024-12-07 13:07:00,lunch,False,,Android
+100352,Starbucks,Kolkata,Beverages,411.12,41.0,,2024-12-24 15:08:00,snacks,False,,Android
+101268,Pizza Hut,Delhi,Pizza,259.34,45.0,3.7,2024-12-13 15:51:00,snacks,False,,Android
+101171,Burgerama,Hyderabad,Burger,187.12,49.0,3.1,2024-12-18 12:19:00,lunch,True,24.1,Android
+100059,Wat-A-Burger,Bangalore,Burger,544.13,34.0,,2024-12-25 20:25:00,dinner,False,,iOS
+101369,Saffron,Bangalore,North Indian,505.16,,4.1,2024-11-11 22:47:00,dinner,False,30.32,Android
+101428,Joey's Pizza,Jaipur,Pizza,377.38,36.0,4.3,2024-12-21 13:09:00,,False,53.64,Android
+101530,Nandhini,Hyderabad,South Indian,503.86,32.0,4.8,2024-11-11 12:20:00,lunch,True,,Android
+100595,Behrouz Biryani,Kolkata,Biryani,242.23,28.0,4.0,2024-10-11 12:04:00,,True,72.54,iOS
+101682,Dum Pukht,Surat,Biryani,893.05,46.0,3.7,2024-10-16 18:09:00,snacks,True,,iOS
+101917,Baskin Robbins,Kolkata,Desserts,310.95,52.0,4.2,2024-12-06 23:38:00,dinner,False,,iOS
+100743,Dhaba Express,Chennai,North Indian,517.49,27.0,3.5,2024-12-06 07:43:00,breakfast,True,90.31,iOS
+101063,Dominos,Pune,Pizza,583.48,52.0,4.5,2024-12-27 17:59:00,snacks,False,11.32,iOS
+101517,Bawarchi,Hyderabad,Biryani,277.45,55.0,2.9,2024-10-03 19:32:00,dinner,False,91.49,Android
+100603,Naturals Ice Cream,Bangalore,Desserts,288.99,42.0,3.5,2024-10-02 22:50:00,dinner,False,21.79,Android
+101933,La Pino'z,Hyderabad,Pizza,588.78,,3.1,2024-12-04 12:49:00,lunch,False,,iOS
+100008,Sweet Truth,Kolkata,Desserts,352.27,,4.2,2024-11-04 12:03:00,lunch,True,,Android
+101103,Starbucks,Kolkata,Beverages,236.02,50.0,3.5,2024-11-06 17:14:00,snacks,False,,Web
+101003,Saffron,Kolkata,North Indian,436.21,29.0,4.0,2024-10-15 20:51:00,dinner,True,,iOS
+101589,Dum Pukht,Delhi,Biryani,377.41,52.0,4.0,2024-10-19 19:19:00,dinner,False,,iOS
+100505,Saffron,Chennai,North Indian,220.27,42.0,4.6,2024-10-13 15:32:00,snacks,False,22.41,Android
+101287,Nandhini,Bangalore,South Indian,423.34,62.0,4.0,2024-10-23 20:44:00,dinner,False,,iOS
+100021,Trishna,Hyderabad,Seafood,286.02,,3.4,2024-11-21 12:45:00,lunch,True,14.14,Android
+100475,Wok To Walk,Delhi,Chinese,537.04,39.0,5.0,2024-11-27 23:06:00,dinner,True,,iOS
+100285,Empire Restaurant,Hyderabad,Biryani,710.22,44.0,4.5,2024-11-25 17:45:00,snacks,False,106.67,Android
+101071,McDonald's,Mumbai,Burger,285.23,40.0,4.9,2024-12-23 17:51:00,snacks,False,,Android
+101188,Udupi Palace,Bangalore,South Indian,520.24,57.0,3.4,2024-11-30 12:35:00,lunch,True,88.39,Android
+100836,Chai Point,Delhi,Beverages,255.8,33.0,3.9,2024-10-09 09:02:00,breakfast,False,,Android
+100859,Dum Pukht,Hyderabad,Biryani,397.87,59.0,3.6,2024-11-25 19:06:00,dinner,True,39.77,Web
+100831,China Town,Mumbai,Chinese,466.92,37.0,4.5,2024-11-28 20:35:00,dinner,True,119.66,Web
+100197,China Town,Chennai,Chinese,335.89,18.0,3.9,2024-12-27 07:01:00,breakfast,True,,Android
+101869,Burger King,Bangalore,Burger,264.62,53.0,3.3,2024-10-26 19:27:00,dinner,False,,Android
+100658,Salad Days,Mumbai,Healthy,364.52,51.0,4.4,2024-10-07 16:00:00,snacks,False,,Android
+100541,Burgerama,Jaipur,Burger,884.96,49.0,5.0,2024-12-13 12:47:00,lunch,False,92.92,Android
+100703,Behrouz Biryani,Mumbai,Biryani,494.59,53.0,4.4,2024-10-22 20:55:00,dinner,False,47.33,Android
+100886,Chaayos,Bangalore,Beverages,900.0,37.0,3.5,2024-10-23 20:21:00,dinner,False,,Web
+101679,Frankie Express,Bangalore,Rolls & Wraps,218.23,31.0,4.3,2024-12-13 19:47:00,dinner,False,31.93,Android
+101545,Eatfit,Jaipur,Healthy,222.34,61.0,4.3,2024-10-18 18:28:00,snacks,True,,Android
+101117,Naturals Ice Cream,Bangalore,Desserts,343.79,50.0,3.7,2024-10-16 16:45:00,snacks,False,24.73,iOS
+100378,Baskin Robbins,Bangalore,Desserts,263.78,25.0,4.4,2024-12-06 22:53:00,dinner,False,35.22,iOS
+101252,Bawarchi,Delhi,Biryani,194.98,46.0,5.0,2024-12-10 21:28:00,dinner,True,,Web
+100928,Social,Hyderabad,Continental,483.54,37.0,2.7,2024-10-09 14:27:00,lunch,False,,iOS
+101242,Nandhini,Pune,South Indian,681.68,34.0,4.6,2024-12-16 14:48:00,lunch,False,,Web
+100362,Murugan Idli Shop,Hyderabad,South Indian,3645.6,29.0,4.1,2024-10-22 15:39:00,snacks,False,,Android
+101189,Kathi Roll Corner,Mumbai,Rolls & Wraps,304.24,48.0,5.0,2024-12-29 19:34:00,dinner,False,28.33,Android
+101392,Salad Days,Bangalore,Healthy,320.52,37.0,4.4,2024-12-02 16:35:00,snacks,False,23.67,Android
+100387,Udupi Palace,Mumbai,South Indian,144.36,15.0,3.5,2024-12-26 19:54:00,dinner,False,,iOS
+101139,Wok To Walk,Delhi,Chinese,839.21,34.0,3.4,2024-12-20 21:42:00,dinner,True,,iOS
+100361,Dum Pukht,Delhi,Biryani,534.92,46.0,5.0,2024-10-08 07:48:00,breakfast,False,48.94,Android
+101947,Burgerama,Delhi,Burger,900.0,41.0,4.0,2024-10-20 12:53:00,lunch,False,33.55,iOS
+100817,The Wok,Hyderabad,Chinese,228.09,47.0,4.5,2024-10-24 19:40:00,dinner,True,101.65,Android
+101782,Punjab Grill,Ahmedabad,North Indian,512.24,53.0,4.5,2024-10-30 12:34:00,lunch,False,,Android
+100052,The Wok,Pune,Chinese,501.32,52.0,4.4,2024-10-15 21:45:00,dinner,False,42.39,Web
+100037,Paradise Biryani,Mumbai,Biryani,372.23,32.0,4.7,2024-10-27 21:35:00,dinner,True,,iOS
+100312,Green Bowl,Bangalore,Healthy,900.0,,4.4,2024-12-15 22:52:00,dinner,False,,iOS
+101299,Udupi Palace,Hyderabad,South Indian,325.56,30.0,3.2,2024-11-20 12:09:00,lunch,False,94.32,Android
+100373,Burgerama,Bangalore,Burger,554.48,44.0,3.3,2024-12-21 09:03:00,breakfast,False,,Web
+101737,Wat-A-Burger,Delhi,Burger,332.99,47.0,4.8,2024-12-20 15:39:00,snacks,False,30.21,Web
+100351,Oven Story,Delhi,Pizza,238.72,38.0,4.5,2024-11-30 20:53:00,dinner,False,46.08,Android
+101674,Empire Restaurant,Pune,Biryani,407.67,37.0,4.9,2024-12-25 13:31:00,lunch,False,50.26,iOS
+101525,Dum Pukht,Delhi,Biryani,337.17,51.0,3.3,2024-12-25 17:56:00,snacks,False,43.59,Android
+100770,Burger King,Pune,Burger,217.37,44.0,3.6,2024-12-14 12:34:00,lunch,False,,Android
+100207,Barbeque Nation,Bangalore,North Indian,188.37,37.0,4.0,2024-11-17 18:41:00,snacks,False,,Android
+101361,Roll House,Ahmedabad,Rolls & Wraps,248.03,38.0,4.2,2024-12-06 17:30:00,snacks,True,59.61,iOS
+101581,Chinese Box,Mumbai,Chinese,660.36,42.0,4.6,2024-11-29 10:05:00,breakfast,True,73.33,iOS
+100987,Empire Restaurant,Chennai,Biryani,534.71,48.0,3.7,2024-10-03 21:36:00,dinner,False,14.39,Android
+100413,Mainland China,Jaipur,Chinese,130.11,28.0,3.9,2024-11-23 22:29:00,dinner,True,78.32,Web
+100397,Behrouz Biryani,Kolkata,Biryani,4312.68,42.0,5.0,2024-12-06 13:22:00,lunch,False,48.94,Android
+100238,Saffron,Bangalore,North Indian,208.17,64.0,4.1,2024-12-06 22:55:00,dinner,False,,iOS
+101410,Dum Pukht,Kolkata,Biryani,178.29,59.0,,2024-11-21 18:33:00,snacks,False,,iOS
+100147,The Wok,Hyderabad,Chinese,112.57,27.0,4.1,2024-11-29 13:52:00,lunch,True,79.69,Android
+101330,Burgerama,Delhi,Burger,226.63,30.0,3.1,2024-11-08 18:17:00,snacks,True,,iOS
+101397,Kathi Roll Corner,Delhi,Rolls & Wraps,433.74,32.0,,2024-10-21 08:57:00,breakfast,False,,Android
+101134,The Wok,Mumbai,Chinese,402.21,21.0,4.4,2024-12-21 08:37:00,breakfast,False,,Android
+101267,Mainland China,Delhi,Chinese,625.32,48.0,3.5,2024-11-26 14:08:00,lunch,False,119.83,Android
+100729,Punjab Grill,Mumbai,North Indian,175.55,40.0,3.8,2024-12-26 20:30:00,dinner,False,87.86,Web
+101492,Joey's Pizza,Mumbai,Pizza,277.24,35.0,4.3,2024-12-11 20:11:00,dinner,True,,Android
+101899,Mainland China,Mumbai,Chinese,80.0,48.0,4.5,2024-11-24 23:17:00,dinner,False,119.88,Android
+101413,Behrouz Biryani,Mumbai,Biryani,664.86,25.0,3.6,2024-10-06 20:05:00,dinner,False,,Android
+100579,Udupi Palace,Delhi,South Indian,381.27,34.0,2.6,2024-12-07 23:14:00,dinner,False,,Android
+100218,Dhaba Express,Chennai,North Indian,411.45,46.0,4.5,2024-12-27 15:37:00,snacks,False,34.66,Android
+100557,Wok To Walk,Bangalore,Chinese,254.91,39.0,3.5,2024-10-19 20:26:00,dinner,True,,Android
+100416,Bay Leaf,Delhi,Seafood,333.44,54.0,5.0,2024-10-23 16:24:00,snacks,False,21.01,Android
+100326,Oh Calcutta,Chennai,Seafood,718.9,48.0,3.7,2024-11-17 21:17:00,dinner,False,65.41,Android
+101978,Wok To Walk,Delhi,Chinese,612.66,43.0,4.2,2024-12-01 13:48:00,lunch,True,13.11,iOS
+101467,The Wok,Surat,Chinese,491.23,40.0,4.2,2024-11-07 22:15:00,dinner,False,,iOS
+100359,Wok To Walk,Jaipur,Chinese,526.67,42.0,3.2,2024-11-22 17:49:00,snacks,True,64.24,Web
+100846,MTR,Delhi,South Indian,92.21,18.0,4.9,2024-10-23 12:09:00,lunch,False,116.8,Android
+100594,Wok To Walk,Mumbai,Chinese,265.23,37.0,5.4,2024-11-09 13:21:00,lunch,False,106.88,Web
+100863,Coastal Kitchen,Delhi,Seafood,239.56,20.0,3.9,2024-10-15 09:47:00,breakfast,True,81.49,Web
+101951,Bawarchi,Bangalore,Biryani,135.62,,4.3,2024-11-16 14:53:00,lunch,True,,Web
+101456,Behrouz Biryani,Ahmedabad,Biryani,900.0,38.0,3.6,2024-10-20 12:23:00,,False,78.58,Web
+100856,Chinese Box,Bangalore,Chinese,235.68,51.0,4.5,2024-12-09 13:03:00,lunch,False,107.34,Android
+100342,Empire Restaurant,Delhi,Biryani,248.46,44.0,4.1,2024-11-18 09:29:00,breakfast,False,,iOS
+100142,China Town,Mumbai,Chinese,545.04,44.0,3.9,2024-11-12 14:20:00,lunch,False,17.88,Android
+101152,Moti Mahal,Kolkata,North Indian,578.72,,,2024-11-08 13:09:00,lunch,False,58.41,Android
+100726,Moti Mahal,Kolkata,North Indian,197.62,38.0,4.7,2024-10-09 09:07:00,breakfast,False,35.87,Android
+101895,La Folie,Hyderabad,Desserts,479.06,35.0,4.4,2024-11-23 16:47:00,snacks,True,,Android
+100708,Moti Mahal,Pune,North Indian,714.68,54.0,4.1,2024-12-03 12:26:00,lunch,False,,iOS
+101187,MTR,Chennai,South Indian,393.59,,4.4,2024-11-28 19:38:00,dinner,True,,iOS
+101151,La Pino'z,Chennai,Pizza,204.04,47.0,4.6,2024-10-06 12:23:00,lunch,False,51.11,iOS
+101345,Mainland China,Chennai,Chinese,136.11,52.0,3.3,2024-11-28 23:37:00,dinner,True,28.51,Android
+101894,MTR,Mumbai,South Indian,571.98,42.0,3.9,2024-11-04 12:46:00,lunch,False,68.51,Android
+101809,Empire Restaurant,Bangalore,Biryani,214.5,29.0,4.1,2024-12-27 16:18:00,snacks,False,,Android
+100834,Moti Mahal,Bangalore,North Indian,449.47,38.0,3.9,2024-12-20 14:02:00,lunch,False,,Web
+100825,Barbeque Nation,Hyderabad,North Indian,351.26,46.0,3.1,2024-12-03 15:42:00,snacks,True,111.06,Android
+100857,Moti Mahal,Bangalore,North Indian,226.5,31.0,5.0,2024-10-25 12:11:00,lunch,False,31.43,iOS
+101938,Empire Restaurant,Pune,Biryani,214.34,33.0,4.9,2024-10-04 13:13:00,lunch,False,115.87,iOS
+101602,Oven Story,Mumbai,Pizza,193.07,55.0,3.9,2024-10-16 14:26:00,lunch,False,,Android
+101209,MTR,Mumbai,South Indian,830.83,25.0,4.2,2024-10-14 19:52:00,dinner,True,,Android
+101676,Dhaba Express,Mumbai,North Indian,498.46,54.0,3.9,2024-11-28 08:14:00,breakfast,True,84.26,iOS
+100439,China Town,Chennai,Chinese,147.63,56.0,4.6,2024-12-24 19:50:00,dinner,False,40.44,Android
+101786,Behrouz Biryani,Kolkata,Biryani,303.82,56.0,4.3,2024-12-18 21:27:00,dinner,False,71.4,Android
+101204,Raw Pressery Kitchen,Mumbai,Healthy,113.19,41.0,4.6,2024-11-23 22:12:00,dinner,False,70.81,Android
+100811,Moti Mahal,Surat,North Indian,669.84,57.0,3.8,2024-12-26 13:53:00,lunch,True,57.43,iOS
+100180,China Town,Bangalore,Chinese,125.98,66.0,4.1,2024-12-03 14:49:00,lunch,True,47.77,Android
+101773,Udupi Palace,Kolkata,South Indian,123.2,28.0,4.7,2024-10-21 12:59:00,lunch,False,,Android
+100472,Bay Leaf,Jaipur,Seafood,193.62,29.0,3.1,2024-11-16 19:20:00,dinner,True,103.62,iOS
+101412,Bawarchi,Bangalore,Biryani,410.19,44.0,3.3,2024-12-16 12:07:00,lunch,True,89.82,Android
+100562,Burgerama,Mumbai,Burger,394.8,37.0,3.4,2024-11-02 12:22:00,lunch,True,59.31,Android
+100667,Behrouz Biryani,Mumbai,Biryani,337.24,41.0,4.0,2024-10-13 13:12:00,lunch,False,86.44,Android
+101012,Saffron,Surat,North Indian,131.2,42.0,4.4,2024-11-24 20:13:00,dinner,True,74.34,iOS
+100301,The Roll Story,Bangalore,Rolls & Wraps,548.02,27.0,4.3,2024-10-13 09:44:00,breakfast,False,,iOS
+101180,Burgerama,Hyderabad,Burger,402.52,41.0,3.9,2024-10-06 20:00:00,,False,40.21,Android
+101035,Barbeque Nation,Bangalore,North Indian,340.94,45.0,,2024-12-16 12:10:00,lunch,True,47.68,Android
+100893,La Folie,Kolkata,Desserts,504.58,40.0,2.9,2024-10-10 17:44:00,snacks,False,,Web
+100596,La Folie,Delhi,Desserts,197.78,33.0,4.1,2024-12-09 16:52:00,snacks,True,,Android
+100748,Paradise Biryani,Hyderabad,Biryani,195.09,35.0,3.7,2024-10-15 07:34:00,breakfast,False,,Android
+101297,McDonald's,Bangalore,Burger,570.86,43.0,3.7,2024-11-30 16:38:00,snacks,False,90.58,Android
+100072,Mainland China,Bangalore,Chinese,656.69,36.0,3.9,2024-11-30 20:49:00,dinner,False,60.09,Android
+101349,Moti Mahal,Surat,North Indian,5455.28,75.0,3.7,2024-11-08 14:48:00,lunch,False,115.03,iOS
+101486,La Pino'z,Mumbai,Pizza,252.42,48.0,3.6,2024-10-20 22:35:00,dinner,False,38.34,iOS
+101616,Dum Pukht,Chennai,Biryani,276.27,,4.4,2024-12-13 20:39:00,dinner,False,32.12,Android
+100803,Chai Point,Hyderabad,Beverages,476.57,39.0,4.6,2024-11-03 22:25:00,dinner,True,21.04,Android
+100931,La Pino'z,Bangalore,Pizza,392.51,51.0,3.7,2024-10-19 13:10:00,lunch,True,58.59,Android
+101391,Barbeque Nation,Mumbai,North Indian,732.53,28.0,4.7,2024-10-27 14:54:00,lunch,False,65.65,iOS
+101521,Saffron,Bangalore,North Indian,271.21,35.0,,2024-10-15 21:04:00,dinner,False,96.38,Android
+100518,Mainland China,Pune,Chinese,264.59,36.0,,2024-10-18 22:50:00,dinner,False,101.25,iOS
+101970,MTR,Bangalore,South Indian,589.28,57.0,,2024-12-20 22:37:00,dinner,True,89.21,Web
+100424,Mainland China,Delhi,Chinese,631.81,,4.3,2024-12-01 22:51:00,dinner,False,98.49,Android
+100572,Starbucks,Pune,Beverages,276.55,29.0,3.6,2024-10-13 19:49:00,dinner,True,,Android
+100117,MTR,Pune,South Indian,443.95,39.0,5.0,2024-10-02 22:41:00,dinner,True,31.12,iOS
+101699,Chai Point,Jaipur,Beverages,341.55,53.0,3.4,2024-10-06 20:33:00,dinner,False,,Android
+101084,Pizza Hut,Kolkata,Pizza,406.29,27.0,3.1,2024-10-11 14:37:00,lunch,False,26.32,Android
+100005,Dhaba Express,Bangalore,North Indian,231.54,51.0,3.9,2024-10-27 14:55:00,lunch,False,,Android
+100781,Empire Restaurant,Chennai,Biryani,235.17,35.0,4.1,2024-10-03 08:08:00,breakfast,False,,Android
+100047,Paradise Biryani,Mumbai,Biryani,193.5,67.0,3.4,2024-10-12 14:26:00,lunch,True,,Android
+101043,Bawarchi,Mumbai,Biryani,277.09,59.0,4.1,2024-11-30 13:45:00,lunch,True,30.94,iOS
+100398,Empire Restaurant,Delhi,Biryani,230.0,37.0,4.4,2024-12-24 10:41:00,breakfast,False,27.59,Android
+100732,The Wok,Pune,Chinese,212.48,20.0,4.3,2024-12-26 09:36:00,breakfast,True,,Android
+100471,Punjab Grill,Bangalore,North Indian,114.57,37.0,4.2,2024-12-24 23:36:00,dinner,True,,iOS
+101472,La Folie,Chennai,Desserts,433.58,,3.5,2024-10-05 12:01:00,lunch,False,,Android
+101158,Empire Restaurant,Kolkata,Biryani,176.97,38.0,3.8,2024-11-27 19:51:00,dinner,False,84.97,Android
+101983,Punjab Grill,Delhi,North Indian,210.18,37.0,4.4,2024-11-14 22:00:00,dinner,False,,iOS
+101637,Chaayos,Delhi,Beverages,733.43,32.0,3.1,2024-12-28 17:12:00,snacks,False,103.95,Android
+101774,La Folie,Jaipur,Desserts,375.03,42.0,2.9,2024-12-18 23:44:00,dinner,True,49.55,Android
+101370,The Burger Club,Mumbai,Burger,126.79,32.0,,2024-12-18 13:42:00,lunch,True,,Web
+100587,Dum Pukht,Bangalore,Biryani,252.99,42.0,3.6,2024-11-24 14:41:00,,True,,Android
+100755,Chai Point,Bangalore,Beverages,303.33,58.0,4.0,2024-10-17 19:29:00,dinner,False,94.52,Android
+100195,Empire Restaurant,Mumbai,Biryani,571.71,28.0,3.8,2024-10-28 17:21:00,snacks,False,62.17,iOS
+100341,Sweet Truth,Delhi,Desserts,226.61,46.0,5.0,2024-12-17 14:57:00,lunch,False,89.1,Android
+101888,Joey's Pizza,Mumbai,Pizza,557.4,51.0,,2024-11-16 20:18:00,dinner,True,,Android
+100299,Bawarchi,Hyderabad,Biryani,182.23,35.0,3.0,2024-10-10 13:27:00,lunch,True,,iOS
+101523,Barbeque Nation,Mumbai,North Indian,561.86,41.0,,2024-10-06 18:21:00,snacks,True,25.82,iOS
+100376,Saffron,Mumbai,North Indian,221.71,49.0,4.5,2024-11-02 16:44:00,snacks,True,115.56,Android
+100624,Blue Tokai,Delhi,Beverages,179.33,59.0,3.8,2024-10-08 19:53:00,dinner,False,119.38,iOS
+100507,Eatfit,Ahmedabad,Healthy,287.78,45.0,3.9,2024-10-01 21:55:00,dinner,False,,iOS
+101823,Wraps N Rolls,Hyderabad,Rolls & Wraps,293.91,48.0,,2024-12-27 21:09:00,dinner,True,,Android
+101780,Green Bowl,Kolkata,Healthy,613.44,38.0,4.7,2024-10-06 12:14:00,lunch,False,,Android
+101011,Wok To Walk,Mumbai,Chinese,388.37,,4.2,2024-10-16 13:59:00,lunch,False,17.18,Android
+100300,Nandhini,Bangalore,South Indian,357.53,39.0,4.1,2024-12-23 18:03:00,snacks,False,,Android
+100684,Saravana Bhavan,Chennai,South Indian,263.09,42.0,3.2,2024-10-04 12:32:00,lunch,False,51.33,Android
+100431,La Pino'z,Bangalore,Pizza,373.77,33.0,4.1,2024-11-23 19:47:00,dinner,True,47.83,iOS
+100588,The Burger Club,Bangalore,Burger,330.84,33.0,3.9,2024-12-08 13:11:00,lunch,True,44.43,Android
+100110,Hard Rock Cafe,Bangalore,Continental,330.58,,4.5,2024-12-08 15:46:00,snacks,True,89.47,Web
+101351,Punjab Grill,Kolkata,North Indian,336.4,39.0,4.1,2024-10-27 19:10:00,dinner,False,48.78,Android
+101829,Roll House,Pune,Rolls & Wraps,302.93,32.0,4.4,2024-12-24 13:59:00,lunch,False,,iOS
+100880,Dhaba Express,Mumbai,North Indian,290.19,38.0,5.0,2024-12-14 20:55:00,dinner,False,,Android
+100453,Oven Story,Delhi,Pizza,131.53,58.0,3.2,2024-10-23 23:52:00,dinner,True,29.24,Android
+100864,La Pino'z,Delhi,Pizza,327.67,,4.5,2024-11-22 13:30:00,lunch,True,,Android
+100789,Coastal Kitchen,Delhi,Seafood,273.57,45.0,4.3,2024-10-11 18:43:00,snacks,False,,Web
+101269,Dominos,Hyderabad,Pizza,201.77,62.0,5.0,2024-12-24 22:27:00,dinner,False,21.46,Android
+100096,Wraps N Rolls,Delhi,Rolls & Wraps,182.58,,4.5,2024-10-31 18:34:00,snacks,False,118.81,iOS
+101202,Mainland China,Bangalore,Chinese,365.01,34.0,3.7,2024-11-22 22:23:00,dinner,True,31.64,Android
+101815,Punjab Grill,Bangalore,North Indian,209.12,34.0,3.7,2024-11-05 09:16:00,breakfast,False,15.05,Android
+100020,The Burger Club,Mumbai,Burger,345.9,47.0,2.4,2024-11-13 12:32:00,lunch,True,17.45,Android
+100906,Empire Restaurant,Kolkata,Biryani,731.28,61.0,,2024-10-16 13:29:00,lunch,False,,Android
+101346,McDonald's,Delhi,Burger,900.0,36.0,4.5,2024-12-24 15:41:00,snacks,True,45.09,Android
+100692,Dominos,Delhi,Pizza,593.96,27.0,4.5,2024-11-27 12:34:00,lunch,False,,Android
+100528,Oh Calcutta,Mumbai,Seafood,279.25,62.0,3.8,2024-11-21 22:37:00,dinner,False,15.3,iOS
+101863,MTR,Bangalore,South Indian,143.44,36.0,4.4,2024-12-25 07:46:00,breakfast,False,,Android
+100368,Dominos,Ahmedabad,Pizza,493.4,59.0,,2024-11-07 14:56:00,lunch,False,16.5,Android
+100442,Mainland China,Surat,Chinese,164.64,60.0,,2024-10-28 21:13:00,dinner,False,,Android
+100805,Chinese Box,Delhi,Chinese,131.96,54.0,4.8,2024-11-19 23:55:00,dinner,False,,Android
+101353,Tea Trails,Delhi,Beverages,596.93,52.0,3.3,2024-11-23 14:11:00,lunch,False,68.05,Android
+100223,Paradise Biryani,Bangalore,Biryani,607.8,28.0,4.3,2024-12-05 22:37:00,dinner,False,56.18,Android
+101706,Salad Days,Bangalore,Healthy,734.36,32.0,3.2,2024-10-19 13:36:00,lunch,True,,Android
+100741,Udupi Palace,Delhi,South Indian,437.2,46.0,4.3,2024-12-07 19:52:00,dinner,False,28.08,Android
+101666,MTR,Kolkata,South Indian,287.14,18.0,3.5,2024-11-08 23:50:00,dinner,False,79.12,Android
+100716,Dhaba Express,Ahmedabad,North Indian,226.57,57.0,3.3,2024-11-24 13:07:00,lunch,False,,Android
+100112,Saffron,Bangalore,North Indian,409.83,36.0,3.5,2024-10-13 16:33:00,snacks,True,,Android
+101309,MTR,Mumbai,South Indian,390.62,57.0,2.9,2024-11-24 19:22:00,dinner,False,113.0,iOS
+100448,Moti Mahal,Pune,North Indian,317.43,19.0,5.0,2024-12-23 19:10:00,dinner,True,,Android
+101989,Nandhini,Delhi,South Indian,332.23,43.0,4.4,2024-11-01 21:48:00,dinner,False,,iOS
+101524,Bawarchi,Bangalore,Biryani,621.91,37.0,3.5,2024-12-16 18:57:00,snacks,False,25.77,iOS
+100314,Wat-A-Burger,Jaipur,Burger,346.94,41.0,3.5,2024-10-31 22:57:00,dinner,True,,Android
+100288,Saravana Bhavan,Hyderabad,South Indian,397.26,44.0,4.0,2024-12-13 15:38:00,snacks,True,22.79,Android
+101661,China Town,Hyderabad,Chinese,235.08,66.0,3.0,2024-12-29 13:39:00,lunch,True,,Android
+101582,The Roll Story,Delhi,Rolls & Wraps,337.47,46.0,4.1,2024-10-24 13:25:00,lunch,False,,Android
+100573,Dhaba Express,Delhi,North Indian,177.04,53.0,4.4,2024-11-20 12:09:00,lunch,False,110.41,Android
+101516,Chaayos,Bangalore,Beverages,221.81,-26.0,3.8,2024-10-20 23:07:00,dinner,False,,iOS
+100456,Paradise Biryani,Delhi,Biryani,444.08,32.0,,2024-10-16 07:02:00,,False,,Android
+100451,Barbeque Nation,Pune,North Indian,304.21,53.0,3.8,2024-12-08 14:01:00,lunch,True,,iOS
+100638,Baskin Robbins,Mumbai,Desserts,2980.25,37.0,3.3,2024-10-20 23:15:00,dinner,False,,iOS
+100685,Murugan Idli Shop,Ahmedabad,South Indian,172.23,59.0,5.0,2024-12-17 20:54:00,dinner,True,,iOS
+100780,Saffron,Hyderabad,North Indian,646.6,27.0,5.0,2024-12-25 12:41:00,,False,,Android
+101564,Nandhini,Mumbai,South Indian,208.76,51.0,3.1,2024-11-18 14:10:00,lunch,False,,iOS
+100631,Joey's Pizza,Chennai,Pizza,392.97,35.0,,2024-11-10 13:52:00,lunch,False,,Android
+100699,Naturals Ice Cream,Bangalore,Desserts,514.19,51.0,4.5,2024-10-04 13:05:00,lunch,False,,iOS
+100949,Nandhini,Kolkata,South Indian,410.81,44.0,3.7,2024-11-14 21:37:00,dinner,False,60.96,Web
+100018,Freshmenu,Delhi,Healthy,329.3,61.0,2.6,2024-12-04 23:43:00,dinner,True,93.82,iOS
+101858,Dominos,Delhi,Pizza,237.23,45.0,5.0,2024-12-05 08:34:00,breakfast,False,52.4,Android
+101119,Saffron,Mumbai,North Indian,280.29,47.0,5.0,2024-11-16 20:28:00,dinner,True,51.12,iOS
+100763,La Pino'z,Mumbai,Pizza,390.77,44.0,4.0,2024-11-01 19:21:00,dinner,True,,Android
+100515,Pizza Hut,Bangalore,Pizza,130.03,71.0,,2024-12-27 18:50:00,snacks,False,,Android
+101896,The Roll Story,Chennai,Rolls & Wraps,900.0,33.0,4.0,2024-12-15 12:27:00,lunch,False,,iOS
+100818,Paradise Biryani,Delhi,Biryani,489.61,55.0,3.6,2024-11-28 21:10:00,dinner,False,,Web
+100888,Murugan Idli Shop,Mumbai,South Indian,126.15,49.0,,2024-12-29 21:22:00,dinner,False,97.67,Android
+101040,Mainland China,Mumbai,Chinese,426.66,45.0,3.8,2024-12-26 22:50:00,dinner,True,39.36,iOS
+101090,Dhaba Express,Mumbai,North Indian,361.05,32.0,3.9,2024-11-08 12:12:00,lunch,False,58.21,Android
+100055,Frankie Express,Hyderabad,Rolls & Wraps,900.0,50.0,3.7,2024-11-11 20:08:00,dinner,True,,iOS
+100264,Saravana Bhavan,Delhi,South Indian,494.53,20.0,3.7,2024-10-06 12:27:00,lunch,True,75.34,Web
+100102,The Wok,Hyderabad,Chinese,446.81,31.0,,2024-10-30 14:35:00,lunch,False,,iOS
+100276,Dominos,Delhi,Pizza,209.78,50.0,3.1,2024-10-23 17:58:00,snacks,True,,iOS
+100287,Trishna,Delhi,Seafood,223.63,,5.0,2024-12-28 19:44:00,dinner,False,108.34,Web
+101294,The Wok,Chennai,Chinese,249.53,33.0,5.0,2024-10-25 10:07:00,breakfast,True,40.19,Android
+100250,Paradise Biryani,Kolkata,Biryani,619.19,55.0,3.5,2024-11-03 21:28:00,dinner,False,,Android
+101607,Frankie Express,Bangalore,Rolls & Wraps,511.03,39.0,4.1,2024-10-13 19:39:00,dinner,False,54.75,Android
+100944,The Burger Club,Pune,Burger,253.53,44.0,,2024-10-27 12:04:00,lunch,False,,Android
+100420,Murugan Idli Shop,Pune,South Indian,597.76,32.0,4.0,2024-12-05 14:40:00,lunch,False,59.65,Android
+101305,Barbeque Nation,Chennai,North Indian,221.67,,3.5,2024-11-23 12:43:00,lunch,False,114.09,Android
+100345,Chai Point,Delhi,Beverages,457.81,22.0,3.8,2024-10-14 17:40:00,snacks,False,103.75,Android
+100747,Dominos,Delhi,Pizza,183.87,59.0,4.1,2024-11-26 13:17:00,lunch,False,,iOS
+100375,Burgerama,Bangalore,Burger,352.57,56.0,2.6,2024-10-15 18:35:00,snacks,False,98.94,Android
+101237,Dhaba Express,Kolkata,North Indian,240.32,65.0,4.6,2024-11-03 22:41:00,dinner,True,39.24,iOS
+101248,Nandhini,Bangalore,South Indian,804.22,42.0,4.2,2024-12-28 22:17:00,dinner,True,,Web
+100061,Bawarchi,Delhi,Biryani,268.73,59.0,4.3,2024-12-18 12:09:00,lunch,False,37.08,Android
+101362,Moti Mahal,Mumbai,North Indian,483.68,43.0,3.3,2024-11-13 13:20:00,lunch,False,,Android
+101282,Barbeque Nation,Chennai,North Indian,686.88,60.0,4.1,2024-12-04 16:09:00,snacks,False,,Android
+101901,Murugan Idli Shop,Hyderabad,South Indian,265.02,46.0,4.6,2024-12-03 15:14:00,snacks,True,,iOS
+100364,Mainland China,Hyderabad,Chinese,218.76,28.0,,2024-10-01 16:00:00,snacks,True,36.27,Android
+101804,The Beer Cafe,Mumbai,Continental,128.97,47.0,4.4,2024-12-09 21:51:00,dinner,False,,Android
+100211,La Folie,Hyderabad,Desserts,237.27,36.0,3.1,2024-10-16 13:50:00,lunch,False,57.45,Android
+100282,Saravana Bhavan,Mumbai,South Indian,160.5,32.0,4.1,2024-10-03 19:54:00,dinner,True,,iOS
+101445,Hard Rock Cafe,Kolkata,Continental,705.93,57.0,3.8,2024-12-08 09:28:00,breakfast,False,20.77,Android
+101059,Paradise Biryani,Delhi,Biryani,237.5,58.0,4.4,2024-11-06 17:57:00,snacks,False,19.71,Web
+101076,Green Bowl,Delhi,Healthy,470.86,55.0,4.7,2024-11-24 17:43:00,snacks,True,10.25,Android
+101592,Empire Restaurant,Lucknow,Biryani,209.28,61.0,4.1,2024-10-26 18:34:00,snacks,True,,iOS
+101928,Burger King,Delhi,Burger,501.48,47.0,4.2,2024-10-17 23:42:00,dinner,True,68.56,Web
+101913,Dum Pukht,Kochi,Biryani,269.53,50.0,3.6,2024-11-26 22:10:00,dinner,False,,iOS
+100968,Oven Story,Mumbai,Pizza,228.8,25.0,4.0,2024-10-30 19:53:00,dinner,False,,Android
+101006,Frankie Express,Chennai,Rolls & Wraps,712.08,50.0,3.2,2024-11-03 09:46:00,breakfast,False,,Android
+100946,Dum Pukht,Bangalore,Biryani,349.85,53.0,3.2,2024-10-05 21:02:00,dinner,False,60.65,iOS
+100721,Green Bowl,Ahmedabad,Healthy,262.86,55.0,3.1,2024-12-12 14:51:00,lunch,False,,iOS
+100325,Kathi Roll Corner,Jaipur,Rolls & Wraps,418.54,68.0,3.9,2024-10-31 21:57:00,dinner,True,69.61,Android
+100739,Trishna,Delhi,Seafood,509.38,48.0,3.8,2024-10-26 13:57:00,lunch,False,,Android
+101727,Behrouz Biryani,Delhi,Biryani,3472.0,42.0,3.7,2024-12-28 14:22:00,lunch,False,84.88,Android
+100029,Dhaba Express,Hyderabad,North Indian,671.22,36.0,4.7,2024-10-22 19:36:00,dinner,False,,iOS
+101107,Sweet Truth,Delhi,Desserts,135.98,15.0,4.5,2024-11-06 14:11:00,lunch,False,,Android
+101934,Saffron,Hyderabad,North Indian,514.99,45.0,4.7,2024-11-19 23:20:00,dinner,True,,Android
+100360,Empire Restaurant,Hyderabad,Biryani,253.38,28.0,3.6,2024-10-11 13:40:00,lunch,False,98.11,iOS
+101437,Moti Mahal,Mumbai,North Indian,385.68,31.0,3.6,2024-12-17 14:28:00,lunch,False,,Android
+101819,Kathi Roll Corner,Hyderabad,Rolls & Wraps,614.08,,4.5,2024-10-06 21:01:00,dinner,False,40.71,Web
+100225,Behrouz Biryani,Mumbai,Biryani,293.05,28.0,,2024-11-01 15:39:00,snacks,False,,Android
+100563,Paradise Biryani,Bangalore,Biryani,345.24,58.0,3.4,2024-12-26 21:22:00,dinner,False,45.47,Android
+100700,La Folie,Delhi,Desserts,142.76,,3.7,2024-11-02 19:05:00,dinner,False,48.87,Android
+101201,Dominos,Pune,Pizza,506.09,28.0,4.5,2024-11-28 13:27:00,lunch,False,76.27,Android
+100858,Empire Restaurant,Delhi,Biryani,283.86,37.0,3.6,2024-10-21 21:13:00,,True,,Android
+101430,Joey's Pizza,Kolkata,Pizza,392.19,41.0,5.0,2024-11-18 23:46:00,dinner,True,86.01,iOS
+100493,Sweet Truth,Mumbai,Desserts,314.16,71.0,3.9,2024-10-24 15:26:00,snacks,False,72.05,Android
+100480,Wraps N Rolls,Delhi,Rolls & Wraps,348.76,65.0,5.0,2024-11-20 17:29:00,snacks,False,63.52,Android
+101768,Nandhini,Delhi,South Indian,289.67,,3.1,2024-11-30 09:28:00,breakfast,True,,Android
+100652,MTR,Hyderabad,South Indian,248.58,24.0,2.5,2024-12-11 21:49:00,dinner,True,,Web
+101402,Paradise Biryani,Bangalore,Biryani,570.94,34.0,4.8,2024-10-20 19:15:00,dinner,False,102.62,iOS
+101961,Pizza Hut,Bangalore,Pizza,315.89,39.0,3.7,2024-11-18 12:36:00,lunch,True,106.71,Web
+101443,Punjab Grill,Chennai,North Indian,421.09,54.0,3.5,2024-10-18 13:00:00,lunch,False,,Android
+100899,Murugan Idli Shop,Bangalore,South Indian,372.35,56.0,4.7,2024-12-12 08:14:00,breakfast,False,72.36,Android
+100152,Empire Restaurant,Mumbai,Biryani,254.79,40.0,4.3,2024-12-08 07:10:00,breakfast,True,47.84,iOS
+100216,Saffron,Mumbai,North Indian,373.22,69.0,3.5,2024-12-03 21:59:00,dinner,True,,iOS
+100099,Roll House,Bangalore,Rolls & Wraps,409.55,40.0,3.8,2024-10-27 13:36:00,lunch,True,,Android
+101127,McDonald's,Bangalore,Burger,384.21,52.0,3.4,2024-10-05 15:18:00,snacks,True,68.73,Android
+100611,Frankie Express,Bangalore,Rolls & Wraps,246.34,47.0,3.9,2024-11-07 12:22:00,lunch,False,,Web
+101352,MTR,Hyderabad,South Indian,442.04,40.0,4.2,2024-12-02 22:33:00,dinner,True,83.5,Android
+100830,Empire Restaurant,Delhi,Biryani,316.63,,4.1,2024-12-20 17:53:00,snacks,False,107.56,Android
+101738,Baskin Robbins,Bangalore,Desserts,900.0,53.0,3.7,2024-12-28 12:09:00,lunch,True,,Android
+100013,Chaayos,Kolkata,Beverages,602.25,,3.8,2024-11-28 19:03:00,dinner,True,,Web
+101298,Paradise Biryani,Bangalore,Biryani,394.4,,3.7,2024-10-13 15:47:00,snacks,False,64.65,Android
+101418,McDonald's,Bangalore,Burger,187.19,32.0,2.8,2024-11-15 14:15:00,,True,42.44,Android
+100168,Dum Pukht,Bangalore,Biryani,249.21,34.0,4.4,2024-11-10 10:07:00,breakfast,False,,Web
+101481,Dum Pukht,Pune,Biryani,366.5,45.0,,2024-10-13 21:23:00,dinner,True,,Android
+101478,Chinese Box,Pune,Chinese,217.02,49.0,3.9,2024-10-01 20:18:00,dinner,False,,Android
+100189,Baskin Robbins,Delhi,Desserts,366.5,50.0,3.9,2024-12-23 20:09:00,dinner,False,77.05,Android
+100993,Pizza Hut,Mumbai,Pizza,369.12,51.0,3.9,2024-11-04 14:13:00,lunch,True,35.15,Android
+101355,Saffron,Delhi,North Indian,742.47,30.0,4.6,2024-10-24 16:12:00,snacks,True,,Android
+100044,Paradise Biryani,Ahmedabad,Biryani,360.62,56.0,3.2,2024-11-30 16:35:00,snacks,False,,Android
+101118,Dum Pukht,Kolkata,Biryani,306.76,34.0,,2024-11-26 15:41:00,snacks,False,99.12,Android
+100010,The Wok,Chennai,Chinese,636.55,25.0,4.2,2024-10-21 09:48:00,breakfast,False,52.17,Android
+101415,Theobroma,Hyderabad,Desserts,242.98,55.0,4.1,2024-11-08 09:42:00,breakfast,True,,Android
+100148,MTR,Delhi,South Indian,410.75,40.0,3.8,2024-11-22 12:16:00,lunch,True,82.24,Android
+100749,Roll House,Ahmedabad,Rolls & Wraps,563.35,49.0,4.0,2024-11-14 13:36:00,lunch,True,118.51,Web
+100014,Paradise Biryani,Mumbai,Biryani,496.79,58.0,4.3,2024-11-06 14:34:00,lunch,False,90.87,Android
+100390,Wat-A-Burger,Pune,Burger,244.34,40.0,4.5,2024-11-13 08:29:00,breakfast,True,19.69,iOS
+101304,Moti Mahal,Hyderabad,North Indian,240.9,47.0,3.6,2024-11-01 19:01:00,dinner,False,,Web
+101759,MTR,Bangalore,South Indian,366.0,63.0,,2024-10-23 13:39:00,lunch,False,56.77,Web
+100659,Moti Mahal,Hyderabad,North Indian,606.89,45.0,3.5,2024-11-13 13:01:00,lunch,False,74.58,Android
+101870,Paradise Biryani,Chennai,Biryani,653.23,40.0,5.0,2024-10-09 16:02:00,snacks,True,,Android
+101433,Naturals Ice Cream,Delhi,Desserts,368.28,53.0,3.6,2024-11-10 23:35:00,dinner,True,,Android
+100745,Joey's Pizza,Mumbai,Pizza,349.35,21.0,3.3,2024-12-06 12:20:00,lunch,True,,Android
+100998,Saffron,Bangalore,North Indian,608.35,32.0,4.7,2024-11-29 14:46:00,lunch,False,,Web
+100455,La Pino'z,Bangalore,Pizza,412.84,54.0,4.4,2024-11-21 22:43:00,dinner,False,,Web
+100838,Dum Pukht,Mumbai,Biryani,683.03,21.0,4.5,2024-10-28 14:14:00,lunch,True,,iOS
+100759,Wat-A-Burger,Kolkata,Burger,748.47,,4.5,2024-10-09 17:29:00,snacks,False,110.67,Web
+100736,Sweet Truth,Kolkata,Desserts,217.85,26.0,3.5,2024-11-10 13:31:00,lunch,True,,iOS
+101935,Saffron,Chennai,North Indian,548.42,28.0,4.8,2024-12-07 14:40:00,lunch,False,94.53,Android
+101914,Oh Calcutta,Mumbai,Seafood,3047.31,43.0,4.1,2024-12-20 12:00:00,lunch,True,,Android
+101286,Empire Restaurant,Delhi,Biryani,522.69,62.0,3.7,2024-11-08 22:15:00,dinner,True,112.31,Android
+101725,Saravana Bhavan,Chennai,South Indian,196.18,47.0,3.3,2024-10-11 14:11:00,lunch,False,12.27,Web
+101788,Mainland China,Hyderabad,Chinese,267.61,59.0,3.6,2024-10-30 19:55:00,dinner,False,,Web
+100636,Burgerama,Delhi,Burger,275.91,59.0,3.1,2024-11-10 23:32:00,dinner,False,102.24,Android
+101229,Behrouz Biryani,Surat,Biryani,652.25,,6.0,2024-11-28 13:40:00,lunch,True,,Web
+101597,Barbeque Nation,Mumbai,North Indian,177.67,31.0,3.4,2024-12-26 13:53:00,lunch,False,,Android
+101878,Salad Days,Delhi,Healthy,306.03,52.0,4.1,2024-11-20 23:26:00,dinner,True,,Android
+100026,Saffron,Pune,North Indian,473.2,32.0,,2024-10-03 22:37:00,dinner,False,94.28,Android
+101751,Freshmenu,Hyderabad,Healthy,280.94,,3.7,2024-12-04 13:04:00,lunch,False,106.29,Android
+101484,Blue Tokai,Bangalore,Beverages,357.75,41.0,3.9,2024-10-06 19:04:00,dinner,True,,Android
+100756,Moti Mahal,Pune,North Indian,342.51,53.0,4.6,2024-11-09 20:09:00,dinner,True,,Android
+101230,Barbeque Nation,Delhi,North Indian,472.64,48.0,3.6,2024-10-29 16:30:00,snacks,False,,Android
+100116,Paradise Biryani,Kolkata,Biryani,726.28,54.0,4.0,2024-11-18 14:40:00,,True,32.41,iOS
+100025,Udupi Palace,Delhi,South Indian,268.16,42.0,3.3,2024-12-05 22:52:00,dinner,False,,Android
+100371,Wat-A-Burger,Bangalore,Burger,417.59,17.0,4.2,2024-10-17 14:32:00,lunch,True,,iOS
+101115,Moti Mahal,Hyderabad,North Indian,513.38,55.0,3.4,2024-11-26 12:39:00,lunch,True,,Android
+100984,Wraps N Rolls,Bangalore,Rolls & Wraps,204.74,23.0,4.9,2024-10-11 21:10:00,dinner,False,72.68,iOS
+100172,Bawarchi,Bangalore,Biryani,105.6,26.0,4.8,2024-10-19 23:24:00,dinner,True,102.28,iOS
+100454,MTR,Ahmedabad,South Indian,105.38,46.0,4.2,2024-10-30 22:40:00,dinner,True,107.11,Android
+100097,Joey's Pizza,Delhi,Pizza,539.17,28.0,3.9,2024-12-23 09:32:00,breakfast,False,,Android
+101968,Bawarchi,Mumbai,Biryani,516.13,52.0,3.2,2024-11-04 07:13:00,breakfast,False,,Android
+101772,Chaayos,Pune,Beverages,233.35,23.0,4.4,2024-11-02 19:55:00,dinner,True,,iOS
+101474,Burgerama,Delhi,Burger,469.3,37.0,4.2,2024-12-07 20:21:00,dinner,False,,Android
+100100,MTR,Bangalore,South Indian,231.13,,3.9,2024-10-29 08:59:00,breakfast,False,,Web
+101535,Moti Mahal,Delhi,North Indian,493.61,53.0,4.0,2024-12-28 14:23:00,lunch,True,80.68,iOS
+101805,Punjab Grill,Mumbai,North Indian,340.64,39.0,3.8,2024-12-15 12:27:00,lunch,True,109.8,Android
+100807,Theobroma,Ahmedabad,Desserts,106.3,57.0,4.2,2024-11-10 07:39:00,breakfast,True,47.31,iOS
+100358,Bawarchi,Hyderabad,Biryani,403.24,31.0,4.5,2024-11-22 16:21:00,snacks,False,35.33,Android
+100861,Eatfit,Pune,Healthy,456.7,25.0,3.0,2024-10-15 18:37:00,snacks,False,85.18,Android
+100597,Moti Mahal,Chennai,North Indian,340.14,55.0,4.3,2024-11-18 22:49:00,dinner,False,33.94,Android
+101650,The Table,Chennai,Continental,566.19,47.0,4.1,2024-10-09 16:13:00,snacks,False,,iOS
+101165,Behrouz Biryani,Bangalore,Biryani,295.44,53.0,,2024-10-27 14:51:00,lunch,False,112.13,iOS
+101009,Burgerama,Mumbai,Burger,277.24,33.0,3.6,2024-10-18 12:42:00,lunch,False,48.66,Android
+101045,La Folie,Kolkata,Desserts,230.19,49.0,4.3,2024-12-11 17:30:00,snacks,False,65.41,Web
+101907,China Town,Jaipur,Chinese,202.58,25.0,4.6,2024-11-09 12:44:00,lunch,False,,Android
+101745,Paradise Biryani,Delhi,Biryani,253.51,47.0,5.5,2024-11-07 14:31:00,lunch,False,,Android
+100650,Mainland China,Delhi,Chinese,623.65,32.0,3.8,2024-11-21 14:30:00,lunch,False,,Web
+100271,Dum Pukht,Pune,Biryani,900.0,31.0,4.6,2024-12-02 17:17:00,snacks,True,,Android
+100119,Dum Pukht,Kolkata,Biryani,5129.8,49.0,3.0,2024-12-28 13:43:00,lunch,False,46.28,Android
+100118,Pizza Hut,Bangalore,Pizza,309.66,55.0,,2024-11-12 14:13:00,lunch,True,13.54,Web
+101605,Barbeque Nation,Bangalore,North Indian,362.42,38.0,4.1,2024-10-23 08:18:00,breakfast,False,28.76,Android
+101948,Joey's Pizza,Bangalore,Pizza,486.99,25.0,3.7,2024-10-16 07:06:00,breakfast,True,,iOS
+101121,Saffron,Kolkata,North Indian,196.94,,,2024-12-04 12:45:00,lunch,False,31.73,Web
+100702,The Fish Shack,Bangalore,Seafood,308.94,37.0,5.0,2024-11-19 08:49:00,breakfast,False,,iOS
+101019,Empire Restaurant,Ahmedabad,Biryani,477.07,,4.7,2024-10-31 15:59:00,snacks,True,,Android
+101124,Mainland China,Pune,Chinese,454.81,46.0,5.0,2024-11-22 17:28:00,snacks,False,,Web
+101762,Naturals Ice Cream,Kolkata,Desserts,571.26,33.0,3.3,2024-11-27 20:16:00,dinner,True,36.89,Android
+100165,The Wok,Bangalore,Chinese,227.04,35.0,4.7,2024-10-28 15:06:00,snacks,True,88.21,Android
+100670,Barbeque Nation,Mumbai,North Indian,338.4,26.0,3.3,2024-10-21 21:40:00,dinner,False,33.14,Android
+101514,Frankie Express,Bangalore,Rolls & Wraps,374.54,22.0,3.9,2024-11-13 22:48:00,dinner,False,,Android
+101832,Kathi Roll Corner,Hyderabad,Rolls & Wraps,868.08,28.0,3.5,2024-10-25 17:51:00,snacks,False,54.21,Android
+100466,Saffron,Mumbai,North Indian,399.82,31.0,3.4,2024-12-12 14:04:00,lunch,False,51.66,Android
+101976,Chai Point,Jaipur,Beverages,513.24,44.0,4.7,2024-12-15 22:53:00,dinner,False,,Android
+100508,MTR,Pune,South Indian,180.84,56.0,4.2,2024-10-06 10:22:00,breakfast,False,44.84,Web
+100143,The Burger Club,Delhi,Burger,513.92,27.0,,2024-12-17 08:25:00,breakfast,True,42.18,Android
+101480,Udupi Palace,Delhi,South Indian,576.87,39.0,5.0,2024-11-02 13:07:00,lunch,True,34.65,Android
+100114,Eatfit,Pune,Healthy,247.13,30.0,3.8,2024-11-21 10:19:00,,True,27.73,iOS
+101091,Chinese Box,Jaipur,Chinese,180.57,35.0,3.6,2024-10-15 07:13:00,breakfast,True,79.57,Android
+101448,McDonald's,Kolkata,Burger,696.43,47.0,3.6,2024-10-22 17:53:00,snacks,True,90.83,Android
+100379,Saravana Bhavan,Pune,South Indian,296.59,26.0,4.0,2024-10-14 13:31:00,lunch,True,13.47,Web
+100064,Wok To Walk,Mumbai,Chinese,848.67,38.0,4.8,2024-12-07 12:53:00,lunch,False,,iOS
+100187,Freshmenu,Pune,Healthy,424.59,,4.7,2024-12-16 13:36:00,lunch,False,58.23,iOS
+100654,Bawarchi,Chennai,Biryani,144.44,34.0,4.9,2024-11-22 20:20:00,dinner,True,,Android
+100730,Wok To Walk,Bangalore,Chinese,266.15,,4.2,2024-10-20 14:50:00,,False,87.0,iOS
+100295,Bawarchi,Bangalore,Biryani,269.85,59.0,3.7,2024-12-09 12:41:00,lunch,True,,Web
+101794,La Folie,Chennai,Desserts,900.0,39.0,3.9,2024-11-08 20:33:00,dinner,True,88.64,iOS
+100316,Bawarchi,Chennai,Biryani,900.0,42.0,4.1,2024-10-28 12:05:00,lunch,False,38.98,Web
+100131,Empire Restaurant,Delhi,Biryani,165.54,62.0,3.8,2024-10-14 12:23:00,lunch,False,,Android
+101028,Burger King,Kolkata,Burger,274.01,31.0,3.1,2024-10-11 07:45:00,breakfast,False,,Web
+100190,Burger King,Mumbai,Burger,220.67,53.0,4.1,2024-11-11 22:09:00,dinner,False,76.92,Android
+100028,The Beer Cafe,Delhi,Continental,367.07,50.0,4.4,2024-12-14 14:30:00,lunch,False,65.15,Android
+100896,Freshmenu,Mumbai,Healthy,329.58,38.0,2.5,2024-11-23 10:12:00,breakfast,False,,Web
+101691,Roll House,Bangalore,Rolls & Wraps,787.99,76.0,5.0,2024-12-28 13:50:00,lunch,False,,Android
+101321,Chinese Box,Mumbai,Chinese,232.4,37.0,3.9,2024-11-05 14:50:00,lunch,True,49.16,Android
+101247,China Town,Bangalore,Chinese,502.69,29.0,4.5,2024-12-03 21:33:00,dinner,True,37.75,iOS
+100798,Pizza Hut,Hyderabad,Pizza,171.82,43.0,3.9,2024-10-23 21:51:00,dinner,False,,Android
+100994,Saravana Bhavan,Hyderabad,South Indian,281.61,54.0,4.3,2024-11-14 17:51:00,snacks,True,,Android
+101243,Mainland China,Pune,Chinese,589.39,37.0,,2024-12-18 17:20:00,snacks,False,67.34,Android
+101596,Wat-A-Burger,Hyderabad,Burger,326.92,44.0,4.2,2024-11-28 17:50:00,snacks,False,,Web
+101190,Sweet Truth,Chennai,Desserts,235.78,55.0,5.0,2024-10-04 14:52:00,lunch,False,,iOS
+100267,Joey's Pizza,Chennai,Pizza,387.3,37.0,,2024-10-20 16:31:00,snacks,False,,Web
+100902,Baskin Robbins,Bangalore,Desserts,227.71,37.0,3.9,2024-10-24 16:15:00,snacks,True,115.21,Android
+101562,Kathi Roll Corner,Mumbai,Rolls & Wraps,251.79,,3.7,2024-11-20 21:26:00,dinner,False,,iOS
+100076,Salad Days,Chennai,Healthy,358.62,34.0,4.1,2024-10-01 18:27:00,snacks,True,42.53,Android
+101464,Oven Story,Chennai,Pizza,342.02,,,2024-11-19 12:08:00,lunch,False,27.24,Android
+101409,Moti Mahal,Hyderabad,North Indian,410.08,45.0,4.6,2024-10-17 13:11:00,lunch,False,,Android
+100859,Dum Pukht,Hyderabad,Biryani,397.87,59.0,3.6,2024-11-25 19:06:00,dinner,True,39.77,Web
+101563,Dum Pukht,Pune,Biryani,276.04,24.0,4.9,2024-12-04 14:37:00,lunch,True,,Android
+100752,Burger King,Ahmedabad,Burger,408.43,15.0,,2024-12-26 12:05:00,lunch,False,85.37,iOS
+100612,Dum Pukht,Pune,Biryani,621.22,47.0,,2024-11-11 10:33:00,breakfast,True,117.9,iOS
+101073,Barbeque Nation,Bangalore,North Indian,439.33,39.0,3.7,2024-10-13 16:28:00,snacks,True,,iOS
+101296,Dum Pukht,Mumbai,Biryani,205.15,56.0,4.2,2024-10-09 14:08:00,lunch,True,111.42,Web
+101335,Raw Pressery Kitchen,Surat,Healthy,200.58,,4.4,2024-11-29 22:35:00,dinner,True,,Android
+100566,Punjab Grill,Hyderabad,North Indian,232.06,30.0,4.2,2024-11-13 19:05:00,dinner,True,86.49,Android
+100954,Mainland China,Ahmedabad,Chinese,862.54,66.0,4.5,2024-10-14 22:13:00,dinner,False,46.67,Android
+100181,Saffron,Mumbai,North Indian,222.96,55.0,4.6,2024-12-09 14:34:00,lunch,True,33.49,iOS
+101432,Social,Delhi,Continental,347.55,60.0,4.3,2024-11-06 09:10:00,breakfast,True,45.89,Android
+100675,Salad Days,Delhi,Healthy,407.69,46.0,3.5,2024-11-24 14:34:00,lunch,True,,Android
+101576,Nandhini,Bangalore,South Indian,408.93,56.0,4.4,2024-12-05 13:32:00,lunch,True,99.92,Android
+100377,Barbeque Nation,Kolkata,North Indian,250.52,65.0,4.1,2024-12-27 13:42:00,lunch,False,,iOS
+101906,Chinese Box,Mumbai,Chinese,159.22,59.0,3.8,2024-11-30 18:26:00,snacks,True,,Web
+100024,Bawarchi,Mumbai,Biryani,171.34,45.0,,2024-12-18 23:53:00,dinner,False,,Android
+100347,Burger King,Hyderabad,Burger,603.72,52.0,,2024-12-06 21:43:00,dinner,True,,Android
+101672,Dum Pukht,Kolkata,Biryani,269.0,,5.0,2024-11-07 13:44:00,lunch,True,,iOS
+101626,Punjab Grill,Chennai,North Indian,372.78,35.0,4.3,2024-10-19 19:29:00,dinner,True,84.91,iOS
+101753,Dhaba Express,Bangalore,North Indian,265.34,33.0,4.2,2024-10-18 14:04:00,lunch,True,,Android
+100009,Paradise Biryani,Hyderabad,Biryani,316.54,18.0,,2024-11-07 20:55:00,dinner,False,,iOS
+100229,Barbeque Nation,Kolkata,North Indian,463.81,,5.0,2024-11-04 17:17:00,snacks,True,32.87,iOS
+100490,MTR,Kolkata,South Indian,276.73,40.0,3.5,2024-10-29 17:50:00,snacks,True,,iOS
+100214,Trishna,Mumbai,Seafood,244.24,37.0,4.0,2024-12-06 14:41:00,lunch,False,96.33,Android
+101721,Udupi Palace,Bangalore,South Indian,140.33,38.0,4.1,2024-11-15 14:25:00,lunch,False,,iOS
+100641,Saffron,Bangalore,North Indian,665.14,60.0,,2024-12-01 23:41:00,dinner,False,101.3,iOS
+100450,Nandhini,Bangalore,South Indian,236.71,15.0,3.9,2024-12-20 19:13:00,dinner,True,,iOS
+101974,Wat-A-Burger,Delhi,Burger,419.48,45.0,4.8,2024-12-22 21:10:00,dinner,False,72.28,Web
+100016,MTR,Bangalore,South Indian,266.54,41.0,4.7,2024-11-16 13:03:00,lunch,True,,iOS
+101503,Hard Rock Cafe,Bangalore,Continental,320.45,40.0,3.9,2024-11-02 13:17:00,lunch,True,,Android
+101813,Dhaba Express,Mumbai,North Indian,222.64,63.0,4.0,2024-10-03 19:22:00,dinner,False,91.74,Android
+100673,Burgerama,Bangalore,Burger,681.7,51.0,4.0,2024-11-13 19:46:00,dinner,False,59.14,Android
+101382,MTR,Delhi,South Indian,750.8,52.0,3.0,2024-12-15 15:23:00,snacks,False,97.65,Android
+101625,Punjab Grill,Bangalore,North Indian,220.72,64.0,,2024-11-01 10:05:00,breakfast,True,41.47,Android
+101494,Salad Days,Bangalore,Healthy,630.68,20.0,4.6,2024-10-02 14:54:00,lunch,True,,iOS
+100547,Empire Restaurant,Bangalore,Biryani,900.0,23.0,4.3,2024-11-20 08:33:00,breakfast,True,,iOS
+101181,Behrouz Biryani,Jaipur,Biryani,262.59,35.0,4.6,2024-10-08 13:22:00,lunch,False,103.68,Android
+100862,Dhaba Express,Delhi,North Indian,177.73,34.0,4.0,2024-11-11 20:49:00,dinner,False,67.52,Web
+100355,Sweet Truth,Bangalore,Desserts,184.08,,4.4,2024-11-12 17:54:00,snacks,False,89.77,Web
+101404,Barbeque Nation,Chennai,North Indian,298.91,29.0,3.3,2024-12-28 13:40:00,lunch,True,89.59,Android
+100208,Freshmenu,Chennai,Healthy,707.91,53.0,4.3,2024-12-26 15:41:00,snacks,False,104.5,Android
+100607,Paradise Biryani,Mumbai,Biryani,225.92,54.0,3.8,2024-12-22 20:31:00,dinner,True,74.47,Android
+100758,Freshmenu,Hyderabad,Healthy,489.55,45.0,5.0,2024-12-25 22:01:00,dinner,True,,iOS
+101447,The Roll Story,Chennai,Rolls & Wraps,500.15,27.0,4.2,2024-10-18 12:24:00,lunch,False,,iOS
+100417,MTR,Mumbai,South Indian,830.72,22.0,6.1,2024-12-24 14:38:00,lunch,False,43.03,Android
+101671,Punjab Grill,Delhi,North Indian,250.29,44.0,4.2,2024-11-11 21:49:00,dinner,False,72.17,iOS
+101085,Burger King,Jaipur,Burger,296.47,40.0,,2024-11-28 14:58:00,lunch,False,27.25,iOS
+101195,Saravana Bhavan,Bangalore,South Indian,268.26,60.0,4.6,2024-11-16 13:13:00,lunch,False,,iOS
+100719,The Roll Story,Bangalore,Rolls & Wraps,900.0,29.0,4.8,2024-12-20 13:38:00,lunch,True,,Android
+100443,Baskin Robbins,Mumbai,Desserts,210.47,24.0,,2024-12-19 14:42:00,lunch,True,67.42,iOS
+101818,Roll House,Pune,Rolls & Wraps,349.07,54.0,5.0,2024-12-23 18:20:00,snacks,True,75.82,Web
+101426,Joey's Pizza,Jaipur,Pizza,154.79,,4.6,2024-11-25 16:17:00,snacks,True,42.16,Android
+100537,Naturals Ice Cream,Kolkata,Desserts,260.07,42.0,4.3,2024-11-18 14:26:00,lunch,True,113.3,iOS
+100349,Dominos,Mumbai,Pizza,394.9,46.0,4.1,2024-11-23 23:45:00,dinner,True,57.06,iOS
+100087,Behrouz Biryani,Chennai,Biryani,529.14,40.0,4.4,2024-12-29 13:24:00,lunch,True,38.5,iOS
+100404,Dhaba Express,Pune,North Indian,194.12,43.0,4.9,2024-12-23 12:02:00,lunch,False,80.98,Web
+100363,Barbeque Nation,Delhi,North Indian,242.26,45.0,3.0,2024-11-25 22:24:00,dinner,False,,Android
+100027,Theobroma,Bangalore,Desserts,696.47,45.0,4.7,2024-11-09 14:41:00,lunch,False,75.88,Web
+101135,Punjab Grill,Chennai,North Indian,235.98,50.0,3.7,2024-11-03 23:07:00,dinner,False,102.9,Android
+101196,Chinese Box,Kolkata,Chinese,900.0,73.0,4.1,2024-10-01 19:55:00,dinner,True,,iOS
+100178,The Burger Club,Delhi,Burger,402.36,56.0,4.9,2024-10-11 19:17:00,dinner,False,,Android
+101971,Trishna,Bangalore,Seafood,266.11,35.0,4.0,2024-11-11 23:57:00,dinner,False,86.11,Web
+100900,Empire Restaurant,Bangalore,Biryani,358.71,44.0,,2024-12-01 20:22:00,dinner,False,101.25,Android
+100639,Bay Leaf,Mumbai,Seafood,280.2,45.0,3.5,2024-10-30 23:25:00,dinner,False,109.17,Android
+100695,Oh Calcutta,Bangalore,Seafood,510.05,49.0,3.7,2024-11-08 13:18:00,lunch,True,29.94,iOS
+100253,McDonald's,Kolkata,Burger,301.8,62.0,,2024-11-29 13:22:00,lunch,False,,Android
+100415,Mainland China,Hyderabad,Chinese,586.52,,4.2,2024-10-07 14:49:00,lunch,False,49.15,Android
+100559,Dum Pukht,Pune,Biryani,229.77,38.0,3.2,2024-11-02 20:03:00,,True,105.54,iOS
+100554,Blue Tokai,Hyderabad,Beverages,809.79,52.0,,2024-12-29 21:28:00,dinner,True,56.89,Android
+100194,Dominos,Hyderabad,Pizza,420.19,42.0,,2024-11-28 20:27:00,dinner,True,,Web
+101331,Pizza Hut,Hyderabad,Pizza,562.65,15.0,4.1,2024-12-01 13:10:00,lunch,True,40.12,Android
+100722,Baskin Robbins,Bangalore,Desserts,352.95,42.0,4.0,2024-10-24 08:00:00,breakfast,False,79.28,Android
+101051,Punjab Grill,Kolkata,North Indian,270.04,35.0,4.7,2024-10-06 13:59:00,lunch,False,,Web
+100446,Punjab Grill,Jaipur,North Indian,449.94,37.0,4.9,2024-11-06 23:51:00,dinner,False,112.82,iOS
+101548,Chinese Box,Hyderabad,Chinese,294.91,23.0,3.3,2024-10-02 10:45:00,breakfast,False,43.14,Android
+100952,Burgerama,Chennai,Burger,563.07,58.0,5.0,2024-10-25 09:59:00,breakfast,False,,Android
+101556,Oven Story,Mumbai,Pizza,222.96,42.0,3.5,2024-11-06 19:13:00,dinner,False,19.01,Android
+101485,Dominos,Mumbai,Pizza,366.17,51.0,3.1,2024-12-09 20:34:00,dinner,False,,Android
+100452,Bay Leaf,Hyderabad,Seafood,416.91,24.0,3.5,2024-11-28 15:03:00,snacks,False,112.09,Web
+101420,Bawarchi,Ahmedabad,Biryani,712.72,51.0,4.2,2024-12-17 14:08:00,lunch,False,,iOS
+100465,La Pino'z,Jaipur,Pizza,900.0,46.0,3.6,2024-10-29 20:42:00,dinner,False,109.26,iOS
+100705,Sweet Truth,Bangalore,Desserts,775.85,36.0,4.4,2024-11-09 13:57:00,lunch,True,,Android
+100459,The Wok,Bangalore,Chinese,523.15,55.0,3.2,2024-11-26 13:10:00,lunch,False,83.62,Android
+101574,Social,Kolkata,Continental,290.88,34.0,5.0,2024-10-18 18:23:00,snacks,False,46.22,iOS
+101088,Dum Pukht,Bangalore,Biryani,526.68,57.0,4.8,2024-10-15 07:44:00,breakfast,False,34.17,iOS
+100841,Nandhini,Bangalore,South Indian,353.24,52.0,4.8,2024-12-23 19:57:00,dinner,False,,Web
+100766,Coastal Kitchen,Hyderabad,Seafood,313.29,43.0,4.2,2024-12-02 21:35:00,dinner,True,107.84,Web
+100370,Naturals Ice Cream,Bangalore,Desserts,248.93,45.0,4.5,2024-10-25 13:14:00,lunch,False,,iOS
+100485,Chinese Box,Hyderabad,Chinese,565.79,44.0,,2024-11-17 12:58:00,lunch,False,26.34,Android
+101854,Chai Point,Kolkata,Beverages,286.29,,2.8,2024-12-18 21:10:00,dinner,False,,Android
+101206,Kathi Roll Corner,Pune,Rolls & Wraps,235.61,19.0,2.9,2024-11-24 12:21:00,lunch,False,,Android
+100308,Oven Story,Mumbai,Pizza,384.4,51.0,3.5,2024-12-09 17:23:00,snacks,False,,Android
+100286,Saffron,Bangalore,North Indian,304.9,35.0,3.8,2024-12-11 16:19:00,snacks,True,75.0,iOS
+101939,Bawarchi,Delhi,Biryani,386.22,52.0,3.8,2024-12-18 13:59:00,lunch,False,,Android
+101083,Dhaba Express,Delhi,North Indian,306.59,50.0,,2024-12-24 22:02:00,dinner,True,,Android
+100842,Baskin Robbins,Chennai,Desserts,149.84,32.0,3.7,2024-11-09 23:04:00,dinner,False,50.89,Android
+100718,The Fish Shack,Jaipur,Seafood,356.95,51.0,3.5,2024-12-29 19:36:00,dinner,False,80.38,Android
+101400,Oven Story,Chennai,Pizza,199.01,51.0,3.0,2024-12-26 21:30:00,dinner,False,32.89,Android
+101698,Burgerama,Bangalore,Burger,900.0,30.0,3.4,2024-11-30 13:07:00,lunch,False,23.47,iOS
+101595,Mainland China,Chennai,Chinese,675.34,37.0,4.1,2024-12-25 13:09:00,lunch,False,74.29,Android
+101675,Joey's Pizza,Pune,Pizza,211.89,35.0,3.8,2024-10-14 21:45:00,dinner,False,,Android
+100688,Murugan Idli Shop,Mumbai,South Indian,337.32,38.0,3.8,2024-10-29 08:59:00,breakfast,True,,Android
+101216,Bawarchi,Mumbai,Biryani,306.84,54.0,4.7,2024-11-29 15:41:00,snacks,True,,iOS
+100682,Kathi Roll Corner,Mumbai,Rolls & Wraps,248.18,45.0,4.2,2024-10-24 14:36:00,lunch,True,69.7,Android
+101612,Empire Restaurant,Chennai,Biryani,455.37,38.0,4.2,2024-12-22 20:32:00,dinner,True,,Android
+100661,Wok To Walk,Mumbai,Chinese,445.61,61.0,3.3,2024-12-06 18:46:00,snacks,False,104.92,iOS
+101276,Roll House,Bangalore,Rolls & Wraps,341.93,18.0,5.0,2024-10-26 13:14:00,lunch,False,,Web
+100098,Pizza Hut,Delhi,Pizza,169.54,35.0,3.3,2024-12-03 10:58:00,breakfast,True,41.52,Web
+101260,Green Bowl,Hyderabad,Healthy,197.49,48.0,4.1,2024-12-26 21:12:00,dinner,False,,Android
+101026,Udupi Palace,Delhi,South Indian,425.84,37.0,3.8,2024-12-22 18:00:00,snacks,False,14.4,Android
+101224,Behrouz Biryani,Jaipur,Biryani,233.83,33.0,4.3,2024-12-15 12:52:00,lunch,True,,Android
+100140,Green Bowl,Surat,Healthy,325.66,49.0,3.4,2024-12-18 15:19:00,snacks,True,38.07,iOS
+101644,China Town,Hyderabad,Chinese,216.87,43.0,4.7,2024-11-17 13:32:00,lunch,False,,Android
+100977,Frankie Express,Hyderabad,Rolls & Wraps,333.19,32.0,3.4,2024-10-15 14:35:00,lunch,True,,iOS
+101980,Nandhini,Kolkata,South Indian,690.38,76.0,4.2,2024-11-21 16:56:00,snacks,False,,iOS
+101376,Theobroma,Kolkata,Desserts,80.0,54.0,5.0,2024-11-11 21:42:00,dinner,False,73.26,Android
+101159,The Roll Story,Kolkata,Rolls & Wraps,256.51,64.0,3.9,2024-12-19 16:21:00,snacks,True,,Android
+100971,Udupi Palace,Chennai,South Indian,545.92,,3.7,2024-10-13 18:12:00,snacks,False,,Android
+101200,MTR,Bangalore,South Indian,369.05,55.0,3.7,2024-12-26 14:56:00,lunch,False,,Web
+100790,The Beer Cafe,Jaipur,Continental,803.16,29.0,2.8,2024-12-21 14:34:00,lunch,True,93.19,iOS
+100129,Eatfit,Bangalore,Healthy,253.58,23.0,3.3,2024-10-10 13:45:00,lunch,False,88.64,Android
+101075,La Pino'z,Surat,Pizza,437.96,52.0,4.0,2024-11-24 22:40:00,dinner,False,,Android
+100689,Mainland China,Pune,Chinese,465.93,,4.1,2024-11-26 17:56:00,snacks,True,,iOS
+101667,Roll House,Mumbai,Rolls & Wraps,283.61,38.0,4.7,2024-11-18 20:37:00,dinner,True,22.2,iOS
+101381,Nandhini,Bangalore,South Indian,311.83,32.0,3.9,2024-11-07 12:47:00,lunch,False,,Android
+100523,Moti Mahal,Jaipur,North Indian,505.04,37.0,,2024-11-19 23:03:00,dinner,False,92.49,iOS
+100265,Joey's Pizza,Kolkata,Pizza,726.0,,,2024-11-20 22:11:00,dinner,True,106.1,iOS
+101169,Naturals Ice Cream,Bangalore,Desserts,557.84,37.0,3.5,2024-10-13 13:16:00,lunch,False,14.58,Android
+101348,Barbeque Nation,Mumbai,North Indian,204.48,35.0,3.4,2024-10-25 12:44:00,lunch,False,,Android
+101617,La Pino'z,Lucknow,Pizza,246.03,43.0,3.1,2024-12-22 20:40:00,,False,,Android
+100664,The Burger Club,Mumbai,Burger,454.29,44.0,4.5,2024-12-23 21:42:00,dinner,False,86.6,iOS
+100632,Wat-A-Burger,Kolkata,Burger,345.56,54.0,5.1,2024-11-11 14:49:00,lunch,False,57.52,Android
+100499,The Table,Surat,Continental,216.05,49.0,2.8,2024-12-21 14:13:00,lunch,False,,Android
+101910,Barbeque Nation,Bangalore,North Indian,478.55,65.0,4.1,2024-10-31 13:35:00,lunch,False,35.62,Android
+101347,Barbeque Nation,Mumbai,North Indian,210.9,34.0,3.8,2024-11-19 10:58:00,breakfast,False,,Android
+101687,Chaayos,Ahmedabad,Beverages,408.45,44.0,3.1,2024-10-14 16:14:00,snacks,False,,iOS
+100934,Mainland China,Delhi,Chinese,660.63,29.0,4.6,2024-12-20 12:20:00,lunch,True,,Android
+100433,Smoke House Deli,Hyderabad,Continental,472.23,40.0,5.0,2024-12-21 16:18:00,snacks,True,,Web
+101624,Eatfit,Jaipur,Healthy,468.89,43.0,3.1,2024-12-23 23:53:00,dinner,False,83.61,iOS
+100821,Tea Trails,Pune,Beverages,273.44,,3.6,2024-12-02 14:41:00,lunch,False,,Android
+100069,Behrouz Biryani,Bangalore,Biryani,305.07,15.0,3.9,2024-12-26 22:16:00,dinner,True,76.62,Android
+100956,Wat-A-Burger,Delhi,Burger,480.31,47.0,4.6,2024-11-29 22:48:00,dinner,True,116.24,Android
+101751,Freshmenu,Hyderabad,Healthy,280.94,,3.7,2024-12-04 13:04:00,lunch,False,106.29,Android
+101386,Freshmenu,Mumbai,Healthy,455.55,,3.7,2024-10-02 16:53:00,snacks,True,,Android
+101803,Frankie Express,Mumbai,Rolls & Wraps,194.67,15.0,3.6,2024-12-24 14:02:00,lunch,False,,Web
+100574,Chinese Box,Hyderabad,Chinese,221.54,31.0,3.7,2024-10-11 20:47:00,dinner,True,42.79,Web
+100335,Behrouz Biryani,Bangalore,Biryani,420.4,,3.9,2024-12-02 12:35:00,lunch,True,17.32,Android
+100339,Empire Restaurant,Delhi,Biryani,200.43,47.0,3.3,2024-12-23 14:30:00,,False,116.32,Android
+100869,Saffron,Kolkata,North Indian,272.65,39.0,3.5,2024-10-15 18:48:00,,False,92.57,iOS
+100665,Dominos,Bangalore,Pizza,260.02,44.0,4.7,2024-12-24 21:55:00,dinner,False,,Web
+100384,Nandhini,Kolkata,South Indian,373.03,34.0,,2024-12-05 15:41:00,snacks,False,28.35,Android
+101105,Moti Mahal,Lucknow,North Indian,287.8,24.0,3.3,2024-12-24 12:26:00,lunch,True,62.59,Android
+100056,McDonald's,Ahmedabad,Burger,160.38,51.0,3.4,2024-12-01 09:24:00,breakfast,True,,Android
+101250,Dominos,Hyderabad,Pizza,900.0,47.0,2.8,2024-10-26 18:19:00,snacks,False,,iOS
+100796,Oven Story,Kolkata,Pizza,336.34,48.0,4.8,2024-12-04 13:39:00,lunch,False,44.5,Android
+100717,Burgerama,Kolkata,Burger,661.98,44.0,3.4,2024-12-28 18:13:00,snacks,False,115.25,Android
+101560,The Wok,Ahmedabad,Chinese,373.87,55.0,,2024-11-10 15:48:00,snacks,True,93.36,iOS
+100740,Dum Pukht,Mumbai,Biryani,282.32,38.0,3.5,2024-12-04 17:46:00,snacks,False,,Web
+101710,Trishna,Chennai,Seafood,430.74,29.0,3.8,2024-11-05 23:33:00,dinner,False,,iOS
+100171,Burger King,Chennai,Burger,370.44,38.0,3.7,2024-10-31 12:44:00,lunch,False,42.07,Android
+100174,Freshmenu,Mumbai,Healthy,472.47,15.0,3.1,2024-12-02 16:53:00,snacks,False,70.78,iOS
+100979,Wat-A-Burger,Delhi,Burger,235.69,31.0,4.1,2024-11-18 09:01:00,breakfast,True,,iOS
+100327,The Roll Story,Hyderabad,Rolls & Wraps,258.4,46.0,4.3,2024-12-02 07:47:00,breakfast,False,,Web
+100504,The Fish Shack,Pune,Seafood,325.95,54.0,4.5,2024-10-14 07:38:00,breakfast,False,71.54,Android
+101023,McDonald's,Ahmedabad,Burger,440.24,54.0,4.3,2024-11-22 19:52:00,dinner,True,60.53,Web
+100410,China Town,Bangalore,Chinese,709.37,47.0,3.8,2024-10-22 18:16:00,snacks,False,,Web
+101204,Raw Pressery Kitchen,Mumbai,Healthy,113.19,41.0,4.6,2024-11-23 22:12:00,dinner,False,70.81,Android
+100298,Empire Restaurant,Mumbai,Biryani,829.21,36.0,4.7,2024-10-10 12:46:00,lunch,False,,Android
+100904,MTR,Hyderabad,South Indian,375.56,31.0,3.1,2024-11-17 12:22:00,lunch,False,,iOS
+100849,Pizza Hut,Delhi,Pizza,489.45,27.0,3.6,2024-12-20 22:05:00,dinner,True,,iOS
+101332,La Folie,Chennai,Desserts,493.82,40.0,4.8,2024-11-30 13:52:00,lunch,False,83.23,Web
+100948,China Town,Ahmedabad,Chinese,166.41,32.0,3.5,2024-10-16 20:42:00,dinner,False,52.51,Android
+101628,Salad Days,Hyderabad,Healthy,165.29,45.0,4.0,2024-10-24 12:58:00,lunch,False,,Android
+101984,Saffron,Delhi,North Indian,556.79,45.0,3.7,2024-12-24 08:19:00,breakfast,False,84.13,Android
+100672,Nandhini,Kolkata,South Indian,621.43,48.0,4.0,2024-11-02 20:09:00,dinner,True,,iOS
+100649,MTR,Pune,South Indian,178.35,49.0,3.9,2024-12-13 21:05:00,dinner,True,97.25,iOS
+100753,Punjab Grill,Hyderabad,North Indian,372.97,43.0,4.3,2024-11-24 23:22:00,dinner,False,,Android
+101867,Udupi Palace,Bangalore,South Indian,238.27,56.0,4.1,2024-10-18 21:30:00,dinner,False,113.69,Android
+101567,Oven Story,Chennai,Pizza,194.86,40.0,3.2,2024-12-17 21:18:00,dinner,False,,Web
+100305,Blue Tokai,Chennai,Beverages,231.63,27.0,4.4,2024-12-24 19:13:00,dinner,False,50.86,Android
+100735,Chaayos,Mumbai,Beverages,158.27,27.0,3.8,2024-11-19 14:45:00,lunch,False,88.13,Android
+100801,Kathi Roll Corner,Chennai,Rolls & Wraps,365.52,55.0,4.6,2024-10-20 13:42:00,lunch,True,81.69,Android
+100532,Frankie Express,Kochi,Rolls & Wraps,366.7,38.0,3.8,2024-11-22 14:18:00,lunch,False,44.06,Web
+100408,Punjab Grill,Bangalore,North Indian,300.3,48.0,3.2,2024-11-27 12:21:00,lunch,False,115.45,Android
+100200,Saravana Bhavan,Pune,South Indian,189.6,,4.4,2024-11-05 17:05:00,snacks,False,106.35,Android
+100474,La Folie,Kolkata,Desserts,523.76,31.0,,2024-11-16 14:29:00,lunch,False,,Web
+101684,Saffron,Pune,North Indian,228.06,30.0,4.0,2024-11-04 12:46:00,lunch,True,,Android
+101730,Oven Story,Hyderabad,Pizza,735.81,48.0,4.0,2024-11-08 20:39:00,dinner,False,,iOS
+101559,Dum Pukht,Kolkata,Biryani,900.0,29.0,3.3,2024-12-12 14:03:00,lunch,True,81.44,iOS
+101281,Mainland China,Hyderabad,Chinese,342.37,51.0,3.6,2024-11-25 23:12:00,dinner,True,92.47,iOS
+100217,Wraps N Rolls,Mumbai,Rolls & Wraps,89.87,32.0,4.7,2024-11-10 08:34:00,breakfast,False,,Android
+100254,Frankie Express,Mumbai,Rolls & Wraps,172.18,26.0,4.3,2024-10-27 18:54:00,snacks,False,99.96,Android
+100153,The Burger Club,Bangalore,Burger,163.49,34.0,3.2,2024-12-22 21:50:00,dinner,False,92.66,Android
+101295,Coastal Kitchen,Pune,Seafood,158.14,22.0,5.0,2024-10-18 22:29:00,dinner,True,,Android
+100947,Mainland China,Bangalore,Chinese,133.13,54.0,5.0,2024-10-09 15:50:00,snacks,False,119.3,Android
+101833,Wraps N Rolls,Hyderabad,Rolls & Wraps,161.56,45.0,3.9,2024-11-16 19:44:00,dinner,False,,Android
+101275,Frankie Express,Delhi,Rolls & Wraps,118.34,,3.5,2024-10-14 18:11:00,snacks,True,102.18,Android
+101465,Bawarchi,Kochi,Biryani,900.0,53.0,3.0,2024-10-20 14:03:00,lunch,False,48.88,Android
+101337,Chaayos,Bangalore,Beverages,711.79,42.0,5.0,2024-11-30 12:00:00,lunch,False,81.05,Android
+100738,Mainland China,Pune,Chinese,234.79,38.0,3.7,2024-11-08 12:49:00,lunch,False,,Android
+101641,Barbeque Nation,Hyderabad,North Indian,168.69,63.0,4.3,2024-12-14 16:27:00,snacks,False,,Android
+101258,Saffron,Delhi,North Indian,312.06,24.0,3.9,2024-12-09 16:07:00,snacks,False,,Android
+100531,Burger King,Pune,Burger,195.2,,4.6,2024-10-25 13:11:00,lunch,True,,iOS
+101160,Punjab Grill,Bangalore,North Indian,341.72,43.0,3.9,2024-12-09 14:41:00,lunch,False,93.28,iOS
+101272,Empire Restaurant,Kolkata,Biryani,729.14,36.0,4.1,2024-12-20 13:04:00,lunch,False,,Web
+100241,Wraps N Rolls,Jaipur,Rolls & Wraps,144.68,47.0,4.2,2024-11-08 23:31:00,dinner,False,35.66,Web
+101424,Paradise Biryani,Bangalore,Biryani,169.75,41.0,4.0,2024-10-10 14:36:00,lunch,True,,Android
+101017,Naturals Ice Cream,Bangalore,Desserts,414.75,32.0,3.9,2024-12-22 07:16:00,breakfast,False,,Android
+100188,La Folie,Hyderabad,Desserts,672.16,42.0,3.2,2024-11-04 18:17:00,snacks,False,,Android
+100247,Dum Pukht,Delhi,Biryani,422.25,47.0,4.5,2024-12-29 13:06:00,lunch,False,,Android
+100926,Chaayos,Bangalore,Beverages,338.53,23.0,4.3,2024-12-25 13:58:00,lunch,True,77.2,Android
+101414,Murugan Idli Shop,Bangalore,South Indian,484.82,58.0,4.1,2024-12-11 09:32:00,breakfast,True,15.48,iOS
+101065,McDonald's,Delhi,Burger,823.84,40.0,3.5,2024-12-24 23:42:00,dinner,False,24.88,Android
+100922,Wat-A-Burger,Delhi,Burger,900.0,56.0,4.7,2024-12-12 22:18:00,dinner,False,60.41,Android
+100693,Dum Pukht,Delhi,Biryani,253.3,33.0,3.5,2024-11-20 14:48:00,lunch,False,,iOS
+100303,The Wok,Hyderabad,Chinese,337.03,38.0,3.9,2024-10-13 20:03:00,dinner,False,,Android
+100284,Dum Pukht,Bangalore,Biryani,365.68,36.0,4.6,2024-10-13 09:10:00,breakfast,False,118.25,iOS
+100919,Udupi Palace,Pune,South Indian,603.87,55.0,5.0,2024-12-15 21:30:00,dinner,False,,iOS
+100506,Behrouz Biryani,Bangalore,Biryani,491.56,45.0,4.0,2024-10-16 13:34:00,lunch,False,27.17,iOS
+101965,Paradise Biryani,Hyderabad,Biryani,527.55,44.0,3.1,2024-12-22 16:53:00,snacks,True,,iOS
+100322,Burgerama,Chennai,Burger,340.5,20.0,2.9,2024-12-08 22:41:00,dinner,False,,Android
+101924,Punjab Grill,Mumbai,North Indian,273.18,26.0,4.3,2024-10-02 17:37:00,snacks,False,10.25,Android
+101280,The Roll Story,Delhi,Rolls & Wraps,484.74,49.0,4.6,2024-10-09 12:19:00,lunch,False,,iOS
+100870,MTR,Jaipur,South Indian,306.94,32.0,4.0,2024-11-13 23:57:00,dinner,False,,Web
+100622,Raw Pressery Kitchen,Mumbai,Healthy,242.6,54.0,2.6,2024-10-10 19:29:00,dinner,False,15.77,Android
+101421,Naturals Ice Cream,Mumbai,Desserts,377.14,32.0,3.8,2024-12-19 12:24:00,lunch,False,37.34,Android
+101128,Empire Restaurant,Delhi,Biryani,159.42,37.0,3.8,2024-11-23 14:58:00,lunch,False,12.09,Android
+100123,Bay Leaf,Mumbai,Seafood,263.67,,4.0,2024-11-19 23:47:00,dinner,False,,Android
+101183,Saffron,Hyderabad,North Indian,293.27,31.0,3.3,2024-12-08 13:44:00,lunch,True,,iOS
+100511,Bawarchi,Hyderabad,Biryani,228.45,52.0,3.0,2024-10-01 14:00:00,lunch,False,105.21,Android
+100281,Barbeque Nation,Kolkata,North Indian,303.39,62.0,,2024-10-17 14:03:00,lunch,False,,iOS
+101274,Mainland China,Bangalore,Chinese,172.5,48.0,,2024-12-12 19:10:00,dinner,False,103.85,Android
+101264,Behrouz Biryani,Delhi,Biryani,146.86,50.0,4.3,2024-10-30 08:37:00,breakfast,False,31.97,Android
+101600,Wat-A-Burger,Kolkata,Burger,197.83,56.0,3.9,2024-10-28 23:00:00,dinner,True,,Android
+101016,Murugan Idli Shop,Ahmedabad,South Indian,646.59,22.0,4.6,2024-10-19 13:01:00,lunch,True,,Web
+101049,Udupi Palace,Kolkata,South Indian,219.7,37.0,4.4,2024-12-04 13:05:00,lunch,True,50.4,Android
+101436,Murugan Idli Shop,Bangalore,South Indian,450.31,32.0,4.5,2024-12-12 20:43:00,dinner,False,101.92,Web
+100757,The Wok,Hyderabad,Chinese,900.0,40.0,4.4,2024-12-18 09:44:00,breakfast,True,,iOS
+100678,Bawarchi,Delhi,Biryani,130.87,44.0,3.7,2024-10-18 21:04:00,,False,14.4,Android
+100519,Burgerama,Surat,Burger,900.0,49.0,4.8,2024-12-29 12:25:00,lunch,False,87.13,Web
+101655,Behrouz Biryani,Bangalore,Biryani,340.15,31.0,,2024-10-22 14:36:00,lunch,True,50.33,iOS
+101533,Punjab Grill,Chennai,North Indian,387.17,42.0,4.9,2024-12-10 23:34:00,dinner,False,,Android
+100068,Punjab Grill,Pune,North Indian,280.51,48.0,3.8,2024-11-23 23:29:00,dinner,False,16.69,Android
+100333,Dominos,Bangalore,Pizza,237.42,22.0,3.9,2024-11-16 13:32:00,lunch,False,40.22,iOS
+100569,The Roll Story,Ahmedabad,Rolls & Wraps,426.04,38.0,3.7,2024-11-26 14:10:00,lunch,True,48.18,Android
+101632,Bawarchi,Mumbai,Biryani,685.46,,4.2,2024-11-08 15:21:00,snacks,False,,iOS
+101313,The Burger Club,Hyderabad,Burger,736.96,53.0,,2024-11-08 21:06:00,dinner,False,71.17,Android
+101454,Murugan Idli Shop,Hyderabad,South Indian,369.73,36.0,4.7,2024-10-02 13:05:00,lunch,False,106.68,iOS
+101048,Nandhini,Bangalore,South Indian,706.08,37.0,4.4,2024-12-11 16:10:00,snacks,False,46.94,Android
+100473,Chai Point,Bangalore,Beverages,200.65,43.0,3.9,2024-11-01 14:53:00,lunch,False,,iOS
+101147,Green Bowl,Pune,Healthy,644.57,63.0,4.0,2024-12-04 18:45:00,snacks,False,117.74,iOS
+100512,Salad Days,Delhi,Healthy,121.09,65.0,3.5,2024-11-18 17:23:00,snacks,False,,iOS
+100478,Frankie Express,Hyderabad,Rolls & Wraps,319.87,34.0,3.9,2024-12-04 14:13:00,lunch,False,73.59,Android
+101510,Empire Restaurant,Pune,Biryani,317.66,34.0,3.2,2024-12-07 15:06:00,snacks,True,,Web
+101422,Oven Story,Delhi,Pizza,349.42,55.0,4.1,2024-12-23 13:16:00,lunch,False,,iOS
+100319,Murugan Idli Shop,Bangalore,South Indian,105.72,34.0,3.7,2024-12-10 13:50:00,lunch,True,110.75,iOS
+100978,Dum Pukht,Bangalore,Biryani,510.29,57.0,4.5,2024-10-21 13:37:00,lunch,False,102.88,iOS
+101748,Nandhini,Mumbai,South Indian,362.11,37.0,3.8,2024-10-16 19:41:00,dinner,False,40.33,iOS
+102000,Paradise Biryani,Mumbai,Biryani,273.15,27.0,6.4,2024-10-02 13:32:00,lunch,False,,Android
+100582,Raw Pressery Kitchen,Surat,Healthy,315.92,62.0,4.7,2024-10-18 13:00:00,lunch,True,21.55,Web
+100133,La Pino'z,Bangalore,Pizza,371.52,49.0,3.8,2024-11-27 19:22:00,dinner,True,17.3,iOS
+101754,Wat-A-Burger,Mumbai,Burger,438.44,16.0,2.5,2024-12-22 23:42:00,dinner,False,,Android
+101737,Wat-A-Burger,Delhi,Burger,332.99,47.0,4.8,2024-12-20 15:39:00,snacks,False,30.21,Web
+100829,Nandhini,Chennai,South Indian,334.56,66.0,4.5,2024-12-12 13:03:00,lunch,True,87.94,iOS
+100913,Sweet Truth,Hyderabad,Desserts,349.67,42.0,4.5,2024-11-27 18:31:00,snacks,False,66.44,Android
+101986,Chaayos,Bangalore,Beverages,208.12,39.0,3.8,2024-11-01 08:30:00,breakfast,False,,iOS
+100369,Murugan Idli Shop,Bangalore,South Indian,391.68,58.0,,2024-12-27 13:48:00,lunch,False,20.01,Android
+100733,Behrouz Biryani,Chennai,Biryani,774.86,38.0,3.8,2024-12-27 20:17:00,,True,,Web
+101383,Dum Pukht,Jaipur,Biryani,570.88,50.0,4.1,2024-10-17 13:03:00,lunch,False,31.04,Web
+100126,The Burger Club,Delhi,Burger,735.41,35.0,,2024-12-21 20:22:00,dinner,False,,iOS
+100877,China Town,Chennai,Chinese,4965.35,32.0,4.4,2024-10-31 15:13:00,snacks,False,,Android
+101845,Behrouz Biryani,Jaipur,Biryani,475.25,20.0,3.7,2024-11-13 19:47:00,dinner,True,,iOS
+100257,Chinese Box,Ahmedabad,Chinese,489.14,15.0,3.9,2024-11-20 21:52:00,dinner,False,,iOS
+100719,The Roll Story,Bangalore,Rolls & Wraps,900.0,29.0,4.8,2024-12-20 13:38:00,lunch,True,,Android
+101129,Oh Calcutta,Mumbai,Seafood,354.2,46.0,4.0,2024-11-14 13:28:00,lunch,False,35.12,Android
+100290,Barbeque Nation,Hyderabad,North Indian,192.7,42.0,3.2,2024-11-12 21:10:00,dinner,True,57.15,Android
+101302,The Beer Cafe,Ahmedabad,Continental,227.11,45.0,4.3,2024-12-24 07:03:00,breakfast,False,12.96,Android
+100778,Behrouz Biryani,Chennai,Biryani,321.1,62.0,4.1,2024-11-25 14:08:00,lunch,True,,Android
+100082,Bawarchi,Hyderabad,Biryani,325.95,17.0,3.4,2024-10-30 12:18:00,lunch,False,,Web
+100054,Tea Trails,Kolkata,Beverages,308.7,40.0,,2024-12-26 18:32:00,snacks,True,53.91,Android
+100003,Chai Point,Chennai,Beverages,131.15,23.0,4.5,2024-11-01 19:44:00,dinner,True,107.38,Web
+101099,Paradise Biryani,Pune,Biryani,253.39,50.0,,2024-11-21 14:45:00,,False,56.16,Android
+100558,Saffron,Bangalore,North Indian,544.17,29.0,4.1,2024-12-03 22:19:00,dinner,False,69.54,Android
+100041,Green Bowl,Bangalore,Healthy,323.17,,4.7,2024-10-26 20:06:00,dinner,False,,iOS
+101959,Empire Restaurant,Hyderabad,Biryani,267.92,40.0,3.7,2024-11-17 21:53:00,dinner,False,,Android
+100262,Pizza Hut,Lucknow,Pizza,724.73,20.0,,2024-11-03 20:57:00,dinner,True,,Web
+101776,Blue Tokai,Mumbai,Beverages,612.83,54.0,4.0,2024-11-23 12:08:00,lunch,False,,Android
+101846,Burgerama,Mumbai,Burger,798.17,19.0,4.1,2024-11-15 13:18:00,lunch,False,,iOS
+100084,Chaayos,Bangalore,Beverages,654.57,42.0,3.7,2024-10-19 21:03:00,dinner,True,40.25,Android
+101140,Bawarchi,Hyderabad,Biryani,900.0,57.0,3.9,2024-12-13 23:47:00,dinner,True,58.97,Android
+101233,Punjab Grill,Mumbai,North Indian,266.53,42.0,3.6,2024-12-11 22:12:00,dinner,False,,Android
+101578,Mainland China,Hyderabad,Chinese,423.91,15.0,3.9,2024-10-08 20:54:00,dinner,False,,iOS
+101406,The Roll Story,Delhi,Rolls & Wraps,339.03,29.0,4.7,2024-10-11 19:37:00,dinner,False,12.48,Android
+100031,Punjab Grill,Hyderabad,North Indian,278.21,42.0,4.4,2024-11-23 22:32:00,dinner,False,45.09,iOS
+100514,Mainland China,Kolkata,Chinese,379.66,61.0,4.4,2024-12-08 17:17:00,,False,76.92,iOS
+101150,Wok To Walk,Kolkata,Chinese,440.39,44.0,2.8,2024-11-22 12:18:00,lunch,False,32.9,iOS
+101316,Wat-A-Burger,Hyderabad,Burger,733.27,54.0,3.8,2024-10-03 16:37:00,snacks,False,,Web
+101703,Moti Mahal,Mumbai,North Indian,657.82,15.0,3.7,2024-11-15 17:49:00,snacks,True,27.99,iOS
+101038,The Table,Chennai,Continental,636.09,29.0,4.7,2024-11-04 22:08:00,dinner,False,18.42,Android
+101919,The Burger Club,Delhi,Burger,152.0,45.0,3.8,2024-10-18 14:20:00,lunch,True,94.15,Android
+101324,Joey's Pizza,Mumbai,Pizza,529.66,57.0,4.9,2024-12-27 23:20:00,dinner,False,72.4,iOS
+101619,The Roll Story,Hyderabad,Rolls & Wraps,668.68,29.0,3.4,2024-11-25 16:07:00,snacks,True,,Web
+100972,Paradise Biryani,Ahmedabad,Biryani,310.16,24.0,4.0,2024-11-07 23:21:00,dinner,False,,iOS
+100876,Wok To Walk,Bangalore,Chinese,214.35,28.0,3.9,2024-11-20 15:31:00,snacks,False,102.67,Android
+101868,McDonald's,Bangalore,Burger,328.06,,5.0,2024-10-20 12:08:00,lunch,False,,Android
+101908,Barbeque Nation,Mumbai,North Indian,412.23,41.0,3.8,2024-12-12 20:48:00,dinner,False,,iOS
+100049,Mainland China,Hyderabad,Chinese,900.0,41.0,3.4,2024-11-07 23:38:00,dinner,False,31.41,iOS
+100886,Chaayos,Bangalore,Beverages,900.0,37.0,3.5,2024-10-23 20:21:00,dinner,False,,Web
+101889,La Pino'z,Chennai,Pizza,469.67,24.0,,2024-10-21 20:35:00,dinner,False,119.22,Android
+100468,Paradise Biryani,Kolkata,Biryani,253.51,78.0,4.1,2024-12-14 13:42:00,lunch,False,90.67,Android
+100154,Kathi Roll Corner,Delhi,Rolls & Wraps,210.16,29.0,4.5,2024-11-25 12:14:00,lunch,False,115.65,Android
+101594,La Pino'z,Bangalore,Pizza,263.86,43.0,3.0,2024-12-28 19:46:00,dinner,True,,Web
+101909,Pizza Hut,Mumbai,Pizza,474.13,49.0,4.0,2024-12-11 14:41:00,lunch,True,111.45,Android
+100395,Salad Days,Mumbai,Healthy,571.65,41.0,5.0,2024-12-02 19:04:00,dinner,False,90.7,Web
+100124,Nandhini,Bangalore,South Indian,2911.44,60.0,3.7,2024-11-14 20:53:00,dinner,False,,Web
+100356,Bawarchi,Hyderabad,Biryani,748.51,41.0,4.1,2024-10-16 15:56:00,snacks,False,35.17,Web
+100135,Wat-A-Burger,Jaipur,Burger,177.21,,3.6,2024-11-07 15:57:00,snacks,True,,Android
+100269,Moti Mahal,Mumbai,North Indian,324.89,38.0,,2024-10-18 23:50:00,dinner,False,,Android
+100386,Pizza Hut,Pune,Pizza,218.61,52.0,4.3,2024-10-13 17:51:00,snacks,True,,iOS
+100610,Dum Pukht,Chennai,Biryani,678.35,34.0,3.9,2024-10-18 12:35:00,lunch,True,,Android
+100221,Burger King,Chennai,Burger,288.79,44.0,3.4,2024-11-23 14:40:00,lunch,True,35.13,iOS
+100042,Oven Story,Delhi,Pizza,319.72,49.0,4.5,2024-12-18 12:14:00,lunch,False,54.56,Android
+100220,Dum Pukht,Kolkata,Biryani,334.47,,4.2,2024-10-08 14:49:00,lunch,True,19.81,Android
+100598,The Wok,Bangalore,Chinese,166.13,17.0,3.9,2024-11-26 14:29:00,lunch,False,58.23,Android
+101277,Kathi Roll Corner,Mumbai,Rolls & Wraps,262.18,32.0,4.3,2024-11-07 13:33:00,lunch,False,,Android
+101731,Empire Restaurant,Mumbai,Biryani,703.23,51.0,4.4,2024-12-09 20:25:00,dinner,False,,iOS
+100681,Saffron,Pune,North Indian,302.34,24.0,4.0,2024-12-21 12:08:00,lunch,False,,iOS
+101847,The Fish Shack,Bangalore,Seafood,396.18,53.0,,2024-12-01 14:58:00,lunch,True,83.96,iOS
+101942,Eatfit,Mumbai,Healthy,678.1,33.0,2.9,2024-11-02 14:41:00,lunch,False,,iOS
+101707,La Folie,Hyderabad,Desserts,296.96,,4.8,2024-12-29 19:12:00,dinner,False,,iOS
+100542,Sweet Truth,Hyderabad,Desserts,226.91,46.0,5.0,2024-10-26 16:13:00,snacks,True,14.98,iOS
+101068,Trishna,Bangalore,Seafood,269.69,51.0,3.2,2024-10-08 14:25:00,lunch,False,,Android
+100946,Dum Pukht,Bangalore,Biryani,349.85,53.0,3.2,2024-10-05 21:02:00,dinner,False,60.65,iOS
+101387,Saffron,Pune,North Indian,308.91,33.0,3.5,2024-10-29 14:38:00,,False,95.42,Android
+101967,Saffron,Bangalore,North Indian,238.56,,3.9,2024-12-22 23:35:00,dinner,False,,Android
+101546,Behrouz Biryani,Delhi,Biryani,359.55,43.0,4.3,2024-12-22 07:03:00,breakfast,False,,Android
+101334,Moti Mahal,Kochi,North Indian,281.77,28.0,3.5,2024-11-08 14:24:00,lunch,True,,Android
+101375,Kathi Roll Corner,Mumbai,Rolls & Wraps,311.92,35.0,4.7,2024-10-22 18:10:00,snacks,True,112.04,Android
+101680,Murugan Idli Shop,Chennai,South Indian,269.87,66.0,3.3,2024-10-15 12:17:00,lunch,True,76.02,Android
+101110,La Pino'z,Bangalore,Pizza,364.57,51.0,4.7,2024-10-07 21:43:00,dinner,False,51.01,Android
+101946,Empire Restaurant,Delhi,Biryani,284.32,16.0,4.8,2024-12-22 12:39:00,lunch,False,,Android
+101892,Mainland China,Delhi,Chinese,363.42,55.0,,2024-11-08 16:17:00,snacks,True,,Android
+101817,Murugan Idli Shop,Mumbai,South Indian,309.16,,3.9,2024-10-23 14:07:00,lunch,True,,Android
+101973,Dhaba Express,Mumbai,North Indian,197.96,46.0,4.4,2024-10-02 21:21:00,dinner,True,,Android
+101856,Dum Pukht,Mumbai,Biryani,206.86,44.0,4.1,2024-10-22 20:42:00,dinner,True,,Android
+101496,Saffron,Chennai,North Indian,295.92,42.0,3.1,2024-10-22 12:02:00,lunch,False,53.36,Android
+101840,Wat-A-Burger,Mumbai,Burger,240.55,36.0,3.1,2024-11-28 15:16:00,snacks,False,,Web
+100937,Theobroma,Bangalore,Desserts,217.77,35.0,4.4,2024-11-06 21:58:00,dinner,False,,Android
+100337,China Town,Kolkata,Chinese,284.7,47.0,3.6,2024-10-04 16:49:00,snacks,False,23.85,Android
+100233,Chai Point,Hyderabad,Beverages,246.45,33.0,3.1,2024-10-15 14:54:00,lunch,False,24.0,iOS
+101932,Barbeque Nation,Hyderabad,North Indian,259.95,62.0,,2024-11-26 14:19:00,lunch,False,82.09,iOS
+101444,The Beer Cafe,Delhi,Continental,231.61,32.0,4.9,2024-12-18 22:44:00,dinner,False,,iOS
+100159,Mainland China,Mumbai,Chinese,287.04,49.0,3.1,2024-11-14 22:20:00,dinner,False,,Android
+100469,Wok To Walk,Mumbai,Chinese,341.71,,4.5,2024-12-23 23:04:00,dinner,True,,Web
+101173,Behrouz Biryani,Hyderabad,Biryani,331.07,42.0,2.9,2024-11-11 09:12:00,breakfast,False,11.12,Android
+100873,Freshmenu,Hyderabad,Healthy,690.42,54.0,3.9,2024-11-24 12:37:00,lunch,False,,iOS
+101646,Dum Pukht,Pune,Biryani,519.46,38.0,2.8,2024-10-15 13:22:00,lunch,False,112.08,iOS
+101052,The Wok,Delhi,Chinese,626.05,44.0,4.3,2024-11-25 23:20:00,dinner,False,114.85,iOS
+101226,Raw Pressery Kitchen,Hyderabad,Healthy,283.81,46.0,4.2,2024-12-21 08:42:00,breakfast,False,112.38,Web
+101245,Wat-A-Burger,Pune,Burger,349.3,,3.1,2024-12-05 22:50:00,dinner,False,,Android
+100586,Joey's Pizza,Mumbai,Pizza,856.44,40.0,4.3,2024-10-21 21:05:00,dinner,True,,Android
+100206,Chai Point,Bangalore,Beverages,443.95,39.0,,2024-10-30 15:20:00,snacks,True,,Web
+100004,Dhaba Express,Hyderabad,North Indian,566.36,37.0,4.5,2024-10-08 13:29:00,lunch,False,,iOS
+101193,The Fish Shack,Mumbai,Seafood,204.46,44.0,4.2,2024-10-03 20:05:00,dinner,False,,Android
+101380,Wat-A-Burger,Hyderabad,Burger,232.12,22.0,3.9,2024-11-18 12:07:00,lunch,False,43.84,Android
+101620,Paradise Biryani,Chennai,Biryani,623.63,57.0,3.9,2024-12-20 14:10:00,lunch,True,,Android
+101879,Joey's Pizza,Mumbai,Pizza,80.0,52.0,3.5,2024-12-27 12:32:00,lunch,True,,iOS
+101239,Joey's Pizza,Jaipur,Pizza,471.04,,4.0,2024-11-17 09:51:00,breakfast,True,22.91,iOS
+101797,Mainland China,Chennai,Chinese,431.72,,4.4,2024-10-18 13:23:00,lunch,False,,Web
+100694,Chinese Box,Mumbai,Chinese,299.19,79.0,4.4,2024-12-20 17:25:00,snacks,False,,iOS
+101701,Joey's Pizza,Jaipur,Pizza,318.56,35.0,4.5,2024-11-12 13:16:00,lunch,False,,Web
+101681,Baskin Robbins,Mumbai,Desserts,334.81,29.0,,2024-10-04 14:16:00,lunch,False,72.87,Web
+100715,Dum Pukht,Mumbai,Biryani,341.19,73.0,4.1,2024-11-08 18:48:00,snacks,True,49.0,Web
+100973,Naturals Ice Cream,Chennai,Desserts,712.1,56.0,3.4,2024-12-09 18:24:00,snacks,True,,Android
+101154,MTR,Chennai,South Indian,205.4,48.0,4.8,2024-10-24 23:22:00,dinner,True,107.7,Web
+100420,Murugan Idli Shop,Pune,South Indian,597.76,32.0,4.0,2024-12-05 14:40:00,lunch,False,59.65,Android
+100884,Behrouz Biryani,Bangalore,Biryani,489.52,54.0,4.2,2024-11-12 14:07:00,lunch,False,58.88,Android
+101688,Murugan Idli Shop,Delhi,South Indian,464.19,58.0,4.3,2024-10-15 20:04:00,dinner,False,,Android
+101078,Bawarchi,Chennai,Biryani,423.49,27.0,3.3,2024-11-25 13:08:00,lunch,False,66.6,iOS
+101449,Dominos,Jaipur,Pizza,351.06,52.0,4.8,2024-12-09 17:18:00,snacks,True,17.04,iOS
+101222,Behrouz Biryani,Bangalore,Biryani,435.12,41.0,,2024-12-05 16:30:00,snacks,False,20.7,Android
+101372,Pizza Hut,Bangalore,Pizza,300.37,42.0,3.4,2024-10-25 14:31:00,lunch,False,108.1,iOS
+100158,Saravana Bhavan,Pune,South Indian,369.48,55.0,5.0,2024-11-09 23:30:00,dinner,False,,iOS
+101086,McDonald's,Delhi,Burger,406.33,57.0,4.6,2024-10-24 15:16:00,snacks,True,,Android
+100524,Udupi Palace,Kolkata,South Indian,257.56,37.0,2.8,2024-10-23 15:54:00,snacks,False,72.72,Android
+100463,Joey's Pizza,Chennai,Pizza,120.06,48.0,3.3,2024-12-16 21:13:00,dinner,False,,Web
+100653,MTR,Hyderabad,South Indian,210.81,25.0,3.3,2024-11-25 15:42:00,snacks,False,101.22,Android
+100161,Wat-A-Burger,Mumbai,Burger,319.21,50.0,,2024-11-13 16:33:00,snacks,False,96.35,Android
+100306,Nandhini,Surat,South Indian,381.42,,4.9,2024-10-22 09:19:00,breakfast,False,85.42,Android
+100657,The Roll Story,Mumbai,Rolls & Wraps,900.0,52.0,,2024-12-27 19:47:00,dinner,False,70.63,Android
+100548,Nandhini,Chennai,South Indian,211.28,40.0,3.7,2024-11-24 15:22:00,snacks,False,97.77,Android
+100714,Murugan Idli Shop,Delhi,South Indian,425.14,33.0,4.1,2024-12-28 19:05:00,dinner,False,117.74,iOS
+100396,Saravana Bhavan,Ahmedabad,South Indian,610.13,37.0,2.6,2024-11-03 21:33:00,dinner,True,98.85,Android
+100784,Frankie Express,Mumbai,Rolls & Wraps,121.23,61.0,3.0,2024-11-24 13:11:00,lunch,False,,Android
+100400,Oven Story,Pune,Pizza,322.65,,4.2,2024-12-02 12:03:00,lunch,True,87.22,Web
+100799,Smoke House Deli,Chennai,Continental,311.06,47.0,,2024-10-23 14:11:00,lunch,False,68.96,Android
+100619,The Roll Story,Pune,Rolls & Wraps,394.92,15.0,3.1,2024-10-05 12:06:00,lunch,True,,Android
+101568,Burgerama,Bangalore,Burger,498.97,46.0,4.5,2024-11-16 20:13:00,dinner,False,93.25,Android
+100509,Roll House,Jaipur,Rolls & Wraps,433.04,46.0,4.8,2024-12-15 16:30:00,snacks,False,,Web
+101843,Wok To Walk,Delhi,Chinese,597.2,29.0,4.0,2024-12-05 10:25:00,breakfast,False,,Android
+100737,Hard Rock Cafe,Delhi,Continental,110.73,46.0,3.9,2024-10-31 17:33:00,snacks,True,38.33,Web
+101270,Wat-A-Burger,Mumbai,Burger,352.45,58.0,,2024-12-27 14:37:00,lunch,True,,Android
+101704,The Roll Story,Delhi,Rolls & Wraps,461.85,36.0,2.9,2024-12-24 12:46:00,lunch,False,16.56,Android
+101974,Wat-A-Burger,Delhi,Burger,419.48,45.0,4.8,2024-12-22 21:10:00,dinner,False,72.28,Web
+100868,Theobroma,Bangalore,Desserts,353.99,33.0,4.2,2024-11-12 12:08:00,lunch,False,,Android
+100460,Nandhini,Bangalore,South Indian,314.9,49.0,3.1,2024-12-08 18:18:00,snacks,False,108.8,Android
+101918,Nandhini,Hyderabad,South Indian,178.33,50.0,4.8,2024-11-02 21:59:00,dinner,False,105.51,Android
+100063,Wraps N Rolls,Pune,Rolls & Wraps,695.85,,3.4,2024-12-25 23:28:00,dinner,False,99.12,Android
+101865,Bawarchi,Surat,Biryani,831.25,53.0,,2024-12-20 19:27:00,dinner,False,,Android
+100872,Chaayos,Mumbai,Beverages,469.57,42.0,4.0,2024-10-28 13:46:00,lunch,True,71.28,Android
+101581,Chinese Box,Mumbai,Chinese,660.36,42.0,4.6,2024-11-29 10:05:00,breakfast,True,73.33,iOS
+101611,Pizza Hut,Kolkata,Pizza,312.3,47.0,3.2,2024-11-30 07:58:00,breakfast,True,44.38,Android
+100458,Dominos,Delhi,Pizza,375.8,20.0,5.0,2024-12-27 14:48:00,lunch,True,65.48,Android
+100976,Paradise Biryani,Mumbai,Biryani,335.76,35.0,4.3,2024-11-25 13:48:00,lunch,False,83.75,Android
+100479,Dum Pukht,Jaipur,Biryani,633.31,46.0,3.9,2024-10-05 18:23:00,snacks,True,98.62,iOS
+101079,Bawarchi,Mumbai,Biryani,553.26,39.0,4.2,2024-12-27 18:36:00,snacks,True,83.08,iOS
+101998,Saravana Bhavan,Bangalore,South Indian,581.92,25.0,4.0,2024-10-21 22:51:00,dinner,True,,Android
+100871,Raw Pressery Kitchen,Mumbai,Healthy,319.19,20.0,4.0,2024-10-22 12:31:00,lunch,False,,Android
+100791,The Burger Club,Bangalore,Burger,167.29,47.0,4.0,2024-10-02 13:46:00,lunch,False,13.95,iOS
+100618,Saffron,Mumbai,North Indian,341.81,,3.5,2024-10-13 20:55:00,dinner,True,,Android
+101893,McDonald's,Pune,Burger,366.45,,4.0,2024-10-16 18:52:00,snacks,False,19.94,iOS
+101402,Paradise Biryani,Bangalore,Biryani,570.94,34.0,4.8,2024-10-20 19:15:00,dinner,False,102.62,iOS
+101442,The Wok,Bangalore,Chinese,468.59,32.0,4.7,2024-11-06 12:59:00,lunch,False,97.8,Android
+101166,Mainland China,Pune,Chinese,288.99,30.0,5.2,2024-12-08 22:55:00,,False,74.07,Android
+101826,Bawarchi,Hyderabad,Biryani,216.32,65.0,4.6,2024-10-21 12:58:00,lunch,True,99.45,Web
+100348,Murugan Idli Shop,Bangalore,South Indian,383.89,75.0,3.6,2024-10-18 18:16:00,snacks,False,,Web
+101512,Behrouz Biryani,Chennai,Biryani,284.54,47.0,5.0,2024-12-22 19:17:00,dinner,True,27.39,Web
+101606,Saffron,Delhi,North Indian,302.12,,4.5,2024-12-24 17:59:00,snacks,False,,iOS
+100982,Moti Mahal,Pune,North Indian,340.5,18.0,4.4,2024-11-24 13:03:00,lunch,True,105.01,iOS
+100761,Empire Restaurant,Bangalore,Biryani,243.31,,4.0,2024-11-21 15:34:00,snacks,False,75.6,Android
+100955,Starbucks,Delhi,Beverages,333.1,53.0,,2024-12-05 15:07:00,snacks,False,,iOS
+100447,Punjab Grill,Surat,North Indian,269.59,,4.4,2024-12-05 13:57:00,lunch,True,,Web
+100651,Saffron,Bangalore,North Indian,166.92,32.0,3.8,2024-12-11 08:12:00,breakfast,False,12.9,Android
+101257,Burger King,Mumbai,Burger,224.98,23.0,5.0,2024-10-10 09:32:00,breakfast,False,114.83,Android
+101828,Chinese Box,Jaipur,Chinese,399.66,,4.7,2024-12-05 09:02:00,breakfast,False,13.18,Android
+100380,Frankie Express,Mumbai,Rolls & Wraps,397.04,28.0,3.3,2024-10-26 16:45:00,snacks,True,,Web
+100565,MTR,Mumbai,South Indian,600.28,50.0,3.9,2024-12-18 13:40:00,lunch,False,97.26,Android
+101356,Empire Restaurant,Kolkata,Biryani,2807.84,45.0,,2024-10-08 12:28:00,lunch,False,58.15,iOS
+101771,The Wok,Delhi,Chinese,254.89,34.0,4.9,2024-10-07 16:59:00,snacks,True,115.3,Android
+101303,Joey's Pizza,Bangalore,Pizza,404.57,23.0,4.2,2024-12-16 20:59:00,dinner,False,,Android
+100957,Sweet Truth,Delhi,Desserts,259.25,52.0,5.0,2024-11-16 14:20:00,lunch,True,18.15,iOS
+101956,Freshmenu,Ahmedabad,Healthy,389.38,36.0,4.0,2024-11-29 18:07:00,snacks,False,39.85,iOS
+101954,Dum Pukht,Chennai,Biryani,708.86,31.0,4.1,2024-12-17 18:40:00,snacks,False,37.41,Android
+100921,Moti Mahal,Kolkata,North Indian,313.54,53.0,5.0,2024-11-22 23:29:00,dinner,True,12.78,Web
+100232,Dum Pukht,Delhi,Biryani,650.46,36.0,3.8,2024-11-17 15:43:00,snacks,False,,Web
+101232,Oven Story,Mumbai,Pizza,278.62,47.0,4.5,2024-10-01 12:01:00,lunch,True,,Android
+100383,Chai Point,Hyderabad,Beverages,350.05,34.0,3.7,2024-12-25 18:05:00,snacks,False,,Android
+101197,Chai Point,Surat,Beverages,86.76,50.0,4.1,2024-11-05 23:43:00,dinner,True,57.54,Android
+101234,Paradise Biryani,Bangalore,Biryani,202.78,22.0,4.7,2024-12-20 12:12:00,lunch,False,,iOS
+100073,Saffron,Bangalore,North Indian,318.67,42.0,4.7,2024-10-18 18:55:00,snacks,False,,Android
+100071,Theobroma,Pune,Desserts,607.56,25.0,,2024-11-14 14:59:00,lunch,False,50.96,Web
+101354,Mainland China,Chennai,Chinese,293.91,51.0,4.1,2024-11-17 16:31:00,snacks,True,113.73,iOS
+101532,Roll House,Hyderabad,Rolls & Wraps,303.34,37.0,4.1,2024-12-21 12:26:00,lunch,False,,Android
+100172,Bawarchi,Bangalore,Biryani,105.6,26.0,4.8,2024-10-19 23:24:00,dinner,True,102.28,iOS
+101057,Dominos,Pune,Pizza,191.34,50.0,3.5,2024-11-15 13:54:00,lunch,False,115.25,iOS
+100169,McDonald's,Bangalore,Burger,353.82,55.0,4.0,2024-11-14 13:58:00,lunch,True,,Android
+100494,Murugan Idli Shop,Bangalore,South Indian,698.97,29.0,4.5,2024-11-12 22:13:00,,False,51.07,Android
+101806,Coastal Kitchen,Pune,Seafood,3652.35,53.0,4.8,2024-11-24 07:54:00,breakfast,False,,Android
+101047,Murugan Idli Shop,Mumbai,South Indian,221.36,42.0,4.2,2024-11-18 17:57:00,snacks,False,81.53,iOS
+101179,Kathi Roll Corner,Pune,Rolls & Wraps,310.21,19.0,3.7,2024-12-09 18:28:00,snacks,False,,Android
+100894,Burgerama,Delhi,Burger,403.0,36.0,2.7,2024-10-19 12:40:00,lunch,False,,Android
+100273,China Town,Kolkata,Chinese,375.92,40.0,4.7,2024-11-05 13:14:00,lunch,False,89.35,Android
+101741,Blue Tokai,Pune,Beverages,168.86,29.0,4.9,2024-10-16 20:52:00,dinner,False,,iOS
+100421,Behrouz Biryani,Pune,Biryani,410.22,25.0,4.3,2024-10-28 08:58:00,breakfast,False,,Web
+100095,Moti Mahal,Pune,North Indian,368.12,58.0,5.0,2024-10-16 12:58:00,lunch,False,,Android
+101760,The Roll Story,Hyderabad,Rolls & Wraps,374.39,37.0,,2024-11-02 12:48:00,lunch,True,83.88,Android
+101610,Bay Leaf,Hyderabad,Seafood,460.54,45.0,3.6,2024-10-29 18:12:00,snacks,False,,Android
+101621,Burgerama,Delhi,Burger,185.25,44.0,4.0,2024-11-11 12:27:00,lunch,False,,Web
+100043,Wok To Walk,Bangalore,Chinese,352.79,54.0,4.2,2024-12-21 15:21:00,snacks,True,88.0,Android
+100057,Mainland China,Bangalore,Chinese,128.9,34.0,3.3,2024-10-31 21:37:00,dinner,True,,Android
+101627,Bawarchi,Mumbai,Biryani,406.21,27.0,4.4,2024-12-16 12:16:00,lunch,True,,Web
+101743,La Folie,Pune,Desserts,559.25,49.0,4.0,2024-11-25 20:09:00,dinner,True,,iOS
+101769,Empire Restaurant,Mumbai,Biryani,557.66,26.0,3.1,2024-11-24 12:50:00,lunch,True,80.64,Android
+101308,Empire Restaurant,Pune,Biryani,338.86,31.0,4.0,2024-12-11 14:25:00,lunch,False,,Android
+100889,Wraps N Rolls,Bangalore,Rolls & Wraps,375.8,45.0,4.6,2024-11-04 10:23:00,breakfast,False,,Android
+100575,Dhaba Express,Kolkata,North Indian,457.38,45.0,3.3,2024-11-06 20:33:00,dinner,True,71.07,Android
+100039,Barbeque Nation,Chennai,North Indian,218.56,46.0,,2024-11-14 21:45:00,dinner,True,,Android
+100307,Empire Restaurant,Delhi,Biryani,234.26,46.0,3.2,2024-11-20 17:41:00,snacks,False,45.25,Android
+100669,Sweet Truth,Bangalore,Desserts,203.77,37.0,3.2,2024-12-07 22:47:00,dinner,True,,Android
+100007,Saravana Bhavan,Bangalore,South Indian,335.55,54.0,4.4,2024-12-11 13:07:00,lunch,False,,Android
+101500,La Folie,Kolkata,Desserts,247.16,50.0,4.1,2024-10-18 17:03:00,snacks,False,84.8,iOS
+100783,The Beer Cafe,Mumbai,Continental,297.53,48.0,3.3,2024-12-29 16:32:00,snacks,True,41.7,Android
+100409,Smoke House Deli,Ahmedabad,Continental,593.64,55.0,3.3,2024-11-15 14:02:00,lunch,True,114.97,Android
+101021,Dhaba Express,Chennai,North Indian,276.52,42.0,3.5,2024-10-21 22:50:00,dinner,False,69.96,iOS
+100782,Roll House,Hyderabad,Rolls & Wraps,250.65,19.0,3.9,2024-10-11 14:57:00,,False,,Android
+100167,Dominos,Mumbai,Pizza,452.75,39.0,5.0,2024-10-15 14:40:00,lunch,False,59.12,Android
+100535,Baskin Robbins,Pune,Desserts,552.27,44.0,4.0,2024-12-01 18:57:00,snacks,False,,Android
+100584,Saravana Bhavan,Mumbai,South Indian,231.03,25.0,3.8,2024-11-25 19:35:00,dinner,True,96.44,Android
+101278,China Town,Surat,Chinese,169.96,32.0,4.3,2024-10-02 13:10:00,lunch,False,,Android
+101944,Udupi Palace,Chennai,South Indian,176.83,40.0,3.0,2024-12-20 22:38:00,dinner,False,15.07,Android
+101450,Bawarchi,Chennai,Biryani,406.86,31.0,3.8,2024-11-03 12:59:00,lunch,False,,Android
+101779,McDonald's,Mumbai,Burger,245.01,55.0,3.2,2024-12-18 20:17:00,dinner,False,99.58,Web
+101133,Starbucks,Bangalore,Beverages,277.13,27.0,3.2,2024-11-06 08:21:00,breakfast,False,,iOS
+101095,Moti Mahal,Mumbai,North Indian,695.29,30.0,3.3,2024-10-20 10:55:00,breakfast,True,,Android
+100814,Dum Pukht,Ahmedabad,Biryani,279.58,,4.1,2024-10-25 15:38:00,snacks,False,,iOS
+100317,Punjab Grill,Delhi,North Indian,169.13,47.0,4.6,2024-12-27 23:16:00,dinner,True,,iOS
+101307,Murugan Idli Shop,Chennai,South Indian,287.81,54.0,4.3,2024-10-22 15:20:00,snacks,False,90.53,iOS
+101757,Saffron,Jaipur,North Indian,380.51,41.0,4.9,2024-10-21 15:59:00,snacks,False,,Android
+100517,Empire Restaurant,Mumbai,Biryani,346.82,39.0,5.0,2024-12-01 17:47:00,snacks,True,39.02,iOS
+101702,McDonald's,Delhi,Burger,496.39,30.0,4.2,2024-12-24 13:00:00,lunch,True,45.69,iOS
+100534,Dum Pukht,Hyderabad,Biryani,192.8,55.0,3.3,2024-12-13 14:36:00,lunch,False,114.33,Android
+101585,MTR,Surat,South Indian,623.49,57.0,4.8,2024-12-09 16:20:00,snacks,False,,iOS
+100272,MTR,Pune,South Indian,274.55,,4.1,2024-10-24 19:57:00,dinner,False,,Web
+100549,Udupi Palace,Delhi,South Indian,198.3,56.0,4.2,2024-11-20 23:29:00,dinner,True,,Android
+100965,Salad Days,Mumbai,Healthy,537.54,35.0,4.0,2024-11-24 17:22:00,snacks,False,98.9,Android
+101732,The Fish Shack,Hyderabad,Seafood,514.23,,4.3,2024-12-25 13:05:00,lunch,False,,Android
+101747,The Burger Club,Bangalore,Burger,181.9,36.0,4.2,2024-11-23 21:29:00,dinner,False,,Android
+100599,Saffron,Bangalore,North Indian,557.47,42.0,3.4,2024-10-13 13:59:00,lunch,True,74.63,Web
+101636,Wok To Walk,Mumbai,Chinese,900.0,71.0,4.3,2024-10-28 07:05:00,breakfast,False,87.71,Android
+100571,MTR,Delhi,South Indian,176.8,38.0,3.5,2024-12-29 16:06:00,snacks,True,86.38,iOS
+100075,Freshmenu,Chennai,Healthy,415.23,34.0,4.4,2024-10-23 20:53:00,dinner,False,,Android
+100062,Mainland China,Mumbai,Chinese,488.63,,4.2,2024-11-28 13:51:00,lunch,True,84.06,Android
+101850,Dum Pukht,Hyderabad,Biryani,264.5,55.0,,2024-12-05 16:31:00,,False,70.51,Android
+100810,Wat-A-Burger,Bangalore,Burger,376.79,34.0,4.2,2024-12-26 23:21:00,dinner,False,22.66,Android
+100245,Salad Days,Bangalore,Healthy,157.63,50.0,4.8,2024-12-07 13:09:00,,True,,iOS
+101050,Barbeque Nation,Bangalore,North Indian,369.9,61.0,3.2,2024-11-10 17:20:00,snacks,True,96.09,Android
+101123,Behrouz Biryani,Kolkata,Biryani,141.59,67.0,3.7,2024-12-07 10:26:00,breakfast,True,43.6,iOS
+101518,Murugan Idli Shop,Kolkata,South Indian,390.38,49.0,3.2,2024-11-23 19:14:00,dinner,False,97.0,Android
+100106,Moti Mahal,Mumbai,North Indian,404.73,31.0,4.4,2024-12-25 20:53:00,dinner,False,32.03,Android
+100674,Moti Mahal,Delhi,North Indian,351.5,36.0,4.0,2024-11-18 13:09:00,lunch,False,,Android
+100643,Theobroma,Mumbai,Desserts,141.59,34.0,3.2,2024-10-08 22:59:00,dinner,True,,Android
+101660,Blue Tokai,Delhi,Beverages,787.25,37.0,4.3,2024-12-11 15:19:00,snacks,False,112.2,iOS
+100666,Dhaba Express,Bangalore,North Indian,334.04,15.0,3.6,2024-12-23 23:45:00,dinner,False,37.56,iOS
+100510,Salad Days,Chennai,Healthy,169.55,49.0,4.7,2024-10-30 21:12:00,dinner,False,39.95,iOS
+100132,Behrouz Biryani,Mumbai,Biryani,177.73,62.0,4.2,2024-11-04 12:27:00,lunch,False,35.55,iOS
+100445,Udupi Palace,Pune,South Indian,215.44,57.0,3.8,2024-11-11 12:34:00,lunch,False,,iOS
+100867,China Town,Bangalore,Chinese,597.41,50.0,4.0,2024-11-28 14:12:00,lunch,False,,Android
+101907,China Town,Jaipur,Chinese,202.58,25.0,4.6,2024-11-09 12:44:00,lunch,False,,Android
+101882,La Folie,Kolkata,Desserts,372.41,61.0,3.7,2024-11-03 18:21:00,snacks,False,,Android
+101808,Udupi Palace,Bangalore,South Indian,427.26,42.0,4.7,2024-11-29 21:51:00,dinner,False,114.2,Web
+100058,MTR,Bangalore,South Indian,164.09,35.0,4.5,2024-12-13 07:03:00,breakfast,True,84.04,Android
+101864,Barbeque Nation,Hyderabad,North Indian,900.0,,4.0,2024-10-10 12:29:00,lunch,True,78.31,iOS
+101089,Oven Story,Lucknow,Pizza,659.44,29.0,2.4,2024-11-21 17:51:00,snacks,True,100.41,Android
+101153,Burger King,Chennai,Burger,204.79,56.0,3.3,2024-12-15 21:13:00,dinner,False,,Web
+100087,Behrouz Biryani,Chennai,Biryani,529.14,40.0,4.4,2024-12-29 13:24:00,lunch,True,38.5,iOS
+101886,Tea Trails,Delhi,Beverages,476.33,49.0,4.2,2024-11-18 17:49:00,snacks,True,,iOS
+100772,Barbeque Nation,Kolkata,North Indian,626.39,42.0,4.3,2024-12-27 13:45:00,lunch,False,,Web
+101459,Burgerama,Mumbai,Burger,669.89,20.0,4.8,2024-11-15 20:07:00,dinner,True,,Android
+100709,Empire Restaurant,Mumbai,Biryani,401.69,44.0,4.4,2024-11-26 20:56:00,dinner,False,76.06,iOS
+101583,Nandhini,Hyderabad,South Indian,372.71,24.0,4.5,2024-11-12 23:31:00,dinner,True,14.92,Android
+101359,Kathi Roll Corner,Mumbai,Rolls & Wraps,689.62,41.0,4.1,2024-10-04 19:00:00,dinner,True,89.85,Android
+101588,Theobroma,Delhi,Desserts,303.67,50.0,3.6,2024-10-03 17:05:00,snacks,True,,iOS
+100539,La Folie,Delhi,Desserts,252.62,35.0,4.5,2024-10-12 10:35:00,breakfast,False,117.7,Android
+101458,McDonald's,Chennai,Burger,181.44,20.0,4.3,2024-11-04 13:08:00,lunch,False,,Android
+101199,Paradise Biryani,Chennai,Biryani,822.91,31.0,3.6,2024-11-03 14:54:00,lunch,True,,Web
+101579,Naturals Ice Cream,Hyderabad,Desserts,179.46,56.0,3.6,2024-10-14 23:25:00,dinner,False,,Web
+101639,Saffron,Lucknow,North Indian,129.54,35.0,3.1,2024-12-03 10:16:00,breakfast,False,,Android
+100419,Dum Pukht,Chennai,Biryani,461.34,39.0,3.9,2024-11-27 12:44:00,lunch,True,111.2,iOS
+101881,Wok To Walk,Chennai,Chinese,346.92,35.0,4.2,2024-11-10 13:25:00,lunch,False,,Android
+101074,Punjab Grill,Bangalore,North Indian,900.0,29.0,3.8,2024-11-19 10:48:00,breakfast,True,,Android
+101733,Udupi Palace,Delhi,South Indian,294.92,44.0,4.8,2024-10-08 21:38:00,dinner,False,,Android
+100169,McDonald's,Bangalore,Burger,353.82,55.0,4.0,2024-11-14 13:58:00,lunch,True,,Android
+100852,Saffron,Chennai,North Indian,483.1,,2.8,2024-10-19 14:15:00,lunch,False,,Web
+101778,La Pino'z,Delhi,Pizza,676.62,55.0,4.4,2024-10-10 13:38:00,lunch,False,118.41,iOS
+101755,Moti Mahal,Surat,North Indian,361.23,51.0,4.3,2024-10-24 23:37:00,dinner,False,46.31,Android
+101719,Udupi Palace,Surat,South Indian,105.37,51.0,4.3,2024-11-04 08:37:00,breakfast,True,59.04,Android
+101792,Bawarchi,Chennai,Biryani,271.84,59.0,3.7,2024-12-01 19:16:00,dinner,False,,Android
+101318,Empire Restaurant,Chennai,Biryani,422.84,43.0,4.3,2024-11-24 19:08:00,dinner,True,22.48,iOS
+101758,Murugan Idli Shop,Delhi,South Indian,211.5,28.0,3.3,2024-12-26 13:06:00,lunch,True,81.19,Web
+101825,Punjab Grill,Hyderabad,North Indian,538.89,42.0,4.4,2024-12-23 13:01:00,lunch,False,,Android
+100305,Blue Tokai,Chennai,Beverages,231.63,27.0,4.4,2024-12-24 19:13:00,dinner,False,50.86,Android
+101538,Udupi Palace,Chennai,South Indian,289.78,15.0,3.9,2024-10-18 23:59:00,dinner,False,58.48,Android
+100336,Murugan Idli Shop,Bangalore,South Indian,180.17,22.0,4.3,2024-11-14 09:18:00,breakfast,False,56.76,iOS
+100996,Raw Pressery Kitchen,Bangalore,Healthy,204.51,38.0,3.2,2024-11-21 23:11:00,dinner,True,60.98,iOS
+100570,Chaayos,Mumbai,Beverages,484.6,35.0,,2024-10-24 21:47:00,dinner,True,31.58,Android
+100089,Roll House,Kolkata,Rolls & Wraps,131.51,44.0,4.0,2024-10-19 22:35:00,dinner,True,,iOS
+100875,Naturals Ice Cream,Bangalore,Desserts,628.63,53.0,3.4,2024-10-06 14:33:00,lunch,True,24.39,Web
+101170,MTR,Mumbai,South Indian,297.98,36.0,3.3,2024-10-12 20:03:00,dinner,False,,Android
+101982,Frankie Express,Pune,Rolls & Wraps,80.0,44.0,5.0,2024-11-12 07:51:00,breakfast,False,,Android
+100713,Saravana Bhavan,Delhi,South Indian,297.52,43.0,2.8,2024-11-23 12:42:00,lunch,False,116.24,iOS
+101775,McDonald's,Pune,Burger,333.17,65.0,,2024-10-15 10:21:00,breakfast,False,99.89,Android
+101883,Oh Calcutta,Hyderabad,Seafood,356.72,47.0,4.3,2024-12-21 13:14:00,lunch,True,,iOS
+101468,Wat-A-Burger,Delhi,Burger,622.2,,4.2,2024-12-19 20:17:00,dinner,True,18.88,iOS
+100222,Mainland China,Hyderabad,Chinese,519.84,33.0,3.8,2024-12-08 15:05:00,snacks,False,,iOS
+100320,Saravana Bhavan,Mumbai,South Indian,382.35,46.0,3.4,2024-12-29 18:09:00,snacks,False,53.06,Android
+101791,Punjab Grill,Bangalore,North Indian,329.73,47.0,4.3,2024-12-23 13:25:00,lunch,True,30.15,iOS
+100879,Dominos,Bangalore,Pizza,406.35,46.0,3.7,2024-12-01 12:47:00,lunch,True,116.04,iOS
+101831,Murugan Idli Shop,Surat,South Indian,399.65,44.0,3.9,2024-10-07 21:17:00,dinner,False,91.48,Android
+100826,The Roll Story,Ahmedabad,Rolls & Wraps,474.59,23.0,3.9,2024-11-19 12:36:00,lunch,False,,iOS
+101792,Bawarchi,Chennai,Biryani,271.84,59.0,3.7,2024-12-01 19:16:00,dinner,False,,Android
+101488,Empire Restaurant,Chennai,Biryani,610.27,49.0,3.9,2024-11-25 23:59:00,dinner,False,,Web
+100139,Barbeque Nation,Mumbai,North Indian,134.31,36.0,3.9,2024-10-10 22:38:00,dinner,False,62.95,iOS
+100164,Frankie Express,Hyderabad,Rolls & Wraps,520.38,,3.1,2024-12-18 13:00:00,lunch,True,,Android
+101811,Wat-A-Burger,Chennai,Burger,144.25,,3.6,2024-12-24 14:19:00,lunch,True,19.46,Android
+101471,Paradise Biryani,Hyderabad,Biryani,300.3,42.0,3.0,2024-12-15 20:25:00,dinner,True,,iOS
+100961,Moti Mahal,Bangalore,North Indian,421.28,52.0,4.0,2024-10-02 15:28:00,snacks,True,29.71,iOS
+101796,Burger King,Bangalore,Burger,620.97,54.0,4.1,2024-11-22 20:58:00,dinner,False,83.06,Android
+101261,Dhaba Express,Mumbai,North Indian,564.66,46.0,4.1,2024-12-17 14:49:00,lunch,True,57.34,Android
+101519,Bawarchi,Mumbai,Biryani,468.48,32.0,3.2,2024-11-24 12:14:00,lunch,False,,iOS
+101964,Oven Story,Delhi,Pizza,314.91,42.0,5.0,2024-10-12 21:49:00,dinner,False,75.27,Android
+101319,The Roll Story,Bangalore,Rolls & Wraps,232.49,39.0,3.8,2024-11-17 13:24:00,lunch,True,,Android
+101842,Paradise Biryani,Delhi,Biryani,275.19,45.0,3.3,2024-10-05 12:08:00,lunch,True,,Android
+100634,Dum Pukht,Hyderabad,Biryani,441.56,35.0,,2024-10-01 23:08:00,dinner,False,110.08,iOS
+101207,Salad Days,Chennai,Healthy,232.72,23.0,3.1,2024-11-09 19:30:00,dinner,True,109.56,Android
+100656,Saravana Bhavan,Bangalore,South Indian,856.66,15.0,3.9,2024-11-26 13:12:00,lunch,False,90.87,Android
+100017,Nandhini,Mumbai,South Indian,560.4,34.0,3.7,2024-12-12 19:24:00,dinner,False,90.76,Android
+101657,Udupi Palace,Hyderabad,South Indian,363.46,25.0,3.7,2024-10-17 21:41:00,dinner,False,30.35,iOS
+101184,Moti Mahal,Ahmedabad,North Indian,253.73,50.0,3.6,2024-10-16 22:13:00,dinner,True,62.88,iOS
+100138,La Folie,Chennai,Desserts,452.11,38.0,4.2,2024-10-22 13:30:00,lunch,False,87.12,Web
+101377,Sweet Truth,Delhi,Desserts,244.53,58.0,3.8,2024-11-30 16:40:00,snacks,False,,iOS
+100698,Moti Mahal,Hyderabad,North Indian,423.85,31.0,3.9,2024-12-14 18:28:00,snacks,True,79.87,Android
+101098,Behrouz Biryani,Bangalore,Biryani,687.29,28.0,4.0,2024-11-25 13:31:00,lunch,True,,Android
+101871,MTR,Pune,South Indian,395.94,48.0,,2024-11-23 14:15:00,lunch,False,61.33,iOS
+100449,Empire Restaurant,Mumbai,Biryani,543.0,51.0,4.7,2024-12-08 14:42:00,lunch,False,47.06,Android
+101929,Burger King,Hyderabad,Burger,348.34,36.0,4.0,2024-11-30 15:13:00,snacks,False,14.1,iOS
+100328,Bawarchi,Hyderabad,Biryani,432.69,19.0,3.3,2024-11-26 23:41:00,dinner,False,17.95,Android
+100318,Udupi Palace,Bangalore,South Indian,310.25,65.0,4.0,2024-11-10 07:25:00,breakfast,False,,iOS
+101553,Dominos,Pune,Pizza,210.54,47.0,3.6,2024-12-23 19:51:00,dinner,True,,iOS
+100527,Dhaba Express,Delhi,North Indian,318.49,48.0,3.5,2024-10-31 21:49:00,dinner,True,10.25,Android
+100088,Burgerama,Hyderabad,Burger,506.48,22.0,5.0,2024-10-24 16:54:00,snacks,False,85.7,Android
+101623,Punjab Grill,Hyderabad,North Indian,296.17,48.0,3.6,2024-10-04 20:15:00,dinner,True,,Android
+100149,China Town,Bangalore,Chinese,302.95,52.0,3.8,2024-12-24 22:04:00,dinner,False,61.94,iOS
+101649,Pizza Hut,Pune,Pizza,171.1,47.0,3.8,2024-11-12 17:35:00,snacks,True,,Android
+101227,Moti Mahal,Delhi,North Indian,165.24,40.0,4.1,2024-11-30 17:36:00,snacks,False,66.95,Web
+101681,Baskin Robbins,Mumbai,Desserts,334.81,29.0,,2024-10-04 14:16:00,lunch,False,72.87,Web
+100366,Behrouz Biryani,Delhi,Biryani,311.85,,3.7,2024-12-28 19:24:00,dinner,False,114.84,iOS
+100590,The Burger Club,Bangalore,Burger,900.0,46.0,3.8,2024-11-04 19:09:00,dinner,False,,iOS
+101534,Dhaba Express,Mumbai,North Indian,229.91,30.0,,2024-10-30 23:36:00,dinner,True,69.12,Android
+100199,China Town,Kolkata,Chinese,641.39,,4.3,2024-10-26 14:55:00,lunch,False,,Android
+101930,Bawarchi,Bangalore,Biryani,137.81,22.0,4.1,2024-10-12 22:55:00,dinner,True,29.95,Android
+100193,Wat-A-Burger,Ahmedabad,Burger,207.88,55.0,3.9,2024-12-02 15:46:00,,False,,iOS
+100405,Burgerama,Mumbai,Burger,282.39,44.0,5.0,2024-12-11 23:35:00,dinner,False,105.61,Android
+101603,Dhaba Express,Mumbai,North Indian,605.66,,3.6,2024-11-15 14:48:00,lunch,False,85.71,iOS
+101893,McDonald's,Pune,Burger,366.45,,4.0,2024-10-16 18:52:00,snacks,False,19.94,iOS
+100484,Behrouz Biryani,Hyderabad,Biryani,281.29,39.0,,2024-10-06 16:16:00,snacks,False,108.97,Android
+101482,La Pino'z,Bangalore,Pizza,900.0,37.0,4.6,2024-11-16 12:37:00,lunch,False,32.58,Android
+100792,Hard Rock Cafe,Hyderabad,Continental,629.94,42.0,4.5,2024-11-12 21:10:00,dinner,False,,Android
+100800,Barbeque Nation,Ahmedabad,North Indian,325.8,39.0,3.1,2024-12-07 15:38:00,snacks,False,,iOS
+100385,Saffron,Chennai,North Indian,268.28,47.0,,2024-10-30 22:03:00,dinner,False,,Android
+100751,Udupi Palace,Bangalore,South Indian,587.0,49.0,3.0,2024-11-13 12:30:00,lunch,False,55.63,Android
+100423,Naturals Ice Cream,Bangalore,Desserts,270.54,30.0,4.2,2024-12-28 15:35:00,snacks,True,31.61,Android
+100315,Smoke House Deli,Kolkata,Continental,598.7,43.0,3.5,2024-10-05 20:10:00,dinner,False,75.71,Android
+101022,Udupi Palace,Mumbai,South Indian,392.48,20.0,3.9,2024-10-05 12:47:00,lunch,True,,iOS
+100544,Oven Story,Chennai,Pizza,432.06,15.0,3.5,2024-10-14 12:00:00,lunch,False,21.95,Android
+100914,Bay Leaf,Delhi,Seafood,460.31,52.0,3.9,2024-11-10 14:09:00,lunch,True,,Android
+100663,Saffron,Hyderabad,North Indian,382.81,32.0,4.0,2024-10-08 17:29:00,snacks,True,109.06,Android
+100903,Paradise Biryani,Bangalore,Biryani,145.21,41.0,4.7,2024-10-15 13:16:00,lunch,True,61.26,Android
+101529,Bay Leaf,Pune,Seafood,315.2,25.0,3.0,2024-12-13 14:05:00,lunch,False,,iOS
+100686,Empire Restaurant,Hyderabad,Biryani,900.0,15.0,4.7,2024-11-19 13:12:00,lunch,False,,Android
+101705,Chai Point,Delhi,Beverages,365.35,41.0,3.6,2024-12-21 20:42:00,dinner,False,,Android
+100160,Theobroma,Chennai,Desserts,184.06,40.0,3.2,2024-10-09 15:54:00,snacks,False,90.76,iOS
+101000,Eatfit,Delhi,Healthy,268.41,,,2024-10-19 17:26:00,snacks,False,25.88,iOS
+101320,Theobroma,Bangalore,Desserts,269.8,54.0,3.4,2024-10-27 18:08:00,snacks,False,29.12,Web
+101807,Nandhini,Chennai,South Indian,603.89,49.0,3.9,2024-12-08 13:24:00,lunch,False,43.44,iOS
+100203,MTR,Bangalore,South Indian,591.52,34.0,3.9,2024-10-28 12:14:00,lunch,False,,Web
+101024,Murugan Idli Shop,Surat,South Indian,494.62,39.0,4.2,2024-10-21 21:26:00,dinner,True,,iOS
+101651,Naturals Ice Cream,Bangalore,Desserts,303.33,45.0,3.2,2024-10-14 23:57:00,dinner,True,64.68,Android
+101852,Dum Pukht,Pune,Biryani,162.4,50.0,3.9,2024-11-19 19:52:00,dinner,False,92.48,iOS
+100113,Moti Mahal,Ahmedabad,North Indian,416.66,39.0,4.5,2024-11-02 09:23:00,breakfast,False,,Web
+101837,Starbucks,Bangalore,Beverages,154.69,52.0,3.7,2024-11-22 21:21:00,dinner,False,65.3,iOS
+101253,Oven Story,Bangalore,Pizza,532.51,29.0,3.8,2024-12-06 22:32:00,dinner,False,93.13,Android
+100981,Murugan Idli Shop,Mumbai,South Indian,900.0,42.0,3.7,2024-12-14 22:06:00,dinner,False,29.27,Android
+100923,Wraps N Rolls,Kolkata,Rolls & Wraps,345.15,55.0,3.6,2024-12-10 17:19:00,snacks,False,,Android
+101790,The Table,Delhi,Continental,530.1,25.0,4.1,2024-10-24 12:38:00,lunch,False,,iOS
+101615,Nandhini,Mumbai,South Indian,302.68,26.0,3.2,2024-10-04 13:10:00,,False,98.25,Android
+101439,Chai Point,Mumbai,Beverages,495.07,45.0,4.5,2024-12-06 08:26:00,breakfast,False,,Android
+101262,China Town,Pune,Chinese,537.21,49.0,4.1,2024-11-08 22:52:00,dinner,True,,Android
+100816,Baskin Robbins,Delhi,Desserts,289.29,38.0,5.0,2024-12-17 19:44:00,dinner,False,,Android
+101385,Empire Restaurant,Chennai,Biryani,270.44,28.0,4.6,2024-11-16 16:25:00,snacks,False,64.04,iOS
+101310,Mainland China,Pune,Chinese,80.0,43.0,3.4,2024-11-11 21:00:00,dinner,False,64.04,Android
+100680,Wok To Walk,Kolkata,Chinese,668.29,,3.5,2024-10-04 18:28:00,snacks,True,,iOS
+101094,Frankie Express,Delhi,Rolls & Wraps,138.67,57.0,,2024-11-30 12:57:00,lunch,True,41.9,Android
+100081,Empire Restaurant,Kolkata,Biryani,268.38,57.0,3.9,2024-12-26 22:28:00,dinner,False,,Android
+101891,Naturals Ice Cream,Bangalore,Desserts,335.15,46.0,3.9,2024-12-04 20:18:00,dinner,False,51.09,Android
+101800,La Pino'z,Bangalore,Pizza,247.28,31.0,2.8,2024-11-19 12:54:00,lunch,False,81.9,Android
+101557,Saffron,Hyderabad,North Indian,83.51,28.0,,2024-12-16 13:12:00,lunch,False,51.7,Android
+100753,Punjab Grill,Hyderabad,North Indian,372.97,43.0,4.3,2024-11-24 23:22:00,dinner,False,,Android
+101566,Theobroma,Delhi,Desserts,520.68,26.0,4.0,2024-10-28 08:33:00,breakfast,True,,Web
+101055,Burgerama,Kochi,Burger,404.67,55.0,4.5,2024-10-30 12:10:00,lunch,False,91.22,Android
+100243,La Pino'z,Ahmedabad,Pizza,361.85,43.0,3.4,2024-10-30 21:00:00,dinner,True,,iOS
+101577,Dhaba Express,Bangalore,North Indian,259.56,43.0,3.5,2024-11-27 23:41:00,dinner,False,94.5,iOS
+100642,Paradise Biryani,Mumbai,Biryani,561.24,31.0,3.3,2024-11-08 14:49:00,lunch,False,,iOS
+100697,Wat-A-Burger,Mumbai,Burger,346.35,37.0,4.9,2024-12-22 15:49:00,snacks,False,,iOS
+100210,Chai Point,Bangalore,Beverages,539.77,35.0,4.3,2024-11-22 10:08:00,breakfast,False,,Android
+101163,Moti Mahal,Mumbai,North Indian,900.0,,3.7,2024-12-09 14:32:00,lunch,True,,iOS
+100771,Behrouz Biryani,Bangalore,Biryani,174.86,53.0,4.1,2024-11-07 10:13:00,breakfast,True,108.38,Android
+101783,Bawarchi,Delhi,Biryani,167.44,55.0,,2024-12-17 15:30:00,snacks,True,,Web
+100436,Saravana Bhavan,Chennai,South Indian,409.92,58.0,4.7,2024-12-11 12:54:00,lunch,True,,iOS
+101064,Joey's Pizza,Delhi,Pizza,508.83,29.0,3.9,2024-10-14 12:29:00,lunch,False,98.77,iOS
+100975,Udupi Palace,Bangalore,South Indian,204.93,,4.1,2024-10-05 14:31:00,lunch,False,95.68,iOS
+100552,Bawarchi,Kolkata,Biryani,146.51,38.0,,2024-11-03 08:21:00,breakfast,False,,iOS
+101977,Saravana Bhavan,Mumbai,South Indian,225.4,37.0,,2024-11-01 09:21:00,breakfast,True,,Web
+101692,Chinese Box,Delhi,Chinese,546.76,,,2024-10-27 14:18:00,lunch,False,,Web
+101014,Udupi Palace,Bangalore,South Indian,749.64,42.0,3.8,2024-12-02 15:34:00,snacks,True,61.33,Android
+101953,Oh Calcutta,Hyderabad,Seafood,367.77,18.0,4.1,2024-11-04 19:17:00,dinner,False,,iOS
+100467,Murugan Idli Shop,Mumbai,South Indian,792.57,37.0,4.6,2024-11-07 13:46:00,lunch,False,,iOS
+101497,Raw Pressery Kitchen,Hyderabad,Healthy,373.22,45.0,,2024-12-21 16:55:00,snacks,False,,Android
+101325,Baskin Robbins,Surat,Desserts,602.37,29.0,3.2,2024-10-24 10:55:00,breakfast,True,29.71,Android
+100278,The Wok,Hyderabad,Chinese,141.66,43.0,4.2,2024-10-19 13:31:00,lunch,True,109.15,Android
+101070,McDonald's,Mumbai,Burger,357.49,37.0,4.3,2024-10-27 08:41:00,breakfast,True,19.3,Android
+101018,MTR,Hyderabad,South Indian,140.52,19.0,4.6,2024-12-10 13:34:00,lunch,False,34.99,Android
+101341,Green Bowl,Mumbai,Healthy,278.3,67.0,3.7,2024-10-25 23:45:00,dinner,True,,Web
+100723,La Folie,Bangalore,Desserts,613.2,40.0,4.0,2024-10-16 13:51:00,lunch,True,,iOS
+101987,Empire Restaurant,Chennai,Biryani,252.95,,4.0,2024-10-21 18:43:00,snacks,True,,iOS
+100787,Coastal Kitchen,Hyderabad,Seafood,356.57,47.0,3.9,2024-12-12 19:37:00,,False,61.73,Web
+101634,MTR,Pune,South Indian,531.02,27.0,,2024-11-02 12:01:00,lunch,False,,Web
+101328,China Town,Pune,Chinese,423.05,28.0,4.7,2024-10-11 14:10:00,lunch,True,,iOS
+101396,Social,Pune,Continental,171.66,31.0,3.8,2024-12-14 14:41:00,lunch,False,114.46,Android
+101322,Empire Restaurant,Bangalore,Biryani,3760.46,42.0,3.6,2024-11-23 12:21:00,lunch,True,106.41,iOS
+100907,Oh Calcutta,Pune,Seafood,183.98,48.0,3.2,2024-11-10 21:30:00,dinner,True,,Android
+100564,Behrouz Biryani,Bangalore,Biryani,581.34,49.0,4.1,2024-11-11 10:24:00,breakfast,False,,iOS
+100389,McDonald's,Pune,Burger,439.91,,4.2,2024-11-26 09:52:00,,False,,Android
+100023,Blue Tokai,Mumbai,Beverages,271.57,42.0,4.6,2024-12-05 20:25:00,dinner,True,,Web
+101241,MTR,Kolkata,South Indian,516.7,29.0,5.0,2024-10-17 21:20:00,dinner,False,,iOS
+100125,Smoke House Deli,Mumbai,Continental,231.09,52.0,,2024-10-10 21:01:00,dinner,True,101.53,iOS
+101495,Burgerama,Hyderabad,Burger,177.64,-28.0,3.3,2024-10-29 17:07:00,snacks,True,101.08,Web
+100774,China Town,Delhi,Chinese,650.19,49.0,4.8,2024-11-21 21:57:00,dinner,False,,Android
+100881,Murugan Idli Shop,Mumbai,South Indian,500.14,,3.9,2024-11-21 13:55:00,lunch,True,118.11,iOS
+101145,Barbeque Nation,Mumbai,North Indian,4967.4,36.0,,2024-12-06 13:28:00,lunch,False,,Web
+101167,Blue Tokai,Kolkata,Beverages,281.27,58.0,,2024-10-03 13:01:00,lunch,False,,Web
+100051,Wok To Walk,Jaipur,Chinese,176.47,29.0,4.3,2024-12-03 21:12:00,dinner,True,,Android
+101694,Dhaba Express,Bangalore,North Indian,900.0,25.0,4.5,2024-12-28 17:10:00,snacks,False,79.58,iOS
+101479,The Wok,Pune,Chinese,286.27,30.0,4.1,2024-11-30 22:11:00,dinner,False,44.5,Web
+101106,Murugan Idli Shop,Bangalore,South Indian,492.62,47.0,4.8,2024-12-26 13:13:00,lunch,True,59.0,Android
+100704,Empire Restaurant,Bangalore,Biryani,512.07,46.0,3.9,2024-10-19 15:19:00,snacks,True,37.4,Android
+100483,Tea Trails,Delhi,Beverages,488.93,15.0,4.1,2024-11-27 16:22:00,snacks,True,,iOS
+101146,Nandhini,Kolkata,South Indian,272.61,64.0,,2024-12-28 20:09:00,dinner,False,28.91,iOS
+101945,Dum Pukht,Pune,Biryani,350.72,39.0,4.2,2024-12-20 22:47:00,dinner,False,,Android
+100067,Dhaba Express,Bangalore,North Indian,230.34,45.0,3.8,2024-10-12 12:32:00,,False,,Android
+101749,Saravana Bhavan,Pune,South Indian,202.31,57.0,,2024-12-23 20:29:00,dinner,True,,Android
+100734,The Fish Shack,Delhi,Seafood,640.32,53.0,4.0,2024-10-04 23:38:00,dinner,True,52.08,Android
+101814,La Pino'z,Bangalore,Pizza,320.58,45.0,5.0,2024-12-01 13:05:00,lunch,True,33.59,Android
+100802,Tea Trails,Bangalore,Beverages,299.2,39.0,3.9,2024-11-26 08:41:00,breakfast,False,17.22,Android
+101711,Paradise Biryani,Bangalore,Biryani,328.07,28.0,4.3,2024-12-29 14:50:00,lunch,True,84.29,Android
+101491,Paradise Biryani,Mumbai,Biryani,218.65,36.0,3.9,2024-12-27 12:24:00,lunch,True,,Android
+100908,Punjab Grill,Mumbai,North Indian,618.53,28.0,4.0,2024-11-07 14:44:00,lunch,False,,iOS
+100032,La Pino'z,Bangalore,Pizza,300.58,,3.3,2024-12-18 14:33:00,lunch,True,,Android
+100418,Bawarchi,Mumbai,Biryani,533.74,39.0,3.3,2024-12-28 08:18:00,breakfast,True,,Web
+100882,Freshmenu,Chennai,Healthy,218.0,50.0,4.1,2024-12-20 17:02:00,snacks,True,,Android
+100633,Behrouz Biryani,Delhi,Biryani,538.87,35.0,4.6,2024-12-10 22:25:00,dinner,True,18.31,iOS
+101739,Baskin Robbins,Mumbai,Desserts,313.82,56.0,5.0,2024-12-17 07:13:00,breakfast,False,47.2,iOS
+101460,Burgerama,Chennai,Burger,496.03,44.0,3.7,2024-10-25 22:26:00,dinner,False,92.24,Android
+100065,Dum Pukht,Mumbai,Biryani,307.0,46.0,3.3,2024-12-10 20:20:00,dinner,False,,Android
+101648,MTR,Pune,South Indian,348.78,16.0,4.1,2024-11-10 19:45:00,dinner,True,,Android
+101633,China Town,Chennai,Chinese,315.81,40.0,,2024-11-14 14:33:00,lunch,False,,Android
+100078,Chinese Box,Bangalore,Chinese,360.01,38.0,4.5,2024-10-20 12:51:00,lunch,True,,iOS
+100492,Saffron,Hyderabad,North Indian,256.31,55.0,3.9,2024-10-30 20:09:00,dinner,False,55.06,Android
+101700,Barbeque Nation,Hyderabad,North Indian,269.93,25.0,4.2,2024-12-04 12:19:00,,True,33.75,Android
+101549,Barbeque Nation,Bangalore,North Indian,900.0,38.0,4.4,2024-11-03 14:59:00,lunch,True,90.99,iOS
+100533,Saffron,Kochi,North Indian,421.15,45.0,3.1,2024-11-13 14:52:00,lunch,False,74.7,Web
+100066,Theobroma,Hyderabad,Desserts,109.87,68.0,3.9,2024-12-06 12:31:00,lunch,False,72.4,iOS
+101718,Behrouz Biryani,Chennai,Biryani,566.19,44.0,3.7,2024-10-18 13:45:00,lunch,True,111.37,Web
+100297,Barbeque Nation,Pune,North Indian,143.64,23.0,3.5,2024-10-05 12:06:00,lunch,True,51.6,Android
+100592,Wraps N Rolls,Hyderabad,Rolls & Wraps,434.81,42.0,2.9,2024-10-17 14:05:00,lunch,False,12.23,Android
+100768,Dhaba Express,Kolkata,North Indian,122.69,25.0,4.2,2024-12-16 07:31:00,breakfast,False,,Android
+100725,MTR,Hyderabad,South Indian,405.55,43.0,4.4,2024-12-11 12:16:00,lunch,False,,iOS
+101446,Burgerama,Bangalore,Burger,402.09,,4.2,2024-10-22 12:53:00,lunch,False,119.71,iOS
+100627,Behrouz Biryani,Delhi,Biryani,335.75,46.0,4.0,2024-11-01 14:49:00,lunch,False,,iOS
+101795,Bawarchi,Bangalore,Biryani,618.16,40.0,2.6,2024-11-04 15:22:00,snacks,False,15.8,iOS
+101981,Roll House,Bangalore,Rolls & Wraps,519.74,36.0,4.1,2024-12-16 16:42:00,snacks,True,73.12,Android
+101213,Empire Restaurant,Bangalore,Biryani,192.75,48.0,3.9,2024-11-08 12:35:00,lunch,True,47.91,Android
+101638,Empire Restaurant,Bangalore,Biryani,301.17,41.0,3.1,2024-10-12 22:47:00,dinner,False,,iOS
+100252,Chaayos,Delhi,Beverages,238.95,,3.1,2024-12-14 07:28:00,breakfast,False,57.17,Android
+101853,Dominos,Kolkata,Pizza,551.77,45.0,4.0,2024-10-27 23:56:00,dinner,False,,iOS
+101333,Behrouz Biryani,Mumbai,Biryani,876.57,35.0,3.4,2024-12-01 07:48:00,breakfast,False,26.1,Web
+101937,Udupi Palace,Mumbai,South Indian,3157.61,42.0,5.0,2024-11-02 21:11:00,dinner,True,48.33,Android
+100983,Burgerama,Bangalore,Burger,648.63,44.0,4.3,2024-12-24 21:37:00,dinner,False,,Web
+101802,Chaayos,Chennai,Beverages,135.99,48.0,3.7,2024-11-26 12:11:00,lunch,False,12.3,Android
+100707,Dum Pukht,Mumbai,Biryani,680.81,38.0,,2024-12-03 23:56:00,dinner,True,91.99,Web
+100488,Green Bowl,Mumbai,Healthy,489.66,41.0,5.0,2024-12-09 13:37:00,lunch,False,,Android
+100274,Wat-A-Burger,Ahmedabad,Burger,618.94,38.0,,2024-10-21 16:34:00,snacks,False,,iOS
+101527,The Fish Shack,Mumbai,Seafood,382.05,48.0,3.5,2024-10-10 16:09:00,snacks,False,20.02,iOS
+101696,Paradise Biryani,Bangalore,Biryani,228.71,36.0,4.5,2024-11-30 13:16:00,lunch,False,56.04,iOS
+100964,The Fish Shack,Delhi,Seafood,250.06,19.0,4.1,2024-10-26 19:14:00,dinner,True,,iOS
+100878,Barbeque Nation,Chennai,North Indian,241.74,26.0,3.0,2024-10-17 19:01:00,dinner,True,,Android
+100383,Chai Point,Hyderabad,Beverages,350.05,34.0,3.7,2024-12-25 18:05:00,snacks,False,,Android
+101851,Murugan Idli Shop,Mumbai,South Indian,4561.91,46.0,3.8,2024-11-13 14:20:00,lunch,False,,Android
+100412,Bawarchi,Jaipur,Biryani,400.37,43.0,4.2,2024-11-28 08:48:00,breakfast,False,,Android
+100668,McDonald's,Bangalore,Burger,524.9,43.0,3.8,2024-12-04 19:15:00,dinner,False,,iOS
+101263,Nandhini,Mumbai,South Indian,416.34,38.0,2.8,2024-12-14 16:14:00,snacks,True,102.55,iOS
+100150,Roll House,Mumbai,Rolls & Wraps,564.02,55.0,3.3,2024-11-27 23:32:00,dinner,True,27.16,Web
+100645,Paradise Biryani,Bangalore,Biryani,138.48,44.0,2.9,2024-11-09 21:32:00,dinner,False,109.39,Android
+101716,Dhaba Express,Lucknow,North Indian,239.82,,4.2,2024-12-15 12:00:00,lunch,True,,Web
+100219,Raw Pressery Kitchen,Hyderabad,Healthy,291.76,42.0,4.1,2024-10-09 19:59:00,dinner,True,,Android
+100240,Dhaba Express,Bangalore,North Indian,91.17,38.0,3.3,2024-10-02 12:50:00,lunch,False,,Web
+101132,Roll House,Delhi,Rolls & Wraps,218.73,52.0,5.0,2024-12-08 16:34:00,snacks,False,87.07,Android
+101217,Dum Pukht,Bangalore,Biryani,105.69,,3.4,2024-12-26 13:12:00,lunch,False,,iOS
+100793,La Pino'z,Delhi,Pizza,486.66,45.0,3.4,2024-10-05 09:40:00,breakfast,True,,Android
+100192,Chaayos,Kolkata,Beverages,483.85,,4.7,2024-10-10 21:29:00,dinner,False,,iOS
+100334,Burger King,Bangalore,Burger,285.2,47.0,4.2,2024-11-20 15:23:00,snacks,True,,Android
+101838,Empire Restaurant,Mumbai,Biryani,412.88,48.0,3.3,2024-11-10 12:32:00,,False,61.95,iOS
+101343,Pizza Hut,Kolkata,Pizza,557.05,32.0,4.2,2024-11-24 08:58:00,breakfast,True,,iOS
+100963,Saravana Bhavan,Mumbai,South Indian,322.61,53.0,3.7,2024-12-28 14:23:00,lunch,False,69.82,Web
+101339,Joey's Pizza,Bangalore,Pizza,123.45,50.0,,2024-11-17 23:04:00,dinner,False,,iOS
+100866,Dominos,Hyderabad,Pizza,328.03,38.0,4.2,2024-12-18 18:08:00,snacks,True,,Android
+101678,Nandhini,Delhi,South Indian,147.25,23.0,3.1,2024-10-09 13:55:00,lunch,False,,Web
+101643,The Wok,Delhi,Chinese,426.57,41.0,,2024-10-14 13:22:00,lunch,True,,Android
+100583,Chinese Box,Delhi,Chinese,379.99,54.0,4.8,2024-12-28 19:49:00,dinner,False,,iOS
+101943,Behrouz Biryani,Pune,Biryani,244.07,,3.9,2024-11-05 10:17:00,breakfast,True,99.81,Web
+101455,Chai Point,Bangalore,Beverages,215.29,52.0,4.0,2024-12-07 22:00:00,dinner,False,,Web
+100840,Nandhini,Hyderabad,South Indian,423.18,27.0,3.7,2024-10-03 14:44:00,lunch,False,13.97,Web
+100628,Burgerama,Chennai,Burger,202.89,37.0,4.0,2024-12-21 18:56:00,snacks,False,,iOS
+100324,Saffron,Mumbai,North Indian,124.62,21.0,4.4,2024-10-19 18:44:00,snacks,False,95.98,Android
+101669,Dum Pukht,Bangalore,Biryani,771.78,39.0,4.9,2024-12-14 10:33:00,breakfast,False,,Web
+101161,MTR,Pune,South Indian,192.39,18.0,3.5,2024-10-12 15:40:00,snacks,True,97.43,iOS
+100779,Nandhini,Chennai,South Indian,412.18,46.0,4.2,2024-10-25 13:18:00,lunch,False,,Web
+101077,Blue Tokai,Delhi,Beverages,462.3,53.0,4.5,2024-10-29 15:29:00,snacks,False,40.57,iOS
+100940,Paradise Biryani,Hyderabad,Biryani,278.16,40.0,3.0,2024-10-17 21:44:00,dinner,True,59.49,Android
+100438,Murugan Idli Shop,Pune,South Indian,207.69,36.0,4.2,2024-10-20 23:53:00,dinner,False,31.26,Android
+100120,Freshmenu,Hyderabad,Healthy,230.23,,3.6,2024-11-05 19:13:00,,False,,iOS
+101378,Punjab Grill,Delhi,North Indian,224.1,34.0,3.2,2024-12-02 14:59:00,lunch,True,,Android
+101587,Wok To Walk,Chennai,Chinese,465.1,38.0,4.8,2024-11-16 13:13:00,lunch,False,55.58,Android
+101027,Blue Tokai,Kolkata,Beverages,174.55,35.0,4.2,2024-11-21 14:36:00,lunch,False,91.85,Android
+101254,Bawarchi,Bangalore,Biryani,396.29,39.0,4.5,2024-12-19 09:27:00,breakfast,True,40.74,Web
+101398,Frankie Express,Mumbai,Rolls & Wraps,531.32,45.0,3.0,2024-10-19 16:23:00,snacks,True,119.28,Web
+100077,Dhaba Express,Pune,North Indian,546.36,39.0,4.2,2024-12-08 12:22:00,lunch,True,,Android
+101054,Punjab Grill,Pune,North Indian,534.88,45.0,3.5,2024-12-24 10:03:00,breakfast,False,101.06,Android
+100901,Behrouz Biryani,Mumbai,Biryani,521.46,40.0,5.0,2024-11-06 10:18:00,breakfast,True,45.87,Android
+100372,Frankie Express,Bangalore,Rolls & Wraps,369.5,52.0,3.8,2024-10-22 13:56:00,lunch,False,89.83,Android
+101897,Dum Pukht,Hyderabad,Biryani,900.0,51.0,3.8,2024-12-05 22:12:00,dinner,True,50.17,iOS
+101462,Bawarchi,Chennai,Biryani,470.43,52.0,3.9,2024-11-04 13:31:00,lunch,True,37.69,Android
+100818,Paradise Biryani,Delhi,Biryani,489.61,55.0,3.6,2024-11-28 21:10:00,dinner,False,,Web
+100942,Oven Story,Hyderabad,Pizza,251.74,,,2024-11-08 14:08:00,lunch,True,,Web
+100578,Joey's Pizza,Ahmedabad,Pizza,153.91,51.0,4.3,2024-10-18 14:27:00,lunch,False,,Android
+100820,MTR,Mumbai,South Indian,227.98,36.0,4.5,2024-10-08 13:04:00,lunch,True,66.6,iOS
+101489,Dum Pukht,Delhi,Biryani,367.6,62.0,4.8,2024-12-04 17:18:00,snacks,True,,iOS
+101511,MTR,Pune,South Indian,375.24,39.0,4.7,2024-11-18 12:48:00,lunch,False,,iOS
+101761,Dum Pukht,Delhi,Biryani,163.77,44.0,3.6,2024-11-17 19:44:00,dinner,False,76.49,iOS
+101990,Freshmenu,Chennai,Healthy,900.0,37.0,5.0,2024-10-18 22:38:00,dinner,False,,iOS
+100887,Chinese Box,Chennai,Chinese,301.4,23.0,4.2,2024-10-31 14:55:00,lunch,False,115.27,Android
+100969,Chaayos,Hyderabad,Beverages,147.11,41.0,4.3,2024-10-09 20:24:00,dinner,False,42.71,iOS
+101622,Saffron,Bangalore,North Indian,661.56,31.0,3.9,2024-10-02 23:24:00,dinner,True,37.63,iOS
+100786,Dhaba Express,Ahmedabad,North Indian,135.22,62.0,5.0,2024-12-04 13:02:00,lunch,False,50.29,Web
+101565,China Town,Pune,Chinese,533.84,58.0,5.0,2024-10-20 20:56:00,dinner,False,67.57,Android
+101708,Barbeque Nation,Mumbai,North Indian,581.41,39.0,3.8,2024-11-18 13:11:00,lunch,False,,iOS
+101635,Paradise Biryani,Ahmedabad,Biryani,114.52,39.0,4.0,2024-12-06 12:57:00,lunch,False,,iOS
+100302,Dominos,Hyderabad,Pizza,428.74,41.0,3.7,2024-12-10 21:15:00,dinner,True,71.58,Android
+100690,Nandhini,Bangalore,South Indian,561.81,42.0,4.0,2024-11-01 23:47:00,dinner,False,65.23,Android
+100813,McDonald's,Bangalore,Burger,590.3,35.0,3.8,2024-12-27 10:16:00,breakfast,True,,Android
+101062,Bawarchi,Surat,Biryani,263.05,47.0,4.6,2024-12-03 21:43:00,dinner,True,100.1,iOS
+100237,Salad Days,Mumbai,Healthy,268.19,52.0,3.9,2024-10-10 09:14:00,breakfast,False,,iOS
+101116,Eatfit,Hyderabad,Healthy,3795.2,44.0,3.9,2024-10-14 15:40:00,snacks,True,,Web
+101999,Mainland China,Bangalore,Chinese,718.32,55.0,5.0,2024-10-11 15:51:00,snacks,False,,Web
+100500,Udupi Palace,Surat,South Indian,220.64,43.0,,2024-11-27 13:53:00,lunch,True,,iOS
+101683,Theobroma,Hyderabad,Desserts,391.15,52.0,,2024-11-20 19:28:00,dinner,False,58.39,iOS
+101080,Tea Trails,Jaipur,Beverages,423.13,49.0,4.5,2024-10-07 12:27:00,lunch,True,35.18,iOS
+101327,The Roll Story,Bangalore,Rolls & Wraps,155.54,50.0,4.3,2024-10-17 07:32:00,breakfast,False,106.1,Android
+100795,Saravana Bhavan,Bangalore,South Indian,900.0,32.0,4.4,2024-12-19 13:08:00,lunch,True,56.64,Android
+101958,MTR,Delhi,South Indian,397.19,47.0,4.0,2024-12-15 12:40:00,,True,35.58,iOS
+101554,Mainland China,Kolkata,Chinese,226.43,40.0,3.4,2024-11-17 17:06:00,snacks,True,18.28,Android
+101966,Baskin Robbins,Hyderabad,Desserts,203.6,39.0,3.2,2024-12-14 22:22:00,dinner,False,11.1,Android
+100991,Empire Restaurant,Pune,Biryani,253.93,,4.8,2024-11-06 23:25:00,,True,,Web
+101390,Wat-A-Burger,Delhi,Burger,257.62,40.0,,2024-11-07 20:52:00,dinner,False,23.54,Android
+100935,Burgerama,Bangalore,Burger,5275.75,48.0,4.2,2024-11-10 17:34:00,snacks,False,,Web
+100388,Pizza Hut,Bangalore,Pizza,245.29,54.0,4.8,2024-10-06 07:22:00,breakfast,True,102.08,iOS
+101490,Murugan Idli Shop,Delhi,South Indian,233.52,23.0,3.6,2024-10-06 22:31:00,dinner,False,,iOS
+100391,Murugan Idli Shop,Lucknow,South Indian,308.31,59.0,3.8,2024-11-04 14:41:00,lunch,False,,Android
+100744,Dum Pukht,Delhi,Biryani,263.08,56.0,3.9,2024-12-16 19:06:00,dinner,False,,Web
+100353,La Pino'z,Chennai,Pizza,264.4,29.0,,2024-11-03 14:14:00,lunch,True,,Android
+101218,Paradise Biryani,Chennai,Biryani,485.43,38.0,4.3,2024-10-14 23:50:00,dinner,False,,iOS
+100236,Pizza Hut,Chennai,Pizza,491.75,35.0,4.2,2024-11-01 14:52:00,lunch,True,,iOS
+101735,Punjab Grill,Bangalore,North Indian,159.73,52.0,,2024-10-08 20:33:00,dinner,False,,Android
+100481,Dhaba Express,Hyderabad,North Indian,357.43,28.0,,2024-12-04 13:00:00,lunch,False,,iOS
+100568,Punjab Grill,Delhi,North Indian,179.26,48.0,4.4,2024-11-07 14:56:00,lunch,False,74.87,iOS
+101141,Saravana Bhavan,Pune,South Indian,363.43,34.0,4.9,2024-11-01 16:29:00,snacks,False,,Web
+101709,Punjab Grill,Hyderabad,North Indian,300.66,40.0,,2024-11-03 23:26:00,dinner,True,92.22,iOS
+101898,The Roll Story,Bangalore,Rolls & Wraps,361.34,50.0,2.9,2024-10-13 14:18:00,lunch,False,,Android
+101590,Moti Mahal,Chennai,North Indian,589.91,51.0,3.3,2024-11-27 16:11:00,snacks,True,,Android
+100121,Kathi Roll Corner,Pune,Rolls & Wraps,666.0,33.0,4.4,2024-12-15 14:19:00,lunch,True,64.88,Android
+101389,Empire Restaurant,Jaipur,Biryani,426.17,43.0,4.6,2024-11-09 18:31:00,snacks,False,,Android
+101756,Barbeque Nation,Pune,North Indian,300.64,49.0,4.4,2024-11-14 12:54:00,lunch,False,,iOS
+101025,Dum Pukht,Jaipur,Biryani,625.86,,3.6,2024-12-17 19:41:00,dinner,True,111.22,iOS
+101087,Nandhini,Hyderabad,South Indian,432.5,,,2024-12-26 19:25:00,dinner,True,,iOS
+101273,Theobroma,Pune,Desserts,240.47,60.0,3.3,2024-12-08 12:21:00,lunch,True,47.76,iOS
+100927,Frankie Express,Mumbai,Rolls & Wraps,376.28,,3.8,2024-12-28 15:31:00,snacks,False,53.14,Android
+100516,Blue Tokai,Bangalore,Beverages,165.58,35.0,3.9,2024-12-11 12:35:00,lunch,True,,Android
+100224,Moti Mahal,Mumbai,North Indian,400.02,49.0,,2024-12-21 20:03:00,dinner,False,,Android
+101498,Freshmenu,Delhi,Healthy,138.82,44.0,4.0,2024-10-07 19:41:00,dinner,True,84.48,Web
+100614,Sweet Truth,Bangalore,Desserts,182.55,52.0,4.8,2024-11-28 14:56:00,lunch,True,88.77,Android
+100844,Oh Calcutta,Jaipur,Seafood,440.48,32.0,4.4,2024-10-26 10:07:00,breakfast,False,25.99,Android
+101246,Bawarchi,Hyderabad,Biryani,212.64,,4.6,2024-12-24 18:23:00,snacks,True,89.78,Android
+100053,Behrouz Biryani,Ahmedabad,Biryani,122.91,41.0,3.0,2024-10-24 21:36:00,dinner,False,17.56,iOS
+101877,Empire Restaurant,Hyderabad,Biryani,507.0,49.0,4.2,2024-11-29 21:44:00,dinner,True,93.9,iOS
+100486,The Table,Ahmedabad,Continental,197.14,33.0,3.4,2024-11-16 19:02:00,dinner,False,,Android
+101949,Empire Restaurant,Mumbai,Biryani,282.97,35.0,4.2,2024-12-09 21:53:00,dinner,False,92.47,Web
+100819,Bawarchi,Bangalore,Biryani,279.25,48.0,4.3,2024-10-10 22:21:00,dinner,True,104.24,Web
+101781,Saravana Bhavan,Bangalore,South Indian,266.54,45.0,4.0,2024-12-23 21:50:00,dinner,False,75.43,Android
+100156,Punjab Grill,Mumbai,North Indian,571.34,43.0,,2024-12-26 08:06:00,breakfast,False,,Android
+101367,Punjab Grill,Chennai,North Indian,2844.35,-2.0,,2024-12-19 18:00:00,snacks,False,111.9,Android
+100601,Pizza Hut,Bangalore,Pizza,428.9,43.0,5.0,2024-10-16 13:23:00,lunch,False,110.75,iOS
+101629,Roll House,Bangalore,Rolls & Wraps,470.66,54.0,4.2,2024-10-27 18:26:00,snacks,True,88.29,Web
+100249,Dominos,Jaipur,Pizza,344.43,34.0,4.6,2024-12-12 16:18:00,snacks,True,77.06,iOS
+100762,Behrouz Biryani,Mumbai,Biryani,368.18,19.0,3.9,2024-11-29 20:39:00,dinner,False,62.76,Android
+101861,Roll House,Pune,Rolls & Wraps,515.62,54.0,3.4,2024-11-28 15:56:00,snacks,False,,Android
+101131,Wraps N Rolls,Chennai,Rolls & Wraps,437.31,57.0,3.9,2024-12-23 17:02:00,snacks,False,21.15,Android
+100543,The Roll Story,Mumbai,Rolls & Wraps,900.0,57.0,3.7,2024-10-30 12:49:00,lunch,False,,Web
+100794,Barbeque Nation,Hyderabad,North Indian,147.23,30.0,4.8,2024-11-30 14:51:00,lunch,False,,Android
+101142,Chaayos,Mumbai,Beverages,514.97,60.0,4.9,2024-10-13 14:05:00,lunch,False,104.7,Android
+101476,Roll House,Chennai,Rolls & Wraps,208.63,58.0,4.3,2024-10-15 13:45:00,lunch,True,,Android
+100629,Wok To Walk,Bangalore,Chinese,234.82,63.0,,2024-10-14 18:21:00,snacks,False,,iOS
+100151,MTR,Ahmedabad,South Indian,200.5,51.0,4.2,2024-12-28 14:44:00,lunch,False,,iOS
+101668,Empire Restaurant,Ahmedabad,Biryani,611.8,49.0,3.9,2024-11-28 20:48:00,dinner,True,76.85,iOS
+100292,Barbeque Nation,Bangalore,North Indian,254.39,41.0,4.3,2024-11-03 08:16:00,breakfast,False,,Android
+100382,Eatfit,Chennai,Healthy,338.47,61.0,4.5,2024-10-27 10:00:00,breakfast,False,,iOS
+100687,Dum Pukht,Hyderabad,Biryani,343.36,46.0,,2024-10-29 13:26:00,lunch,True,,Android
+101368,Barbeque Nation,Ahmedabad,North Indian,340.14,41.0,4.2,2024-12-21 12:51:00,,True,117.64,iOS
+101225,Bawarchi,Delhi,Biryani,577.07,51.0,4.0,2024-12-11 13:12:00,lunch,True,86.49,Web
+100898,Moti Mahal,Kolkata,North Indian,165.74,57.0,3.9,2024-11-13 13:19:00,lunch,True,,Android
+100855,Paradise Biryani,Mumbai,Biryani,622.58,43.0,4.5,2024-10-31 15:23:00,snacks,False,78.75,Android
+101072,La Pino'z,Mumbai,Pizza,133.67,,4.3,2024-11-25 21:42:00,dinner,False,,Android
+100260,Udupi Palace,Bangalore,South Indian,680.65,,4.0,2024-10-18 12:08:00,lunch,False,,Android
+101551,Roll House,Jaipur,Rolls & Wraps,415.76,50.0,4.2,2024-10-28 14:25:00,lunch,False,47.87,Web
+101715,Hard Rock Cafe,Bangalore,Continental,240.7,61.0,4.6,2024-11-07 20:18:00,dinner,True,25.42,Android
+100892,The Burger Club,Kolkata,Burger,569.98,35.0,4.2,2024-11-28 07:18:00,breakfast,True,83.23,Web
+101785,The Roll Story,Chennai,Rolls & Wraps,128.72,29.0,4.5,2024-11-24 08:57:00,breakfast,False,93.32,Web
+101727,Behrouz Biryani,Delhi,Biryani,3472.0,42.0,3.7,2024-12-28 14:22:00,lunch,False,84.88,Android
+101365,Tea Trails,Chennai,Beverages,207.5,32.0,,2024-12-29 16:38:00,snacks,False,115.27,Android
+100616,Paradise Biryani,Ahmedabad,Biryani,900.0,54.0,3.4,2024-10-09 12:09:00,lunch,True,,iOS
+100155,Empire Restaurant,Surat,Biryani,192.29,60.0,3.6,2024-12-05 13:29:00,lunch,True,,Android
+101194,Dhaba Express,Hyderabad,North Indian,270.39,37.0,3.5,2024-12-18 20:31:00,dinner,False,63.69,Android
+101742,The Roll Story,Chennai,Rolls & Wraps,557.22,60.0,4.5,2024-10-31 18:07:00,snacks,False,53.24,Android
+100798,Pizza Hut,Hyderabad,Pizza,171.82,43.0,3.9,2024-10-23 21:51:00,dinner,False,,Android
+101810,Dum Pukht,Bangalore,Biryani,132.15,29.0,4.2,2024-11-13 12:17:00,lunch,False,20.41,Android
+100323,Oven Story,Chennai,Pizza,250.32,45.0,,2024-12-02 21:25:00,dinner,False,,iOS
+101572,Chinese Box,Bangalore,Chinese,221.19,45.0,3.3,2024-11-05 09:11:00,breakfast,True,28.65,iOS
+101283,Raw Pressery Kitchen,Hyderabad,Healthy,483.6,53.0,3.7,2024-11-27 13:21:00,lunch,False,34.12,Android
+100083,Wok To Walk,Mumbai,Chinese,432.56,44.0,4.5,2024-10-30 17:19:00,snacks,True,,Android
+100513,Saravana Bhavan,Ahmedabad,South Indian,170.38,34.0,,2024-10-14 08:54:00,breakfast,True,,iOS
+101550,Dominos,Hyderabad,Pizza,297.74,33.0,,2024-10-21 12:47:00,lunch,True,28.02,iOS
+101507,The Fish Shack,Hyderabad,Seafood,788.1,46.0,4.2,2024-12-02 17:19:00,snacks,True,37.02,Android
+100930,Udupi Palace,Mumbai,South Indian,807.36,44.0,3.0,2024-12-13 23:03:00,dinner,False,,iOS
+101957,Chai Point,Hyderabad,Beverages,295.43,38.0,5.0,2024-10-12 14:20:00,lunch,True,,iOS
+101358,Murugan Idli Shop,Delhi,South Indian,228.2,43.0,4.4,2024-10-11 19:21:00,,False,,Web
+100011,Dum Pukht,Bangalore,Biryani,186.83,48.0,3.9,2024-10-21 10:56:00,breakfast,True,,iOS
+100832,The Burger Club,Delhi,Burger,364.91,23.0,5.0,2024-10-06 21:44:00,dinner,False,90.43,Android
+100033,China Town,Bangalore,Chinese,327.9,38.0,4.4,2024-10-27 09:24:00,,False,,iOS
+101544,Nandhini,Mumbai,South Indian,722.42,46.0,4.7,2024-12-12 22:47:00,dinner,True,,Web
+100414,Dum Pukht,Hyderabad,Biryani,437.21,28.0,4.5,2024-12-24 15:47:00,snacks,True,,Android
+100581,Empire Restaurant,Delhi,Biryani,241.17,,5.0,2024-10-20 23:52:00,dinner,False,45.84,Web
+101407,Salad Days,Kolkata,Healthy,241.44,47.0,4.9,2024-12-13 23:11:00,dinner,True,27.79,iOS
+101575,Eatfit,Mumbai,Healthy,258.21,,4.3,2024-11-06 16:23:00,snacks,False,92.29,Android
+101885,Salad Days,Bangalore,Healthy,458.84,50.0,4.3,2024-12-18 15:51:00,snacks,False,90.57,Android
+101940,Nandhini,Bangalore,South Indian,345.44,66.0,4.2,2024-10-02 13:12:00,lunch,False,,Android
+100615,Saffron,Kolkata,North Indian,201.5,49.0,3.8,2024-10-03 14:46:00,lunch,False,,Android
+101046,Wat-A-Burger,Hyderabad,Burger,182.4,,,2024-11-15 17:39:00,snacks,False,,Android
+101403,Hard Rock Cafe,Bangalore,Continental,237.25,39.0,3.3,2024-11-20 22:49:00,dinner,True,92.45,iOS
+101015,Joey's Pizza,Chennai,Pizza,218.3,29.0,4.7,2024-11-24 14:56:00,lunch,True,,Android
+100090,Saravana Bhavan,Delhi,South Indian,346.57,46.0,3.8,2024-12-07 08:13:00,breakfast,True,51.27,Android
+101992,Dhaba Express,Bangalore,North Indian,900.0,45.0,3.8,2024-10-29 17:21:00,snacks,False,47.08,Android
+100602,Dum Pukht,Mumbai,Biryani,275.04,50.0,4.0,2024-10-07 22:20:00,dinner,False,113.25,iOS
+101238,Oh Calcutta,Delhi,Seafood,297.24,49.0,3.8,2024-10-15 22:15:00,dinner,False,15.63,Web
+101872,Punjab Grill,Mumbai,North Indian,234.61,49.0,5.0,2024-12-21 13:53:00,lunch,False,,Android
+100134,Mainland China,Mumbai,Chinese,294.97,34.0,,2024-12-10 17:00:00,snacks,False,51.83,Android
+101371,Dhaba Express,Surat,North Indian,410.41,42.0,,2024-12-29 14:38:00,lunch,False,,iOS
+100556,Trishna,Delhi,Seafood,299.96,35.0,4.5,2024-11-04 18:12:00,snacks,True,39.98,iOS
+101032,Nandhini,Hyderabad,South Indian,697.65,25.0,3.5,2024-10-24 16:01:00,snacks,True,48.76,Android
+101922,MTR,Bangalore,South Indian,434.73,,4.1,2024-11-12 23:10:00,dinner,True,40.33,iOS
+100321,Chaayos,Hyderabad,Beverages,416.84,57.0,4.9,2024-12-12 15:55:00,snacks,False,,iOS
+101801,Dhaba Express,Jaipur,North Indian,273.07,30.0,3.6,2024-12-18 13:24:00,lunch,False,15.81,Android
+101212,Wat-A-Burger,Delhi,Burger,275.23,54.0,3.5,2024-11-10 12:03:00,lunch,False,18.59,Android
+101767,Oven Story,Chennai,Pizza,353.25,44.0,3.9,2024-12-27 12:52:00,lunch,True,,Android
+100635,Wat-A-Burger,Bangalore,Burger,715.71,50.0,4.6,2024-11-08 13:54:00,lunch,True,59.27,iOS
+100553,Wraps N Rolls,Hyderabad,Rolls & Wraps,351.13,57.0,,2024-11-16 13:26:00,lunch,False,,iOS
+101329,Dum Pukht,Chennai,Biryani,593.75,40.0,3.7,2024-10-26 13:15:00,lunch,False,18.93,Android
+101056,The Fish Shack,Mumbai,Seafood,309.35,37.0,3.0,2024-11-29 19:28:00,dinner,True,,Android
+101584,Freshmenu,Delhi,Healthy,440.38,38.0,4.0,2024-10-28 22:02:00,dinner,False,,Android
+100797,Behrouz Biryani,Ahmedabad,Biryani,223.91,35.0,3.2,2024-11-05 13:38:00,lunch,False,,Web
+101689,Paradise Biryani,Hyderabad,Biryani,635.63,32.0,,2024-12-08 13:44:00,lunch,True,,Android
+101265,Frankie Express,Bangalore,Rolls & Wraps,290.27,46.0,3.7,2024-12-10 21:50:00,dinner,False,,iOS
+101740,Pizza Hut,Delhi,Pizza,316.83,54.0,,2024-10-14 18:03:00,snacks,False,14.79,Android
+100175,Dhaba Express,Hyderabad,North Indian,583.24,44.0,4.6,2024-11-27 22:08:00,dinner,False,106.87,Android
+100767,Wok To Walk,Pune,Chinese,774.96,31.0,3.9,2024-10-13 22:04:00,dinner,False,,Web
+100246,Mainland China,Ahmedabad,Chinese,230.69,31.0,3.3,2024-11-05 23:26:00,dinner,False,41.05,iOS
+101081,La Folie,Pune,Desserts,296.98,51.0,3.9,2024-11-22 07:16:00,breakfast,False,25.28,Android
+101766,Barbeque Nation,Mumbai,North Indian,551.61,44.0,,2024-10-01 21:11:00,dinner,False,,iOS
+100146,The Roll Story,Bangalore,Rolls & Wraps,275.71,49.0,4.3,2024-10-15 16:01:00,snacks,True,,Android
+100091,Naturals Ice Cream,Bangalore,Desserts,156.79,33.0,3.7,2024-11-12 19:34:00,dinner,False,89.79,Android
+101417,Saffron,Bangalore,North Indian,298.94,37.0,4.5,2024-11-07 12:33:00,lunch,True,83.43,Android
+100683,Empire Restaurant,Bangalore,Biryani,185.47,43.0,4.3,2024-12-18 20:43:00,dinner,False,96.9,Web
+100311,China Town,Delhi,Chinese,188.09,46.0,3.8,2024-12-29 12:26:00,lunch,False,59.98,Android
+101384,Saffron,Mumbai,North Indian,545.19,41.0,4.3,2024-12-15 08:49:00,breakfast,False,89.79,iOS
+100094,China Town,Hyderabad,Chinese,520.42,42.0,4.4,2024-11-12 20:47:00,dinner,True,102.55,iOS
+101593,Dominos,Bangalore,Pizza,131.93,36.0,4.4,2024-12-28 08:58:00,breakfast,False,,iOS
+100925,Murugan Idli Shop,Delhi,South Indian,337.41,39.0,3.7,2024-11-03 09:41:00,breakfast,False,116.96,iOS
+101714,La Pino'z,Delhi,Pizza,680.23,39.0,3.7,2024-12-19 21:04:00,dinner,True,,Android
+101036,Moti Mahal,Chennai,North Indian,145.63,42.0,4.7,2024-12-12 12:52:00,lunch,True,34.5,iOS
+101401,Dum Pukht,Bangalore,Biryani,250.01,32.0,3.5,2024-10-23 12:27:00,lunch,True,69.93,Android
+100244,Smoke House Deli,Mumbai,Continental,288.69,47.0,4.2,2024-12-24 17:13:00,snacks,False,,iOS
+101501,Punjab Grill,Delhi,North Indian,233.23,42.0,3.8,2024-12-20 16:11:00,snacks,True,93.25,iOS
+101112,Punjab Grill,Mumbai,North Indian,424.11,63.0,3.4,2024-11-25 19:35:00,dinner,True,,Web
+100215,Sweet Truth,Chennai,Desserts,809.3,48.0,,2024-10-07 18:15:00,snacks,True,11.29,iOS
+101436,Murugan Idli Shop,Bangalore,South Indian,450.31,32.0,4.5,2024-12-12 20:43:00,dinner,False,101.92,Web
+101198,Raw Pressery Kitchen,Jaipur,Healthy,317.41,22.0,5.0,2024-12-27 08:08:00,,False,40.85,iOS
+100999,Punjab Grill,Jaipur,North Indian,249.51,23.0,3.4,2024-12-20 21:29:00,dinner,True,,Android
+100854,Starbucks,Kolkata,Beverages,123.26,47.0,4.1,2024-10-12 13:35:00,lunch,False,,iOS
+100426,Blue Tokai,Hyderabad,Beverages,310.52,45.0,3.7,2024-12-25 12:18:00,lunch,False,44.64,Android
+101793,Joey's Pizza,Delhi,Pizza,354.58,44.0,4.9,2024-12-09 20:28:00,dinner,False,77.67,Android
+101143,La Pino'z,Chennai,Pizza,142.55,51.0,4.8,2024-10-12 16:13:00,snacks,False,,iOS
+101144,Chinese Box,Hyderabad,Chinese,736.1,23.0,2.7,2024-11-27 23:35:00,dinner,False,97.78,Android
+100227,Moti Mahal,Surat,North Indian,350.65,48.0,2.9,2024-10-18 12:33:00,lunch,True,45.8,Android
+101654,Dum Pukht,Mumbai,Biryani,900.0,55.0,3.6,2024-10-06 13:28:00,lunch,True,115.0,iOS
+100001,Barbeque Nation,Mumbai,North Indian,560.82,64.0,4.1,2024-12-22 16:26:00,snacks,True,,iOS
+101419,Barbeque Nation,Delhi,North Indian,318.61,63.0,3.9,2024-10-05 17:08:00,snacks,True,112.72,Android
+100402,Bawarchi,Ahmedabad,Biryani,172.46,51.0,3.8,2024-10-31 18:28:00,snacks,False,,Web
+101429,Freshmenu,Hyderabad,Healthy,750.97,36.0,4.4,2024-10-29 22:14:00,dinner,True,,iOS
+101104,Saravana Bhavan,Ahmedabad,South Indian,798.55,34.0,2.9,2024-12-04 14:54:00,lunch,True,,iOS
+100085,China Town,Mumbai,Chinese,343.02,40.0,,2024-12-11 14:31:00,lunch,False,12.14,Android
+100163,Saravana Bhavan,Hyderabad,South Indian,189.83,23.0,3.6,2024-11-21 18:01:00,snacks,False,,Android
+100115,McDonald's,Hyderabad,Burger,2569.06,,4.0,2024-12-27 15:25:00,snacks,True,116.2,Android
+100671,Wat-A-Burger,Bangalore,Burger,900.0,26.0,3.9,2024-11-08 14:40:00,lunch,False,40.31,Android
+101175,Dum Pukht,Hyderabad,Biryani,112.98,35.0,3.9,2024-10-08 13:30:00,lunch,False,71.62,Android
+101848,Joey's Pizza,Bangalore,Pizza,262.59,41.0,5.8,2024-12-05 23:37:00,dinner,False,,Android
+101540,Behrouz Biryani,Delhi,Biryani,277.57,43.0,4.3,2024-10-18 16:46:00,snacks,True,57.55,Android
+101393,Green Bowl,Bangalore,Healthy,473.04,15.0,4.0,2024-11-20 21:48:00,dinner,True,64.17,iOS
+100890,Roll House,Mumbai,Rolls & Wraps,353.09,45.0,,2024-11-14 22:45:00,dinner,False,,Android
+101502,Roll House,Delhi,Rolls & Wraps,382.2,16.0,3.1,2024-11-02 07:41:00,breakfast,True,28.8,iOS
+100626,Oh Calcutta,Mumbai,Seafood,197.25,28.0,2.5,2024-10-30 23:42:00,dinner,False,,Android
+100652,MTR,Hyderabad,South Indian,248.58,24.0,2.5,2024-12-11 21:49:00,dinner,True,,Web
+101555,Empire Restaurant,Mumbai,Biryani,189.99,40.0,4.0,2024-10-10 19:15:00,dinner,False,66.82,iOS
+101996,Nandhini,Chennai,South Indian,419.32,33.0,,2024-10-24 21:24:00,dinner,False,43.92,Android
+100953,Burgerama,Bangalore,Burger,497.49,59.0,3.6,2024-10-28 13:43:00,lunch,True,,Android
+100808,Bawarchi,Ahmedabad,Biryani,414.42,43.0,3.1,2024-12-23 21:51:00,dinner,True,13.72,Android
+100259,Dhaba Express,Hyderabad,North Indian,298.44,28.0,4.6,2024-12-10 12:51:00,lunch,False,103.29,iOS
+100625,MTR,Hyderabad,South Indian,350.92,,3.7,2024-11-08 19:46:00,dinner,True,,iOS
+100827,La Folie,Mumbai,Desserts,382.5,49.0,3.7,2024-10-01 22:54:00,dinner,False,104.03,Android
+100235,Burger King,Bangalore,Burger,215.84,47.0,4.0,2024-10-20 08:20:00,breakfast,False,92.21,Android
+100136,Raw Pressery Kitchen,Mumbai,Healthy,301.7,54.0,4.1,2024-11-01 08:08:00,breakfast,True,18.58,Android
+100617,Udupi Palace,Bangalore,South Indian,833.36,56.0,3.7,2024-12-18 21:07:00,dinner,False,18.72,Android
+101962,MTR,Delhi,South Indian,332.56,,3.5,2024-11-10 21:56:00,dinner,False,,Android
+101997,Saravana Bhavan,Jaipur,South Indian,316.2,49.0,4.2,2024-12-26 17:11:00,snacks,True,103.15,Android
+100837,The Table,Ahmedabad,Continental,266.67,39.0,4.6,2024-11-13 13:07:00,lunch,True,15.9,Android
+100843,Tea Trails,Bangalore,Beverages,405.4,58.0,3.9,2024-10-14 13:51:00,lunch,True,,Android
+100960,Wraps N Rolls,Chennai,Rolls & Wraps,349.3,23.0,3.4,2024-11-24 21:11:00,dinner,True,,Web
+100593,Dominos,Bangalore,Pizza,243.77,38.0,,2024-10-20 16:26:00,snacks,False,,Android
+101315,Saffron,Delhi,North Indian,376.68,49.0,3.8,2024-10-23 18:21:00,snacks,True,,Android
+101526,Dum Pukht,Mumbai,Biryani,310.92,28.0,,2024-10-14 09:51:00,breakfast,False,17.11,iOS
+101292,Freshmenu,Bangalore,Healthy,329.97,21.0,4.1,2024-10-27 13:40:00,lunch,True,,Android
+100344,Nandhini,Delhi,South Indian,853.41,52.0,,2024-12-24 21:43:00,dinner,False,61.64,iOS
+101677,Bawarchi,Bangalore,Biryani,362.4,29.0,3.7,2024-11-16 16:12:00,snacks,True,,iOS
+101601,Behrouz Biryani,Bangalore,Biryani,421.75,55.0,4.8,2024-11-17 12:32:00,lunch,False,,iOS
+100294,Mainland China,Mumbai,Chinese,674.58,40.0,3.4,2024-11-23 22:22:00,,False,95.55,Android
+100365,Joey's Pizza,Jaipur,Pizza,185.54,28.0,4.0,2024-11-11 12:14:00,lunch,False,107.13,Android
+100179,Burgerama,Ahmedabad,Burger,491.08,27.0,3.3,2024-10-29 12:47:00,lunch,False,58.79,Android
+100660,Wat-A-Burger,Hyderabad,Burger,389.96,,3.3,2024-11-12 20:34:00,dinner,True,54.08,Android
+100997,Behrouz Biryani,Ahmedabad,Biryani,242.8,24.0,4.6,2024-10-03 14:42:00,,False,40.0,iOS
+100015,China Town,Bangalore,Chinese,900.0,47.0,,2024-10-02 16:46:00,snacks,False,,Android
+101111,Joey's Pizza,Pune,Pizza,309.99,56.0,3.4,2024-10-21 19:21:00,dinner,False,,iOS
+101395,Chai Point,Mumbai,Beverages,581.63,50.0,4.2,2024-10-25 21:48:00,dinner,False,,Android
+100166,Oh Calcutta,Kolkata,Seafood,272.74,38.0,4.4,2024-12-08 13:29:00,lunch,True,,Android
+101915,Coastal Kitchen,Delhi,Seafood,729.78,39.0,4.3,2024-11-07 17:33:00,snacks,True,,Android
+101360,Burgerama,Hyderabad,Burger,372.79,,3.4,2024-10-08 15:13:00,snacks,True,,Web
+100060,Mainland China,Mumbai,Chinese,609.35,67.0,3.3,2024-12-27 21:23:00,dinner,False,73.62,iOS
+100710,Punjab Grill,Chennai,North Indian,352.87,62.0,5.0,2024-12-10 16:11:00,snacks,False,,Web
+100677,Nandhini,Bangalore,South Indian,757.58,31.0,,2024-12-27 08:58:00,breakfast,False,,iOS
+101379,Paradise Biryani,Mumbai,Biryani,453.23,,,2024-12-13 22:58:00,dinner,False,,iOS
+100781,Empire Restaurant,Chennai,Biryani,235.17,35.0,4.1,2024-10-03 08:08:00,breakfast,False,,Android
+100425,Dhaba Express,Bangalore,North Indian,231.88,51.0,,2024-10-02 12:03:00,lunch,True,43.65,Android
+100293,Saffron,Pune,North Indian,138.36,59.0,3.0,2024-10-14 18:46:00,snacks,False,,Web
+101066,Barbeque Nation,Chennai,North Indian,274.6,26.0,3.6,2024-10-01 09:46:00,breakfast,False,41.93,iOS
+101911,Dum Pukht,Mumbai,Biryani,234.27,34.0,,2024-10-11 13:08:00,lunch,False,119.22,Web
+100330,Behrouz Biryani,Mumbai,Biryani,436.42,36.0,4.2,2024-12-02 19:19:00,dinner,False,105.39,Android
+100430,Green Bowl,Bangalore,Healthy,223.2,48.0,3.2,2024-12-29 22:24:00,dinner,False,55.42,iOS
+101013,Saffron,Jaipur,North Indian,198.55,38.0,4.5,2024-11-05 17:03:00,snacks,True,40.66,Android
+100080,Theobroma,Bangalore,Desserts,169.15,41.0,4.4,2024-10-09 14:38:00,lunch,False,31.72,Android
+101053,Moti Mahal,Ahmedabad,North Indian,668.86,50.0,4.3,2024-11-25 13:35:00,lunch,False,49.52,Web
+100938,La Pino'z,Ahmedabad,Pizza,210.93,52.0,4.0,2024-10-21 16:14:00,snacks,False,,iOS
+100835,Udupi Palace,Delhi,South Indian,250.57,46.0,4.3,2024-10-25 16:24:00,snacks,False,44.0,Web
+100750,Pizza Hut,Hyderabad,Pizza,423.9,36.0,4.5,2024-11-01 23:57:00,dinner,True,,Android
+100891,Nandhini,Chennai,South Indian,333.3,46.0,4.0,2024-12-08 13:12:00,lunch,True,,Android
+100255,Salad Days,Bangalore,Healthy,328.96,39.0,4.3,2024-10-16 12:02:00,lunch,False,66.51,Android
+101764,Saffron,Delhi,North Indian,363.27,49.0,3.8,2024-10-21 14:37:00,lunch,False,97.89,iOS
+101483,Barbeque Nation,Hyderabad,North Indian,382.49,38.0,,2024-11-19 12:07:00,lunch,True,,Android
+101994,Empire Restaurant,Bangalore,Biryani,580.41,35.0,3.4,2024-10-30 16:13:00,snacks,False,108.77,Android
+101408,Smoke House Deli,Pune,Continental,223.9,30.0,,2024-11-19 14:36:00,lunch,True,48.44,Web
+101338,Theobroma,Chennai,Desserts,139.18,42.0,4.4,2024-12-04 18:25:00,snacks,False,36.89,Android
+101109,Joey's Pizza,Chennai,Pizza,587.63,45.0,,2024-11-23 20:35:00,dinner,False,85.02,Web
+101599,Udupi Palace,Bangalore,South Indian,165.02,44.0,2.6,2024-10-25 23:24:00,dinner,False,47.63,Web
+100137,Bawarchi,Delhi,Biryani,447.05,47.0,4.9,2024-11-04 20:04:00,dinner,False,,Android
+101136,Pizza Hut,Bangalore,Pizza,337.32,43.0,4.0,2024-10-08 13:03:00,lunch,False,61.61,iOS
+101219,Burgerama,Chennai,Burger,568.33,30.0,3.5,2024-10-25 14:26:00,lunch,True,75.27,Web
+100853,Barbeque Nation,Mumbai,North Indian,286.36,,3.4,2024-10-23 22:39:00,dinner,False,,Web
+101203,Punjab Grill,Bangalore,North Indian,248.72,34.0,5.0,2024-12-06 16:17:00,snacks,False,,Android
+101921,Chai Point,Chennai,Beverages,455.92,44.0,4.3,2024-11-09 12:29:00,lunch,False,91.93,iOS
+100724,Wok To Walk,Chennai,Chinese,424.0,38.0,3.4,2024-12-18 13:22:00,lunch,False,,Android
+100860,Behrouz Biryani,Bangalore,Biryani,337.43,31.0,4.0,2024-10-07 22:32:00,dinner,False,98.6,iOS
+100970,The Wok,Delhi,Chinese,390.75,45.0,4.8,2024-12-17 12:39:00,lunch,False,37.29,Android
+100497,Joey's Pizza,Hyderabad,Pizza,301.55,49.0,3.4,2024-12-05 16:10:00,snacks,False,,Android
+100951,The Roll Story,Hyderabad,Rolls & Wraps,588.96,44.0,4.6,2024-10-09 14:13:00,lunch,False,,iOS
+100806,Bay Leaf,Chennai,Seafood,322.25,33.0,3.2,2024-11-25 18:43:00,snacks,False,60.82,iOS
+100130,Saravana Bhavan,Delhi,South Indian,5705.62,43.0,3.8,2024-12-21 08:23:00,breakfast,False,93.82,Android
+100338,Udupi Palace,Chennai,South Indian,340.11,50.0,4.5,2024-10-28 20:17:00,dinner,False,,Android
+100963,Saravana Bhavan,Mumbai,South Indian,322.61,53.0,3.7,2024-12-28 14:23:00,lunch,False,69.82,Web
+100609,Wat-A-Burger,Delhi,Burger,120.91,38.0,,2024-10-25 21:46:00,dinner,True,,Web
+101149,Baskin Robbins,Kolkata,Desserts,276.16,46.0,4.7,2024-10-05 17:38:00,snacks,False,,Android
+100196,Nandhini,Mumbai,South Indian,627.0,41.0,4.4,2024-12-10 14:57:00,lunch,True,16.57,Android
+101251,The Wok,Pune,Chinese,161.94,33.0,3.4,2024-11-24 14:16:00,lunch,True,,Web
+101293,Saravana Bhavan,Hyderabad,South Indian,715.85,,4.3,2024-12-28 10:54:00,breakfast,False,,Android
+101704,The Roll Story,Delhi,Rolls & Wraps,461.85,36.0,2.9,2024-12-24 12:46:00,lunch,False,16.56,Android
+100910,Barbeque Nation,Mumbai,North Indian,287.47,44.0,4.4,2024-11-09 16:22:00,snacks,True,69.85,Android
+100585,Pizza Hut,Hyderabad,Pizza,165.98,31.0,4.2,2024-11-17 22:15:00,dinner,True,,iOS
+100104,Wat-A-Burger,Delhi,Burger,677.55,49.0,3.4,2024-10-22 12:31:00,lunch,True,10.38,Web
+101618,Frankie Express,Chennai,Rolls & Wraps,438.71,44.0,4.3,2024-11-19 13:10:00,lunch,True,92.35,iOS
+101884,Saffron,Pune,North Indian,178.91,52.0,3.8,2024-12-13 19:39:00,dinner,False,,Web
+101903,Starbucks,Pune,Beverages,284.51,,4.2,2024-12-01 14:09:00,lunch,True,,Android
+100720,Dum Pukht,Chennai,Biryani,5457.2,29.0,3.7,2024-11-10 20:39:00,dinner,False,92.87,Android
+100885,Dum Pukht,Pune,Biryani,123.64,44.0,4.2,2024-11-19 13:23:00,lunch,False,,Web
+100777,Dum Pukht,Mumbai,Biryani,459.14,50.0,3.5,2024-12-20 09:24:00,breakfast,False,80.62,iOS
+101570,Salad Days,Delhi,Healthy,899.0,37.0,4.8,2024-10-02 22:06:00,dinner,True,98.03,Android
+100850,MTR,Hyderabad,South Indian,502.97,35.0,4.4,2024-10-01 12:56:00,lunch,True,30.48,Android
+100895,Paradise Biryani,Chennai,Biryani,434.88,57.0,4.7,2024-10-03 13:22:00,lunch,False,75.67,Android
+100228,Joey's Pizza,Delhi,Pizza,232.48,43.0,4.2,2024-12-06 17:47:00,snacks,False,58.07,Web
+101917,Baskin Robbins,Kolkata,Desserts,310.95,52.0,4.2,2024-12-06 23:38:00,dinner,False,,iOS
+101326,Baskin Robbins,Mumbai,Desserts,444.08,52.0,4.7,2024-12-02 15:13:00,snacks,True,64.21,Android
+101300,Wraps N Rolls,Chennai,Rolls & Wraps,269.2,44.0,,2024-11-26 09:57:00,breakfast,True,24.37,iOS
+100127,La Pino'z,Pune,Pizza,682.94,36.0,,2024-12-10 23:42:00,dinner,False,,Android
+100406,Dominos,Kolkata,Pizza,352.9,32.0,3.3,2024-10-27 19:52:00,dinner,False,,Web
+100776,MTR,Bangalore,South Indian,900.0,49.0,3.1,2024-11-06 23:25:00,dinner,False,97.15,Android
+100822,Punjab Grill,Bangalore,North Indian,339.58,40.0,,2024-12-02 12:39:00,lunch,False,,iOS
+100712,China Town,Hyderabad,Chinese,500.72,56.0,3.2,2024-10-05 15:06:00,snacks,True,76.47,Android
+101925,The Table,Pune,Continental,279.69,49.0,,2024-11-09 14:35:00,lunch,False,36.1,Web
+101061,Punjab Grill,Kolkata,North Indian,589.8,38.0,4.6,2024-12-13 20:49:00,dinner,False,52.92,Web
+101164,Wok To Walk,Chennai,Chinese,225.82,30.0,5.0,2024-10-03 16:17:00,snacks,False,102.39,iOS
+100304,Barbeque Nation,Hyderabad,North Indian,148.29,57.0,4.0,2024-11-16 15:52:00,snacks,False,48.03,iOS
+100268,Wat-A-Burger,Chennai,Burger,661.45,53.0,5.0,2024-11-22 10:24:00,breakfast,True,64.09,Android
+101558,Chinese Box,Delhi,Chinese,455.91,49.0,4.5,2024-12-21 19:36:00,dinner,True,29.29,Android
+100546,Chinese Box,Mumbai,Chinese,440.59,43.0,4.1,2024-12-03 23:17:00,dinner,False,107.82,Android
+100213,Empire Restaurant,Chennai,Biryani,373.42,43.0,4.4,2024-12-16 15:13:00,snacks,False,74.68,Android
+100897,Mainland China,Mumbai,Chinese,843.66,34.0,4.2,2024-10-09 12:37:00,lunch,False,79.51,iOS
+101493,Eatfit,Mumbai,Healthy,360.3,42.0,,2024-10-01 16:44:00,snacks,True,10.99,Android
+101223,Paradise Biryani,Delhi,Biryani,5616.4,,4.4,2024-11-09 13:33:00,lunch,False,96.86,Android
+100917,Sweet Truth,Mumbai,Desserts,198.89,38.0,3.8,2024-10-28 14:18:00,lunch,True,,Android
+101552,Behrouz Biryani,Hyderabad,Biryani,455.17,58.0,4.1,2024-10-24 14:20:00,lunch,False,,Android
+100676,Barbeque Nation,Surat,North Indian,573.13,,5.0,2024-10-17 23:34:00,dinner,False,,Web
+101290,Saffron,Bangalore,North Indian,470.58,,4.0,2024-10-28 21:04:00,dinner,False,,iOS
+100815,Joey's Pizza,Kolkata,Pizza,834.3,,4.2,2024-12-24 19:05:00,dinner,False,,Android
+101266,Paradise Biryani,Bangalore,Biryani,188.2,,5.0,2024-10-11 18:13:00,snacks,True,59.04,Android
+100343,Paradise Biryani,Bangalore,Biryani,212.9,27.0,4.9,2024-11-08 19:32:00,dinner,False,,iOS
+100550,Empire Restaurant,Pune,Biryani,238.07,67.0,3.2,2024-11-10 22:37:00,dinner,True,75.88,Android
+101411,Murugan Idli Shop,Mumbai,South Indian,306.84,47.0,2.9,2024-12-14 20:55:00,dinner,False,32.07,Android
+101215,Saffron,Chennai,North Indian,846.79,44.0,4.8,2024-11-22 14:24:00,lunch,False,,Android
+100967,Theobroma,Chennai,Desserts,380.5,19.0,4.4,2024-11-28 22:31:00,dinner,True,,iOS
+101231,Wok To Walk,Kolkata,Chinese,362.85,44.0,3.4,2024-11-12 20:52:00,dinner,True,,Android
+100296,Dum Pukht,Delhi,Biryani,256.23,40.0,3.5,2024-12-27 12:51:00,lunch,False,24.19,Web
+100696,Chinese Box,Hyderabad,Chinese,266.75,54.0,4.2,2024-12-18 22:53:00,dinner,False,,iOS
+101453,Burger King,Kolkata,Burger,356.75,43.0,3.2,2024-10-01 14:22:00,lunch,True,72.75,Android
+100074,Salad Days,Pune,Healthy,601.39,38.0,3.9,2024-11-18 16:07:00,snacks,False,,Android
+100606,Chinese Box,Delhi,Chinese,290.33,57.0,3.8,2024-12-27 19:22:00,dinner,False,56.34,Android
+100105,The Roll Story,Ahmedabad,Rolls & Wraps,333.24,55.0,2.9,2024-10-24 14:52:00,lunch,False,62.21,Android
+100646,Saravana Bhavan,Kolkata,South Indian,544.06,65.0,4.2,2024-12-29 22:28:00,dinner,False,,Android
+101405,Baskin Robbins,Chennai,Desserts,763.52,39.0,3.5,2024-12-23 13:07:00,lunch,False,41.09,Android
+101415,Theobroma,Hyderabad,Desserts,242.98,55.0,4.1,2024-11-08 09:42:00,breakfast,True,,Android
+101041,Bawarchi,Hyderabad,Biryani,531.55,26.0,2.9,2024-10-19 20:39:00,dinner,False,35.23,iOS
+100440,Empire Restaurant,Bangalore,Biryani,285.28,43.0,3.3,2024-11-10 12:10:00,lunch,False,,iOS
+101020,La Folie,Bangalore,Desserts,327.39,,4.5,2024-11-02 21:13:00,dinner,False,78.97,iOS
+100092,The Fish Shack,Chennai,Seafood,249.06,65.0,,2024-10-25 13:38:00,lunch,True,62.9,iOS
+101113,Burger King,Mumbai,Burger,900.0,59.0,3.9,2024-10-29 17:49:00,snacks,False,74.3,Android
+101923,Naturals Ice Cream,Hyderabad,Desserts,550.33,50.0,4.9,2024-10-09 14:40:00,lunch,False,104.47,Android
+100909,Saffron,Mumbai,North Indian,900.0,47.0,,2024-10-15 23:07:00,,False,102.18,Web
+101475,Kathi Roll Corner,Mumbai,Rolls & Wraps,584.07,42.0,3.6,2024-11-24 10:19:00,breakfast,True,41.43,Android
+100103,Empire Restaurant,Mumbai,Biryani,450.67,57.0,4.3,2024-12-23 18:29:00,snacks,False,84.19,Android
+100239,Dum Pukht,Hyderabad,Biryani,399.42,45.0,4.3,2024-11-06 23:29:00,dinner,True,115.21,Web
+101734,Mainland China,Delhi,Chinese,900.0,37.0,4.4,2024-10-13 18:55:00,snacks,False,91.79,iOS
+100943,Barbeque Nation,Chennai,North Indian,492.49,21.0,3.4,2024-12-28 21:08:00,dinner,False,,iOS
+101271,Dhaba Express,Chennai,North Indian,252.12,40.0,3.4,2024-10-03 12:36:00,lunch,False,17.29,Android
+100939,Coastal Kitchen,Bangalore,Seafood,489.85,32.0,3.1,2024-10-25 19:07:00,dinner,False,69.39,Android
+101724,Barbeque Nation,Bangalore,North Indian,324.25,34.0,4.0,2024-10-18 14:19:00,lunch,True,,iOS
+101182,Punjab Grill,Mumbai,North Indian,297.07,58.0,4.2,2024-12-20 19:10:00,dinner,False,91.8,Android
+101504,Behrouz Biryani,Mumbai,Biryani,263.05,38.0,3.4,2024-10-27 18:46:00,snacks,True,103.43,Android
+101670,Udupi Palace,Pune,South Indian,479.31,,4.8,2024-12-07 22:17:00,dinner,True,80.7,Android
+100006,Naturals Ice Cream,Bangalore,Desserts,532.98,,3.9,2024-11-10 13:32:00,lunch,True,68.75,Web
+101850,Dum Pukht,Hyderabad,Biryani,264.5,55.0,,2024-12-05 16:31:00,,False,70.51,Android
+100966,Burger King,Mumbai,Burger,361.12,39.0,4.4,2024-11-30 13:49:00,,False,,Android
+100019,Paradise Biryani,Delhi,Biryani,643.36,52.0,4.3,2024-12-18 12:23:00,lunch,False,,iOS
+101431,Joey's Pizza,Delhi,Pizza,283.7,32.0,4.7,2024-11-09 17:55:00,snacks,False,,Android
+100122,Chinese Box,Kolkata,Chinese,371.98,27.0,3.8,2024-10-21 18:21:00,snacks,True,,Android
+100662,Salad Days,Surat,Healthy,292.63,39.0,4.3,2024-10-19 15:10:00,snacks,False,,Android
+101750,Freshmenu,Bangalore,Healthy,192.73,42.0,4.0,2024-11-28 21:32:00,dinner,False,25.73,iOS
+100275,Trishna,Delhi,Seafood,256.15,,,2024-10-08 18:59:00,snacks,True,,iOS
+100434,Saffron,Bangalore,North Indian,448.02,46.0,3.5,2024-11-27 20:11:00,dinner,False,26.96,Android
+100812,McDonald's,Kolkata,Burger,216.08,48.0,3.5,2024-10-09 23:06:00,dinner,False,33.33,Android
+101301,Udupi Palace,Bangalore,South Indian,442.61,48.0,4.0,2024-12-26 23:41:00,dinner,False,44.12,Android
+101336,La Folie,Chennai,Desserts,289.8,16.0,3.7,2024-12-17 20:45:00,dinner,True,,Android
+101904,Saffron,Bangalore,North Indian,277.74,38.0,3.6,2024-12-20 12:55:00,lunch,True,78.99,iOS
+101927,Dominos,Hyderabad,Pizza,306.96,,4.5,2024-10-28 23:06:00,dinner,False,22.17,Web
+101571,Barbeque Nation,Hyderabad,North Indian,900.0,35.0,3.1,2024-11-28 20:04:00,dinner,True,52.04,Android
+100182,Dhaba Express,Bangalore,North Indian,294.04,47.0,3.6,2024-10-28 21:55:00,dinner,True,,Android
+100185,Wat-A-Burger,Mumbai,Burger,309.82,41.0,3.9,2024-11-24 14:52:00,lunch,True,,Android
+100407,MTR,Delhi,South Indian,721.35,39.0,4.1,2024-10-29 21:45:00,dinner,False,98.63,Android
+100866,Dominos,Hyderabad,Pizza,328.03,38.0,4.2,2024-12-18 18:08:00,snacks,True,,Android
+101631,Naturals Ice Cream,Pune,Desserts,318.2,,4.3,2024-11-23 20:11:00,dinner,True,,Android
+101717,Saravana Bhavan,Bangalore,South Indian,900.0,20.0,3.7,2024-11-25 14:16:00,lunch,False,,Android
+100521,The Burger Club,Hyderabad,Burger,224.99,36.0,2.3,2024-10-12 19:04:00,dinner,True,112.9,Android
+101004,Oven Story,Chennai,Pizza,80.0,45.0,4.0,2024-11-09 13:41:00,lunch,True,90.71,iOS
+100381,The Roll Story,Bangalore,Rolls & Wraps,496.5,,4.2,2024-11-22 09:31:00,breakfast,False,60.5,iOS
+101435,McDonald's,Bangalore,Burger,900.0,31.0,4.3,2024-12-27 16:24:00,snacks,False,,Android
+101659,La Pino'z,Delhi,Pizza,253.35,42.0,3.5,2024-11-08 22:05:00,dinner,True,,Android
+101394,Punjab Grill,Delhi,North Indian,718.96,46.0,4.1,2024-11-20 17:44:00,snacks,False,,iOS
+101425,Roll House,Surat,Rolls & Wraps,182.58,37.0,5.0,2024-12-24 13:50:00,lunch,False,91.64,Android
+101613,Saravana Bhavan,Hyderabad,South Indian,293.26,20.0,2.5,2024-11-06 21:53:00,dinner,True,,Web
+100428,Coastal Kitchen,Kolkata,Seafood,847.22,17.0,4.3,2024-12-09 07:39:00,breakfast,False,71.51,iOS
+100079,Smoke House Deli,Mumbai,Continental,900.0,42.0,3.3,2024-12-24 20:13:00,dinner,False,,iOS
+101598,Oven Story,Bangalore,Pizza,272.37,39.0,,2024-10-17 19:13:00,dinner,True,114.88,Android
+101010,Behrouz Biryani,Delhi,Biryani,237.94,24.0,5.0,2024-12-14 13:38:00,,True,84.19,Android
+101545,Eatfit,Jaipur,Healthy,222.34,61.0,4.3,2024-10-18 18:28:00,snacks,True,,Android
+101662,The Wok,Delhi,Chinese,501.52,36.0,4.1,2024-10-14 12:08:00,lunch,False,119.23,iOS
+100608,Moti Mahal,Mumbai,North Indian,222.45,76.0,4.8,2024-10-30 14:46:00,lunch,False,95.05,iOS
+101816,Dominos,Jaipur,Pizza,411.37,36.0,3.6,2024-11-05 09:40:00,breakfast,True,116.18,Android
+101331,Pizza Hut,Hyderabad,Pizza,562.65,15.0,4.1,2024-12-01 13:10:00,lunch,True,40.12,Android
+101859,Saravana Bhavan,Kolkata,South Indian,323.48,40.0,4.8,2024-10-25 07:13:00,breakfast,True,,Android
+101058,Empire Restaurant,Delhi,Biryani,900.0,20.0,4.8,2024-10-19 13:55:00,lunch,False,10.84,Android
+101441,Udupi Palace,Jaipur,South Indian,253.25,33.0,3.3,2024-10-31 15:47:00,snacks,True,14.33,iOS
+101515,Salad Days,Bangalore,Healthy,259.96,42.0,4.3,2024-12-12 12:30:00,lunch,False,37.07,iOS
+101586,Punjab Grill,Bangalore,North Indian,151.77,55.0,3.5,2024-12-12 07:59:00,breakfast,False,,iOS
+101092,The Fish Shack,Hyderabad,Seafood,292.2,40.0,3.1,2024-12-01 08:53:00,breakfast,True,,Web
+101561,Saffron,Mumbai,North Indian,171.03,37.0,4.6,2024-11-06 14:48:00,lunch,True,37.21,iOS
+101102,Sweet Truth,Jaipur,Desserts,316.7,32.0,3.8,2024-12-22 18:10:00,snacks,False,,Android
+101130,The Roll Story,Mumbai,Rolls & Wraps,170.47,,4.0,2024-12-22 21:56:00,dinner,True,,Web
+101236,Punjab Grill,Mumbai,North Indian,120.3,38.0,3.7,2024-12-10 08:11:00,breakfast,False,103.15,Android
+101798,Dum Pukht,Bangalore,Biryani,377.38,47.0,4.2,2024-10-19 22:07:00,dinner,True,13.1,Android
+100959,Punjab Grill,Bangalore,North Indian,900.0,32.0,4.1,2024-11-09 12:54:00,lunch,True,32.06,iOS
+101663,Bawarchi,Ahmedabad,Biryani,262.54,44.0,4.3,2024-10-14 20:10:00,dinner,True,110.05,iOS
+100560,China Town,Hyderabad,Chinese,874.1,-12.0,3.7,2024-10-28 22:47:00,dinner,False,95.1,Web
+100847,Theobroma,Bangalore,Desserts,687.59,47.0,4.6,2024-11-23 23:10:00,dinner,False,47.95,Android
+101777,Roll House,Chennai,Rolls & Wraps,415.52,43.0,4.5,2024-10-27 15:31:00,snacks,False,,Android
+100691,Wok To Walk,Mumbai,Chinese,557.21,41.0,3.7,2024-11-18 13:06:00,lunch,False,74.1,iOS
+101520,Dhaba Express,Ahmedabad,North Indian,532.02,47.0,3.4,2024-12-27 15:10:00,snacks,True,113.02,Android
+101975,Saffron,Mumbai,North Indian,900.0,50.0,4.2,2024-11-29 12:29:00,lunch,True,88.7,Android
+101902,Udupi Palace,Bangalore,South Indian,232.59,36.0,3.9,2024-12-13 16:23:00,snacks,True,11.8,Android
+100437,Saravana Bhavan,Bangalore,South Indian,900.0,27.0,3.9,2024-11-02 13:02:00,lunch,True,90.72,iOS
+100491,Moti Mahal,Delhi,North Indian,541.87,,3.0,2024-12-01 14:10:00,lunch,False,,iOS
+101614,Roll House,Mumbai,Rolls & Wraps,347.62,42.0,,2024-11-23 12:00:00,lunch,False,,Android
+101874,Wraps N Rolls,Kolkata,Rolls & Wraps,608.25,41.0,5.0,2024-12-20 23:30:00,dinner,True,41.18,Web
+101630,Joey's Pizza,Delhi,Pizza,680.6,69.0,3.5,2024-10-10 10:43:00,breakfast,False,39.51,iOS
+101388,Dominos,Bangalore,Pizza,314.8,29.0,3.7,2024-11-06 23:20:00,dinner,False,,Web
+100070,MTR,Surat,South Indian,316.1,45.0,3.9,2024-10-01 19:27:00,dinner,True,102.02,Android
+101573,Kathi Roll Corner,Chennai,Rolls & Wraps,900.0,46.0,4.5,2024-11-28 22:41:00,dinner,True,,Android
+100809,Mainland China,Delhi,Chinese,212.8,74.0,4.3,2024-10-13 14:49:00,lunch,True,27.32,Android
+101185,Wok To Walk,Bangalore,Chinese,641.9,49.0,2.9,2024-12-18 21:48:00,dinner,True,38.49,Android
+100012,Paradise Biryani,Jaipur,Biryani,470.56,54.0,3.6,2024-11-09 12:32:00,lunch,False,67.71,iOS
+100145,Wok To Walk,Mumbai,Chinese,236.74,33.0,3.9,2024-11-01 22:23:00,dinner,True,89.9,iOS
+100918,Wraps N Rolls,Jaipur,Rolls & Wraps,145.53,53.0,3.2,2024-10-21 14:53:00,lunch,True,102.44,Web
+101542,Kathi Roll Corner,Bangalore,Rolls & Wraps,284.96,40.0,3.6,2024-12-14 16:09:00,snacks,True,38.56,Android
+101452,Burger King,Hyderabad,Burger,241.67,45.0,,2024-10-01 13:06:00,lunch,False,,Android
+100640,McDonald's,Mumbai,Burger,562.5,31.0,2.8,2024-12-12 21:50:00,dinner,True,,Android
+100177,Saffron,Chennai,North Indian,307.35,42.0,5.0,2024-12-02 18:10:00,snacks,False,100.66,iOS
+100995,Behrouz Biryani,Mumbai,Biryani,229.91,36.0,4.1,2024-11-08 10:26:00,breakfast,False,,Web
+100441,La Pino'z,Bangalore,Pizza,158.54,55.0,3.7,2024-11-23 20:56:00,dinner,False,19.44,Android
+100522,Bawarchi,Delhi,Biryani,458.78,38.0,3.8,2024-11-03 15:02:00,snacks,False,68.65,Android
+101502,Roll House,Delhi,Rolls & Wraps,382.2,16.0,3.1,2024-11-02 07:41:00,breakfast,True,28.8,iOS
+101979,Bawarchi,Kolkata,Biryani,296.39,53.0,,2024-12-04 18:36:00,snacks,False,,iOS
+101713,McDonald's,Pune,Burger,287.52,24.0,5.0,2024-12-27 16:18:00,snacks,True,,Android
+101005,Joey's Pizza,Pune,Pizza,578.72,31.0,5.0,2024-10-05 20:01:00,dinner,False,,Android
+101256,Behrouz Biryani,Delhi,Biryani,344.56,38.0,3.7,2024-10-04 16:41:00,snacks,False,16.62,iOS
+101235,Udupi Palace,Chennai,South Indian,279.86,43.0,4.7,2024-11-06 17:21:00,snacks,False,,Android
+101665,Joey's Pizza,Lucknow,Pizza,581.22,65.0,4.0,2024-12-28 15:03:00,snacks,False,63.52,Android
+100144,Barbeque Nation,Mumbai,North Indian,221.62,68.0,2.9,2024-11-10 23:50:00,dinner,False,14.88,Web
+100754,Nandhini,Mumbai,South Indian,146.5,46.0,4.0,2024-11-09 15:36:00,snacks,False,26.8,Android
+100520,La Folie,Bangalore,Desserts,868.66,19.0,3.6,2024-11-13 07:51:00,breakfast,True,,Android
+101899,Mainland China,Mumbai,Chinese,80.0,48.0,4.5,2024-11-24 23:17:00,dinner,False,119.88,Android
+101323,Sweet Truth,Kolkata,Desserts,900.0,69.0,4.2,2024-11-01 14:51:00,lunch,False,58.18,Android
+100823,Dominos,Mumbai,Pizza,679.32,55.0,3.1,2024-12-22 13:02:00,lunch,True,77.83,Web
+100429,Barbeque Nation,Mumbai,North Indian,804.92,38.0,4.5,2024-12-26 14:32:00,,True,,Android
+100613,Dhaba Express,Hyderabad,North Indian,592.53,49.0,4.3,2024-10-20 17:23:00,snacks,False,,Android
+101506,Dominos,Delhi,Pizza,821.83,74.0,3.3,2024-10-24 12:36:00,lunch,True,,Web
+101784,Kathi Roll Corner,Hyderabad,Rolls & Wraps,390.55,55.0,3.1,2024-10-07 13:44:00,lunch,False,,Android
+101033,Sweet Truth,Mumbai,Desserts,391.86,41.0,3.6,2024-12-11 18:16:00,snacks,True,,iOS
+100157,Dum Pukht,Chennai,Biryani,244.9,45.0,5.0,2024-11-07 15:22:00,snacks,False,59.06,iOS
+100540,Naturals Ice Cream,Bangalore,Desserts,261.77,24.0,3.5,2024-10-23 10:57:00,breakfast,False,,iOS
+101531,Saffron,Mumbai,North Indian,478.65,28.0,5.0,2024-12-03 18:50:00,snacks,False,19.16,Android
+101461,Dhaba Express,Delhi,North Indian,207.89,41.0,,2024-11-12 22:42:00,dinner,False,70.04,Android
+101291,Bawarchi,Delhi,Biryani,238.0,28.0,3.9,2024-10-14 13:16:00,lunch,False,74.9,iOS
+100462,Green Bowl,Hyderabad,Healthy,799.21,45.0,4.0,2024-12-11 15:36:00,snacks,False,63.2,iOS
+100577,Oh Calcutta,Bangalore,Seafood,298.74,50.0,4.0,2024-11-30 14:28:00,lunch,False,54.23,Web
+101363,McDonald's,Hyderabad,Burger,542.72,19.0,3.5,2024-10-31 18:39:00,snacks,False,39.34,iOS
+100256,Joey's Pizza,Hyderabad,Pizza,605.5,45.0,4.3,2024-10-28 20:22:00,dinner,False,40.02,iOS
+100980,The Fish Shack,Hyderabad,Seafood,688.18,44.0,4.6,2024-12-15 07:51:00,breakfast,True,,Android
+101186,Mainland China,Ahmedabad,Chinese,437.26,58.0,,2024-11-27 21:13:00,dinner,True,61.84,Web
+101007,Blue Tokai,Chennai,Beverages,205.39,65.0,4.1,2024-12-02 21:38:00,dinner,True,,iOS
+101522,China Town,Ahmedabad,Chinese,400.18,41.0,4.7,2024-12-18 17:57:00,snacks,False,,Android
+101690,Bawarchi,Pune,Biryani,343.04,37.0,3.6,2024-11-21 15:46:00,snacks,False,102.34,iOS
+100561,Roll House,Chennai,Rolls & Wraps,900.0,54.0,4.2,2024-11-12 23:35:00,dinner,False,,Android
+100209,Dhaba Express,Bangalore,North Indian,754.17,34.0,5.0,2024-10-22 10:58:00,breakfast,False,46.64,Android
+100911,Dhaba Express,Hyderabad,North Indian,182.1,47.0,,2024-10-12 23:33:00,dinner,True,91.2,Android
+101312,Wat-A-Burger,Kolkata,Burger,285.49,38.0,4.0,2024-11-05 15:26:00,snacks,False,,iOS
+100002,Barbeque Nation,Jaipur,North Indian,610.23,27.0,4.3,2024-12-19 21:30:00,dinner,True,119.78,Android
+101366,La Pino'z,Bangalore,Pizza,272.6,23.0,3.0,2024-10-16 21:28:00,dinner,False,,Android
+100270,The Wok,Mumbai,Chinese,179.39,41.0,,2024-10-03 22:34:00,dinner,False,66.83,iOS
+100266,La Pino'z,Chennai,Pizza,315.22,43.0,3.1,2024-11-15 12:28:00,lunch,True,55.11,Android
+100915,Punjab Grill,Hyderabad,North Indian,258.35,29.0,4.3,2024-11-24 13:18:00,lunch,False,,Android
+100231,Baskin Robbins,Pune,Desserts,750.11,61.0,3.3,2024-12-05 23:10:00,dinner,True,53.58,iOS
+100948,China Town,Ahmedabad,Chinese,166.41,32.0,3.5,2024-10-16 20:42:00,dinner,False,52.51,Android
+101120,Punjab Grill,Bangalore,North Indian,345.42,36.0,4.8,2024-11-23 12:18:00,lunch,False,87.14,iOS
+101130,The Roll Story,Mumbai,Rolls & Wraps,170.47,,4.0,2024-12-22 21:56:00,dinner,True,,Web
+100865,Udupi Palace,Delhi,South Indian,896.9,38.0,4.6,2024-12-14 12:13:00,lunch,True,52.51,iOS
+101067,Dum Pukht,Mumbai,Biryani,182.56,55.0,4.8,2024-12-12 15:20:00,snacks,True,,Android
+100874,MTR,Delhi,South Indian,415.65,42.0,3.6,2024-10-29 14:02:00,lunch,False,,Android
+101827,Chinese Box,Bangalore,Chinese,317.01,61.0,2.9,2024-12-15 16:32:00,snacks,True,52.34,Web
+100399,Burgerama,Pune,Burger,629.89,56.0,3.8,2024-10-21 13:48:00,lunch,False,81.32,Android
+101862,Oven Story,Chennai,Pizza,343.43,37.0,3.7,2024-11-25 15:17:00,snacks,True,69.44,Android
+101653,Kathi Roll Corner,Mumbai,Rolls & Wraps,682.68,56.0,4.3,2024-11-10 12:31:00,lunch,False,86.58,Android
+100046,Sweet Truth,Chennai,Desserts,656.13,53.0,,2024-10-26 13:58:00,lunch,True,,iOS
+100162,Pizza Hut,Hyderabad,Pizza,468.51,34.0,,2024-10-23 08:14:00,breakfast,True,81.46,Android
+100992,The Roll Story,Chennai,Rolls & Wraps,212.91,41.0,5.0,2024-10-29 15:21:00,snacks,False,101.8,Android
+100728,Punjab Grill,Pune,North Indian,407.99,58.0,3.1,2024-10-04 21:59:00,dinner,False,42.28,Android
+100630,MTR,Mumbai,South Indian,531.97,58.0,5.0,2024-12-24 18:57:00,snacks,False,,iOS
+100289,The Wok,Mumbai,Chinese,311.72,,,2024-11-10 14:09:00,lunch,True,,Web
+101614,Roll House,Mumbai,Rolls & Wraps,347.62,42.0,,2024-11-23 12:00:00,lunch,False,,Android
+101060,Trishna,Hyderabad,Seafood,483.87,,4.2,2024-12-24 14:49:00,lunch,False,,Web
+101991,Bawarchi,Pune,Biryani,519.29,35.0,3.1,2024-11-20 07:01:00,breakfast,True,,iOS
+100576,Burger King,Jaipur,Burger,240.63,36.0,5.0,2024-10-22 12:55:00,lunch,True,101.05,iOS
+100851,Burger King,Bangalore,Burger,224.0,38.0,,2024-11-06 20:13:00,dinner,False,,Android
+101340,Wat-A-Burger,Bangalore,Burger,363.11,22.0,3.7,2024-11-22 07:10:00,breakfast,False,,iOS
+101926,Bawarchi,Bangalore,Biryani,900.0,38.0,3.4,2024-12-09 19:46:00,dinner,False,15.12,Android
+100912,Dum Pukht,Mumbai,Biryani,283.3,32.0,4.3,2024-10-29 15:34:00,snacks,False,,Web
+101255,MTR,Chennai,South Indian,669.74,45.0,3.6,2024-11-22 21:24:00,dinner,False,103.07,Android
+101834,Saravana Bhavan,Chennai,South Indian,326.61,62.0,4.3,2024-10-31 14:05:00,lunch,False,,Web
+101723,Tea Trails,Mumbai,Beverages,80.0,36.0,5.0,2024-11-25 20:16:00,dinner,False,,Android
+101855,The Burger Club,Ahmedabad,Burger,380.33,63.0,3.6,2024-10-16 13:14:00,lunch,False,,Android
+101736,China Town,Kolkata,Chinese,172.12,36.0,4.3,2024-10-19 20:19:00,dinner,False,13.2,iOS
+100933,Empire Restaurant,Surat,Biryani,253.64,37.0,4.0,2024-11-07 23:12:00,dinner,False,53.49,Android
+101101,Behrouz Biryani,Bangalore,Biryani,328.67,,4.2,2024-11-04 13:39:00,,False,87.06,Android
+101658,The Wok,Mumbai,Chinese,287.08,44.0,3.5,2024-10-03 22:46:00,dinner,True,,iOS
+101208,Sweet Truth,Delhi,Desserts,270.56,,3.7,2024-11-25 14:15:00,lunch,False,,Android
+100248,The Roll Story,Jaipur,Rolls & Wraps,464.47,25.0,3.9,2024-12-04 14:37:00,lunch,True,,iOS
+101844,Murugan Idli Shop,Hyderabad,South Indian,342.89,39.0,4.7,2024-12-29 08:21:00,breakfast,False,,Android
+101040,Mainland China,Mumbai,Chinese,426.66,45.0,3.8,2024-12-26 22:50:00,dinner,True,39.36,iOS
+100477,Bawarchi,Bangalore,Biryani,524.29,44.0,3.6,2024-11-03 14:54:00,lunch,True,,Android
+101695,Udupi Palace,Mumbai,South Indian,408.91,,3.6,2024-10-24 19:42:00,dinner,True,,Web
+100086,Mainland China,Mumbai,Chinese,170.53,33.0,,2024-10-07 09:20:00,breakfast,False,49.39,Android
+100470,The Wok,Jaipur,Chinese,353.1,18.0,,2024-10-25 21:39:00,dinner,False,,iOS
+100226,Chinese Box,Mumbai,Chinese,340.13,56.0,4.6,2024-12-17 19:00:00,dinner,True,,iOS
+100775,China Town,Pune,Chinese,518.19,29.0,4.8,2024-12-10 12:55:00,lunch,False,82.85,Android
+100332,Behrouz Biryani,Pune,Biryani,237.17,50.0,4.1,2024-10-26 12:03:00,lunch,False,112.21,iOS
+100234,Eatfit,Delhi,Healthy,523.3,40.0,4.1,2024-10-02 21:24:00,dinner,True,,Android
+100589,Barbeque Nation,Bangalore,North Indian,575.6,28.0,3.4,2024-10-18 23:28:00,dinner,False,88.47,Android
+100476,Freshmenu,Lucknow,Healthy,408.31,33.0,4.8,2024-10-23 16:12:00,snacks,False,28.04,Web
+101285,Wok To Walk,Mumbai,Chinese,206.52,54.0,,2024-10-12 18:44:00,snacks,False,32.71,Android
+101905,Roll House,Chennai,Rolls & Wraps,471.6,39.0,3.6,2024-12-02 08:39:00,breakfast,False,85.39,Android
+100600,Empire Restaurant,Bangalore,Biryani,356.92,42.0,4.1,2024-11-11 14:33:00,lunch,True,64.59,iOS
+100422,Bawarchi,Pune,Biryani,99.84,32.0,4.6,2024-12-26 23:34:00,dinner,True,,Android
+101712,Wat-A-Burger,Bangalore,Burger,337.67,42.0,4.4,2024-11-28 19:31:00,dinner,False,15.8,Android
+100183,Behrouz Biryani,Ahmedabad,Biryani,493.52,34.0,3.2,2024-10-05 19:28:00,dinner,False,,Android
+100989,Burgerama,Mumbai,Burger,80.0,33.0,3.7,2024-12-04 21:27:00,dinner,False,100.35,Android
+101001,Wat-A-Burger,Bangalore,Burger,276.35,52.0,3.8,2024-11-10 14:17:00,lunch,False,79.95,Android
+101642,Chai Point,Kolkata,Beverages,2976.48,23.0,2.7,2024-11-27 21:39:00,dinner,False,10.08,Android
+101357,The Burger Club,Ahmedabad,Burger,507.7,35.0,3.8,2024-12-20 14:18:00,lunch,False,83.57,Web
+101463,Joey's Pizza,Bangalore,Pizza,723.37,55.0,4.3,2024-12-27 08:46:00,breakfast,False,51.77,Web
+100050,Empire Restaurant,Bangalore,Biryani,206.65,38.0,,2024-10-14 13:33:00,lunch,False,74.28,Web
+101912,Dhaba Express,Kolkata,North Indian,212.91,28.0,4.6,2024-10-02 20:12:00,dinner,False,,Android
+101030,Dominos,Pune,Pizza,498.82,28.0,4.4,2024-12-01 13:52:00,lunch,True,,Android
+100530,Smoke House Deli,Kolkata,Continental,238.56,28.0,3.9,2024-11-06 13:38:00,lunch,True,,iOS
+101259,Saravana Bhavan,Bangalore,South Indian,161.36,44.0,4.3,2024-10-10 12:12:00,lunch,False,,iOS
+100487,Mainland China,Bangalore,Chinese,200.45,20.0,2.9,2024-12-23 09:37:00,breakfast,False,,Web
+101988,China Town,Delhi,Chinese,133.87,54.0,3.5,2024-11-20 22:45:00,dinner,False,,Android
+100498,Salad Days,Bangalore,Healthy,642.49,15.0,3.9,2024-11-03 14:36:00,lunch,False,79.89,Android
+101647,China Town,Bangalore,Chinese,565.61,,4.3,2024-11-01 07:09:00,breakfast,False,38.16,Android
+100107,Freshmenu,Delhi,Healthy,278.98,37.0,3.0,2024-12-20 19:13:00,dinner,False,,Android
+100444,The Roll Story,Mumbai,Rolls & Wraps,218.96,52.0,3.8,2024-11-14 12:43:00,lunch,True,,Android
+101513,Coastal Kitchen,Jaipur,Seafood,368.26,34.0,3.3,2024-10-19 23:47:00,dinner,False,109.64,Android
+100647,Oh Calcutta,Hyderabad,Seafood,288.91,39.0,4.6,2024-12-16 21:50:00,dinner,True,20.13,Web
+101037,Saravana Bhavan,Mumbai,South Indian,350.38,39.0,3.6,2024-12-26 16:12:00,snacks,False,,Android
+101763,Mainland China,Bangalore,Chinese,223.47,25.0,3.8,2024-12-02 20:12:00,dinner,True,99.41,Android
+100727,Bawarchi,Bangalore,Biryani,194.71,17.0,3.8,2024-12-27 23:39:00,dinner,True,95.6,Android
+100191,Dhaba Express,Bangalore,North Indian,560.59,50.0,4.2,2024-12-13 22:28:00,dinner,True,,iOS
+101789,Behrouz Biryani,Bangalore,Biryani,205.36,28.0,4.4,2024-11-01 20:28:00,dinner,True,,Android
+101857,Murugan Idli Shop,Pune,South Indian,431.8,43.0,3.9,2024-11-05 12:53:00,lunch,False,37.04,Android
+100283,The Wok,Mumbai,Chinese,770.54,53.0,4.6,2024-12-07 12:37:00,lunch,False,80.95,iOS
+100030,Burgerama,Bangalore,Burger,176.08,44.0,5.0,2024-12-29 12:20:00,lunch,True,25.12,Android
+100170,Saffron,Hyderabad,North Indian,296.68,46.0,,2024-12-18 07:07:00,,True,,Android
+101002,Roll House,Hyderabad,Rolls & Wraps,411.37,36.0,4.7,2024-11-06 16:15:00,snacks,False,103.51,Android
+101205,McDonald's,Delhi,Burger,384.8,45.0,,2024-11-12 20:44:00,dinner,True,109.52,Web
+100101,Starbucks,Bangalore,Beverages,289.21,52.0,3.2,2024-12-14 16:21:00,snacks,True,112.38,Android
+100198,Freshmenu,Kolkata,Healthy,290.31,48.0,3.9,2024-10-16 13:27:00,lunch,True,99.48,iOS
+100496,Chinese Box,Mumbai,Chinese,762.19,38.0,3.7,2024-10-06 16:40:00,snacks,True,,Android
+101746,Moti Mahal,Delhi,North Indian,243.87,40.0,4.8,2024-11-17 19:29:00,dinner,False,30.06,iOS
+100648,China Town,Chennai,Chinese,493.37,72.0,3.5,2024-11-20 12:30:00,lunch,True,,Web
+100988,China Town,Delhi,Chinese,344.54,36.0,3.3,2024-10-13 16:31:00,snacks,True,,Android
+100045,Raw Pressery Kitchen,Mumbai,Healthy,279.74,34.0,3.0,2024-10-21 14:41:00,lunch,False,,iOS
+101972,Wok To Walk,Kolkata,Chinese,285.92,39.0,4.3,2024-10-05 14:55:00,lunch,False,32.6,iOS
+100711,Theobroma,Pune,Desserts,537.22,38.0,4.9,2024-10-19 14:09:00,lunch,True,,Android
+100374,Nandhini,Chennai,South Indian,512.07,37.0,4.5,2024-12-24 14:44:00,lunch,False,101.99,Web
+100679,Paradise Biryani,Jaipur,Biryani,179.88,28.0,4.2,2024-12-11 20:46:00,dinner,False,,iOS
+100567,Punjab Grill,Delhi,North Indian,266.86,63.0,3.8,2024-10-21 12:41:00,lunch,False,,iOS
+101673,Sweet Truth,Kolkata,Desserts,361.39,50.0,3.1,2024-10-10 15:00:00,snacks,False,76.85,Web
+101822,Udupi Palace,Bangalore,South Indian,344.82,35.0,3.5,2024-10-10 12:23:00,lunch,False,96.56,Android
+100848,Barbeque Nation,Kochi,North Indian,240.12,42.0,3.5,2024-11-26 14:06:00,lunch,True,,Android
+100461,Hard Rock Cafe,Bangalore,Continental,402.87,50.0,,2024-12-21 13:35:00,lunch,False,81.77,Android
+101438,Dominos,Chennai,Pizza,472.28,27.0,4.4,2024-11-15 21:27:00,dinner,False,,Android
+101156,The Burger Club,Pune,Burger,507.63,49.0,3.6,2024-12-12 13:53:00,lunch,False,,iOS
+100040,Punjab Grill,Delhi,North Indian,328.05,39.0,2.8,2024-10-11 17:13:00,snacks,False,85.68,Web
+100435,Coastal Kitchen,Bangalore,Seafood,521.05,18.0,4.6,2024-12-05 07:17:00,breakfast,False,,iOS
+100974,Baskin Robbins,Mumbai,Desserts,244.21,37.0,,2024-11-27 22:02:00,dinner,True,33.43,Android
+101240,Dominos,Bangalore,Pizza,340.37,,4.3,2024-12-19 14:09:00,lunch,False,114.78,Android
+101008,Empire Restaurant,Kolkata,Biryani,213.55,31.0,4.1,2024-11-08 19:25:00,dinner,False,,Android
+101580,Chinese Box,Hyderabad,Chinese,308.16,34.0,4.3,2024-10-10 13:22:00,lunch,True,82.62,iOS
+101591,Coastal Kitchen,Chennai,Seafood,191.12,28.0,4.3,2024-10-07 13:10:00,lunch,False,119.58,Android
+101787,Pizza Hut,Hyderabad,Pizza,2659.13,64.0,3.3,2024-10-08 12:00:00,lunch,False,35.14,Android
+101499,Barbeque Nation,Mumbai,North Indian,228.88,35.0,4.1,2024-11-14 15:16:00,snacks,False,,Android
+100457,Udupi Palace,Bangalore,South Indian,900.0,25.0,3.9,2024-12-29 21:50:00,dinner,False,31.84,iOS
+101836,Saffron,Chennai,North Indian,3106.86,41.0,3.4,2024-11-27 16:15:00,snacks,False,,Android
+100261,Baskin Robbins,Hyderabad,Desserts,315.24,38.0,,2024-10-26 13:37:00,lunch,False,41.53,Android
+101841,Mainland China,Mumbai,Chinese,168.47,64.0,4.1,2024-12-10 14:55:00,lunch,True,,iOS
+100036,Saravana Bhavan,Pune,South Indian,277.99,38.0,4.5,2024-11-05 21:45:00,dinner,False,,Android
+100828,Empire Restaurant,Mumbai,Biryani,668.43,51.0,3.8,2024-10-09 12:07:00,lunch,True,,Android
+100310,Murugan Idli Shop,Mumbai,South Indian,561.86,44.0,4.0,2024-11-03 20:48:00,dinner,False,,iOS
+100277,Sweet Truth,Pune,Desserts,394.2,37.0,4.4,2024-12-15 14:36:00,lunch,False,73.97,Android
+100637,Coastal Kitchen,Hyderabad,Seafood,280.11,36.0,4.1,2024-12-11 12:22:00,lunch,False,,Web
+100655,La Folie,Delhi,Desserts,364.04,30.0,4.2,2024-11-14 13:39:00,lunch,True,,Android
+100623,MTR,Mumbai,South Indian,125.69,15.0,4.1,2024-12-21 13:50:00,lunch,False,45.33,Android
+101860,Wraps N Rolls,Chennai,Rolls & Wraps,538.57,37.0,4.1,2024-11-06 18:08:00,snacks,True,85.82,Android
+100845,Pizza Hut,Bangalore,Pizza,466.3,67.0,3.9,2024-12-27 13:37:00,lunch,True,71.98,Web
+100394,Bawarchi,Pune,Biryani,202.4,24.0,3.5,2024-11-18 09:30:00,breakfast,True,41.16,iOS
+101770,Empire Restaurant,Delhi,Biryani,486.55,32.0,4.0,2024-12-06 22:14:00,dinner,False,65.7,iOS
+100108,Blue Tokai,Pune,Beverages,380.31,52.0,4.1,2024-12-04 10:40:00,breakfast,False,117.67,Android
+100350,Paradise Biryani,Hyderabad,Biryani,292.29,53.0,3.0,2024-12-13 16:40:00,snacks,True,,iOS
+100525,Wraps N Rolls,Kolkata,Rolls & Wraps,164.39,,4.7,2024-12-24 23:32:00,dinner,False,,Android
+100785,Green Bowl,Bangalore,Healthy,372.05,15.0,3.9,2024-11-24 14:45:00,lunch,False,52.33,iOS
+100048,Burgerama,Delhi,Burger,242.14,43.0,4.1,2024-10-23 18:59:00,snacks,False,90.85,Android
+100204,Paradise Biryani,Kolkata,Biryani,305.2,15.0,,2024-12-06 21:52:00,dinner,False,35.55,iOS
+101815,Punjab Grill,Bangalore,North Indian,209.12,34.0,3.7,2024-11-05 09:16:00,breakfast,False,15.05,Android
+101656,Dhaba Express,Ahmedabad,North Indian,900.0,27.0,3.7,2024-10-03 12:18:00,lunch,True,28.99,iOS
+100022,Oven Story,Bangalore,Pizza,667.16,61.0,5.0,2024-11-12 14:38:00,lunch,False,94.49,Web
+100403,MTR,Delhi,South Indian,306.53,64.0,5.0,2024-10-12 13:31:00,lunch,False,,Android
+101108,Behrouz Biryani,Pune,Biryani,626.4,35.0,4.2,2024-10-26 08:50:00,,False,,Android
+101155,MTR,Hyderabad,South Indian,220.34,30.0,3.8,2024-10-09 23:19:00,dinner,True,100.55,Android
+101440,Tea Trails,Chennai,Beverages,323.67,34.0,3.3,2024-11-10 19:46:00,dinner,True,,Android
+101212,Wat-A-Burger,Delhi,Burger,275.23,54.0,3.5,2024-11-10 12:03:00,lunch,False,18.59,Android
+100990,Salad Days,Pune,Healthy,251.93,44.0,2.6,2024-10-26 23:13:00,dinner,False,61.24,Android
+101866,Nandhini,Ahmedabad,South Indian,498.37,70.0,4.0,2024-10-13 12:15:00,lunch,True,,Web
+100742,Saffron,Mumbai,North Indian,162.2,58.0,4.7,2024-12-06 12:24:00,lunch,False,,Android
+101722,Wraps N Rolls,Bangalore,Rolls & Wraps,215.87,31.0,4.4,2024-10-13 13:36:00,lunch,True,52.13,Web
+101311,Naturals Ice Cream,Bangalore,Desserts,231.87,,3.8,2024-11-19 13:42:00,lunch,True,22.08,Web
+101148,Burger King,Chennai,Burger,305.75,49.0,2.9,2024-12-05 22:30:00,dinner,False,30.1,Android
+100034,Trishna,Jaipur,Seafood,362.15,,3.9,2024-11-10 23:22:00,dinner,False,105.09,Android
+100788,Dhaba Express,Delhi,North Indian,535.2,29.0,3.5,2024-12-01 22:33:00,dinner,True,71.63,iOS
+101541,Saffron,Chennai,North Indian,482.54,42.0,4.0,2024-10-04 13:42:00,lunch,True,83.69,Android
+100924,Punjab Grill,Pune,North Indian,198.27,35.0,3.1,2024-12-03 19:09:00,dinner,True,,iOS
+101044,Saravana Bhavan,Hyderabad,South Indian,208.73,38.0,4.2,2024-11-19 19:06:00,dinner,False,59.09,Android
+101969,La Pino'z,Mumbai,Pizza,165.95,61.0,3.4,2024-11-29 23:42:00,dinner,False,55.15,Android
+101244,McDonald's,Kolkata,Burger,439.33,46.0,4.1,2024-11-01 20:54:00,dinner,True,85.06,iOS
+101916,Murugan Idli Shop,Chennai,South Indian,124.75,47.0,3.0,2024-11-11 09:18:00,breakfast,False,,Android
+100580,Wat-A-Burger,Mumbai,Burger,339.63,41.0,4.8,2024-10-12 17:16:00,snacks,True,,iOS
+100482,Freshmenu,Chennai,Healthy,304.05,,3.7,2024-12-24 16:08:00,snacks,False,,Android
+100932,Burgerama,Kolkata,Burger,499.39,,5.0,2024-10-07 13:03:00,lunch,False,,Android
+100357,Chai Point,Bangalore,Beverages,328.44,29.0,4.3,2024-10-25 14:19:00,lunch,True,27.15,iOS
+101686,Oven Story,Kolkata,Pizza,291.18,44.0,3.5,2024-12-16 23:27:00,dinner,False,,iOS
+101249,Salad Days,Ahmedabad,Healthy,412.01,43.0,4.4,2024-12-14 15:14:00,snacks,False,70.47,Android
+100760,Dum Pukht,Pune,Biryani,468.14,61.0,4.3,2024-10-22 23:06:00,dinner,True,112.66,Android
+100093,Punjab Grill,Pune,North Indian,221.1,40.0,3.8,2024-10-06 16:13:00,snacks,False,71.21,Android
+101176,Barbeque Nation,Hyderabad,North Indian,382.87,22.0,3.7,2024-10-04 19:17:00,dinner,False,,Android
+101416,Oven Story,Ahmedabad,Pizza,625.91,40.0,,2024-10-01 13:57:00,lunch,False,63.47,iOS
+101342,La Pino'z,Delhi,Pizza,348.58,63.0,4.0,2024-12-02 22:59:00,dinner,False,52.01,Android
+101473,Dominos,Kolkata,Pizza,522.11,38.0,4.0,2024-12-18 08:26:00,breakfast,False,,Web
+100804,Bay Leaf,Hyderabad,Seafood,286.06,34.0,4.1,2024-11-30 13:43:00,lunch,False,46.43,Android
+100746,La Folie,Kolkata,Desserts,331.48,49.0,4.2,2024-10-26 08:20:00,breakfast,True,97.09,Web
+101547,Dum Pukht,Pune,Biryani,250.8,28.0,5.0,2024-12-22 14:10:00,lunch,False,,iOS
+100280,Behrouz Biryani,Pune,Biryani,392.49,48.0,3.6,2024-10-03 12:12:00,lunch,True,,Android
+101608,Punjab Grill,Pune,North Indian,513.67,,4.5,2024-11-22 22:32:00,,False,,iOS
+100765,Behrouz Biryani,Bangalore,Biryani,286.52,32.0,,2024-10-31 15:53:00,snacks,False,113.99,iOS
+100605,Dum Pukht,Bangalore,Biryani,194.02,34.0,4.1,2024-11-17 22:05:00,dinner,False,,iOS
+101603,Dhaba Express,Mumbai,North Indian,605.66,,3.6,2024-11-15 14:48:00,lunch,False,85.71,iOS
+101374,Burger King,Delhi,Burger,239.55,15.0,4.1,2024-11-27 20:13:00,dinner,True,79.66,iOS
+101952,Roll House,Mumbai,Rolls & Wraps,207.97,24.0,3.3,2024-12-25 12:09:00,lunch,False,,Android
+101399,Dhaba Express,Hyderabad,North Indian,542.36,43.0,3.1,2024-12-13 14:27:00,lunch,True,35.23,iOS
+100401,MTR,Bangalore,South Indian,114.45,-28.0,4.4,2024-12-04 14:52:00,lunch,False,65.4,iOS
+101729,Bawarchi,Pune,Biryani,282.18,72.0,3.7,2024-12-11 13:39:00,lunch,True,,Web
+100258,Udupi Palace,Chennai,South Indian,699.95,40.0,3.1,2024-10-23 18:47:00,snacks,False,42.48,iOS
+100945,La Folie,Mumbai,Desserts,327.4,58.0,4.2,2024-10-03 20:06:00,dinner,False,95.99,iOS
+101876,Saravana Bhavan,Hyderabad,South Indian,745.58,,3.9,2024-11-27 12:11:00,lunch,False,29.75,iOS
+101097,Bay Leaf,Mumbai,Seafood,420.18,59.0,3.6,2024-11-20 19:40:00,dinner,True,,iOS
+101220,Sweet Truth,Mumbai,Desserts,157.13,32.0,3.5,2024-12-01 10:51:00,breakfast,False,,Web
+101508,Mainland China,Hyderabad,Chinese,132.77,67.0,5.0,2024-10-21 13:09:00,lunch,True,,Android
+101880,Punjab Grill,Hyderabad,North Indian,402.86,62.0,3.9,2024-10-28 17:43:00,snacks,True,103.77,Android
+101162,Behrouz Biryani,Bangalore,Biryani,195.23,,3.6,2024-11-09 07:39:00,breakfast,True,,Android
+100495,Chinese Box,Delhi,Chinese,749.62,30.0,3.4,2024-12-15 19:15:00,dinner,True,,Web
+100773,The Roll Story,Bangalore,Rolls & Wraps,500.67,53.0,3.6,2024-11-14 14:32:00,lunch,True,,iOS
+100551,Udupi Palace,Delhi,South Indian,352.86,53.0,4.6,2024-10-13 20:35:00,dinner,True,51.58,Android
+101487,MTR,Delhi,South Indian,337.34,34.0,4.0,2024-11-02 13:58:00,lunch,False,41.08,Android
+100202,Paradise Biryani,Bangalore,Biryani,175.04,33.0,4.0,2024-12-29 13:00:00,,False,93.65,Android
+100313,China Town,Bangalore,Chinese,509.66,38.0,3.6,2024-12-06 14:56:00,,True,,iOS
+100291,Pizza Hut,Bangalore,Pizza,724.07,15.0,3.8,2024-12-21 17:00:00,snacks,True,47.01,Android
+101985,The Roll Story,Bangalore,Rolls & Wraps,374.59,53.0,,2024-10-11 12:05:00,lunch,True,,Android
+101214,Burgerama,Pune,Burger,438.9,35.0,4.0,2024-10-07 19:39:00,dinner,False,42.92,Android
+100764,Udupi Palace,Chennai,South Indian,217.11,-4.0,4.1,2024-10-27 13:44:00,lunch,True,,Android
+101137,Naturals Ice Cream,Kolkata,Desserts,162.89,46.0,4.6,2024-12-23 17:47:00,snacks,False,,Web
+100950,Chai Point,Hyderabad,Beverages,240.2,24.0,3.5,2024-11-14 23:36:00,dinner,True,43.03,Android
+100184,Moti Mahal,Kolkata,North Indian,900.0,32.0,4.1,2024-10-16 12:40:00,lunch,False,61.18,Web
+101177,Wat-A-Burger,Pune,Burger,900.0,36.0,3.9,2024-12-10 21:36:00,dinner,False,55.08,Web
+101849,Burger King,Kolkata,Burger,438.62,48.0,3.1,2024-11-17 13:11:00,lunch,True,,Android
+101350,Barbeque Nation,Bangalore,North Indian,286.5,58.0,4.6,2024-10-12 20:17:00,dinner,True,12.26,Web
+101728,Bawarchi,Kochi,Biryani,361.93,,5.0,2024-11-24 10:01:00,breakfast,False,,Android
+101069,Punjab Grill,Mumbai,North Indian,385.46,38.0,4.3,2024-11-02 19:01:00,dinner,False,,Android
+101469,Kathi Roll Corner,Kolkata,Rolls & Wraps,542.22,60.0,,2024-10-15 22:12:00,dinner,False,,iOS
+101812,Mainland China,Pune,Chinese,184.11,52.0,3.2,2024-12-12 22:29:00,dinner,False,117.41,Android
+101031,Dhaba Express,Bangalore,North Indian,900.0,44.0,4.2,2024-11-11 12:23:00,lunch,False,86.58,iOS
+100251,Empire Restaurant,Mumbai,Biryani,423.56,52.0,4.0,2024-11-04 12:49:00,lunch,True,98.23,Android
+100824,Dhaba Express,Delhi,North Indian,132.02,32.0,3.6,2024-10-10 14:01:00,lunch,True,65.36,Web
+101100,Udupi Palace,Mumbai,South Indian,462.67,40.0,4.6,2024-10-08 07:04:00,breakfast,False,49.26,Web
+101537,Moti Mahal,Bangalore,North Indian,302.48,56.0,,2024-10-18 12:54:00,lunch,True,,iOS
+100941,Moti Mahal,Mumbai,North Indian,226.58,41.0,4.2,2024-11-16 13:45:00,lunch,True,,iOS
+100392,Paradise Biryani,Delhi,Biryani,438.44,39.0,4.6,2024-10-22 15:06:00,snacks,False,104.51,Android
+101920,Roll House,Delhi,Rolls & Wraps,563.11,57.0,3.3,2024-11-23 18:00:00,snacks,False,96.98,Android
+101457,Mainland China,Chennai,Chinese,171.8,34.0,3.7,2024-11-08 13:51:00,lunch,True,28.11,iOS
+101093,MTR,Hyderabad,South Indian,354.97,44.0,4.3,2024-12-20 22:09:00,dinner,True,,iOS
+100027,Theobroma,Bangalore,Desserts,696.47,45.0,4.7,2024-11-09 14:41:00,lunch,False,75.88,Web
+101192,Chai Point,Hyderabad,Beverages,3414.51,40.0,3.5,2024-11-29 19:14:00,dinner,False,65.36,Android
+100905,The Wok,Delhi,Chinese,399.66,47.0,2.6,2024-10-19 23:19:00,dinner,True,106.88,Android
+100731,Theobroma,Bangalore,Desserts,446.06,20.0,2.7,2024-11-22 14:46:00,lunch,True,,Android
+100555,Behrouz Biryani,Kolkata,Biryani,374.54,36.0,2.8,2024-10-24 16:46:00,snacks,False,,iOS
+100367,Paradise Biryani,Jaipur,Biryani,421.1,40.0,3.5,2024-12-04 09:19:00,breakfast,False,14.29,Android
+100346,McDonald's,Hyderabad,Burger,217.39,66.0,4.0,2024-11-11 13:09:00,lunch,False,11.39,Android
+101609,Chai Point,Mumbai,Beverages,410.56,24.0,4.1,2024-12-14 14:13:00,,False,,Android
+100536,The Roll Story,Jaipur,Rolls & Wraps,143.27,44.0,,2024-12-15 15:04:00,snacks,False,40.4,Android
+101423,Baskin Robbins,Bangalore,Desserts,787.3,,,2024-12-26 23:13:00,dinner,False,92.71,Android
+101210,Joey's Pizza,Kochi,Pizza,900.0,42.0,4.7,2024-11-12 12:40:00,lunch,True,90.26,iOS
+101373,Moti Mahal,Kolkata,North Indian,228.32,36.0,4.1,2024-10-12 14:57:00,lunch,True,92.8,Android
+101640,Saffron,Ahmedabad,North Indian,3052.39,29.0,3.7,2024-10-23 08:06:00,breakfast,False,54.66,Android
+100920,Barbeque Nation,Bangalore,North Indian,111.35,19.0,4.7,2024-12-07 12:00:00,lunch,False,105.63,Android
+100212,Frankie Express,Chennai,Rolls & Wraps,297.97,39.0,3.9,2024-10-18 15:35:00,snacks,True,88.0,Android
+101604,Punjab Grill,Mumbai,North Indian,5643.41,64.0,4.0,2024-11-12 22:23:00,dinner,True,116.83,Web
+100503,La Pino'z,Mumbai,Pizza,225.43,52.0,4.6,2024-12-15 12:08:00,lunch,False,20.43,Android
+100538,Paradise Biryani,Mumbai,Biryani,305.21,51.0,4.3,2024-11-15 17:18:00,snacks,True,13.96,Web
+101221,Chinese Box,Jaipur,Chinese,379.27,50.0,,2024-10-06 12:27:00,lunch,False,113.09,Web
+100176,Roll House,Bangalore,Rolls & Wraps,220.25,58.0,3.4,2024-10-25 22:43:00,dinner,True,111.26,iOS
