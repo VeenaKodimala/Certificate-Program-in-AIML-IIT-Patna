@@ -19,3 +19,8 @@ This is the formula for sigmoid function, where ***z*** is the result of ***y***
 ![alt text](image-3.png)
 
 ![alt text](image-4.png)
+
+- There will be some situations where we need to decide the treshhold, to switch from 0 to 1. 
+- Eg: Cancer detection: If by default 0.5 is the tresh hold, the we might ignore people who have 30% chance of getting cancer. So in this case we can set the tresh hold as 0.1, meaning consider people who have 10% and above, chance of getting cancer.
+- This treshhold has to be decided based on the usecase.    
+![alt text](image-5.png)
