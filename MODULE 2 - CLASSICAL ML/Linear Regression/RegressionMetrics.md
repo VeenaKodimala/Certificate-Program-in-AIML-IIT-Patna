@@ -80,4 +80,8 @@ Errors = [2, 3, 100]
 
 # Important Interview Line
 
-> “MAE is robust to outliers, MSE/RMSE penalize large errors, and Adjusted R² helps prevent overfitting by penalizing unnecessary predictors.”
+> “MAE is robust to outliers, MSE/RMSE penalize large errors, and Adjusted R² helps prevent overfitting by penalizing unnecessary predictors.”![alt text](image.png)
+- Metrics are MAE(Mean Absolute error), MSE(Mean squared error), RMSE(Rooted mean square error), R^2 and Adjusted R^2.
+![alt text](image-1.png)
+![alt text](image-2.png)
+Here calcellations means, the negative values from getting subtracted or getting cancelled with +ve ones.
