@@ -686,3 +686,11 @@ where:
 # Interview Answer (30 Seconds)
 
 > The **Silhouette Score** is an internal clustering evaluation metric that measures how well each data point fits into its assigned cluster. For every point, it compares the **average distance to points in its own cluster** with the **average distance to points in the nearest neighboring cluster**. The score ranges from **-1 to 1**, where values close to **1** indicate well-clustered points, values near **0** indicate points on cluster boundaries, and **negative values** indicate that points may have been assigned to the wrong cluster.
+
+- We should do clustering on scaled data, because if we have features with different scales, the distance calculations will be dominated by the feature with the largest scale. This can lead to biased clustering results. Scaling ensures that all features contribute equally to the distance calculations, leading to more meaningful clusters.
+
+### Limitations of K-Means:::
+- ![alt text](image-10.png)
+![alt text](image-11.png)
+If my grouping is as above, then clusturing becomes difficult.
+- 
