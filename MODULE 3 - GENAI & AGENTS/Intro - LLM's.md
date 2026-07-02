@@ -41,3 +41,12 @@ Artificial Intelligence
 
 > **Hyperparameters = How the model learns.**  
 > **Parameters = What the model learns.**
+
+![alt text](image-5.png)
+![alt text](image-6.png)
+![alt text](image-7.png)
+- **Vocabulary**: The set of unique words or tokens that the model can recognize and generate. A larger vocabulary allows the model to understand and produce a wider range of language.
+- **Embeddings**: Numerical representations of words or tokens in a continuous vector space. Embeddings capture semantic relationships between words, enabling the model to understand context and meaning.
+![alt text](image-8.png)
+- **Positional Encodings**: Position of tokens in a sequence is crucial for understanding the context and meaning of the text. LLMs use positional encodings to capture this information, allowing them to process sequences of words effectively.
+![alt text](image-9.png)
