@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Python Data Structures Cheat Sheet</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0d0d0d;
+    --card: #141414;
+    --border: #222;
+    --list-color: #ff6b35;
+    --tuple-color: #4ecdc4;
+    --set-color: #ffe66d;
+    --dict-color: #a8e6cf;
+    --code-bg: #1a1a1a;
+    --text: #e8e8e8;
+    --muted: #666;
+    --add: #6bcb77;
+    --remove: #ff6b6b;
+    --access: #74b9ff;
+    --check: #a29bfe;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Syne', sans-serif;
+    padding: 40px 20px;
+    min-height: 100vh;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  header h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+    background: linear-gradient(135deg, #ff6b35, #4ecdc4, #ffe66d, #a8e6cf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1.1;
+  }
+
+  header p {
+    color: var(--muted);
+    margin-top: 10px;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .legend {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  .legend-dot {
+    width: 10px; height: 10px;
+    border-radius: 50%;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    gap: 28px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .card {
+    background: var(--card);
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+  }
+
+  .card-header {
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .card-header h2 {
+    font-size: 1.4rem;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+  }
+
+  .card-header .badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    padding: 4px 10px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.06);
+    color: var(--muted);
+    letter-spacing: 1px;
+  }
+
+  .card[data-type="list"] .card-header { border-top: 3px solid var(--list-color); }
+  .card[data-type="list"] .card-header h2 { color: var(--list-color); }
+
+  .card[data-type="tuple"] .card-header { border-top: 3px solid var(--tuple-color); }
+  .card[data-type="tuple"] .card-header h2 { color: var(--tuple-color); }
+
+  .card[data-type="set"] .card-header { border-top: 3px solid var(--set-color); }
+  .card[data-type="set"] .card-header h2 { color: var(--set-color); }
+
+  .card[data-type="dict"] .card-header { border-top: 3px solid var(--dict-color); }
+  .card[data-type="dict"] .card-header h2 { color: var(--dict-color); }
+
+  .props {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding: 14px 24px;
+    border-bottom: 1px solid var(--border);
+    background: rgba(255,255,255,0.02);
+  }
+
+  .prop-tag {
+    font-size: 0.72rem;
+    font-family: 'JetBrains Mono', monospace;
+    padding: 3px 10px;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.05);
+    color: var(--muted);
+    letter-spacing: 0.5px;
+  }
+
+  .prop-tag.yes { color: var(--add); }
+  .prop-tag.no { color: var(--remove); }
+
+  .create-row {
+    padding: 14px 24px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .create-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--muted);
+    white-space: nowrap;
+    min-width: 60px;
+  }
+
+  code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.82rem;
+    background: var(--code-bg);
+    padding: 3px 8px;
+    border-radius: 5px;
+    color: #e8e8e8;
+    border: 1px solid #2a2a2a;
+  }
+
+  .ops-section {
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .ops-section:last-child { border-bottom: none; }
+
+  .ops-label {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--muted);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .ops-label::before {
+    content: '';
+    display: inline-block;
+    width: 18px; height: 2px;
+    border-radius: 2px;
+  }
+
+  .ops-section.add .ops-label { color: var(--add); }
+  .ops-section.add .ops-label::before { background: var(--add); }
+
+  .ops-section.remove .ops-label { color: var(--remove); }
+  .ops-section.remove .ops-label::before { background: var(--remove); }
+
+  .ops-section.access .ops-label { color: var(--access); }
+  .ops-section.access .ops-label::before { background: var(--access); }
+
+  .ops-section.check .ops-label { color: var(--check); }
+  .ops-section.check .ops-label::before { background: var(--check); }
+
+  .ops-section.ops-other .ops-label { color: #fd79a8; }
+  .ops-section.ops-other .ops-label::before { background: #fd79a8; }
+
+  .op-row {
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    gap: 12px;
+    align-items: start;
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+  }
+
+  .op-row:last-child { border-bottom: none; }
+
+  .op-code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+    color: #e8e8e8;
+  }
+
+  .op-desc {
+    font-size: 0.8rem;
+    color: #888;
+    line-height: 1.4;
+    padding-top: 2px;
+  }
+
+  .op-desc em {
+    font-style: normal;
+    color: #bbb;
+  }
+
+  .note-box {
+    margin: 16px 24px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.03);
+    border-left: 3px solid;
+    font-size: 0.8rem;
+    color: #888;
+    line-height: 1.5;
+  }
+
+  .card[data-type="list"] .note-box { border-color: var(--list-color); }
+  .card[data-type="tuple"] .note-box { border-color: var(--tuple-color); }
+  .card[data-type="set"] .note-box { border-color: var(--set-color); }
+  .card[data-type="dict"] .note-box { border-color: var(--dict-color); }
+
+  footer {
+    text-align: center;
+    margin-top: 48px;
+    color: var(--muted);
+    font-size: 0.75rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 600px) {
+    .grid { grid-template-columns: 1fr; }
+    header h1 { font-size: 2rem; }
+    .op-row { grid-template-columns: 1fr; gap: 4px; }
+  }
+
+  @media print {
+    body { background: white; color: black; padding: 20px; }
+    .card { border: 1px solid #ccc; page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Python Data Structures</h1>
+  <p>Cheat Sheet — Add · Remove · Access · Check</p>
+</header>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:var(--add)"></div> Add</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--remove)"></div> Remove</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--access)"></div> Access</div>
+  <div class="legend-item"><div class="legend-dot" style="background:var(--check)"></div> Check / Info</div>
+</div>
+
+<div class="grid">
+
+  <!-- LIST -->
+  <div class="card" data-type="list">
+    <div class="card-header">
+      <h2>📋 List</h2>
+      <span class="badge">[ ]</span>
+    </div>
+    <div class="props">
+      <span class="prop-tag yes">✓ Ordered</span>
+      <span class="prop-tag yes">✓ Mutable</span>
+      <span class="prop-tag yes">✓ Allows Duplicates</span>
+      <span class="prop-tag yes">✓ Indexed</span>
+    </div>
+    <div class="create-row">
+      <span class="create-label">Create</span>
+      <code>fruits = ["apple", "banana", "cherry"]</code>
+    </div>
+
+    <div class="ops-section add">
+      <div class="ops-label">Add</div>
+      <div class="op-row">
+        <span class="op-code">fruits.append("mango")</span>
+        <span class="op-desc">Adds <em>"mango"</em> to the <em>end</em></span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">fruits.insert(1, "grape")</span>
+        <span class="op-desc">Inserts <em>"grape"</em> at <em>index 1</em></span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">fruits.extend(["kiwi", "lime"])</span>
+        <span class="op-desc">Adds <em>multiple items</em> to the end</span>
+      </div>
+    </div>
+
+    <div class="ops-section remove">
+      <div class="ops-label">Remove</div>
+      <div class="op-row">
+        <span class="op-code">fruits.remove("banana")</span>
+        <span class="op-desc">Removes <em>first occurrence</em> of "banana"</span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">fruits.pop()</span>
+        <span class="op-desc">Removes &amp; returns the <em>last item</em></span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">fruits.pop(0)</span>
+        <span class="op-desc">Removes &amp; returns item at <em>index 0</em></span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">del fruits[2]</span>
+        <span class="op-desc">Deletes item at <em>index 2</em></span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">fruits.clear()</span>
+        <span class="op-desc">Removes <em>all items</em> (empty list remains)</span>
+      </div>
+    </div>
+
+    <div class="ops-section access">
+      <div class="ops-label">Access</div>
+      <div class="op-row">
+        <span class="op-code">fruits[0]</span>
+        <span class="op-desc">First item → <em>"apple"</em></span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">fruits[-1]</span>
+        <span class="op-desc">Last item → <em>"cherry"</em></span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">fruits[1:3]</span>
+        <span class="op-desc">Slice — items from index <em>1 to 2</em></span>
+      </div>
+    </div>
+
+    <div class="ops-section check">
+      <div class="ops-label">Check / Info</div>
+      <div class="op-row">
+        <span class="op-code">"apple" in fruits</span>
+        <span class="op-desc">Returns <em>True</em> if "apple" is in list</span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">fruits.index("banana")</span>
+        <span class="op-desc">Returns the <em>index</em> of "banana"</span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">fruits.count("apple")</span>
+        <span class="op-desc">How many times <em>"apple"</em> appears</span>
+      </div>
+    </div>
+
+    <div class="ops-section ops-other">
+      <div class="ops-label">Modify</div>
+      <div class="op-row">
+        <span class="op-code">fruits[0] = "orange"</span>
+        <span class="op-desc">Replace item at index 0 with <em>"orange"</em></span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">fruits.reverse()</span>
+        <span class="op-desc">Reverses the list <em>in-place</em></span>
+      </div>
+    </div>
+    <div class="note-box">💡 Use <strong>append</strong> to add one item, <strong>extend</strong> to add many, <strong>insert</strong> when position matters.</div>
+  </div>
+
+  <!-- TUPLE -->
+  <div class="card" data-type="tuple">
+    <div class="card-header">
+      <h2>📦 Tuple</h2>
+      <span class="badge">( )</span>
+    </div>
+    <div class="props">
+      <span class="prop-tag yes">✓ Ordered</span>
+      <span class="prop-tag no">✗ Immutable</span>
+      <span class="prop-tag yes">✓ Allows Duplicates</span>
+      <span class="prop-tag yes">✓ Indexed</span>
+    </div>
+    <div class="create-row">
+      <span class="create-label">Create</span>
+      <code>coords = (10, 20, 30)</code>
+    </div>
+
+    <div class="ops-section add">
+      <div class="ops-label">Add</div>
+      <div class="op-row">
+        <span class="op-code">coords + (40,)</span>
+        <span class="op-desc">Creates a <em>new tuple</em> — original unchanged</span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">coords = coords + (40,)</span>
+        <span class="op-desc">Reassign to <em>include new value</em></span>
+      </div>
+    </div>
+
+    <div class="ops-section remove">
+      <div class="ops-label">Remove</div>
+      <div class="op-row">
+        <span class="op-code">— (not possible directly)</span>
+        <span class="op-desc">Tuples <em>cannot be changed</em> after creation</span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">coords = list(coords)</span>
+        <span class="op-desc">Convert to list → edit → convert back</span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">del coords</span>
+        <span class="op-desc">Deletes the <em>entire tuple variable</em></span>
+      </div>
+    </div>
+
+    <div class="ops-section access">
+      <div class="ops-label">Access</div>
+      <div class="op-row">
+        <span class="op-code">coords[0]</span>
+        <span class="op-desc">First element → <em>10</em></span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">coords[-1]</span>
+        <span class="op-desc">Last element → <em>30</em></span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">coords[0:2]</span>
+        <span class="op-desc">Slice → <em>(10, 20)</em></span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">x, y, z = coords</span>
+        <span class="op-desc"><em>Unpack</em> — x=10, y=20, z=30</span>
+      </div>
+    </div>
+
+    <div class="ops-section check">
+      <div class="ops-label">Check / Info</div>
+      <div class="op-row">
+        <span class="op-code">20 in coords</span>
+        <span class="op-desc">Returns <em>True</em> if 20 is in tuple</span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">coords.index(20)</span>
+        <span class="op-desc">Returns <em>index</em> of value 20</span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">coords.count(10)</span>
+        <span class="op-desc">How many times <em>10</em> appears</span>
+      </div>
+    </div>
+
+    <div class="note-box">💡 Tuples are <strong>frozen lists</strong> — use them when data should NOT change (e.g., coordinates, RGB values, database records).</div>
+  </div>
+
+  <!-- SET -->
+  <div class="card" data-type="set">
+    <div class="card-header">
+      <h2>🔵 Set</h2>
+      <span class="badge">{ }</span>
+    </div>
+    <div class="props">
+      <span class="prop-tag no">✗ Unordered</span>
+      <span class="prop-tag yes">✓ Mutable</span>
+      <span class="prop-tag no">✗ No Duplicates</span>
+      <span class="prop-tag no">✗ Not Indexed</span>
+    </div>
+    <div class="create-row">
+      <span class="create-label">Create</span>
+      <code>colors = {"red", "green", "blue"}</code>
+    </div>
+
+    <div class="ops-section add">
+      <div class="ops-label">Add</div>
+      <div class="op-row">
+        <span class="op-code">colors.add("yellow")</span>
+        <span class="op-desc">Adds <em>one item</em> (ignored if already exists)</span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">colors.update(["pink","white"])</span>
+        <span class="op-desc">Adds <em>multiple items</em> at once</span>
+      </div>
+    </div>
+
+    <div class="ops-section remove">
+      <div class="ops-label">Remove</div>
+      <div class="op-row">
+        <span class="op-code">colors.remove("red")</span>
+        <span class="op-desc">Removes <em>"red"</em> — <em>error</em> if not found</span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">colors.discard("red")</span>
+        <span class="op-desc">Removes <em>"red"</em> — <em>no error</em> if not found</span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">colors.pop()</span>
+        <span class="op-desc">Removes &amp; returns a <em>random item</em></span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">colors.clear()</span>
+        <span class="op-desc">Removes <em>all items</em></span>
+      </div>
+    </div>
+
+    <div class="ops-section access">
+      <div class="ops-label">Access (No Index!)</div>
+      <div class="op-row">
+        <span class="op-code">for c in colors: print(c)</span>
+        <span class="op-desc">Loop through all items (no fixed order)</span>
+      </div>
+    </div>
+
+    <div class="ops-section check">
+      <div class="ops-label">Check / Set Operations</div>
+      <div class="op-row">
+        <span class="op-code">"red" in colors</span>
+        <span class="op-desc">Returns <em>True</em> if "red" exists</span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">a | b  or  a.union(b)</span>
+        <span class="op-desc"><em>Union</em> — all items from both sets</span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">a &amp; b  or  a.intersection(b)</span>
+        <span class="op-desc"><em>Intersection</em> — only common items</span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">a - b  or  a.difference(b)</span>
+        <span class="op-desc"><em>Difference</em> — in a but not in b</span>
+      </div>
+    </div>
+
+    <div class="note-box">💡 <strong>remove</strong> throws an error if item missing — use <strong>discard</strong> when you're not sure if it exists.</div>
+  </div>
+
+  <!-- DICTIONARY -->
+  <div class="card" data-type="dict">
+    <div class="card-header">
+      <h2>📖 Dictionary</h2>
+      <span class="badge">{ key: val }</span>
+    </div>
+    <div class="props">
+      <span class="prop-tag yes">✓ Ordered (3.7+)</span>
+      <span class="prop-tag yes">✓ Mutable</span>
+      <span class="prop-tag no">✗ No Dup Keys</span>
+      <span class="prop-tag yes">✓ Key-Indexed</span>
+    </div>
+    <div class="create-row">
+      <span class="create-label">Create</span>
+      <code>student = {"name": "Ali", "age": 20}</code>
+    </div>
+
+    <div class="ops-section add">
+      <div class="ops-label">Add / Update</div>
+      <div class="op-row">
+        <span class="op-code">student["grade"] = "A"</span>
+        <span class="op-desc">Adds new key <em>"grade"</em> with value <em>"A"</em></span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">student["age"] = 21</span>
+        <span class="op-desc">Updates existing key <em>"age"</em> to <em>21</em></span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">student.update({"city":"Delhi"})</span>
+        <span class="op-desc">Add/update <em>multiple keys</em> at once</span>
+      </div>
+    </div>
+
+    <div class="ops-section remove">
+      <div class="ops-label">Remove</div>
+      <div class="op-row">
+        <span class="op-code">student.pop("age")</span>
+        <span class="op-desc">Removes key <em>"age"</em> &amp; returns its value</span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">del student["grade"]</span>
+        <span class="op-desc">Deletes key <em>"grade"</em></span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">student.popitem()</span>
+        <span class="op-desc">Removes &amp; returns the <em>last key-value pair</em></span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">student.clear()</span>
+        <span class="op-desc">Removes <em>all key-value pairs</em></span>
+      </div>
+    </div>
+
+    <div class="ops-section access">
+      <div class="ops-label">Access</div>
+      <div class="op-row">
+        <span class="op-code">student["name"]</span>
+        <span class="op-desc">Gets value for key <em>"name"</em> → error if missing</span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">student.get("name")</span>
+        <span class="op-desc">Gets value — returns <em>None</em> if key missing</span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">student.get("gpa", 0)</span>
+        <span class="op-desc">Returns <em>0</em> if "gpa" key doesn't exist</span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">student.keys()</span>
+        <span class="op-desc">All <em>keys</em> → dict_keys(["name","age"])</span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">student.values()</span>
+        <span class="op-desc">All <em>values</em> → dict_values(["Ali", 20])</span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">student.items()</span>
+        <span class="op-desc">All <em>key-value pairs</em> as tuples</span>
+      </div>
+    </div>
+
+    <div class="ops-section check">
+      <div class="ops-label">Check</div>
+      <div class="op-row">
+        <span class="op-code">"name" in student</span>
+        <span class="op-desc">Returns <em>True</em> if key "name" exists</span>
+      </div>
+      <div class="op-row">
+        <span class="op-code">"name" not in student</span>
+        <span class="op-desc">Returns <em>True</em> if key does NOT exist</span>
+      </div>
+    </div>
+
+    <div class="note-box">💡 Always use <strong>.get()</strong> instead of <code>[ ]</code> when you're not sure if a key exists — it avoids KeyError crashes.</div>
+  </div>
+
+</div>
+
+<footer>Python 3 · For educational use · Data Structures Quick Reference</footer>
+
+</body>
+</html>

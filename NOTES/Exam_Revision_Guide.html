@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exam Revision Guide | Python, Data Science, SQL, APIs & ML</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F6F5FB;
+  --paper-2:#FFFFFF;
+  --ink:#191A2B;
+  --ink-soft:#4A4B63;
+  --line:#E3E1F0;
+  --violet:#6C5CE7;
+  --violet-bg:#EFEBFF;
+  --teal:#00B8A9;
+  --teal-bg:#E1FBF7;
+  --coral:#FF6B4A;
+  --coral-bg:#FFEAE3;
+  --gold:#E8A400;
+  --gold-bg:#FFF3D6;
+  --pink:#FF3D8A;
+  --pink-bg:#FFE4F0;
+  --blue:#2E6BFF;
+  --blue-bg:#E6EDFF;
+  --green:#1FAA59;
+  --green-bg:#E3F9EC;
+  --red:#E23F3F;
+  --red-bg:#FDE7E7;
+  --code-bg:#1B1D2E;
+  --code-ink:#E9E9F5;
+  --radius:14px;
+  --shadow:0 2px 10px rgba(25,26,43,0.06);
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:'Inter',system-ui,-apple-system,sans-serif;
+  font-size:15.5px;
+  line-height:1.5;
+}
+h1,h2,h3,h4{font-family:'Space Grotesk',sans-serif;margin:0 0 6px;}
+p{margin:0 0 10px;}
+a{color:var(--violet);}
+code, pre, .mono{font-family:'JetBrains Mono',monospace;}
+
+/* ===== Binder tab navigation (signature element) ===== */
+.tabnav{
+  position:sticky; top:0; z-index:50;
+  background:rgba(246,245,251,0.92);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+  padding:10px 14px;
+  display:flex; gap:8px; overflow-x:auto;
+  scrollbar-width:thin;
+}
+.tabnav a{
+  flex:0 0 auto;
+  text-decoration:none;
+  font-family:'Space Grotesk',sans-serif;
+  font-size:12.5px;
+  font-weight:600;
+  color:var(--ink);
+  background:var(--paper-2);
+  border:1px solid var(--line);
+  padding:7px 12px 8px;
+  border-radius:8px 8px 3px 3px;
+  border-bottom-width:4px;
+  white-space:nowrap;
+  transition:transform .12s ease;
+}
+.tabnav a:hover{transform:translateY(-2px);}
+
+/* ===== Hero / cover ===== */
+.cover{
+  padding:70px 24px 50px;
+  text-align:center;
+  background:
+    radial-gradient(circle at 15% 20%, var(--violet-bg) 0%, transparent 40%),
+    radial-gradient(circle at 85% 15%, var(--teal-bg) 0%, transparent 40%),
+    radial-gradient(circle at 50% 90%, var(--pink-bg) 0%, transparent 45%),
+    var(--paper);
+  border-bottom:1px solid var(--line);
+}
+.cover .eyebrow{
+  display:inline-block;
+  font-family:'JetBrains Mono',monospace;
+  font-size:12.5px;
+  letter-spacing:.08em;
+  color:var(--violet);
+  background:var(--violet-bg);
+  padding:5px 12px;
+  border-radius:20px;
+  margin-bottom:18px;
+}
+.cover h1{
+  font-size:clamp(34px,6vw,58px);
+  line-height:1.05;
+  letter-spacing:-0.02em;
+  margin-bottom:14px;
+}
+.cover .subtitle{
+  font-family:'Space Grotesk',sans-serif;
+  font-size:clamp(14px,2.4vw,19px);
+  color:var(--ink-soft);
+  margin-bottom:22px;
+}
+.chipline{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:26px;}
+.chip{
+  font-size:12.5px; font-weight:600;
+  padding:6px 13px; border-radius:20px;
+  border:1px solid var(--line); background:var(--paper-2);
+}
+.chip.v{color:var(--violet); border-color:var(--violet);}
+.chip.t{color:var(--teal); border-color:var(--teal);}
+.chip.c{color:var(--coral); border-color:var(--coral);}
+.chip.g{color:var(--gold); border-color:var(--gold);}
+.chip.p{color:var(--pink); border-color:var(--pink);}
+.chip.b{color:var(--blue); border-color:var(--blue);}
+.cover .credit{font-size:13.5px;color:var(--ink-soft);}
+.cover .credit b{color:var(--ink);}
+.tagline{
+  margin-top:20px;
+  display:inline-block;
+  font-family:'Space Grotesk',sans-serif;
+  font-weight:700;
+  font-size:15px;
+  padding:10px 20px;
+  border-radius:10px;
+  background:var(--ink);
+  color:var(--paper);
+  letter-spacing:.01em;
+}
+
+.wrap{max-width:920px;margin:0 auto;padding:0 18px;}
+
+/* ===== Topic section shell ===== */
+.topic{
+  padding:36px 0 8px;
+  border-bottom:1px dashed var(--line);
+}
+.topic-head{
+  display:flex; align-items:center; gap:12px;
+  margin-bottom:16px;
+}
+.num-badge{
+  font-family:'Space Grotesk',sans-serif;
+  font-weight:700; font-size:14px;
+  width:38px;height:38px;border-radius:10px;
+  display:flex;align-items:center;justify-content:center;
+  color:#fff; flex:0 0 auto;
+}
+.topic-head h2{font-size:23px;margin:0;}
+.topic-head .part{
+  font-family:'JetBrains Mono',monospace;
+  font-size:11px; color:var(--ink-soft);
+  text-transform:uppercase; letter-spacing:.06em;
+}
+
+/* accent color utility, set via inline style using CSS vars per section */
+.topic{ --accent: var(--violet); --accent-bg: var(--violet-bg); }
+
+.num-badge{background:var(--accent);}
+.topic-head h2{color:var(--accent);}
+
+/* ===== Concept card ===== */
+.concept{
+  background:var(--paper-2);
+  border:1px solid var(--line);
+  border-left:4px solid var(--accent);
+  border-radius:var(--radius);
+  padding:16px 18px;
+  margin-bottom:14px;
+  box-shadow:var(--shadow);
+}
+.concept h3{font-size:16.5px;margin-bottom:8px;}
+.concept .lbl{
+  display:inline-block; font-family:'JetBrains Mono',monospace;
+  font-size:10.5px; font-weight:700; letter-spacing:.05em;
+  text-transform:uppercase; color:var(--accent);
+  background:var(--accent-bg); padding:2px 8px; border-radius:5px;
+  margin:8px 0 4px;
+}
+.concept .lbl:first-of-type{margin-top:0;}
+.concept p{margin:0 0 6px; color:var(--ink-soft); font-size:14.5px;}
+.concept p.tight{margin-bottom:2px;}
+
+.mini-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px;}
+@media(max-width:640px){.mini-grid{grid-template-columns:1fr;}}
+.mini-box{
+  background:var(--accent-bg); border-radius:10px; padding:12px 14px;
+}
+.mini-box .lbl2{
+  font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:12.5px;
+  color:var(--accent); margin-bottom:4px; display:block;
+}
+.mini-box p{margin:0; color:var(--ink); font-size:14px;}
+
+ul.points{margin:0; padding-left:19px;}
+ul.points li{margin-bottom:5px; font-size:14.5px;}
+ul.points li::marker{color:var(--accent); font-weight:700;}
+
+/* code block */
+.codeblock{
+  background:var(--code-bg); color:var(--code-ink);
+  border-radius:10px; padding:13px 15px; margin:10px 0;
+  font-size:13px; overflow-x:auto; line-height:1.55;
+}
+.codeblock .cmt{color:#8B8FA8;}
+.outblock{
+  background:#0F1120; color:#8CF2C9;
+  border-radius:8px; padding:10px 14px; margin-top:-4px; margin-bottom:10px;
+  font-family:'JetBrains Mono',monospace; font-size:12.5px;
+  border-left:3px solid var(--green);
+}
+.outblock .tag{color:#6C7191; margin-right:8px;}
+
+/* exam trap */
+.trap{
+  background:var(--red-bg); border:1px dashed var(--red);
+  border-radius:10px; padding:12px 15px; margin:12px 0;
+}
+.trap .lbl3{
+  font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:12.5px;
+  color:var(--red); margin-bottom:5px; display:flex; align-items:center; gap:6px;
+}
+.trap ul{margin:0;padding-left:18px;}
+.trap li{font-size:14px; margin-bottom:3px;}
+
+/* quick revision */
+.quickrev{
+  background:var(--ink); color:#fff;
+  border-radius:10px; padding:11px 15px; margin:12px 0;
+  font-family:'Space Grotesk',sans-serif; font-size:14px; font-weight:600;
+  display:flex; gap:10px; align-items:flex-start;
+}
+.quickrev .bolt{color:var(--gold); flex:0 0 auto;}
+
+/* comparison table */
+table.compare{
+  width:100%; border-collapse:collapse; margin:12px 0 14px;
+  font-size:13.6px; background:var(--paper-2);
+  border-radius:10px; overflow:hidden; border:1px solid var(--line);
+}
+table.compare th{
+  background:var(--accent); color:#fff; text-align:left;
+  padding:9px 11px; font-family:'Space Grotesk',sans-serif; font-size:13px;
+}
+table.compare td{padding:9px 11px; border-top:1px solid var(--line); color:var(--ink-soft);}
+table.compare tr:nth-child(even) td{background:var(--paper);}
+table.compare td b{color:var(--ink);}
+
+/* topic check quiz mini */
+.tc{
+  background:var(--paper); border:1px solid var(--line); border-radius:10px;
+  padding:13px 15px; margin:12px 0;
+}
+.tc .lbl4{
+  font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:12.5px;
+  color:var(--accent); margin-bottom:8px; display:block;
+}
+.tc .q{font-weight:600; font-size:14.5px; margin-bottom:6px;}
+.tc ol{margin:0 0 8px; padding-left:19px;}
+.tc ol li{font-size:14px; margin-bottom:3px;}
+.tc details{margin-top:4px;}
+.tc summary{
+  cursor:pointer; font-size:13px; font-weight:700; color:var(--accent);
+  font-family:'Space Grotesk',sans-serif;
+}
+.tc .ans{
+  margin-top:6px; padding:9px 11px; background:var(--accent-bg);
+  border-radius:8px; font-size:13.5px;
+}
+.tc .ans b{color:var(--accent);}
+
+/* section intro strip */
+.section-intro{
+  font-size:14.5px; color:var(--ink-soft); margin-bottom:16px; max-width:70ch;
+}
+
+/* big divider headers for special sections */
+.mega{
+  padding:44px 0 20px;
+}
+.mega-head{
+  text-align:center; margin-bottom:24px;
+}
+.mega-head .eyebrow2{
+  font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:.08em;
+  color:var(--violet); text-transform:uppercase;
+}
+.mega-head h2{font-size:30px; margin-top:6px;}
+
+/* exam practice quiz cards */
+.exq{
+  background:var(--paper-2); border:1px solid var(--line);
+  border-radius:var(--radius); padding:15px 17px; margin-bottom:12px;
+  box-shadow:var(--shadow); position:relative;
+}
+.exq .diff{
+  position:absolute; top:14px; right:16px;
+  font-family:'JetBrains Mono',monospace; font-size:10.5px; font-weight:700;
+  padding:3px 9px; border-radius:20px; text-transform:uppercase;
+}
+.exq .diff.easy{background:var(--green-bg); color:var(--green);}
+.exq .diff.med{background:var(--gold-bg); color:var(--gold);}
+.exq .diff.hard{background:var(--red-bg); color:var(--red);}
+.exq .qn{font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--ink-soft); margin-bottom:5px;}
+.exq .q{font-weight:600; font-size:15px; margin-bottom:9px; padding-right:70px;}
+.exq ol{margin:0 0 8px; padding-left:20px;}
+.exq ol li{font-size:14px; margin-bottom:4px;}
+.exq details summary{cursor:pointer; font-weight:700; font-size:13px; color:var(--violet); font-family:'Space Grotesk',sans-serif;}
+.exq .ans{margin-top:7px; padding:10px 12px; background:var(--violet-bg); border-radius:8px; font-size:13.7px;}
+.exq .ans b{color:var(--violet);}
+
+/* last minute traps grid */
+.trapgrid{display:grid; grid-template-columns:1fr 1fr; gap:10px; margin:18px 0;}
+@media(max-width:640px){.trapgrid{grid-template-columns:1fr;}}
+.trapcard{
+  background:var(--paper-2); border:1px solid var(--line); border-radius:10px;
+  padding:11px 13px; border-top:3px solid var(--accent2,var(--violet));
+}
+.trapcard h4{font-size:13.5px; margin-bottom:4px; font-family:'Space Grotesk',sans-serif;}
+.trapcard p{font-size:13px; color:var(--ink-soft); margin:0;}
+
+/* checklist */
+.checklist{
+  background:var(--paper-2); border:1px solid var(--line); border-radius:var(--radius);
+  padding:18px 20px; box-shadow:var(--shadow); margin-bottom:16px;
+}
+.checklist ul{margin:0; padding-left:0; list-style:none;}
+.checklist li{
+  font-size:14.5px; padding:8px 0 8px 30px; position:relative;
+  border-bottom:1px solid var(--line);
+}
+.checklist li:last-child{border-bottom:none;}
+.checklist li::before{
+  content:"\2713"; position:absolute; left:0; top:8px;
+  width:20px; height:20px; border-radius:6px; background:var(--green-bg);
+  color:var(--green); font-weight:700; font-size:12px;
+  display:flex; align-items:center; justify-content:center;
+}
+
+.beforebox{
+  background:var(--gold-bg); border:1px dashed var(--gold); border-radius:var(--radius);
+  padding:18px 20px;
+}
+.beforebox h3{color:#8A6200; margin-bottom:10px;}
+.beforebox ul{margin:0;padding-left:19px;}
+.beforebox li{font-size:14.5px; margin-bottom:6px;}
+
+/* final message */
+.final{
+  text-align:center; padding:60px 24px 40px;
+  background:
+    radial-gradient(circle at 20% 30%, var(--pink-bg) 0%, transparent 40%),
+    radial-gradient(circle at 80% 70%, var(--teal-bg) 0%, transparent 40%),
+    var(--paper);
+  border-top:1px solid var(--line);
+}
+.final .msg{
+  font-family:'Space Grotesk',sans-serif; font-size:19px; max-width:620px;
+  margin:0 auto 18px; line-height:1.5; color:var(--ink);
+}
+.final .grow{font-weight:700; font-size:16px; margin-bottom:20px;}
+.final .linkedin{
+  display:inline-flex; align-items:center; gap:8px;
+  background:var(--ink); color:#fff; padding:11px 20px; border-radius:10px;
+  text-decoration:none; font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:14px;
+}
+footer{
+  text-align:center; padding:20px; font-size:12px; color:var(--ink-soft);
+}
+</style>
+</head>
+<body>
+<nav class="tabnav"><a href="#s1">01 · AI Foundations</a><a href="#s2">02 · Python Basics</a><a href="#s3">03 · Loops & Conditions</a><a href="#s4">04 · Functions</a><a href="#s5">05 · Data Structures</a><a href="#s6">06 · NumPy</a><a href="#s7">07 · Pandas</a><a href="#s8">08 · JSON & APIs</a><a href="#s9">09 · Databases</a><a href="#s10">10 · SQL Joins</a><a href="#s11">11 · Matplotlib</a><a href="#s12">12 · ML & EDA</a><a href="#s13">13 · Web Scraping</a><a href="#s14">14 · Correlation</a><a href="#s15">15 · APIs</a><a href="#s16">16 · Ethics & Security</a><a href="#s17">17 · TMDB API</a><a href="#exam-practice" style="border-bottom-color:var(--pink);">📝 Exam Practice</a><a href="#last-minute" style="border-bottom-color:var(--coral);">⚡ Last-Minute Traps</a><a href="#one-day" style="border-bottom-color:var(--green);">✅ 1-Day-Before</a></nav>
+<div class="cover">
+  <span class="eyebrow">&lt;/&gt; FINAL EXAM REVISION KIT</span>
+  <h1>EXAM REVISION<br>GUIDE</h1>
+  <div class="subtitle">Python &bull; Data Science &bull; SQL &bull; APIs &bull; ML Foundations</div>
+  <div class="chipline">
+    <span class="chip v">Python</span>
+    <span class="chip t">NumPy &amp; Pandas</span>
+    <span class="chip c">SQL &amp; SQLite</span>
+    <span class="chip g">APIs &amp; JSON</span>
+    <span class="chip p">ML &amp; EDA</span>
+    <span class="chip b">Ethics &amp; Security</span>
+  </div>
+  <div class="credit">Created by <b>Divya Sri Roy Jalaparthi</b></div>
+  <div class="tagline">Understand. Practice. Revise. Succeed.</div>
+</div>
+<section class="topic" id="s1" style="--accent:var(--violet);--accent-bg:var(--violet-bg);">
+<div class="wrap">
+<div class="topic-head"><div class="num-badge">01</div><div><span class="part">Foundations</span><h2>AI &amp; Computer Foundations</h2></div></div>
+<p class="section-intro">The building blocks: how computers work under the hood, and where AI fits in.</p><div class="concept"><h3>Generative AI &amp; the AI/ML/DL Family</h3><div class="mini-grid">
+<div class="mini-box"><span class="lbl2">WHAT IS IT?</span><p>Gen AI creates new content (text, images, code) by learning patterns from huge datasets. AI is the broad goal of making machines act smart; ML is a subset that learns from data instead of fixed rules; DL is a subset of ML using multi-layer neural networks.</p></div>
+<div class="mini-box"><span class="lbl2">WHY USE IT?</span><p>Automates creative and analytical tasks, powers chatbots, recommendations, image generation and more.</p></div>
+</div><table class="compare"><thead><tr><th>Term</th><th>Scope</th><th>Example</th></tr></thead><tbody><tr><td><b>AI</b></td><td>Broadest field – any smart behaviour</td><td>Chess engine, Siri</td></tr><tr><td><b>ML</b></td><td>Learns patterns from data</td><td>Spam filter, price prediction</td></tr><tr><td><b>DL</b></td><td>ML using deep neural networks</td><td>Face recognition, ChatGPT</td></tr></tbody></table><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>AI, ML and DL are <b>not</b> the same thing – DL &sub; ML &sub; AI (nested circles, not equal boxes).</li><li>'Gen AI' specifically means content-generating AI, not all AI.</li></ul></div><div class="quickrev"><span class="bolt">⚡</span><span>DL is inside ML, ML is inside AI — think of nested circles, smallest to biggest.</span></div></div>
+<div class="concept"><h3>Is AI Good or Bad?</h3><p>Neither by itself — AI is a tool. Its impact depends on how it is designed, trained, and used.</p><div class="mini-grid">
+<div class="mini-box"><span class="lbl2">WHAT IS IT?</span><p>A neutral technology that can help (medical diagnosis, accessibility) or harm (bias, misinformation, job displacement) depending on use.</p></div>
+<div class="mini-box"><span class="lbl2">WHY USE IT?</span><p>Understanding both sides helps you use AI responsibly.</p></div>
+</div><span class="lbl">KEY POINTS</span><ul class="points"><li>Benefits: faster research, automation, accessibility tools, personalised learning.</li><li>Risks: bias in training data, misinformation, privacy loss, job displacement.</li><li>Responsible use = human oversight + ethical guidelines.</li></ul></div>
+<div class="concept"><h3>Computer Basics: Hardware, Software &amp; Kernel</h3><table class="compare"><thead><tr><th>Term</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><b>Hardware</b></td><td>Physical parts you can touch</td><td>CPU, RAM, keyboard</td></tr><tr><td><b>Software</b></td><td>Instructions/programs run on hardware</td><td>Chrome, VS Code, Python</td></tr><tr><td><b>Kernel</b></td><td>Core of the OS; connects hardware &amp; software</td><td>Manages memory, CPU, devices</td></tr></tbody></table><span class="lbl">KEY POINTS</span><ul class="points"><li>Data = raw facts (numbers, text); Logic = the rules/steps a program uses to process that data.</li><li>The kernel is the 'traffic controller' between apps and hardware — it is part of the OS, not an app.</li></ul><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>Don't confuse the Kernel with the whole Operating System — the kernel is just its core.</li></ul></div></div>
+<div class="concept"><h3>IDE, Terminal &amp; File Types</h3><div class="mini-grid">
+<div class="mini-box"><span class="lbl2">WHAT IS IT?</span><p>IDE (Integrated Development Environment) is software to write, run and debug code (e.g. VS Code). Terminal is a text-based interface to give the computer direct commands.</p></div>
+<div class="mini-box"><span class="lbl2">WHY USE IT?</span><p>IDE speeds up coding with helpers (autocomplete, debugging); terminal gives precise control (installing packages, running scripts).</p></div>
+</div><span class="lbl">KEY POINTS</span><ul class="points"><li>Common file types: <code>.py</code> Python script, <code>.ipynb</code> Jupyter notebook, <code>.csv</code> tabular data, <code>.json</code> structured data.</li><li>Code runs by: you write source code &rarr; interpreter/compiler translates it &rarr; CPU executes instructions &rarr; output is shown.</li><li>Python is <b>interpreted</b> — code runs line by line, no separate compile step needed.</li></ul><div class="quickrev"><span class="bolt">⚡</span><span>IDE = where you write code. Terminal = where you command the computer directly.</span></div></div>
+</div></section>
+<section class="topic" id="s2" style="--accent:var(--teal);--accent-bg:var(--teal-bg);">
+<div class="wrap">
+<div class="topic-head"><div class="num-badge">02</div><div><span class="part">Getting Started</span><h2>Python Basics &amp; Setup</h2></div></div>
+<p class="section-intro">Tools, environment and the very first lines of Python code.</p><div class="concept"><h3>Setting Up: VS Code, Google Colab &amp; Git</h3><table class="compare"><thead><tr><th>Tool</th><th>What it is</th><th>Best for</th></tr></thead><tbody><tr><td><b>VS Code</b></td><td>Local code editor / IDE</td><td>Full projects, installed on your PC</td></tr><tr><td><b>Google Colab</b></td><td>Cloud Jupyter notebook (needs no install)</td><td>Quick ML/data experiments, free GPU</td></tr><tr><td><b>Git</b></td><td>Version control system</td><td>Tracking code changes, teamwork, GitHub</td></tr></tbody></table><span class="lbl">KEY POINTS</span><ul class="points"><li>Git tracks changes to files over time so you can undo mistakes and collaborate safely.</li><li>Colab runs in the browser and saves notebooks to Google Drive — nothing to install.</li></ul></div>
+<div class="concept"><h3>APIs &amp; API Keys (intro)</h3><div class="mini-grid">
+<div class="mini-box"><span class="lbl2">WHAT IS IT?</span><p>An API (Application Programming Interface) lets one program talk to another. An API key is a unique code that identifies and authorises you to use an API.</p></div>
+<div class="mini-box"><span class="lbl2">WHY USE IT?</span><p>Lets your Python code fetch live data (weather, movies, AI models) from external services.</p></div>
+</div><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>An API key is like a password — never hardcode it directly in shared/public code (covered in detail in Section 16).</li></ul></div></div>
+<div class="concept"><h3>Variables, print(), input() &amp; f-strings</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">name = "Divya"        <span class="cmt"># variable stores a value</span>
+age = 21
+print(f"Hi {name}, you are {age}")   <span class="cmt"># f-string</span>
+user_input = input("Enter city: ")   <span class="cmt"># takes text from user</span></pre></div><div class="outblock"><span class="tag">OUTPUT</span>Hi Divya, you are 21</div><span class="lbl">KEY POINTS</span><ul class="points"><li>Variables are labelled containers for data — no need to declare type in Python.</li><li><code>print()</code> displays output on screen; <code>input()</code> always returns a <b>string</b>, even for numbers.</li><li>f-strings (<code>f"...{var}..."</code>) insert variable values directly into text — cleaner than string concatenation.</li></ul><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li><code>input()</code> returns text — wrap with <code>int()</code>/<code>float()</code> if you need a number for maths.</li></ul></div></div>
+<div class="concept"><h3>Packages, Libraries &amp; Basic Maths</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">import math
+print(10 // 3)   <span class="cmt"># floor division</span>
+print(10 % 3)    <span class="cmt"># modulus (remainder)</span>
+print(2 ** 3)    <span class="cmt"># exponent</span></pre></div><div class="outblock"><span class="tag">OUTPUT</span>3<br>1<br>8</div><span class="lbl">KEY POINTS</span><ul class="points"><li>A library/package is pre-written code you can reuse (e.g. <code>math</code>, <code>numpy</code>) via <code>import</code>.</li><li><code>//</code> floor divides (drops decimal), <code>%</code> gives the remainder, <code>**</code> is power.</li></ul><div class="quickrev"><span class="bolt">⚡</span><span>f-strings for output, int()/float() to convert input() text into numbers.</span></div></div>
+</div></section>
+<section class="topic" id="s3" style="--accent:var(--coral);--accent-bg:var(--coral-bg);">
+<div class="wrap">
+<div class="topic-head"><div class="num-badge">03</div><div><span class="part">Control Flow</span><h2>Conditions &amp; Loops</h2></div></div>
+<p class="section-intro">How Python makes decisions and repeats actions — a favourite exam area.</p><div class="concept"><h3>if / elif / else &amp; Indentation</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">marks = 72
+if marks &gt;= 90:
+    print("Grade A")
+elif marks &gt;= 60:
+    print("Grade B")
+else:
+    print("Grade C")</pre></div><div class="outblock"><span class="tag">OUTPUT</span>Grade B</div><span class="lbl">KEY POINTS</span><ul class="points"><li><code>if</code> checks a condition; <code>elif</code> checks another <i>only if</i> the previous ones were False; <code>else</code> runs when none matched.</li><li>Python uses <b>indentation</b> (spaces) instead of curly braces to define code blocks.</li><li>Only the first matching condition's block runs — the rest are skipped.</li></ul><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>Inconsistent indentation causes an <code>IndentationError</code> — be consistent (4 spaces is standard).</li><li>Using <code>if</code> repeatedly instead of <code>elif</code> checks ALL conditions, which is slower and can run multiple blocks.</li></ul></div><div class="quickrev"><span class="bolt">⚡</span><span>if = first check, elif = else-if, else = default. Indentation is not optional in Python!</span></div></div>
+<div class="concept"><h3>for loop vs while loop</h3><table class="compare"><thead><tr><th>Loop</th><th>Runs when...</th><th>Typical use</th></tr></thead><tbody><tr><td><b>for</b></td><td>Iterating over a known sequence (list, range)</td><td>Fixed number of steps</td></tr><tr><td><b>while</b></td><td>A condition stays True</td><td>Unknown number of steps</td></tr></tbody></table><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">for i in range(3):
+    print(i)
+
+n = 3
+while n &gt; 0:
+    print(n)
+    n -= 1</pre></div><div class="outblock"><span class="tag">OUTPUT</span>0
+1
+2
+<br>3
+2
+1</div><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>Forgetting to update the loop variable in a while loop causes an <b>infinite loop</b>.</li></ul></div></div>
+<div class="concept"><h3>break vs continue</h3><table class="compare"><thead><tr><th>Keyword</th><th>Effect</th></tr></thead><tbody><tr><td><b>break</b></td><td>Stops the loop completely</td></tr><tr><td><b>continue</b></td><td>Skips the rest of this iteration, loop continues</td></tr></tbody></table><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">for i in range(5):
+    if i == 3:
+        break
+    print(i)</pre></div><div class="outblock"><span class="tag">OUTPUT</span>0
+1
+2</div><div class="quickrev"><span class="bolt">⚡</span><span>break = exit the loop now. continue = skip to the next round.</span></div></div>
+</div></section>
+<section class="topic" id="s4" style="--accent:var(--gold);--accent-bg:var(--gold-bg);">
+<div class="wrap">
+<div class="topic-head"><div class="num-badge">04</div><div><span class="part">Reusable Code</span><h2>Functions</h2></div></div>
+<p class="section-intro">Package logic into reusable blocks and understand scope.</p><div class="concept"><h3>Defining Functions &amp; return</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">def add(a, b):
+    return a + b
+
+result = add(4, 5)
+print(result)</pre></div><div class="outblock"><span class="tag">OUTPUT</span>9</div><div class="mini-grid">
+<div class="mini-box"><span class="lbl2">WHAT IS IT?</span><p>A function is a named, reusable block of code that performs a task, optionally taking inputs (parameters) and giving back an output.</p></div>
+<div class="mini-box"><span class="lbl2">WHY USE IT?</span><p>Avoids repeating code, makes programs organised and easier to test/debug.</p></div>
+</div></div>
+<div class="concept"><h3>print() vs return</h3><table class="compare"><thead><tr><th></th><th>print()</th><th>return</th></tr></thead><tbody><tr><td>Purpose</td><td>Displays value on screen</td><td>Sends value back to the caller</td></tr><tr><td>Usable later?</td><td>No — output is gone after showing</td><td>Yes — can be stored in a variable</td></tr></tbody></table><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">def show(x):
+    print(x)
+def give(x):
+    return x
+
+a = show(5)   <span class="cmt"># prints 5, a is None</span>
+b = give(5)   <span class="cmt"># nothing printed, b = 5</span></pre></div><div class="outblock"><span class="tag">OUTPUT</span>5</div><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>A function with only <code>print()</code> and no <code>return</code> gives back <code>None</code> if you try to store its result.</li></ul></div></div>
+<div class="concept"><h3>Local vs Global Variables</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">x = 10          <span class="cmt"># global</span>
+def show():
+    x = 5       <span class="cmt"># local, separate variable</span>
+    print(x)
+show()
+print(x)</pre></div><div class="outblock"><span class="tag">OUTPUT</span>5
+10</div><span class="lbl">KEY POINTS</span><ul class="points"><li>Local variables exist only inside the function where they're created.</li><li>Global variables exist outside functions and are visible everywhere (read access).</li><li>Use the <code>global</code> keyword to modify a global variable from inside a function.</li></ul><div class="quickrev"><span class="bolt">⚡</span><span>Local variables die when the function ends; global variables live for the whole program.</span></div></div>
+<div class="concept"><h3>Lists with Functions</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">def double_all(lst):
+    return [n * 2 for n in lst]
+
+print(double_all([1, 2, 3]))</pre></div><div class="outblock"><span class="tag">OUTPUT</span>[2, 4, 6]</div><span class="lbl">KEY POINTS</span><ul class="points"><li>Lists can be passed into functions and returned from them just like any other value.</li></ul><div class="tc"><span class="lbl4">TOPIC CHECK</span>
+<div class="q">What does this print?<br><span class='mono'>def f(x):<br>&nbsp;&nbsp;x = x + 1<br>&nbsp;&nbsp;print(x)<br>n = 5<br>f(n)<br>print(n)</span></div>
+<ol type="A"><li>6, 6</li><li>6, 5</li><li>5, 6</li><li>Error</li></ol>
+<details><summary>Show Answer</summary><div class="ans"><b>Answer: B.</b> Integers are passed by value in effect — changing x inside the function does not change the outer variable n.</div></details>
+</div></div>
+</div></section>
+<section class="topic" id="s5" style="--accent:var(--pink);--accent-bg:var(--pink-bg);">
+<div class="wrap">
+<div class="topic-head"><div class="num-badge">05</div><div><span class="part">Collections</span><h2>Python Data Structures</h2></div></div>
+<p class="section-intro">Four ways to store multiple values — knowing which to pick is a core exam skill.</p><div class="concept"><h3>Lists: append(), pop(), Sort &amp; Reverse</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">nums = [3, 1, 4]
+nums.append(9)      <span class="cmt"># add to end</span>
+nums.pop(0)          <span class="cmt"># remove index 0, returns it</span>
+nums.sort()           <span class="cmt"># ascending, in-place</span>
+nums.reverse()      <span class="cmt"># reverse order, in-place</span>
+print(nums)</pre></div><div class="outblock"><span class="tag">OUTPUT</span>[9, 4, 1]</div><span class="lbl">KEY POINTS</span><ul class="points"><li><code>append()</code> adds one item to the end; <code>pop(i)</code> removes &amp; returns the item at index i (default: last).</li><li><code>sort()</code> changes the list itself; <code>sorted(list)</code> returns a new sorted list, original unchanged.</li><li>Looping: <code>for item in list:</code> or <code>for i, item in enumerate(list):</code> for index + value.</li></ul><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li><code>list.sort()</code> returns <code>None</code> — don't do <code>x = list.sort()</code>, x will be None!</li></ul></div></div>
+<div class="concept"><h3>List vs Tuple vs Set vs Dictionary</h3><table class="compare"><thead><tr><th>Feature</th><th>List</th><th>Tuple</th><th>Set</th><th>Dictionary</th></tr></thead><tbody><tr><td>Syntax</td><td><code>[1,2]</code></td><td><code>(1,2)</code></td><td><code>{1,2}</code></td><td><code>{'a':1}</code></td></tr><tr><td>Mutable?</td><td>Yes</td><td>No</td><td>Yes</td><td>Yes</td></tr><tr><td>Ordered?</td><td>Yes</td><td>Yes</td><td>No</td><td>Insertion order (3.7+)</td></tr><tr><td>Duplicates?</td><td>Allowed</td><td>Allowed</td><td>Not allowed</td><td>Keys unique, values can repeat</td></tr><tr><td>Access by</td><td>Index</td><td>Index</td><td>No indexing</td><td>Key</td></tr></tbody></table><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>Tuples are immutable — you cannot append/change items after creation.</li><li>Sets automatically drop duplicates and have <b>no</b> guaranteed order/index access.</li><li>Dictionary keys must be unique; adding the same key again overwrites the old value.</li></ul></div><div class="quickrev"><span class="bolt">⚡</span><span>List = changeable &amp; ordered. Tuple = fixed &amp; ordered. Set = unique &amp; unordered. Dict = key→value pairs.</span></div></div>
+<div class="concept"><h3>Dictionaries &amp; Key-Value Pairs</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">student = {"name": "Divya", "age": 21}
+print(student["name"])
+student["age"] = 22          <span class="cmt"># update</span>
+student["city"] = "Hyderabad"  <span class="cmt"># add new key</span>
+print(student)</pre></div><div class="outblock"><span class="tag">OUTPUT</span>Divya
+{'name': 'Divya', 'age': 22, 'city': 'Hyderabad'}</div><span class="lbl">KEY POINTS</span><ul class="points"><li>Dictionaries store data as <code>key: value</code> pairs — access by key, not position.</li><li><code>dict.get('key')</code> is safer than <code>dict['key']</code> — avoids <code>KeyError</code> if key is missing.</li></ul></div>
+<div class="concept"><h3>Set Operations: Union, Subset, Superset</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">a = {1, 2, 3}
+b = {2, 3, 4}
+print(a | b)   <span class="cmt"># union</span>
+print(a &amp; b)   <span class="cmt"># intersection</span>
+print({1,2}.issubset(a))     <span class="cmt"># subset check</span></pre></div><div class="outblock"><span class="tag">OUTPUT</span>{1, 2, 3, 4}
+{2, 3}
+True</div><span class="lbl">KEY POINTS</span><ul class="points"><li>Union (<code>|</code>) combines all unique elements from both sets.</li><li>Subset: every element of set A is in set B. Superset: B contains all of A's elements (reverse of subset).</li></ul><div class="tc"><span class="lbl4">TOPIC CHECK</span>
+<div class="q">Which data structure would you choose to store unique student roll numbers with fast duplicate checking?</div>
+<ol type="A"><li>List</li><li>Tuple</li><li>Set</li><li>Dictionary</li></ol>
+<details><summary>Show Answer</summary><div class="ans"><b>Answer: C.</b> A set automatically enforces uniqueness and gives fast membership checks.</div></details>
+</div></div>
+<div class="concept"><h3>Working with Files</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">with open("notes.txt", "w") as f:
+    f.write("Hello Python")
+
+with open("notes.txt", "r") as f:
+    print(f.read())</pre></div><div class="outblock"><span class="tag">OUTPUT</span>Hello Python</div><span class="lbl">KEY POINTS</span><ul class="points"><li><code>with open(...) as f:</code> automatically closes the file when done — preferred over manual open/close.</li><li>Modes: <code>'r'</code> read, <code>'w'</code> write (overwrites), <code>'a'</code> append.</li></ul><div class="quickrev"><span class="bolt">⚡</span><span>Mutable = list, dict, set. Immutable = tuple, string, int/float.</span></div></div>
+</div></section>
+<section class="topic" id="s6" style="--accent:var(--blue);--accent-bg:var(--blue-bg);">
+<div class="wrap">
+<div class="topic-head"><div class="num-badge">06</div><div><span class="part">Numerical Python</span><h2>NumPy</h2></div></div>
+<p class="section-intro">Fast array maths — the foundation of data science computation.</p><div class="concept"><h3>NumPy Arrays vs Python Lists</h3><div class="mini-grid">
+<div class="mini-box"><span class="lbl2">WHAT IS IT?</span><p>NumPy provides the <code>ndarray</code> — a fast, fixed-type, multi-dimensional array object for numerical computing.</p></div>
+<div class="mini-box"><span class="lbl2">WHY USE IT?</span><p>Much faster than lists for maths (vectorised operations) and supports matrix/linear algebra operations lists can't do directly.</p></div>
+</div><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">import numpy as np
+a = np.array([1, 2, 3])
+print(a * 2)              <span class="cmt"># element-wise, no loop needed</span>
+print([1,2,3] * 2)      <span class="cmt"># list: repeats the list!</span></pre></div><div class="outblock"><span class="tag">OUTPUT</span>[2 4 6]
+[1, 2, 3, 1, 2, 3]</div><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>Multiplying a Python list by 2 <b>repeats</b> it; multiplying a NumPy array by 2 multiplies <b>each element</b>.</li></ul></div></div>
+<div class="concept"><h3>Shape &amp; reshape()</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">arr = np.array([1,2,3,4,5,6])
+print(arr.shape)              <span class="cmt"># (6,)</span>
+b = arr.reshape(2, 3)
+print(b)
+print(b.shape)</pre></div><div class="outblock"><span class="tag">OUTPUT</span>(6,)
+[[1 2 3]
+ [4 5 6]]
+(2, 3)</div><span class="lbl">KEY POINTS</span><ul class="points"><li><code>.shape</code> tells you (rows, columns, ...) of an array.</li><li><code>reshape(r, c)</code> changes the array's dimensions — total elements (r &times; c) must match the original count.</li><li>Use <code>-1</code> in reshape to let NumPy auto-calculate that dimension, e.g. <code>reshape(2,-1)</code>.</li></ul><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li><code>reshape()</code> fails with a <code>ValueError</code> if r&times;c doesn't equal the original number of elements.</li></ul></div></div>
+<div class="concept"><h3>Element-wise Ops vs Matrix Multiplication vs dot()</h3><table class="compare"><thead><tr><th>Operation</th><th>Symbol</th><th>What it does</th></tr></thead><tbody><tr><td>Element-wise</td><td><code>*</code></td><td>Multiplies matching positions, same shape needed</td></tr><tr><td>Matrix multiply</td><td><code>@</code> or <code>np.matmul</code></td><td>Rows &times; Columns (linear algebra rule)</td></tr><tr><td>dot product</td><td><code>np.dot(a,b)</code></td><td>Sum of element-wise products (vectors) or matrix multiply (2D)</td></tr></tbody></table><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">a = np.array([[1,2],[3,4]])
+b = np.array([[5,6],[7,8]])
+print(a * b)      <span class="cmt"># element-wise</span>
+print(a @ b)      <span class="cmt"># matrix multiplication</span></pre></div><div class="outblock"><span class="tag">OUTPUT</span>[[ 5 12]
+ [21 32]]
+[[19 22]
+ [43 50]]</div><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li><code>*</code> is NEVER true matrix multiplication in NumPy for 2D arrays — use <code>@</code>, <code>np.matmul()</code> or <code>np.dot()</code>.</li></ul></div></div>
+<div class="concept"><h3>hstack(), vstack() &amp; Broadcasting</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">a = np.array([1,2]); b = np.array([3,4])
+print(np.hstack((a,b)))   <span class="cmt"># side by side</span>
+print(np.vstack((a,b)))   <span class="cmt"># stacked as rows</span>
+
+m = np.array([[1,2,3],[4,5,6]])
+print(m + np.array([10,20,30]))  <span class="cmt"># broadcasting</span></pre></div><div class="outblock"><span class="tag">OUTPUT</span>[1 2 3 4]
+[[1 2]
+ [3 4]]
+[[11 22 33]
+ [14 25 36]]</div><span class="lbl">KEY POINTS</span><ul class="points"><li><code>hstack</code> joins arrays horizontally (columns), <code>vstack</code> joins vertically (rows).</li><li>Broadcasting lets NumPy apply an operation between arrays of <i>different but compatible</i> shapes without manual loops.</li></ul><div class="quickrev"><span class="bolt">⚡</span><span>Broadcasting 'stretches' the smaller array to match the bigger one's shape — no copying happens in memory.</span></div></div>
+<div class="concept"><h3>Random Numbers: randn() vs randint()</h3><table class="compare"><thead><tr><th>Function</th><th>Distribution</th><th>Example</th></tr></thead><tbody><tr><td><code>np.random.randn(n)</code></td><td>Standard Normal (mean 0, std 1), can be negative</td><td>-0.42, 1.13, ...</td></tr><tr><td><code>np.random.randint(lo,hi,n)</code></td><td>Uniform whole numbers in a range</td><td>3, 7, 1, 9, ...</td></tr></tbody></table><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>randn() gives continuous decimal values around 0; randint() gives whole numbers in a fixed range — don't mix them up.</li></ul></div></div>
+<div class="concept"><h3>Standardization vs Min-Max Scaling</h3><table class="compare"><thead><tr><th></th><th>Standardization</th><th>Min-Max Scaling</th></tr></thead><tbody><tr><td>Formula</td><td>(x - mean) / std</td><td>(x - min) / (max - min)</td></tr><tr><td>Output range</td><td>No fixed range, centered at 0</td><td>0 to 1</td></tr><tr><td>Use when</td><td>Data may have outliers, normal-ish distribution</td><td>You need a bounded range</td></tr></tbody></table><div class="quickrev"><span class="bolt">⚡</span><span>Standardization centers data around 0; Min-Max squashes data into [0,1].</span></div><div class="tc"><span class="lbl4">TOPIC CHECK</span>
+<div class="q">Which scaling method centers data with mean 0 and standard deviation 1?</div>
+<ol type="A"><li>Min-Max Scaling</li><li>Standardization</li><li>Broadcasting</li><li>Normalization by sum</li></ol>
+<details><summary>Show Answer</summary><div class="ans"><b>Answer: B.</b> Standardization (Z-score scaling) transforms data to have mean 0 and standard deviation 1.</div></details>
+</div></div>
+</div></section>
+<section class="topic" id="s7" style="--accent:var(--green);--accent-bg:var(--green-bg);">
+<div class="wrap">
+<div class="topic-head"><div class="num-badge">07</div><div><span class="part">Data Analysis</span><h2>Pandas</h2></div></div>
+<p class="section-intro">The go-to library for tabular (spreadsheet-like) data in Python.</p><div class="concept"><h3>Why Pandas? (Problems with NumPy)</h3><div class="mini-grid">
+<div class="mini-box"><span class="lbl2">WHAT IS IT?</span><p>Pandas builds on NumPy to give labelled, table-like data structures: Series (1D) and DataFrame (2D).</p></div>
+<div class="mini-box"><span class="lbl2">WHY USE IT?</span><p>NumPy arrays hold only one data type and have no column names — hard to work with real-world mixed data (names, dates, numbers).</p></div>
+</div><table class="compare"><thead><tr><th></th><th>Series</th><th>DataFrame</th></tr></thead><tbody><tr><td>Dimensions</td><td>1D (like a single column)</td><td>2D (rows &amp; columns, like a spreadsheet)</td></tr><tr><td>Example</td><td><code>pd.Series([1,2,3])</code></td><td><code>pd.DataFrame({'a':[1,2]})</code></td></tr></tbody></table></div>
+<div class="concept"><h3>Reading Data &amp; Exploring: info(), describe()</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">import pandas as pd
+df = pd.read_csv("data.csv")
+df.info()          <span class="cmt"># column types, non-null counts</span>
+df.describe()     <span class="cmt"># mean, std, min, max, quartiles</span></pre></div><span class="lbl">KEY POINTS</span><ul class="points"><li><code>info()</code> → structure: column names, dtypes, missing value counts.</li><li><code>describe()</code> → statistics: count, mean, std, min, 25%/50%/75%, max (numeric columns only, by default).</li></ul></div>
+<div class="concept"><h3>loc vs iloc</h3><table class="compare"><thead><tr><th></th><th>loc</th><th>iloc</th></tr></thead><tbody><tr><td>Selects by</td><td>Label / column name</td><td>Integer position (index number)</td></tr><tr><td>Example</td><td><code>df.loc[0, 'name']</code></td><td><code>df.iloc[0, 1]</code></td></tr><tr><td>End of range</td><td>Inclusive</td><td>Exclusive (like normal Python slicing)</td></tr></tbody></table><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li><code>df.loc[0:2]</code> includes row label 2; <code>df.iloc[0:2]</code> stops before position 2 — classic exam trick.</li></ul></div></div>
+<div class="concept"><h3>Renaming Columns &amp; inplace</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">df.rename(columns={"old":"new"}, inplace=True)
+<span class="cmt"># same as: df = df.rename(columns={"old":"new"})</span></pre></div><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li><code>inplace=True</code> modifies the DataFrame directly and returns <code>None</code> — don't assign it back: <code>df = df.rename(..., inplace=True)</code> makes df become None!</li></ul></div></div>
+<div class="concept"><h3>Filtering Data</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">adults = df[df["age"] &gt;= 18]
+seniors = df[(df["age"] &gt; 60) &amp; (df["city"] == "Pune")]</pre></div><span class="lbl">KEY POINTS</span><ul class="points"><li>Filtering uses a Boolean condition inside <code>df[ ]</code> — rows where condition is True are kept.</li><li>Combine conditions with <code>&amp;</code> (and), <code>|</code> (or) — each condition needs its own parentheses.</li></ul><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>Using Python's <code>and</code>/<code>or</code> instead of <code>&amp;</code>/<code>|</code> on Pandas conditions raises an error.</li></ul></div></div>
+<div class="concept"><h3>Missing Values: Forward Fill vs Backward Fill</h3><table class="compare"><thead><tr><th>Method</th><th>Fills a gap with...</th></tr></thead><tbody><tr><td><code>df.fillna(value)</code></td><td>A fixed value you choose</td></tr><tr><td><code>ffill()</code> (forward fill)</td><td>The previous valid value above it</td></tr><tr><td><code>bfill()</code> (backward fill)</td><td>The next valid value below it</td></tr></tbody></table><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">df["marks"].fillna(df["marks"].mean(), inplace=True)
+df["temp"].ffill(inplace=True)</pre></div><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>Always check <code>df.isnull().sum()</code> before deciding to drop or fill — dropping too many rows loses data.</li></ul></div></div>
+<div class="concept"><h3>groupby &amp; Aggregate Functions</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">df.groupby("department")["salary"].mean()
+df.groupby("department").agg({"salary":"mean","age":"max"})</pre></div><div class="outblock"><span class="tag">OUTPUT</span>department
+HR       45000.0
+IT       62000.0
+Name: salary, dtype: float64</div><span class="lbl">KEY POINTS</span><ul class="points"><li><code>groupby()</code> splits data into groups by a column, then applies an aggregate function (mean, sum, count, max...) to each group.</li><li>Think: Split → Apply → Combine.</li></ul><div class="quickrev"><span class="bolt">⚡</span><span>loc = label-based, iloc = position-based. groupby = split-apply-combine.</span></div><div class="tc"><span class="lbl4">TOPIC CHECK</span>
+<div class="q">df.loc[0:2] on a default-indexed DataFrame returns how many rows?</div>
+<ol type="A"><li>2 rows</li><li>3 rows</li><li>1 row</li><li>Depends on iloc</li></ol>
+<details><summary>Show Answer</summary><div class="ans"><b>Answer: B.</b> loc's range is label-inclusive, so index 0,1,2 — that's 3 rows (unlike iloc which would exclude 2).</div></details>
+</div></div>
+</div></section>
+<section class="topic" id="s8" style="--accent:var(--violet);--accent-bg:var(--violet-bg);">
+<div class="wrap">
+<div class="topic-head"><div class="num-badge">08</div><div><span class="part">Data Exchange</span><h2>JSON &amp; API Data</h2></div></div>
+<p class="section-intro">The universal language APIs use to send data.</p><div class="concept"><h3>Why JSON Matters &amp; Its Structure</h3><div class="mini-grid">
+<div class="mini-box"><span class="lbl2">WHAT IS IT?</span><p>JSON (JavaScript Object Notation) is a lightweight text format for storing and exchanging structured data using key-value pairs.</p></div>
+<div class="mini-box"><span class="lbl2">WHY USE IT?</span><p>It's the standard format APIs use to send/receive data — human-readable and easy for programs to parse.</p></div>
+</div><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">{
+  "name": "Inception",
+  "year": 2010,
+  "genres": ["Sci-Fi", "Thriller"]
+}</pre></div><span class="lbl">KEY POINTS</span><ul class="points"><li>JSON objects use <code>{ }</code> with <code>"key": value</code> pairs; arrays use <code>[ ]</code>.</li><li>Values can be strings, numbers, booleans, null, objects, or arrays (nested).</li></ul></div>
+<div class="concept"><h3>Python Dictionaries &amp; JSON Conversion</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">import json
+data = {"name": "Divya", "age": 21}
+text = json.dumps(data)     <span class="cmt"># dict -&gt; JSON string</span>
+back = json.loads(text)     <span class="cmt"># JSON string -&gt; dict</span>
+print(type(text), type(back))</pre></div><div class="outblock"><span class="tag">OUTPUT</span>&lt;class 'str'&gt; &lt;class 'dict'&gt;</div><span class="lbl">KEY POINTS</span><ul class="points"><li><code>json.dumps()</code>: Python object &rarr; JSON string. <code>json.loads()</code>: JSON string &rarr; Python object.</li><li>A JSON object maps almost 1-to-1 onto a Python dictionary.</li></ul><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li><code>dumps</code> (with an 's') = dump to STRING; <code>load</code>/<code>loads</code> reversed — students often mix these up.</li></ul></div></div>
+<div class="concept"><h3>Parsing API Responses &amp; Nested JSON</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">response = {
+  "results": [
+    {"title": "Movie A", "rating": 8.1},
+    {"title": "Movie B", "rating": 7.4}
+  ]
+}
+for movie in response["results"]:
+    print(movie["title"], movie["rating"])</pre></div><div class="outblock"><span class="tag">OUTPUT</span>Movie A 8.1
+Movie B 7.4</div><span class="lbl">KEY POINTS</span><ul class="points"><li>API responses are usually nested JSON: objects inside arrays inside objects — access step by step using keys/indices.</li><li>Always check the structure (print it or check docs) before writing extraction code.</li></ul><div class="quickrev"><span class="bolt">⚡</span><span>dumps() = dict→string, loads() = string→dict. Nested JSON = drill down key by key.</span></div></div>
+</div></section>
+<section class="topic" id="s9" style="--accent:var(--teal);--accent-bg:var(--teal-bg);">
+<div class="wrap">
+<div class="topic-head"><div class="num-badge">09</div><div><span class="part">Storing Data</span><h2>Databases &amp; SQLite</h2></div></div>
+<p class="section-intro">How structured data lives, and your first hands-on SQL queries.</p><div class="concept"><h3>Relational vs Non-Relational Databases</h3><table class="compare"><thead><tr><th></th><th>Relational (SQL)</th><th>Non-Relational (NoSQL)</th></tr></thead><tbody><tr><td>Structure</td><td>Tables with rows &amp; columns, fixed schema</td><td>Flexible: documents, key-value, graphs</td></tr><tr><td>Examples</td><td>MySQL, PostgreSQL, SQLite</td><td>MongoDB, Redis, Firebase</td></tr><tr><td>Best for</td><td>Structured data, relationships, transactions</td><td>Fast-changing/unstructured data, scale</td></tr></tbody></table><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>'Relational' refers to relationships between <b>tables</b> (via keys), not just data being 'related' in a general sense.</li></ul></div></div>
+<div class="concept"><h3>Primary Key vs Foreign Key &amp; Schema</h3><table class="compare"><thead><tr><th></th><th>Primary Key</th><th>Foreign Key</th></tr></thead><tbody><tr><td>Defines</td><td>A unique identifier for each row in its own table</td><td>A column that links to another table's Primary Key</td></tr><tr><td>Uniqueness</td><td>Must be unique, not null</td><td>Can repeat, can be null</td></tr><tr><td>Purpose</td><td>Identify a record</td><td>Create relationships between tables</td></tr></tbody></table><span class="lbl">KEY POINTS</span><ul class="points"><li>A schema is the blueprint of a database — table names, columns, data types, and key constraints.</li></ul><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>A table can only have <b>one</b> primary key (though it can span multiple columns) but <b>many</b> foreign keys.</li></ul></div></div>
+<div class="concept"><h3>sqlite3 &amp; PRAGMA</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">import sqlite3
+conn = sqlite3.connect("school.db")
+cur = conn.cursor()
+cur.execute("PRAGMA table_info(students)")
+print(cur.fetchall())</pre></div><span class="lbl">KEY POINTS</span><ul class="points"><li><code>sqlite3</code> is Python's built-in module to connect to and query SQLite database files.</li><li><code>PRAGMA</code> commands inspect or configure the database itself (e.g. <code>table_info</code> lists a table's columns).</li></ul><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>PRAGMA is SQLite-specific syntax for metadata/settings — it is not a normal data query.</li></ul></div></div>
+<div class="concept"><h3>SELECT, WHERE, DISTINCT &amp; ORDER BY</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">SELECT DISTINCT city FROM students
+WHERE age &gt; 18
+ORDER BY city ASC;</pre></div><span class="lbl">KEY POINTS</span><ul class="points"><li><code>SELECT</code> picks columns; <code>WHERE</code> filters rows <i>before</i> grouping; <code>DISTINCT</code> removes duplicate rows/values.</li><li><code>ORDER BY col ASC/DESC</code> sorts the final result (default is ascending).</li></ul></div>
+<div class="concept"><h3>WHERE vs HAVING</h3><table class="compare"><thead><tr><th></th><th>WHERE</th><th>HAVING</th></tr></thead><tbody><tr><td>Filters</td><td>Individual rows</td><td>Groups (after GROUP BY)</td></tr><tr><td>Used with aggregate?</td><td>No</td><td>Yes, e.g. COUNT(), AVG()</td></tr><tr><td>Runs</td><td>Before grouping</td><td>After grouping</td></tr></tbody></table><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">SELECT department, COUNT(*) FROM employees
+GROUP BY department
+HAVING COUNT(*) &gt; 5;</pre></div><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>You cannot use aggregate functions like <code>COUNT()</code> inside <code>WHERE</code> — that's exactly what <code>HAVING</code> is for.</li></ul></div><div class="quickrev"><span class="bolt">⚡</span><span>WHERE filters rows first; HAVING filters groups after GROUP BY.</span></div><div class="tc"><span class="lbl4">TOPIC CHECK</span>
+<div class="q">Which clause would you use to keep only departments with more than 10 employees, after grouping?</div>
+<ol type="A"><li>WHERE</li><li>GROUP BY</li><li>HAVING</li><li>ORDER BY</li></ol>
+<details><summary>Show Answer</summary><div class="ans"><b>Answer: C.</b> HAVING filters aggregated groups; WHERE cannot use aggregate results like COUNT().</div></details>
+</div></div>
+</div></section>
+<section class="topic" id="s10" style="--accent:var(--coral);--accent-bg:var(--coral-bg);">
+<div class="wrap">
+<div class="topic-head"><div class="num-badge">10</div><div><span class="part">Combining Tables</span><h2>SQL Joins &amp; Normalization</h2></div></div>
+<p class="section-intro">Merging data across tables — a guaranteed exam topic.</p><div class="concept"><h3>Normalization (Quick Idea)</h3><div class="mini-grid">
+<div class="mini-box"><span class="lbl2">WHAT IS IT?</span><p>Organising a database to reduce data duplication and keep relationships clean by splitting data into related tables.</p></div>
+<div class="mini-box"><span class="lbl2">WHY USE IT?</span><p>Prevents inconsistent/duplicate data and saves storage — e.g. storing a customer once, referenced by ID in many orders.</p></div>
+</div></div>
+<div class="concept"><h3>INNER JOIN vs LEFT JOIN vs RIGHT JOIN vs OUTER JOIN</h3><table class="compare"><thead><tr><th>Join Type</th><th>Returns</th></tr></thead><tbody><tr><td><b>INNER JOIN</b></td><td>Only rows that match in BOTH tables</td></tr><tr><td><b>LEFT JOIN</b></td><td>All rows from left table + matches from right (unmatched = NULL)</td></tr><tr><td><b>RIGHT JOIN</b></td><td>All rows from right table + matches from left (unmatched = NULL)</td></tr><tr><td><b>FULL OUTER JOIN</b></td><td>All rows from both tables; unmatched sides filled with NULL</td></tr></tbody></table><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;"><span class="cmt">-- Students table: id, name
+-- Marks table: student_id, score
+-- A student with no marks row:</span>
+SELECT s.name, m.score
+FROM students s
+LEFT JOIN marks m ON s.id = m.student_id;
+<span class="cmt">-- That student still appears, score = NULL</span></pre></div><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>INNER JOIN <b>drops</b> unmatched rows from both sides — easy to accidentally lose data.</li><li>SQLite does not support RIGHT JOIN/FULL OUTER JOIN directly (can simulate with LEFT JOIN + UNION).</li></ul></div><div class="quickrev"><span class="bolt">⚡</span><span>INNER = only matches. LEFT = everything on the left, matched or not. RIGHT = mirror of LEFT.</span></div><div class="tc"><span class="lbl4">TOPIC CHECK</span>
+<div class="q">Table A has 5 rows, Table B has 3 matching + 2 non-matching rows relative to A. How many rows does INNER JOIN return (assuming 1-to-1 matches)?</div>
+<ol type="A"><li>5</li><li>8</li><li>3</li><li>2</li></ol>
+<details><summary>Show Answer</summary><div class="ans"><b>Answer: C.</b> INNER JOIN only returns rows where a match exists in both tables — here that's 3.</div></details>
+</div></div>
+</div></section>
+<section class="topic" id="s11" style="--accent:var(--gold);--accent-bg:var(--gold-bg);">
+<div class="wrap">
+<div class="topic-head"><div class="num-badge">11</div><div><span class="part">Visualization</span><h2>Matplotlib</h2></div></div>
+<p class="section-intro">Picking and reading the right chart for the right story.</p><div class="concept"><h3>Line Plot &amp; Scatter Plot</h3><table class="compare"><thead><tr><th>Chart</th><th>Shows</th><th>Use when</th></tr></thead><tbody><tr><td>Line Plot</td><td>Trend over a continuous sequence (e.g. time)</td><td>Tracking change over time</td></tr><tr><td>Scatter Plot</td><td>Relationship between two numeric variables</td><td>Checking correlation between two variables</td></tr></tbody></table><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">import matplotlib.pyplot as plt
+plt.plot(days, temperature)      <span class="cmt"># line plot</span>
+plt.scatter(height, weight)      <span class="cmt"># scatter plot</span>
+plt.show()</pre></div></div>
+<div class="concept"><h3>Bar Chart vs Histogram</h3><table class="compare"><thead><tr><th></th><th>Bar Chart</th><th>Histogram</th></tr></thead><tbody><tr><td>Data type</td><td>Categorical (discrete categories)</td><td>Continuous (numeric, binned)</td></tr><tr><td>Bars touch?</td><td>No, gaps between bars</td><td>Yes, bars touch (continuous range)</td></tr><tr><td>Example</td><td>Sales by region</td><td>Distribution of exam scores</td></tr></tbody></table><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">plt.bar(["A","B","C"], [10,20,15])     <span class="cmt"># bar chart</span>
+plt.hist(marks, bins=10)                   <span class="cmt"># histogram</span></pre></div><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>Bar charts compare categories; histograms show the <b>distribution/spread</b> of one numeric variable — don't use them interchangeably.</li></ul></div></div>
+<div class="concept"><h3>Pie Chart</h3><div class="mini-grid">
+<div class="mini-box"><span class="lbl2">WHAT IS IT?</span><p>Shows parts of a whole as slices of a circle, each proportional to its percentage.</p></div>
+<div class="mini-box"><span class="lbl2">WHY USE IT?</span><p>Best for showing simple proportion breakdowns of a small number of categories (not for many categories or precise comparison).</p></div>
+</div><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">plt.pie([40,30,30], labels=["A","B","C"], autopct="%1.1f%%")</pre></div><div class="quickrev"><span class="bolt">⚡</span><span>Line = trend, Scatter = relationship, Bar = compare categories, Histogram = distribution, Pie = proportion of a whole.</span></div></div>
+</div></section>
+<section class="topic" id="s12" style="--accent:var(--pink);--accent-bg:var(--pink-bg);">
+<div class="wrap">
+<div class="topic-head"><div class="num-badge">12</div><div><span class="part">Understanding Data</span><h2>Machine Learning &amp; EDA</h2></div></div>
+<p class="section-intro">Before building any model, you must understand your data — that's EDA.</p><div class="concept"><h3>Intro to ML &amp; Dependent vs Independent Features</h3><div class="mini-grid">
+<div class="mini-box"><span class="lbl2">WHAT IS IT?</span><p>Machine Learning lets computers learn patterns from data to make predictions, without being explicitly programmed with rules.</p></div>
+<div class="mini-box"><span class="lbl2">WHY USE IT?</span><p>EDA (Exploratory Data Analysis) is the process of visually/statistically summarising data to find patterns, trends and issues before modelling.</p></div>
+</div><table class="compare"><thead><tr><th></th><th>Independent Feature (X)</th><th>Dependent Feature (y)</th></tr></thead><tbody><tr><td>Role</td><td>Input(s) used to predict</td><td>Output we want to predict</td></tr><tr><td>Example (Iris)</td><td>Petal length, sepal width</td><td>Species (the target)</td></tr></tbody></table><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>The dependent feature is also called the 'target' or 'label' — it depends ON the independent features, not the other way around.</li></ul></div></div>
+<div class="concept"><h3>Quartiles, IQR &amp; Outliers</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">Q1 = df["marks"].quantile(0.25)
+Q3 = df["marks"].quantile(0.75)
+IQR = Q3 - Q1
+lower = Q1 - 1.5 * IQR
+upper = Q3 + 1.5 * IQR</pre></div><span class="lbl">KEY POINTS</span><ul class="points"><li>Quartiles split sorted data into 4 equal parts: Q1 (25%), Q2/median (50%), Q3 (75%).</li><li>IQR = Q3 − Q1 measures the spread of the middle 50% of data.</li><li>Outliers: values below Q1 − 1.5&times;IQR or above Q3 + 1.5&times;IQR (common rule used by box plots).</li></ul><div class="quickrev"><span class="bolt">⚡</span><span>IQR = Q3 − Q1. Anything beyond 1.5×IQR past Q1/Q3 is a likely outlier.</span></div></div>
+<div class="concept"><h3>Box Plot vs Violin Plot vs Histogram vs PDF</h3><table class="compare"><thead><tr><th>Plot</th><th>Best shows</th></tr></thead><tbody><tr><td>Box Plot</td><td>Median, quartiles, IQR, and outliers at a glance</td></tr><tr><td>Violin Plot</td><td>Box plot info + the full shape of the distribution</td></tr><tr><td>Histogram</td><td>Frequency count of values in bins (discrete bars)</td></tr><tr><td>PDF Curve</td><td>Smoothed, continuous version of a distribution's shape</td></tr></tbody></table><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>A Box plot shows summary statistics only (no shape detail); a Violin plot adds the distribution's shape on top of that same summary.</li></ul></div></div>
+<div class="concept"><h3>Pair Plot (EDA on Iris)</h3><div class="mini-grid">
+<div class="mini-box"><span class="lbl2">WHAT IS IT?</span><p>A grid of scatter plots showing every numeric feature plotted against every other feature, with histograms on the diagonal.</p></div>
+<div class="mini-box"><span class="lbl2">WHY USE IT?</span><p>Quickly reveals relationships and separability between classes across many feature pairs at once — classic first step on the Iris dataset.</p></div>
+</div><div class="quickrev"><span class="bolt">⚡</span><span>Pair plot = many scatter plots at once, one grid cell per feature pair.</span></div><div class="tc"><span class="lbl4">TOPIC CHECK</span>
+<div class="q">A box plot shows a marks column with Q1=40, Q3=70. Which value is most likely an outlier?</div>
+<ol type="A"><li>45</li><li>65</li><li>130</li><li>55</li></ol>
+<details><summary>Show Answer</summary><div class="ans"><b>Answer: C.</b> IQR = 30, upper bound = 70 + 1.5(30) = 115. 130 exceeds this, so it's an outlier.</div></details>
+</div></div>
+</div></section>
+<section class="topic" id="s13" style="--accent:var(--blue);--accent-bg:var(--blue-bg);">
+<div class="wrap">
+<div class="topic-head"><div class="num-badge">13</div><div><span class="part">Extracting Web Data</span><h2>Web Scraping</h2></div></div>
+<p class="section-intro">Pulling structured data out of raw web pages.</p><div class="concept"><h3>Basic HTML Structure &amp; the Scraping Workflow</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">&lt;div class="movie"&gt;
+  &lt;h2&gt;Inception&lt;/h2&gt;
+  &lt;span class="rating"&gt;8.8&lt;/span&gt;
+&lt;/div&gt;</pre></div><span class="lbl">KEY POINTS</span><ul class="points"><li>Workflow: send a request for the page &rarr; get raw HTML &rarr; parse it with BeautifulSoup &rarr; find tags/classes &rarr; extract &amp; clean the data.</li><li>HTML is made of nested tags (<code>&lt;div&gt;</code>, <code>&lt;h2&gt;</code>...) often identified by <code>class</code> or <code>id</code> attributes.</li></ul></div>
+<div class="concept"><h3>BeautifulSoup Hands-on</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">from bs4 import BeautifulSoup
+soup = BeautifulSoup(html, "html.parser")
+title = soup.find("h2").text
+rating = soup.find("span", class_="rating").text
+print(title, rating)</pre></div><div class="outblock"><span class="tag">OUTPUT</span>Inception 8.8</div><span class="lbl">KEY POINTS</span><ul class="points"><li><code>find()</code> gets the first matching tag; <code>find_all()</code> gets every match as a list.</li><li><code>.text</code> extracts just the visible text, dropping the HTML tags.</li></ul><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>Websites change their HTML structure often — scraping code can break; always inspect the current page structure first, and respect a site's terms of use.</li></ul></div></div>
+<div class="concept"><h3>Cleaning Web-Scraped Data</h3><span class="lbl">KEY POINTS</span><ul class="points"><li>Scraped text often has extra whitespace/newlines — use <code>.strip()</code> to clean it.</li><li>Convert extracted text to the right type (e.g. rating text → <code>float</code>) before analysis.</li><li>Handle missing tags gracefully (e.g. check <code>if tag:</code> before calling <code>.text</code>) to avoid errors.</li></ul><div class="quickrev"><span class="bolt">⚡</span><span>Scrape workflow: Request → HTML → Parse (BeautifulSoup) → Extract → Clean.</span></div></div>
+</div></section>
+<section class="topic" id="s14" style="--accent:var(--green);--accent-bg:var(--green-bg);">
+<div class="wrap">
+<div class="topic-head"><div class="num-badge">14</div><div><span class="part">Finding Relationships</span><h2>Correlation &amp; EDA</h2></div></div>
+<p class="section-intro">Reading how variables move together — and knowing the limits of that story.</p><div class="concept"><h3>Positive vs Negative vs Weak/Strong Correlation</h3><table class="compare"><thead><tr><th>Correlation value</th><th>Meaning</th></tr></thead><tbody><tr><td>Close to <b>+1</b></td><td>Strong positive — both variables increase together</td></tr><tr><td>Close to <b>-1</b></td><td>Strong negative — one increases as the other decreases</td></tr><tr><td>Close to <b>0</b></td><td>Weak / no linear relationship</td></tr></tbody></table><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">df.corr()   <span class="cmt"># correlation matrix of numeric columns</span></pre></div><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>Correlation only measures <b>linear</b> relationships — two variables can have a strong pattern that correlation completely misses (e.g. a U-shape).</li></ul></div></div>
+<div class="concept"><h3>Heatmap Interpretation</h3><div class="mini-grid">
+<div class="mini-box"><span class="lbl2">WHAT IS IT?</span><p>A heatmap colours a correlation matrix so patterns are visible at a glance — typically dark/warm colours for strong positive, cool colours for strong negative.</p></div>
+<div class="mini-box"><span class="lbl2">WHY USE IT?</span><p>Lets you scan relationships between many variables at once instead of reading numbers one by one.</p></div>
+</div><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">import seaborn as sns
+sns.heatmap(df.corr(), annot=True, cmap="coolwarm")</pre></div></div>
+<div class="concept"><h3>Correlation vs Causation</h3><div class="mini-grid">
+<div class="mini-box"><span class="lbl2">WHAT IS IT?</span><p>Correlation means two variables move together statistically. Causation means one variable directly causes the change in another.</p></div>
+<div class="mini-box"><span class="lbl2">WHY USE IT?</span><p>Confusing the two leads to wrong conclusions — a classic example: ice-cream sales and drowning both rise in summer (correlated), but ice cream doesn't cause drowning (a third factor, heat, causes both).</p></div>
+</div><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>'X and Y are correlated' never proves 'X causes Y' — there could be a hidden third variable, or the relationship could be reversed.</li></ul></div><div class="quickrev"><span class="bolt">⚡</span><span>Correlation is a clue, not proof. Causation needs controlled experiments, not just a heatmap.</span></div><div class="tc"><span class="lbl4">TOPIC CHECK</span>
+<div class="q">A heatmap shows -0.85 between 'hours of TV' and 'exam score'. What can you conclude?</div>
+<ol type="A"><li>TV directly causes lower scores</li><li>There's a strong negative correlation only</li><li>No relationship exists</li><li>Scores cause TV watching</li></ol>
+<details><summary>Show Answer</summary><div class="ans"><b>Answer: B.</b> -0.85 shows a strong negative correlation — it does not by itself prove that one causes the other.</div></details>
+</div></div>
+</div></section>
+<section class="topic" id="s15" style="--accent:var(--violet);--accent-bg:var(--violet-bg);">
+<div class="wrap">
+<div class="topic-head"><div class="num-badge">15</div><div><span class="part">Connecting to Services</span><h2>APIs</h2></div></div>
+<p class="section-intro">Requesting live data from the outside world.</p><div class="concept"><h3>API, Client &amp; Server</h3><div class="mini-grid">
+<div class="mini-box"><span class="lbl2">WHAT IS IT?</span><p>The client (your program) sends a request to a server (the API provider); the server processes it and sends back a response, usually as JSON.</p></div>
+<div class="mini-box"><span class="lbl2">WHY USE IT?</span><p>Lets your code use live, external data/services (weather, movies, AI models) instead of hardcoding everything yourself.</p></div>
+</div></div>
+<div class="concept"><h3>GET vs POST</h3><table class="compare"><thead><tr><th></th><th>GET</th><th>POST</th></tr></thead><tbody><tr><td>Purpose</td><td>Retrieve/read data</td><td>Send/create data</td></tr><tr><td>Data location</td><td>In the URL (query params)</td><td>In the request body</td></tr><tr><td>Typical use</td><td>Fetching a list of movies</td><td>Submitting a form, creating a record</td></tr></tbody></table><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">import requests
+r = requests.get("https://api.example.com/movies", params={"id": 5})
+print(r.status_code)
+print(r.json())</pre></div><div class="outblock"><span class="tag">OUTPUT</span>200
+{...}</div><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>GET requests should not be used to send sensitive data — parameters appear visibly in the URL.</li></ul></div></div>
+<div class="concept"><h3>HTTP Status Codes</h3><table class="compare"><thead><tr><th>Code range</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td>2xx</td><td>Success</td><td>200 OK</td></tr><tr><td>4xx</td><td>Client error (your request was wrong)</td><td>404 Not Found, 401 Unauthorized</td></tr><tr><td>5xx</td><td>Server error (their problem)</td><td>500 Internal Server Error</td></tr></tbody></table><div class="quickrev"><span class="bolt">⚡</span><span>2xx = success, 4xx = you made a mistake, 5xx = server's problem.</span></div><div class="tc"><span class="lbl4">TOPIC CHECK</span>
+<div class="q">You send a request with an invalid/missing API key. Which status code would you most likely get?</div>
+<ol type="A"><li>200</li><li>401</li><li>500</li><li>301</li></ol>
+<details><summary>Show Answer</summary><div class="ans"><b>Answer: B.</b> 401 Unauthorized means the request lacks valid authentication credentials, like a missing/invalid API key.</div></details>
+</div></div>
+</div></section>
+<section class="topic" id="s16" style="--accent:var(--teal);--accent-bg:var(--teal-bg);">
+<div class="wrap">
+<div class="topic-head"><div class="num-badge">16</div><div><span class="part">Responsible Coding</span><h2>Ethics, Security &amp; Git</h2></div></div>
+<p class="section-intro">Protecting secrets and using technology responsibly.</p><div class="concept"><h3>Technology Ethics</h3><div class="mini-grid">
+<div class="mini-box"><span class="lbl2">WHAT IS IT?</span><p>Applying moral principles — fairness, honesty, privacy, responsibility — to how technology is built and used.</p></div>
+<div class="mini-box"><span class="lbl2">WHY USE IT?</span><p>Prevents harm: biased algorithms, privacy violations, and misuse of personal or sensitive data.</p></div>
+</div></div>
+<div class="concept"><h3>Why API Keys Are Sensitive &amp; Environment Variables</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;"><span class="cmt"># BAD: hardcoded key visible to anyone with the code</span>
+api_key = "sk-12345abc..."
+
+<span class="cmt"># GOOD: stored in a .env file, loaded at runtime</span>
+import os
+from dotenv import load_dotenv
+load_dotenv()
+api_key = os.getenv("API_KEY")</pre></div><span class="lbl">KEY POINTS</span><ul class="points"><li>An exposed API key can be used by anyone — leading to stolen data, unexpected bills, or service abuse in your name.</li><li>Environment variables keep secrets <b>outside</b> your source code, so they aren't visible in the file itself.</li><li>A <code>.env</code> file stores these secrets locally and should never be committed to Git.</li></ul><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>Hardcoding a key directly in a <code>.py</code> file that gets pushed to GitHub is one of the most common real-world security mistakes.</li></ul></div></div>
+<div class="concept"><h3>Git Key Security</h3><span class="lbl">KEY POINTS</span><ul class="points"><li>Add <code>.env</code> and any secret files to <code>.gitignore</code> so Git never tracks/uploads them.</li><li>If a key is accidentally pushed to a public repo, it must be treated as <b>compromised</b> — revoke/regenerate it immediately.</li><li>Never share API keys in screenshots, chat messages, or public forums.</li></ul><div class="quickrev"><span class="bolt">⚡</span><span>Keys go in environment variables, never in code. .gitignore keeps secrets out of version control.</span></div><div class="tc"><span class="lbl4">TOPIC CHECK</span>
+<div class="q">You accidentally pushed your API key to a public GitHub repo. What's the correct FIRST step?</div>
+<ol type="A"><li>Delete the repo and hope no one saw it</li><li>Immediately revoke/regenerate the key</li><li>Change the key's variable name</li><li>Make the repo private only</li></ol>
+<details><summary>Show Answer</summary><div class="ans"><b>Answer: B.</b> Once exposed publicly, a key must be treated as compromised — revoking/regenerating it is the only safe fix; deleting history doesn't undo exposure.</div></details>
+</div></div>
+</div></section>
+<section class="topic" id="s17" style="--accent:var(--coral);--accent-bg:var(--coral-bg);">
+<div class="wrap">
+<div class="topic-head"><div class="num-badge">17</div><div><span class="part">Hands-on Case Study</span><h2>TMDB API</h2></div></div>
+<p class="section-intro">A real end-to-end walkthrough tying APIs, JSON and security together.</p><div class="concept"><h3>The TMDB Workflow</h3><div class="quickrev" style="margin-top:0;"><span class="bolt">🎬</span><span>API Key &rarr; Secure Storage &rarr; API Request &rarr; Response &rarr; JSON &rarr; Required Data</span></div><span class="lbl">KEY POINTS</span><ul class="points"><li><b>1. Create an API Key</b> on the TMDB website (account &rarr; API settings).</li><li><b>2. Store it securely</b> in an environment variable / <code>.env</code> file, never hardcoded.</li><li><b>3. Send a request</b> with <code>requests.get()</code>, passing the key as a parameter.</li><li><b>4. Get the response</b> and check the status code (200 = success).</li><li><b>5. Parse the JSON</b> response into a Python dictionary.</li><li><b>6. Extract</b> only the fields you actually need (title, rating, poster, etc.).</li></ul></div>
+<div class="concept"><h3>TMDB Hands-on Example</h3><div class="codeblock"><pre style="margin:0;white-space:pre-wrap;">import os, requests
+API_KEY = os.getenv("TMDB_API_KEY")
+url = "https://api.themoviedb.org/3/movie/popular"
+r = requests.get(url, params={"api_key": API_KEY})
+
+if r.status_code == 200:
+    data = r.json()
+    for movie in data["results"][:3]:
+        print(movie["title"], "-", movie["vote_average"])
+else:
+    print("Error:", r.status_code)</pre></div><div class="outblock"><span class="tag">OUTPUT</span>Movie A - 8.1
+Movie B - 7.6
+Movie C - 7.4</div><div class="trap"><div class="lbl3">⚠️ EXAM TRAP</div><ul><li>Always check <code>status_code</code> before trying to parse JSON — an error response may not contain the fields you expect.</li></ul></div><div class="quickrev"><span class="bolt">⚡</span><span>Every real API project follows the same shape: get key → secure it → request → parse JSON → use the data.</span></div></div>
+</div></section>
+<div class="mega" id="exam-practice" style="--accent:var(--pink);--accent-bg:var(--pink-bg);"><div class="wrap"><div class="mega-head"><span class="eyebrow2">Final Comprehensive Quiz</span><h2>📝 Exam Practice</h2><p class="section-intro" style="margin:0 auto;text-align:center;">A mixed set across every topic — 30% easy, 50% medium, 20% challenging.</p></div><div class="exq"><span class="diff easy">Easy</span>
+<div class="qn">QUESTION 1</div>
+<div class="q">What does <code>len([1,2,3,4])</code> return?</div>
+<ol type="A"><li>3</li><li>4</li><li>Error</li><li>None</li></ol>
+<details><summary>Show Answer &amp; Explanation</summary><div class="ans"><b>Correct: B.</b> len() counts the number of items in the list — there are 4.</div></details>
+</div><div class="exq"><span class="diff easy">Easy</span>
+<div class="qn">QUESTION 2</div>
+<div class="q">Which keyword completely stops a loop before it finishes?</div>
+<ol type="A"><li>continue</li><li>pass</li><li>break</li><li>return</li></ol>
+<details><summary>Show Answer &amp; Explanation</summary><div class="ans"><b>Correct: C.</b> break exits the loop immediately; continue only skips the current iteration.</div></details>
+</div><div class="exq"><span class="diff easy">Easy</span>
+<div class="qn">QUESTION 3</div>
+<div class="q">Which data type does NOT allow duplicate values?</div>
+<ol type="A"><li>List</li><li>Tuple</li><li>Set</li><li>Dictionary keys and Set both</li></ol>
+<details><summary>Show Answer &amp; Explanation</summary><div class="ans"><b>Correct: D.</b> Set elements and dictionary keys must both be unique.</div></details>
+</div><div class="exq"><span class="diff easy">Easy</span>
+<div class="qn">QUESTION 4</div>
+<div class="q">What will <code>type(input())</code> always return, regardless of what the user types?</div>
+<ol type="A"><li>int</li><li>float</li><li>str</li><li>bool</li></ol>
+<details><summary>Show Answer &amp; Explanation</summary><div class="ans"><b>Correct: C.</b> input() always returns a string; you must manually convert it for numeric use.</div></details>
+</div><div class="exq"><span class="diff easy">Easy</span>
+<div class="qn">QUESTION 5</div>
+<div class="q">Which SQL keyword removes duplicate rows from a result?</div>
+<ol type="A"><li>UNIQUE</li><li>DISTINCT</li><li>GROUP</li><li>FILTER</li></ol>
+<details><summary>Show Answer &amp; Explanation</summary><div class="ans"><b>Correct: B.</b> SELECT DISTINCT removes duplicate rows from the query result.</div></details>
+</div><div class="exq"><span class="diff med">Medium</span>
+<div class="qn">QUESTION 6</div>
+<div class="q">What is printed?<br><span class='mono'>x = [1, 2, 3]<br>y = x<br>y.append(4)<br>print(x)</span></div>
+<ol type="A"><li>[1, 2, 3]</li><li>[1, 2, 3, 4]</li><li>Error</li><li>[4]</li></ol>
+<details><summary>Show Answer &amp; Explanation</summary><div class="ans"><b>Correct: B.</b> Lists are mutable and y=x makes y point to the same list object, so appending through y changes x too.</div></details>
+</div><div class="exq"><span class="diff med">Medium</span>
+<div class="qn">QUESTION 7</div>
+<div class="q">In NumPy, what does <code>a.reshape(3,-1)</code> do to a 12-element array?</div>
+<ol type="A"><li>Reshapes to (3,4) automatically</li><li>Raises an error</li><li>Reshapes to (3,3)</li><li>Flattens the array</li></ol>
+<details><summary>Show Answer &amp; Explanation</summary><div class="ans"><b>Correct: A.</b> -1 tells NumPy to calculate that dimension automatically; 12 elements over 3 rows means 4 columns.</div></details>
+</div><div class="exq"><span class="diff med">Medium</span>
+<div class="qn">QUESTION 8</div>
+<div class="q">Which Pandas method fills a missing value using the value directly above it in the column?</div>
+<ol type="A"><li>fillna(0)</li><li>bfill()</li><li>ffill()</li><li>dropna()</li></ol>
+<details><summary>Show Answer &amp; Explanation</summary><div class="ans"><b>Correct: C.</b> Forward fill (ffill) propagates the last valid value forward to fill the gap.</div></details>
+</div><div class="exq"><span class="diff med">Medium</span>
+<div class="qn">QUESTION 9</div>
+<div class="q">Which SQL join keeps ALL rows from the left table, even those without a match in the right table?</div>
+<ol type="A"><li>INNER JOIN</li><li>LEFT JOIN</li><li>Self JOIN</li><li>CROSS JOIN</li></ol>
+<details><summary>Show Answer &amp; Explanation</summary><div class="ans"><b>Correct: B.</b> LEFT JOIN keeps every row from the left table, filling unmatched right-side columns with NULL.</div></details>
+</div><div class="exq"><span class="diff med">Medium</span>
+<div class="qn">QUESTION 10</div>
+<div class="q">What's the key difference between <code>json.dumps()</code> and <code>json.loads()</code>?</div>
+<ol type="A"><li>Both convert dict to string</li><li>dumps: dict→string, loads: string→dict</li><li>dumps: string→dict, loads: dict→string</li><li>They are identical</li></ol>
+<details><summary>Show Answer &amp; Explanation</summary><div class="ans"><b>Correct: B.</b> dumps 'dumps' a Python object into a JSON string; loads 'loads' a JSON string back into a Python object.</div></details>
+</div><div class="exq"><span class="diff med">Medium</span>
+<div class="qn">QUESTION 11</div>
+<div class="q">A dataset has Q1=20 and Q3=50. What is the IQR?</div>
+<ol type="A"><li>20</li><li>30</li><li>50</li><li>70</li></ol>
+<details><summary>Show Answer &amp; Explanation</summary><div class="ans"><b>Correct: B.</b> IQR = Q3 − Q1 = 50 − 20 = 30.</div></details>
+</div><div class="exq"><span class="diff med">Medium</span>
+<div class="qn">QUESTION 12</div>
+<div class="q">Which HTTP status code range indicates the client made an invalid request?</div>
+<ol type="A"><li>1xx</li><li>2xx</li><li>4xx</li><li>5xx</li></ol>
+<details><summary>Show Answer &amp; Explanation</summary><div class="ans"><b>Correct: C.</b> 4xx codes (like 400, 401, 404) mean the client's request had a problem.</div></details>
+</div><div class="exq"><span class="diff med">Medium</span>
+<div class="qn">QUESTION 13</div>
+<div class="q">Why should an API key never be hardcoded into a script pushed to GitHub?</div>
+<ol type="A"><li>It slows down the code</li><li>Anyone with repo access can steal and misuse it</li><li>Python doesn't allow hardcoded strings</li><li>It makes the file larger</li></ol>
+<details><summary>Show Answer &amp; Explanation</summary><div class="ans"><b>Correct: B.</b> A hardcoded key becomes visible to anyone who can view the repository, allowing misuse or theft.</div></details>
+</div><div class="exq"><span class="diff hard">Hard</span>
+<div class="qn">QUESTION 14</div>
+<div class="q">What is printed?<br><span class='mono'>import numpy as np<br>a = np.array([1,2,3])<br>b = np.array([[1],[2],[3]])<br>print((a+b).shape)</span></div>
+<ol type="A"><li>(3,)</li><li>(3,1)</li><li>(3,3)</li><li>Error — shapes don't match</li></ol>
+<details><summary>Show Answer &amp; Explanation</summary><div class="ans"><b>Correct: C.</b> Broadcasting stretches the (3,) array against the (3,1) array, producing a (3,3) result via broadcasting rules.</div></details>
+</div><div class="exq"><span class="diff hard">Hard</span>
+<div class="qn">QUESTION 15</div>
+<div class="q">Table Orders has 100 rows; 10 orders reference a customer_id that doesn't exist in Customers. How many rows does <code>Orders LEFT JOIN Customers</code> return?</div>
+<ol type="A"><li>90</li><li>100</li><li>110</li><li>10</li></ol>
+<details><summary>Show Answer &amp; Explanation</summary><div class="ans"><b>Correct: B.</b> LEFT JOIN keeps every row from the left table (Orders) regardless of a match — all 100 rows appear, with NULLs for the 10 unmatched.</div></details>
+</div><div class="exq"><span class="diff hard">Hard</span>
+<div class="qn">QUESTION 16</div>
+<div class="q">A correlation heatmap shows ice-cream sales and shark attacks at r = 0.82. What's the most scientifically sound conclusion?</div>
+<ol type="A"><li>Ice cream causes shark attacks</li><li>Shark attacks cause ice-cream sales</li><li>Both are likely driven by a third factor (warm weather), not causation</li><li>The correlation is meaningless and should be ignored</li></ol>
+<details><summary>Show Answer &amp; Explanation</summary><div class="ans"><b>Correct: C.</b> High correlation does not imply causation; a confounding variable (season/temperature) likely drives both.</div></details>
+</div></div></div><div class="mega" id="last-minute" style="--accent:var(--coral);--accent-bg:var(--coral-bg);"><div class="wrap"><div class="mega-head"><span class="eyebrow2">Quick Reference</span><h2>⚡ Last-Minute Exam Traps</h2></div><div class="trapgrid"><div class="trapcard" style="--accent2:var(--violet)"><h4>= vs ==</h4><p>= assigns a value; == compares two values for equality.</p></div><div class="trapcard" style="--accent2:var(--teal)"><h4>if / elif / else</h4><p>Only ONE block runs — the first True condition wins.</p></div><div class="trapcard" style="--accent2:var(--coral)"><h4>Indentation</h4><p>Python uses spaces, not braces, to define blocks. Be consistent!</p></div><div class="trapcard" style="--accent2:var(--gold)"><h4>break vs continue</h4><p>break exits the loop; continue skips to the next round.</p></div><div class="trapcard" style="--accent2:var(--pink)"><h4>print vs return</h4><p>print() only displays; return sends a usable value back.</p></div><div class="trapcard" style="--accent2:var(--blue)"><h4>Local vs Global</h4><p>Local variables die when the function ends.</p></div><div class="trapcard" style="--accent2:var(--green)"><h4>append vs pop</h4><p>append() adds to the end; pop() removes &amp; returns an item.</p></div><div class="trapcard" style="--accent2:var(--violet)"><h4>List vs Tuple vs Set vs Dict</h4><p>Ordered+mutable / ordered+fixed / unique+unordered / key-value.</p></div><div class="trapcard" style="--accent2:var(--teal)"><h4>Mutable vs Immutable</h4><p>Lists, dicts, sets change in place. Tuples &amp; strings don't.</p></div><div class="trapcard" style="--accent2:var(--coral)"><h4>Sorting vs Reversing</h4><p>sort() orders values; reverse() just flips current order.</p></div><div class="trapcard" style="--accent2:var(--gold)"><h4>NumPy array vs Python list</h4><p>Arrays: fixed type, fast maths, element-wise ops. Lists: mixed types, repeat with *.</p></div><div class="trapcard" style="--accent2:var(--pink)"><h4>reshape()</h4><p>New shape's total elements must match the original count.</p></div><div class="trapcard" style="--accent2:var(--blue)"><h4>Element-wise vs Matrix Mult.</h4><p>* multiplies positions; @ / matmul does true matrix multiplication.</p></div><div class="trapcard" style="--accent2:var(--green)"><h4>dot()</h4><p>Sum of element-wise products (vectors) or matrix multiply (2D).</p></div><div class="trapcard" style="--accent2:var(--violet)"><h4>Broadcasting</h4><p>NumPy auto-expands smaller arrays to match shapes — no manual loop needed.</p></div><div class="trapcard" style="--accent2:var(--teal)"><h4>randn vs randint</h4><p>randn(): normal decimals around 0. randint(): whole numbers in a range.</p></div><div class="trapcard" style="--accent2:var(--coral)"><h4>Standardization vs Min-Max</h4><p>Standardize → mean 0/std 1. Min-Max → squashes into [0,1].</p></div><div class="trapcard" style="--accent2:var(--gold)"><h4>Series vs DataFrame</h4><p>Series = 1 column. DataFrame = full table (rows &amp; columns).</p></div><div class="trapcard" style="--accent2:var(--pink)"><h4>loc vs iloc</h4><p>loc = label-based (end inclusive). iloc = position-based (end exclusive).</p></div><div class="trapcard" style="--accent2:var(--blue)"><h4>Forward vs Backward Fill</h4><p>ffill uses the value above; bfill uses the value below.</p></div><div class="trapcard" style="--accent2:var(--green)"><h4>WHERE vs HAVING</h4><p>WHERE filters rows before grouping; HAVING filters groups after.</p></div><div class="trapcard" style="--accent2:var(--violet)"><h4>Primary vs Foreign Key</h4><p>Primary = unique ID for its own table. Foreign = link to another table's key.</p></div><div class="trapcard" style="--accent2:var(--teal)"><h4>INNER vs LEFT JOIN</h4><p>INNER = only matches. LEFT = all of left table + matches.</p></div><div class="trapcard" style="--accent2:var(--coral)"><h4>Histogram vs Bar Chart</h4><p>Histogram = continuous numeric distribution. Bar = discrete categories.</p></div><div class="trapcard" style="--accent2:var(--gold)"><h4>Correlation vs Causation</h4><p>Moving together ≠ one causing the other.</p></div><div class="trapcard" style="--accent2:var(--pink)"><h4>GET vs POST</h4><p>GET retrieves data via the URL. POST sends data in the request body.</p></div><div class="trapcard" style="--accent2:var(--blue)"><h4>API Key vs Env Variable</h4><p>The key is the secret; the env variable is where you safely store it.</p></div><div class="trapcard" style="--accent2:var(--green)"><h4>JSON vs Python Dict</h4><p>JSON is a text format; a dict is the in-memory Python object it maps to.</p></div></div></div></div><div class="mega" id="one-day" style="--accent:var(--green);--accent-bg:var(--green-bg);"><div class="wrap"><div class="mega-head"><span class="eyebrow2">Final Countdown</span><h2>✅ One Day Before the Exam</h2></div><div class="checklist"><ul><li>Revise the <b>List vs Tuple vs Set vs Dictionary</b> comparison — it shows up everywhere.</li><li>Re-check <b>loc vs iloc</b> and <b>WHERE vs HAVING</b> — classic trick questions.</li><li>Walk through one NumPy <b>reshape()</b> and one <b>broadcasting</b> example by hand.</li><li>Redo the <b>SQL JOIN</b> diagrams — know exactly which rows each join keeps.</li><li>Recall the API workflow: <b>Key → Secure Storage → Request → Response → JSON → Data.</b></li><li>Skim the <b>Last-Minute Exam Traps</b> section one final time.</li><li>Re-read your <b>Quick Revision</b> highlight boxes across every topic — don't re-read full theory.</li></ul></div><div class="beforebox"><h3>🧠 Before You Start the Exam</h3><ul>
+<li>Read every question carefully — twice if needed.</li>
+<li>Do not rush; pace yourself across all questions.</li>
+<li>Eliminate clearly incorrect options first in MCQs.</li>
+<li>Check code and SQL syntax carefully, line by line.</li>
+<li>Revisit difficult questions at the end if time allows.</li>
+<li>Manage your time — don't get stuck on one question.</li>
+<li>Stay calm and confident — you've prepared for this.</li>
+</ul></div></div></div><div class="final">
+  <div class="msg">All the very best for your exam!<br><br>
+  Practice a little every day, understand your mistakes, revise the concepts you find difficult, and stay confident. You have prepared for this &mdash; you can do it!</div>
+  <div class="grow">Keep learning, keep practicing, and keep growing. 🌱</div>
+  <p style="font-size:13.5px;color:var(--ink-soft);margin-bottom:14px;">If you'd like to stay connected beyond this revision journey, find me on LinkedIn:</p>
+  <a class="linkedin" href="https://www.linkedin.com/in/divyasriroy/" target="_blank" rel="noopener">🔗 Divya Sri Roy Jalaparthi</a>
+</div>
+<footer>Exam Revision Guide &middot; Python, Data Science, SQL, APIs &amp; ML Foundations &middot; Made with care for exam success.</footer>
+</body>
+</html>
