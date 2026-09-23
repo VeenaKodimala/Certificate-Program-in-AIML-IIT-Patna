@@ -5,8 +5,6 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 import modelPipeline
 
 
-
-
 def loadDataset(verbose=True):
     # LOAD DATASET
     path = "E:\\Veena\\Certificate-Program-in-AIML-IIT-Patna\\ML Projects\\DataSets\\diabetes.csv"
@@ -49,6 +47,11 @@ if __name__ == "__main__":
 
         print("----FINDING THE BEST ML ALGORITHM----")
         modelPipeline.mlFlow(x,y,False)
+
+        modelPipeline.predictDiabeties(False)
+
+
+        
 
 
 

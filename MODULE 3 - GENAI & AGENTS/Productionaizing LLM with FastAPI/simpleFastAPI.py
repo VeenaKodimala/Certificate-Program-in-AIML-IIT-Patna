@@ -9,21 +9,23 @@
 
 #http://127.0.0.1:8000/docs - This will give the swagger for the API's we have created. We can test the API's from this swagger page itself.
 
+#To run the application, we have to run "uvicorn filename:apiname --reload" -> uvicorn simpleFastAPI:api --reload.
 
 from fastapi import FastAPI
 
 api = FastAPI()
 
 @api.get("/")
-def home():
+def starter():
     return {"message":"Hello, welcome to home endpoint"}
 
 @api.get("/greet/{name}")    
-def greet(name:str):
+def greeting(name:str):
     return {"message":f"Hello {name}, welcome to greetendpoint"}
 
+#http://127.0.0.1:8000/add?a=10&b=20 - This how we have to hit the below api
 @api.get("/add")
-def add(a: int,b: int):
+def adding(a: int,b: int):
     return {"result":a+b}
 
 

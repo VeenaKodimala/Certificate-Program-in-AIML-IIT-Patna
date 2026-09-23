@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.linear_model import LogisticRegression
@@ -19,9 +20,21 @@ MODELS ={
     'Random Forest':RandomForestClassifier(n_estimators=1000,class_weight='balanced',random_state=42,n_jobs=-1)
 }
 
+COLUMNS = [
+        "Pregnancies",
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+        ]
+
 numCols = ['Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI', 'DiabetesPedigreeFunction', 'Age']
 catCols=[]
 
+#Here, the numeriacl scaling is not required, since it doesnot have any effect on decision trees. This is used only for my demo purpose.
 def definePreprocessor():
     PREPROCESSOR= ColumnTransformer(
         [
@@ -31,7 +44,7 @@ def definePreprocessor():
     )
     return PREPROCESSOR
 
-def finalisingBestModel(preprocessor,mlPipeline,xTrain,yTrain,xTest,yTest):
+def finalisingBestModel(mlPipeline,xTrain,yTrain,xTest,yTest):
 
     bestModel = mlPipeline.fit(xTrain,yTrain)
 
@@ -44,10 +57,36 @@ def finalisingBestModel(preprocessor,mlPipeline,xTrain,yTrain,xTest,yTest):
     print(f"F1 score : {f1_score(yTest,yPred): .2f}")
     print(f"ROC AUC Score: {roc_auc_score(yTest,yPred): .2f}")
 
+    
+
     if os.path.exists(path):
         os.remove(path)
     joblib.dump(bestModel,path)
-    
+
+def load_model(path):
+    if os.path.exists(path):
+        return joblib.load(path)
+    else:
+        print(f"Model not found: {path}")
+        return None    
+
+def predictDiabeties(verbose=True):
+    #loading the model.
+    model = load_model(path)
+
+    if model is not None:
+        inputData=[[2, 120, 70, 25, 80, 28.5, 0.259, 35]]
+
+        inputDataDf = pd.DataFrame(inputData, columns=COLUMNS)
+        if verbose:
+            print(f"inputDataDf: {inputDataDf}")
+
+        predictionResult = model.predict(inputDataDf)
+        if predictionResult[0] == 0:
+            print("The person is Not Diabetic")
+        elif(predictionResult[0] == 1):
+            print("The person is Diabetic")
+
 
 
 def mlFlow(x,y,verbose=True):
@@ -113,7 +152,10 @@ def mlFlow(x,y,verbose=True):
         print(f"----THE BEST MODEL IS :::: {bestModel}----")
         print(f"----THE BEST MODEL's PIPELINE :::: {modelPipeLines[bestModel]}----")
 
-    finalisingBestModel(preprocessor,modelPipeLines[bestModel],xTrain,yTrain,xTest,yTest)  
+    finalisingBestModel(modelPipeLines[bestModel],xTrain,yTrain,xTest,yTest)  
+
+
+
 
       
         
