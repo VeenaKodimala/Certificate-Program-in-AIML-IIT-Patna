@@ -2,3 +2,5 @@ H
 Logging the line in between two lines.o overwrote the existing content present before
 Hello again, file opened in append mode, adding additional data to the existing content
 Logging the class of 09-03-2026
+Logging the class of 09-03-2026
+Logging the class of 09-03-2026
