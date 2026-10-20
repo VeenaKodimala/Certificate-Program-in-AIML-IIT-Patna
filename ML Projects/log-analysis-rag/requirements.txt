@@ -1,0 +1,7 @@
+streamlit
+chromadb
+sentence-transformers
+langgraph
+langchain-text-splitters
+openai
+python-dotenv
