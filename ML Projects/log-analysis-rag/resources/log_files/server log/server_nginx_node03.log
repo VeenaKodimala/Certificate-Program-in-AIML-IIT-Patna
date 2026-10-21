@@ -1,0 +1,14 @@
+2026/10/21 10:20:00 [notice] 2214#2214: using the "epoll" event method
+2026/10/21 10:20:00 [notice] 2214#2214: nginx/1.26.2
+2026/10/21 10:20:00 [notice] 2214#2214: start worker processes
+2026/10/21 10:20:00 [notice] 2214#2214: start worker process 2215
+2026/10/21 10:20:00 [notice] 2214#2214: start worker process 2216
+2026/10/21 10:22:14 [warn] 2215#2215: *9182 upstream response buffered to temporary file while reading upstream, client: 10.24.3.19, request: "GET /api/v1/reports HTTP/1.1", upstream: "http://10.24.6.12:8080/api/v1/reports"
+2026/10/21 10:24:08 [error] 2216#2216: *9211 connect() failed (111: Connection refused) while connecting to upstream, client: 10.24.3.21, request: "POST /api/v1/payments HTTP/1.1", upstream: "http://10.24.6.13:8080/api/v1/payments"
+2026/10/21 10:24:08 [warn] 2216#2216: *9211 upstream server temporarily disabled while connecting to upstream
+2026/10/21 10:24:10 [info] 2216#2216: *9211 upstream retry succeeded, status: 201, upstream: "http://10.24.6.12:8080/api/v1/payments"
+2026/10/21 10:27:31 [warn] 2215#2215: *9340 client request body buffered to temporary file, client: 10.24.3.28, request: "POST /api/v1/documents HTTP/1.1"
+2026/10/21 10:29:49 [error] 2216#2216: *9402 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 10.24.3.30, request: "GET /api/v1/accounts/100045 HTTP/1.1", upstream: "http://10.24.6.12:8080/api/v1/accounts/100045"
+2026/10/21 10:30:00 [notice] 2214#2214: signal 1 (SIGHUP) received, reconfiguring
+2026/10/21 10:30:01 [notice] 2214#2214: configuration file /etc/nginx/nginx.conf test is successful
+2026/10/21 10:30:01 [notice] 2214#2214: signal process started

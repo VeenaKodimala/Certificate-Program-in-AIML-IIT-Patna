@@ -1,0 +1,14 @@
+Oct 21 09:31:02 node01 systemd[1]: Started JBoss EAP Application Server.
+Oct 21 09:31:03 node01 jboss[18422]: Starting JBoss EAP 8.0 in standalone mode
+Oct 21 09:31:08 node01 jboss[18422]: WFLYSRV0025: JBoss EAP 8.0.0.GA started in 4870ms
+Oct 21 09:32:15 node01 kernel: nf_conntrack: table full, dropping packet
+Oct 21 09:32:16 node01 kernel: nf_conntrack: table full, dropping packet
+Oct 21 09:33:44 node01 sshd[19203]: Accepted publickey for opsuser from 10.24.8.31 port 55218 ssh2
+Oct 21 09:35:40 node01 kernel: Memory cgroup out of memory: Killed process 18422 (java) total-vm:7340032kB, anon-rss:3145728kB
+Oct 21 09:35:40 node01 systemd[1]: jboss-eap.service: Main process exited, code=killed, status=9/KILL
+Oct 21 09:35:40 node01 systemd[1]: jboss-eap.service: Failed with result 'signal'.
+Oct 21 09:35:45 node01 systemd[1]: jboss-eap.service: Scheduled restart job, restart counter is at 1.
+Oct 21 09:35:46 node01 systemd[1]: Started JBoss EAP Application Server.
+Oct 21 09:35:51 node01 jboss[20117]: WFLYSRV0025: JBoss EAP 8.0.0.GA started in 4922ms
+Oct 21 09:36:02 node01 kernel: nf_conntrack: table full, dropping packet
+Oct 21 09:37:19 node01 systemd[1]: jboss-eap.service: Started successfully.

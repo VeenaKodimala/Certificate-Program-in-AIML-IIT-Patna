@@ -1,0 +1,55 @@
+2026-10-21 07:58:41,102 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.5.Final
+2026-10-21 07:58:41,488 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.5.Final
+2026-10-21 07:58:41,512 INFO  [org.jboss.threads] (main) JBoss Threads version 3.6.1.Final
+2026-10-21 07:58:42,031 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 8.0.0.GA started in 4280ms
+2026-10-21 07:58:42,032 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2026-10-21 07:58:42,041 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: HTTP management interface listening on http://127.0.0.1:9990/management
+2026-10-21 07:58:42,054 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0010: Deployed "msme.war" (runtime-name: "msme.war")
+2026-10-21 07:58:42,060 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0010: Deployed "api-layer.war" (runtime-name: "api-layer.war")
+
+2026-10-21 08:00:00,115 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0212: Resuming server
+2026-10-21 08:00:00,321 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "msme.war" (runtime-name: "msme.war")
+2026-10-21 08:00:01,003 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "api-layer.war" (runtime-name: "api-layer.war")
+
+2026-10-21 08:02:14,205 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) Initializing Servlet 'dispatcherServlet'
+2026-10-21 08:02:14,212 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) Completed initialization in 7 ms
+2026-10-21 08:02:18,410 INFO  [com.example.api.RequestLoggingFilter] (default task-2) Incoming request: GET /api/v1/health | requestId=REQ-10001
+2026-10-21 08:02:18,427 INFO  [com.example.api.HealthController] (default task-2) Health check completed with status=UP | requestId=REQ-10001
+2026-10-21 08:02:18,429 INFO  [com.example.api.RequestLoggingFilter] (default task-2) Response: GET /api/v1/health | status=200 | durationMs=19 | requestId=REQ-10001
+
+2026-10-21 08:04:03,801 INFO  [com.example.api.RequestLoggingFilter] (default task-3) Incoming request: POST /api/v1/login | requestId=REQ-10002
+2026-10-21 08:04:03,819 DEBUG [com.example.auth.AuthService] (default task-3) Validating credentials | userId=USER-204
+2026-10-21 08:04:03,932 INFO  [com.example.auth.AuthService] (default task-3) Authentication successful | userId=USER-204
+2026-10-21 08:04:03,940 INFO  [com.example.api.RequestLoggingFilter] (default task-3) Response: POST /api/v1/login | status=200 | durationMs=139 | requestId=REQ-10002
+
+2026-10-21 08:07:52,177 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (default task-4) IJ000604: Throwable while attempting to get a new connection: java.sql.SQLException: Connection is not available
+2026-10-21 08:07:52,181 WARN  [com.example.repository.AccountRepository] (default task-4) Database connection unavailable; retrying | requestId=REQ-10003
+2026-10-21 08:07:53,004 INFO  [com.example.repository.AccountRepository] (default task-4) Database connection acquired after retry | requestId=REQ-10003
+2026-10-21 08:07:53,019 INFO  [com.example.api.RequestLoggingFilter] (default task-4) Response: GET /api/v1/accounts/100045 | status=200 | durationMs=842 | requestId=REQ-10003
+
+2026-10-21 08:10:11,302 INFO  [com.example.api.RequestLoggingFilter] (default task-5) Incoming request: POST /api/v1/transfers | requestId=REQ-10004
+2026-10-21 08:10:11,319 INFO  [com.example.transfer.TransferService] (default task-5) Transfer validation started | transactionId=TXN-550812
+2026-10-21 08:10:11,337 ERROR [com.example.transfer.TransferService] (default task-5) Transfer processing failed | transactionId=TXN-550812
+java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (APP.UK_TRANSFER_REF) violated
+    at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:520)
+    at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1036)
+    at com.example.repository.TransferRepository.insert(TransferRepository.java:142)
+    at com.example.transfer.TransferService.processTransfer(TransferService.java:88)
+    at com.example.api.TransferController.createTransfer(TransferController.java:57)
+    at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2026-10-21 08:10:11,344 ERROR [com.example.api.GlobalExceptionHandler] (default task-5) Request failed with HTTP 500 | path=/api/v1/transfers | requestId=REQ-10004
+2026-10-21 08:10:11,348 INFO  [com.example.api.RequestLoggingFilter] (default task-5) Response: POST /api/v1/transfers | status=500 | durationMs=46 | requestId=REQ-10004
+
+2026-10-21 08:12:29,612 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry some-legacy.jar in /content/msme.war/WEB-INF/lib/legacy-client.jar does not point to a valid jar for a Class-Path reference.
+2026-10-21 08:12:30,019 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0017: Deployed "msme.war" (runtime-name: "msme.war")
+2026-10-21 08:13:04,780 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 3) WFLYCTL0080: Failed services
+2026-10-21 08:13:04,781 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 3) WFLYCTL0412: Required services that are not installed:
+    jboss.deployment.unit."broken-module.war".deploymentCompleteService
+2026-10-21 08:13:04,782 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 3) WFLYSRV0205: Error during deployment of "broken-module.war"
+2026-10-21 08:13:04,783 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 3) WFLYCTL0080: Failed services => {"jboss.deployment.unit.\"broken-module.war\".STRUCTURE" => "WFLYSRV0153: Failed to process phase STRUCTURE of deployment \"broken-module.war\""}
+2026-10-21 08:13:04,784 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0010: Deployed "api-layer.war" (runtime-name: "api-layer.war")
+
+2026-10-21 08:14:40,155 WARN  [org.jboss.as.threads] (default task-7) Thread pool utilization reached 82 percent
+2026-10-21 08:14:41,002 INFO  [com.example.monitoring.ServerMonitor] (default task-7) JVM heap usage: used=1536MB, committed=2048MB, max=4096MB
+2026-10-21 08:14:41,008 INFO  [com.example.monitoring.ServerMonitor] (default task-7) Active HTTP requests=27
+2026-10-21 08:15:00,000 INFO  [com.example.monitoring.ServerMonitor] (default task-7) Server monitoring cycle completed

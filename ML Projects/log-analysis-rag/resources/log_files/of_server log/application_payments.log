@@ -1,0 +1,21 @@
+2026-10-21 09:41:02,114 INFO [http-nio-8080-exec-14] com.bank.payments.PaymentController - Incoming POST /api/v2/payments requestId=pay-7f21a8
+2026-10-21 09:41:02,117 INFO [http-nio-8080-exec-14] com.bank.security.RequestAuthFilter - JWT validated subject=svc-mobile requestId=pay-7f21a8
+2026-10-21 09:41:02,121 DEBUG [http-nio-8080-exec-14] com.bank.payments.PaymentService - Validating amount=18450.00 currency=INR channel=MOBILE requestId=pay-7f21a8
+2026-10-21 09:41:02,129 INFO [http-nio-8080-exec-14] com.bank.risk.RiskClient - Risk decision=ALLOW latencyMs=42 requestId=pay-7f21a8
+2026-10-21 09:41:02,143 INFO [http-nio-8080-exec-14] com.bank.ledger.LedgerClient - Debit accepted ledgerRef=LDG-901882 requestId=pay-7f21a8
+2026-10-21 09:41:02,181 INFO [http-nio-8080-exec-14] com.bank.payments.PaymentController - Completed POST /api/v2/payments status=201 durationMs=67 paymentRef=PMT-700194 requestId=pay-7f21a8
+2026-10-21 09:41:03,006 INFO [http-nio-8080-exec-16] com.bank.payments.PaymentController - Incoming POST /api/v2/payments requestId=pay-7f21b0
+2026-10-21 09:41:03,011 WARN [http-nio-8080-exec-16] com.bank.risk.RiskClient - Endpoint latency above threshold latencyMs=1250 thresholdMs=800 requestId=pay-7f21b0
+2026-10-21 09:41:03,812 INFO [http-nio-8080-exec-16] com.bank.risk.RiskClient - Retry completed status=200 attempt=2 requestId=pay-7f21b0
+2026-10-21 09:41:03,839 INFO [http-nio-8080-exec-16] com.bank.payments.PaymentController - Completed POST /api/v2/payments status=201 durationMs=833 paymentRef=PMT-700195 requestId=pay-7f21b0
+2026-10-21 09:41:04,112 ERROR [http-nio-8080-exec-19] com.bank.payments.PaymentRepository - Unique constraint violation while inserting paymentRef=PMT-700196
+org.springframework.dao.DuplicateKeyException: duplicate key value violates unique constraint "uk_payment_idempotency"
+    at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1577)
+    at com.bank.payments.PaymentRepository.save(PaymentRepository.java:184)
+    at com.bank.payments.PaymentService.createPayment(PaymentService.java:126)
+2026-10-21 09:41:04,118 WARN [http-nio-8080-exec-19] com.bank.payments.PaymentService - Duplicate idempotency key; returning prior result requestId=pay-7f21b8
+2026-10-21 09:41:04,122 INFO [http-nio-8080-exec-19] com.bank.payments.PaymentController - Completed POST /api/v2/payments status=200 durationMs=15 result=REPLAYED requestId=pay-7f21b8
+2026-10-21 09:41:05,001 INFO [pool-4-thread-1] com.bank.payments.SettlementJob - Batch started batchId=SET-20261021-0941
+2026-10-21 09:41:05,037 INFO [pool-4-thread-1] com.bank.payments.SettlementJob - Eligible records loaded count=1834
+2026-10-21 09:41:05,801 WARN [pool-4-thread-1] com.bank.payments.SettlementJob - Downstream bank response delayed; retry scheduled recordRef=PMT-699842
+2026-10-21 09:41:07,913 INFO [pool-4-thread-1] com.bank.payments.SettlementJob - Batch completed total=1834 settled=1831 pending=3 durationMs=2912

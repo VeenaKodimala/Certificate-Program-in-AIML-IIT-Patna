@@ -1,0 +1,21 @@
+2026-10-21 10:12:44,221 INFO [http-nio-8081-exec-7] com.bank.customer.CustomerController - Incoming GET /api/v1/customers/C-309114 requestId=cus-31ab9
+2026-10-21 10:12:44,226 INFO [http-nio-8081-exec-7] com.bank.security.AccessPolicy - Authorization granted principal=mobile-bff requestId=cus-31ab9
+2026-10-21 10:12:44,229 DEBUG [http-nio-8081-exec-7] com.bank.customer.CustomerService - Cache lookup result=MISS requestId=cus-31ab9
+2026-10-21 10:12:44,247 INFO [http-nio-8081-exec-7] com.bank.customer.CustomerRepository - Customer record loaded dbLatencyMs=16 requestId=cus-31ab9
+2026-10-21 10:12:44,259 INFO [http-nio-8081-exec-7] com.bank.customer.CustomerController - Completed GET /api/v1/customers/C-309114 status=200 durationMs=38 requestId=cus-31ab9
+2026-10-21 10:12:45,102 INFO [http-nio-8081-exec-9] com.bank.customer.CustomerController - Incoming PATCH /api/v1/customers/C-309114/contact requestId=cus-31ac0
+2026-10-21 10:12:45,110 WARN [http-nio-8081-exec-9] com.bank.customer.ContactValidator - Invalid mobile number format; request rejected requestId=cus-31ac0
+2026-10-21 10:12:45,112 INFO [http-nio-8081-exec-9] com.bank.customer.CustomerController - Completed PATCH /api/v1/customers/C-309114/contact status=400 errorCode=INVALID_MOBILE requestId=cus-31ac0
+2026-10-21 10:12:46,003 INFO [http-nio-8081-exec-11] com.bank.customer.CustomerController - Incoming GET /api/v1/customers/C-883012/limits requestId=cus-31ac8
+2026-10-21 10:12:46,024 WARN [http-nio-8081-exec-11] com.bank.customer.LimitRepository - Query exceeded latency objective elapsedMs=510 objectiveMs=300 requestId=cus-31ac8
+2026-10-21 10:12:46,033 INFO [http-nio-8081-exec-11] com.bank.customer.CustomerController - Completed GET /api/v1/customers/C-883012/limits status=200 durationMs=525 requestId=cus-31ac8
+2026-10-21 10:12:47,114 ERROR [http-nio-8081-exec-13] com.bank.customer.ProfileDocumentClient - Document service returned HTTP 503 requestId=cus-31ad2
+org.springframework.web.client.HttpServerErrorException$ServiceUnavailable: 503 Service Unavailable
+    at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:111)
+    at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:942)
+    at com.bank.customer.ProfileDocumentClient.fetchDocument(ProfileDocumentClient.java:96)
+    at com.bank.customer.CustomerService.getDocument(CustomerService.java:211)
+2026-10-21 10:12:47,120 WARN [http-nio-8081-exec-13] com.bank.customer.CustomerService - Returning partial profile because document service is unavailable requestId=cus-31ad2
+2026-10-21 10:12:47,123 INFO [http-nio-8081-exec-13] com.bank.customer.CustomerController - Completed GET /api/v1/customers/C-883012 status=206 durationMs=1008 requestId=cus-31ad2
+2026-10-21 10:12:48,001 INFO [scheduling-2] com.bank.customer.ProfileCacheRefreshJob - Cache refresh started partition=customer-profile-04
+2026-10-21 10:12:48,430 INFO [scheduling-2] com.bank.customer.ProfileCacheRefreshJob - Cache refresh completed read=1200 updated=1176 unchanged=24 durationMs=429

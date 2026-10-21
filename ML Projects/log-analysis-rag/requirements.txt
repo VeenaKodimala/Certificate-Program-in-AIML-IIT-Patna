@@ -5,3 +5,4 @@ langgraph
 langchain-text-splitters
 openai
 python-dotenv
+rank-bm25

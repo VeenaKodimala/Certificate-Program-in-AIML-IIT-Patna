@@ -1,7 +1,7 @@
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import re
 
-def logText_splitter1(text:str,  fileName: str,chunkSize: int=1000, chunkOverlap:int =200):
+def logText_splitter1(text:str,  fileName: str,chunkSize: int=1000, chunkOverlap:int =200,verbose=True):
 
     if not text.strip():
         raise ValueError("Log file is empty.")
@@ -15,11 +15,13 @@ def logText_splitter1(text:str,  fileName: str,chunkSize: int=1000, chunkOverlap
 
     for doc in documents:
         startIdx = doc.metadata["start_index"] + 1
-        print("len(doc.page_content): ",len(doc.page_content))
+        if verbose:
+            print("len(doc.page_content): ",len(doc.page_content))
         endIdx = startIdx + len(doc.page_content) - 1
         startLine = text.count("\n",0,startIdx)+1
         endLine = text.count("\n",0,endIdx)
-        print("text[endIdx-1]: ",text[endIdx-1])
+        if verbose:
+            print("text[endIdx-1]: ",text[endIdx-1])
         if(text[endIdx-1] != "\n"):
             endLine += 1
 
