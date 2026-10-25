@@ -1,0 +1,165 @@
+[21 Oct 2026 16:11:34,617] - 
+ [LOS9] <?xml version="1.0"?><WFReusableComponent_Input><Option>WFSSelectWithColumnNames</Option><EngineName>nabfid_dev</EngineName><SessionID>-621834599</SessionID><Query>SELECT ARRAY_PATH, FIELD_NAME FROM NGM_CLOS_RESPONSE_FIELD_CONFIG WHERE INTEGRATION_NAME = 'CIBILCONSUMERCORE'</Query><TableName>ABC</TableName></WFReusableComponent_Input>
+[21 Oct 2026 16:11:34,617] - 
+ [LOS9]  <?xml version="1.0"?>
+<WFSSelectWithColumnNames_Output>
+<Option>WFSSelectWithColumnNames</Option>
+<Status>15</Status><ExecutionTime>3ms</ExecutionTime><Error><Exception><MainCode>15</MainCode><SubErrorCode>801</SubErrorCode><TypeOfError>FATAL</TypeOfError><Subject>The requested filter is invalid.</Subject><Description>Some Database error occurred.</Description></Exception></Error></WFSSelectWithColumnNames_Output>
+
+[21 Oct 2026 16:12:41,855] - 
+ [LOS9] <?xml version="1.0"?><WFReusableComponent_Input><Option>WFSSelectWithColumnNames</Option><EngineName>nabfid_dev</EngineName><SessionID>-621834599</SessionID><Query>SELECT ARRAY_PATH, FIELD_NAME FROM NGM_CLOS_RESPONSE_FIELD_CONFIG WHERE INTEGRATION_NAME = 'CIBILCONSUMERCORE'</Query><TableName>ABC</TableName></WFReusableComponent_Input>
+[21 Oct 2026 16:12:41,855] - 
+ [LOS9]  <?xml version="1.0"?>
+<WFSSelectWithColumnNames_Output>
+<Option>WFSSelectWithColumnNames</Option>
+<Status>15</Status><ExecutionTime>2ms</ExecutionTime><Error><Exception><MainCode>15</MainCode><SubErrorCode>801</SubErrorCode><TypeOfError>FATAL</TypeOfError><Subject>The requested filter is invalid.</Subject><Description>Some Database error occurred.</Description></Exception></Error></WFSSelectWithColumnNames_Output>
+
+[21 Oct 2026 16:12:41,879] - 
+ [LOS9] <WFReusableComponent_Input> <Option>WFSSelectWithColumnNames</Option> <EngineName>nabfid_dev</EngineName> <SessionID>-621834599</SessionID> <Query>SELECT '0' as InsertionOrderId,a.WI_NAME as application_id,main_facility as Parent_Facility,a.main_facility_id as Parent_Facility_ID,sub_limit_of as Sublimit_of,sub_product_type,los_facility_id,nature_of_facility as Facility_Nature,product as Facility,c.committed_amount as Committed_Amount__Limit,applicable_roi as  Applicable_ROI from NG_CLOS_BORROWER_NEWLOANS a left join ngv_clos_pricing_details b on a.wi_name = b.wi_name and a.los_facility_id=b.facility_id inner join  clos_cnl_disb_fac_exec_status c on a.wi_name = c.wi_name and a.los_facility_id = c.facility_id inner join ngv_clos_loan_limit_creation d on a.wi_name = d.wi_name and a.los_facility_id = d.losfacilityid  WHERE a.WI_NAME IN (select distinct WI_NAME from NG_CLOS_Applicant_Details where hidden_relationship='##Borrower##' and pan in (select pan from NG_CLOS_Applicant_Details where hidden_relationship='##Borrower##' and wi_name='WF-0000001445-CLOS')) and c.execution_status is not null and c.execution_status <> 'Not Executed' and loanaccountno is null</Query> <TableName>dual</TableName> </WFReusableComponent_Input>
+[21 Oct 2026 16:12:41,879] - 
+ [LOS9]  <?xml version="1.0"?>
+<WFSSelectWithColumnNames_Output>
+<Option>WFSSelectWithColumnNames</Option>
+<Status>15</Status><ExecutionTime>3ms</ExecutionTime><Error><Exception><MainCode>15</MainCode><SubErrorCode>801</SubErrorCode><TypeOfError>FATAL</TypeOfError><Subject>The requested filter is invalid.</Subject><Description>Some Database error occurred.</Description></Exception></Error></WFSSelectWithColumnNames_Output>
+
+[21 Oct 2026 16:12:42,078] - 
+ [LOS9] <?xml version="1.0"?><WFReusableComponent_Input><Option>WFSSelectWithColumnNames</Option><EngineName>nabfid_dev</EngineName><SessionID>-621834599</SessionID><Query>SELECT ARRAY_PATH, FIELD_NAME FROM NGM_CLOS_RESPONSE_FIELD_CONFIG WHERE INTEGRATION_NAME = 'CIBILCONSUMERCORE'</Query><TableName>ABC</TableName></WFReusableComponent_Input>
+[21 Oct 2026 16:12:42,078] - 
+ [LOS9]  <?xml version="1.0"?>
+<WFSSelectWithColumnNames_Output>
+<Option>WFSSelectWithColumnNames</Option>
+<Status>15</Status><ExecutionTime>2ms</ExecutionTime><Error><Exception><MainCode>15</MainCode><SubErrorCode>801</SubErrorCode><TypeOfError>FATAL</TypeOfError><Subject>The requested filter is invalid.</Subject><Description>Some Database error occurred.</Description></Exception></Error></WFSSelectWithColumnNames_Output>
+
+[21 Oct 2026 16:12:42,246] - 
+ [LOS9] <?xml version="1.0"?><WFReusableComponent_Input><Option>WFSSelectWithColumnNames</Option><EngineName>nabfid_dev</EngineName><SessionID>-621834599</SessionID><Query>SELECT ARRAY_PATH, FIELD_NAME FROM NGM_CLOS_RESPONSE_FIELD_CONFIG WHERE INTEGRATION_NAME = 'CIBILCONSUMERCORE'</Query><TableName>ABC</TableName></WFReusableComponent_Input>
+[21 Oct 2026 16:12:42,246] - 
+ [LOS9]  <?xml version="1.0"?>
+<WFSSelectWithColumnNames_Output>
+<Option>WFSSelectWithColumnNames</Option>
+<Status>15</Status><ExecutionTime>1ms</ExecutionTime><Error><Exception><MainCode>15</MainCode><SubErrorCode>801</SubErrorCode><TypeOfError>FATAL</TypeOfError><Subject>The requested filter is invalid.</Subject><Description>Some Database error occurred.</Description></Exception></Error></WFSSelectWithColumnNames_Output>
+
+[21 Oct 2026 16:14:18,124] - 
+ [LOS9] <?xml version="1.0"?><WFReusableComponent_Input><Option>WFSSelectWithColumnNames</Option><EngineName>nabfid_dev</EngineName><SessionID>-621834599</SessionID><Query>SELECT ARRAY_PATH, FIELD_NAME FROM NGM_CLOS_RESPONSE_FIELD_CONFIG WHERE INTEGRATION_NAME = 'CIBILCONSUMERCORE'</Query><TableName>ABC</TableName></WFReusableComponent_Input>
+[21 Oct 2026 16:14:18,124] - 
+ [LOS9]  <?xml version="1.0"?>
+<WFSSelectWithColumnNames_Output>
+<Option>WFSSelectWithColumnNames</Option>
+<Status>15</Status><ExecutionTime>2ms</ExecutionTime><Error><Exception><MainCode>15</MainCode><SubErrorCode>801</SubErrorCode><TypeOfError>FATAL</TypeOfError><Subject>The requested filter is invalid.</Subject><Description>Some Database error occurred.</Description></Exception></Error></WFSSelectWithColumnNames_Output>
+
+[21 Oct 2026 17:24:20,251] - 
+ [miriyalaudayakrishna] <WFReusableComponent_Input> <Option>WFSSelectWithColumnNames</Option> <EngineName>nabfid_dev</EngineName> <SessionID>590124254</SessionID> <Query>WITH base_data AS (SELECT A.*,B.MASTER_CODE AS MAIN_FACILITY,C.FACILITY_TYPE AS NATURE_OF_FACILITY,D.FACILITY_CODE AS PRODUCT,D.FACILITY_SHORT_CODE AS FACILITY_SHORT_CODE,G.SUB_PRODUCT_CODE AS SUB_PRODUCT_TYPE,E.MASTER_CODE AS TAKEOVER_CASE_CODE,F.TAKEOVER_CODE AS TAKEOVER_FROM_CODE FROM DLP_MGTN_CI_FD_STAGING A LEFT JOIN NGM_MSME_YES_NO_MASTER B ON UPPER(A.PARENT_FACILITY)=UPPER(B.MASTER_DESC) AND B.ACTIVEFLAG='Y' LEFT JOIN (SELECT DISTINCT SUB_PRODUCT,SUB_PRODUCT_CODE FROM NGM_MSME_SCHEME_FACILITY WHERE PRODUCT_CODE='P1' AND ACTIVEFLAG='Y') G ON UPPER(A.PRODUCT_TYPE)=UPPER(G.SUB_PRODUCT) LEFT JOIN NGM_MSME_SCHEME_FACILITY C ON UPPER(A.FACILITY_NATURE)=UPPER(C.FACILITY_TYPE) AND C.SUB_PRODUCT_CODE=G.SUB_PRODUCT_CODE AND C.ACTIVEFLAG='Y' LEFT JOIN NGM_MSME_SCHEME_FACILITY D ON UPPER(A.FACILITY_TYPE)=UPPER(D.FACILITY) AND D.SUB_PRODUCT_CODE=G.SUB_PRODUCT_CODE AND UPPER(D.FACILITY_TYPE)=UPPER(A.FACILITY_NATURE) AND D.ACTIVEFLAG='Y' LEFT JOIN NGM_CLOS_YES_NO_MASTER E ON UPPER(A.TAKEOVER_CASE)=UPPER(E.MASTER_DESC) AND E.ACTIVEFLAG='Y' LEFT JOIN CLOS_MST_TAKEOVER F ON UPPER(A.TAKEOVER_FROM)=UPPER(F.TAKEOVER_DESC) WHERE A.WORKITEM_NUMBER='MGTN--00000001-STAGING'), linked_facilities AS (SELECT DISTINCT F.FACILITY_ID FROM NGV_CLOS_LINKED_FACLITIES F INNER JOIN NG_CLOS_APPLICANT_DETAILS AD ON AD.WI_NAME=F.WI_NAME AND STRPOS(AD.HIDDEN_RELATIONSHIP,'##Borrower##')!=0 WHERE AD.GUARANTOR_ID=(SELECT AD2.GUARANTOR_ID FROM NG_CLOS_APPLICANT_DETAILS AD2 WHERE AD2.WI_NAME='MGTN--00000001-STAGING' AND STRPOS(AD2.HIDDEN_RELATIONSHIP,'##Borrower##')!=0 LIMIT 1) AND F.FACILITY_ID IS NOT NULL AND AD.WI_NAME='MGTN--00000001-STAGING'), existing_main AS (SELECT COALESCE(MAX(CAST(SPLIT_PART(FACILITY_ID,'-',1) AS INTEGER)),0) AS MAX_ID FROM linked_facilities WHERE SPLIT_PART(FACILITY_ID,'-',1) ~ '^[0-9]+$'), main_rows AS (SELECT BD.*,ROW_NUMBER() OVER(ORDER BY BD.FACILITY_TITLE,BD.PARENT_FACILITY_TITLE,BD.SUBLIMIT_OF) AS RN FROM base_data BD WHERE UPPER(BD.PARENT_FACILITY)='YES'), main_generated AS (SELECT MR.*,EM.MAX_ID+MR.RN AS GENERATED_MAIN_ID FROM main_rows MR CROSS JOIN existing_main EM), all_facilities AS (SELECT BD.*,MG.GENERATED_MAIN_ID FROM base_data BD LEFT JOIN main_generated MG ON MG.WORKITEM_NUMBER=BD.WORKITEM_NUMBER AND UPPER(MG.FACILITY_TITLE)=UPPER(BD.FACILITY_TITLE) AND COALESCE(MG.SUBLIMIT_OF,'')=COALESCE(BD.SUBLIMIT_OF,'') AND COALESCE(MG.PARENT_FACILITY_TITLE,'')=COALESCE(BD.PARENT_FACILITY_TITLE,'') WHERE UPPER(BD.PARENT_FACILITY)='YES' OR UPPER(BD.PARENT_FACILITY)='NO'), child_rows AS (SELECT C.*,P.GENERATED_MAIN_ID AS PARENT_MAIN_ID,ROW_NUMBER() OVER(PARTITION BY P.GENERATED_MAIN_ID ORDER BY C.FACILITY_TITLE,C.SUBLIMIT_OF) AS CHILD_RN FROM all_facilities C INNER JOIN all_facilities P ON UPPER(P.FACILITY_TITLE)=UPPER(C.PARENT_FACILITY_TITLE) AND UPPER(P.PARENT_FACILITY)='YES' WHERE UPPER(C.PARENT_FACILITY)='NO'), existing_child AS (SELECT CAST(SPLIT_PART(SPLIT_PART(FACILITY_ID,'-',1),'.',1) AS INTEGER) AS PARENT_ID,COALESCE(MAX(CAST(SPLIT_PART(SPLIT_PART(FACILITY_ID,'-',1),'.',2) AS INTEGER)),0) AS MAX_CHILD_ID FROM linked_facilities WHERE SPLIT_PART(FACILITY_ID,'-',1) ~ '^[0-9]+\.[0-9]+$' GROUP BY CAST(SPLIT_PART(SPLIT_PART(FACILITY_ID,'-',1),'.',1) AS INTEGER)), final_data AS (SELECT AF.*,CR.PARENT_MAIN_ID,CR.CHILD_RN,EC.MAX_CHILD_ID FROM all_facilities AF LEFT JOIN child_rows CR ON CR.WORKITEM_NUMBER=AF.WORKITEM_NUMBER AND UPPER(CR.FACILITY_TITLE)=UPPER(AF.FACILITY_TITLE) AND COALESCE(CR.SUBLIMIT_OF,'')=COALESCE(AF.SUBLIMIT_OF,'') AND COALESCE(CR.PARENT_FACILITY_TITLE,'')=COALESCE(AF.PARENT_FACILITY_TITLE,'') LEFT JOIN existing_child EC ON EC.PARENT_ID=CR.PARENT_MAIN_ID) SELECT '0' AS PID,'0' AS InsertionOrderId,B.MASTER_CODE AS Main_Facility,A.SUBLIMIT_OF AS Sub_Limit_of,A.PARENT_FACILITY_TITLE AS ParentFacilityTitle,A.SUB_PRODUCT AS SUBPRODUCT_DESC,C.FACILITY_TYPE AS Nature_of_Facility,D.FACILITY_CODE AS Product,A.FACILITY_TITLE AS facility_title,CASE WHEN UPPER(A.PARENT_FACILITY)='YES' THEN FD.GENERATED_MAIN_ID::VARCHAR||'-'||D.FACILITY_SHORT_CODE WHEN UPPER(A.PARENT_FACILITY)='NO' THEN FD.PARENT_MAIN_ID::VARCHAR||'.'||(COALESCE(FD.MAX_CHILD_ID,0)+FD.CHILD_RN)::VARCHAR||'-'||D.FACILITY_SHORT_CODE END AS LOS_Facility_ID,D.SCHEME_ID AS Scheme_Id,A.SPECIFY_OTHERS_FACILITY AS specify_others,A.CURRENCY AS Currency,A.PROPOSED_AMOUNT_LIMIT AS Proposed_Amount_Limit,A.CONVERSION_RATE AS Notional_Rate,A.EQUIVALENT_AMOUNT_IN_HOME_CURRENCY AS Equi_Amt_In_Home_Curr,A.MORATORIUM_IN_MONTHS AS moratorium_in_month_selected,A.REPAYMENT_PERIOD_IN_MONTHS AS repayment_in_month_selected,A.TENOR_IN_MONTHS AS tenor_in_month_selected,A.DETAILED_FACILITY_PURPOSE AS Detailed_Fac_Purpose,A.REIMBURSEMENT_ALLOWED AS REIMBURSEMENT_ALLOWED,A.PERCENT_OF_REIMBURSEMENT AS REIMBURSEMENT_PERC,TO_TIMESTAMP(A.EXPECTED_DATE_OF_FIRST_DISBURSEMENT,'DD/MM/YYYY') AS EXP_DISB_DATE,TO_TIMESTAMP(A.AVAILABILITY_PERIOD,'DD/MM/YYYY') AS Availability_Period,E.MASTER_CODE AS TAKEOVER_CASE,F.TAKEOVER_CODE AS takeover_from,G.SUB_PRODUCT_CODE AS SUB_PRODUCT_TYPE,A.LOAN_ACCOUNT_NUMBER AS loan_acc_no,A.DATE_OF_LAST_AQR_CMR AS aqr_date FROM final_data FD INNER JOIN DLP_MGTN_CI_FD_STAGING A ON A.WORKITEM_NUMBER=FD.WORKITEM_NUMBER AND UPPER(A.FACILITY_TITLE)=UPPER(FD.FACILITY_TITLE) AND COALESCE(A.SUBLIMIT_OF,'')=COALESCE(FD.SUBLIMIT_OF,'') AND COALESCE(A.PARENT_FACILITY_TITLE,'')=COALESCE(FD.PARENT_FACILITY_TITLE,'') LEFT JOIN NGM_MSME_YES_NO_MASTER B ON UPPER(A.PARENT_FACILITY)=UPPER(B.MASTER_DESC) AND B.ACTIVEFLAG='Y' LEFT JOIN (SELECT DISTINCT SUB_PRODUCT,SUB_PRODUCT_CODE FROM NGM_MSME_SCHEME_FACILITY WHERE PRODUCT_CODE='P1' AND ACTIVEFLAG='Y') G ON UPPER(A.PRODUCT_TYPE)=UPPER(G.SUB_PRODUCT) LEFT JOIN NGM_MSME_SCHEME_FACILITY C ON UPPER(A.FACILITY_NATURE)=UPPER(C.FACILITY_TYPE) AND C.SUB_PRODUCT_CODE=G.SUB_PRODUCT_CODE AND C.ACTIVEFLAG='Y' LEFT JOIN NGM_MSME_SCHEME_FACILITY D ON UPPER(A.FACILITY_TYPE)=UPPER(D.FACILITY) AND D.SUB_PRODUCT_CODE=G.SUB_PRODUCT_CODE AND UPPER(D.FACILITY_TYPE)=UPPER(A.FACILITY_NATURE) AND D.ACTIVEFLAG='Y' LEFT JOIN NGM_CLOS_YES_NO_MASTER E ON UPPER(A.TAKEOVER_CASE)=UPPER(E.MASTER_DESC) AND E.ACTIVEFLAG='Y' LEFT JOIN CLOS_MST_TAKEOVER F ON UPPER(A.TAKEOVER_FROM)=UPPER(F.TAKEOVER_DESC) WHERE A.WORKITEM_NUMBER='MGTN--00000001-STAGING'</Query> <TableName>dual</TableName> </WFReusableComponent_Input>
+
+[21 Oct 2026 17:24:20,256] - 
+ [miriyalaudayakrishna]  <?xml version="1.0"?>
+<WFSSelectWithColumnNames_Output>
+<Option>WFSSelectWithColumnNames</Option>
+<Status>15</Status><ExecutionTime>31ms</ExecutionTime><Error><Exception><MainCode>15</MainCode><SubErrorCode>801</SubErrorCode><TypeOfError>FATAL</TypeOfError><Subject>The requested filter is invalid.</Subject><Description>Some Database error occurred.</Description></Exception></Error></WFSSelectWithColumnNames_Output>
+
+[21 Oct 2026 17:24:20,362] - 
+ [miriyalaudayakrishna] <WFReusableComponent_Input> <Option>WFSSelectWithColumnNames</Option> <EngineName>nabfid_dev</EngineName> <SessionID>590124254</SessionID> <Query>UPDATE NG_CLOS_Route_Table SET authority_lead_queue = (select authority_lead_queue from ng_clos_route_table where wi_name ='MGTN--00000001-STAGING') WHERE wi_name= 'WF-0000001419-CLOS'</Query> <TableName>dual</TableName> </WFReusableComponent_Input>
+
+[21 Oct 2026 17:24:20,363] - 
+ [miriyalaudayakrishna]  <?xml version="1.0"?>
+<WFSSelectWithColumnNames_Output>
+<Option>WFSSelectWithColumnNames</Option>
+<Status>15</Status><ExecutionTime>3ms</ExecutionTime><Error><Exception><MainCode>15</MainCode><SubErrorCode>801</SubErrorCode><TypeOfError>FATAL</TypeOfError><Subject>The requested filter is invalid.</Subject><Description>Some Database error occurred.</Description></Exception></Error></WFSSelectWithColumnNames_Output>
+
+[21 Oct 2026 17:24:20,378] - 
+ [miriyalaudayakrishna] <WFReusableComponent_Input> <Option>WFSSelectWithColumnNames</Option> <EngineName>nabfid_dev</EngineName> <SessionID>590124254</SessionID> <Query>UPDATE NG_CLOS_Route_Table SET Remarks_ShareHolding = (select Remarks_ShareHolding from ng_clos_route_table where wi_name ='MGTN--00000001-STAGING') WHERE wi_name= 'WF-0000001419-CLOS'</Query> <TableName>dual</TableName> </WFReusableComponent_Input>
+
+[21 Oct 2026 17:24:20,378] - 
+ [miriyalaudayakrishna]  <?xml version="1.0"?>
+<WFSSelectWithColumnNames_Output>
+<Option>WFSSelectWithColumnNames</Option>
+<Status>15</Status><ExecutionTime>3ms</ExecutionTime><Error><Exception><MainCode>15</MainCode><SubErrorCode>801</SubErrorCode><TypeOfError>FATAL</TypeOfError><Subject>The requested filter is invalid.</Subject><Description>Some Database error occurred.</Description></Exception></Error></WFSSelectWithColumnNames_Output>
+
+[21 Oct 2026 17:24:20,395] - 
+ [miriyalaudayakrishna] <WFReusableComponent_Input> <Option>WFSSelectWithColumnNames</Option> <EngineName>nabfid_dev</EngineName> <SessionID>590124254</SessionID> <Query>UPDATE NG_CLOS_Route_Table SET CommentsFinancialTrends = (select CommentsFinancialTrends from ng_clos_route_table where wi_name ='MGTN--00000001-STAGING') WHERE wi_name= 'WF-0000001419-CLOS'</Query> <TableName>dual</TableName> </WFReusableComponent_Input>
+
+[21 Oct 2026 17:24:20,395] - 
+ [miriyalaudayakrishna]  <?xml version="1.0"?>
+<WFSSelectWithColumnNames_Output>
+<Option>WFSSelectWithColumnNames</Option>
+<Status>15</Status><ExecutionTime>2ms</ExecutionTime><Error><Exception><MainCode>15</MainCode><SubErrorCode>801</SubErrorCode><TypeOfError>FATAL</TypeOfError><Subject>The requested filter is invalid.</Subject><Description>Some Database error occurred.</Description></Exception></Error></WFSSelectWithColumnNames_Output>
+
+[21 Oct 2026 17:24:20,411] - 
+ [miriyalaudayakrishna] <WFReusableComponent_Input> <Option>WFSSelectWithColumnNames</Option> <EngineName>nabfid_dev</EngineName> <SessionID>590124254</SessionID> <Query>UPDATE NG_CLOS_Route_Table SET Shareholder_as_on_date = (select Shareholder_as_on_date from ng_clos_route_table where wi_name ='MGTN--00000001-STAGING') WHERE wi_name= 'WF-0000001419-CLOS'</Query> <TableName>dual</TableName> </WFReusableComponent_Input>
+
+[21 Oct 2026 17:24:20,411] - 
+ [miriyalaudayakrishna]  <?xml version="1.0"?>
+<WFSSelectWithColumnNames_Output>
+<Option>WFSSelectWithColumnNames</Option>
+<Status>15</Status><ExecutionTime>2ms</ExecutionTime><Error><Exception><MainCode>15</MainCode><SubErrorCode>801</SubErrorCode><TypeOfError>FATAL</TypeOfError><Subject>The requested filter is invalid.</Subject><Description>Some Database error occurred.</Description></Exception></Error></WFSSelectWithColumnNames_Output>
+
+[21 Oct 2026 17:24:20,426] - 
+ [miriyalaudayakrishna] <WFReusableComponent_Input> <Option>WFSSelectWithColumnNames</Option> <EngineName>nabfid_dev</EngineName> <SessionID>590124254</SessionID> <Query>UPDATE NG_CLOS_Route_Table SET CBS_NAME = (select CBS_NAME from ng_clos_route_table where wi_name ='MGTN--00000001-STAGING') WHERE wi_name= 'WF-0000001419-CLOS'</Query> <TableName>dual</TableName> </WFReusableComponent_Input>
+
+[21 Oct 2026 17:24:20,426] - 
+ [miriyalaudayakrishna]  <?xml version="1.0"?>
+<WFSSelectWithColumnNames_Output>
+<Option>WFSSelectWithColumnNames</Option>
+<Status>15</Status><ExecutionTime>2ms</ExecutionTime><Error><Exception><MainCode>15</MainCode><SubErrorCode>801</SubErrorCode><TypeOfError>FATAL</TypeOfError><Subject>The requested filter is invalid.</Subject><Description>Some Database error occurred.</Description></Exception></Error></WFSSelectWithColumnNames_Output>
+
+[21 Oct 2026 17:24:20,441] - 
+ [miriyalaudayakrishna] <WFReusableComponent_Input> <Option>WFSSelectWithColumnNames</Option> <EngineName>nabfid_dev</EngineName> <SessionID>590124254</SessionID> <Query>UPDATE NG_CLOS_Route_Table SET Branch = (select sourcing_branch  from DLP_MGTN_CI_SD_STAGING where WORKITEM_NUMBER ='MGTN--00000001-STAGING') WHERE wi_name= 'WF-0000001419-CLOS'</Query> <TableName>dual</TableName> </WFReusableComponent_Input>
+
+[21 Oct 2026 17:24:20,441] - 
+ [miriyalaudayakrishna]  <?xml version="1.0"?>
+<WFSSelectWithColumnNames_Output>
+<Option>WFSSelectWithColumnNames</Option>
+<Status>15</Status><ExecutionTime>2ms</ExecutionTime><Error><Exception><MainCode>15</MainCode><SubErrorCode>801</SubErrorCode><TypeOfError>FATAL</TypeOfError><Subject>The requested filter is invalid.</Subject><Description>Some Database error occurred.</Description></Exception></Error></WFSSelectWithColumnNames_Output>
+
+[21 Oct 2026 17:24:20,456] - 
+ [miriyalaudayakrishna] <WFReusableComponent_Input> <Option>WFSSelectWithColumnNames</Option> <EngineName>nabfid_dev</EngineName> <SessionID>590124254</SessionID> <Query>UPDATE NG_CLOS_Route_Table SET authority_lead_queue = (select authority_lead_queue from ng_clos_route_table where wi_name ='MGTN--00000001-STAGING') WHERE wi_name= 'WF-0000001419-CLOS'</Query> <TableName>dual</TableName> </WFReusableComponent_Input>
+
+[21 Oct 2026 17:24:20,456] - 
+ [miriyalaudayakrishna]  <?xml version="1.0"?>
+<WFSSelectWithColumnNames_Output>
+<Option>WFSSelectWithColumnNames</Option>
+<Status>15</Status><ExecutionTime>2ms</ExecutionTime><Error><Exception><MainCode>15</MainCode><SubErrorCode>801</SubErrorCode><TypeOfError>FATAL</TypeOfError><Subject>The requested filter is invalid.</Subject><Description>Some Database error occurred.</Description></Exception></Error></WFSSelectWithColumnNames_Output>
+
+[21 Oct 2026 17:24:20,533] - 
+ [miriyalaudayakrishna] <WFReusableComponent_Input> <Option>WFSSelectWithColumnNames</Option> <EngineName>nabfid_dev</EngineName> <SessionID>590124254</SessionID> <Query>UPDATE NG_CLOS_Route_Table SET Remarks_ShareHolding = (select Remarks_ShareHolding from ng_clos_route_table where wi_name ='MGTN--00000001-STAGING') WHERE wi_name= 'WF-0000001419-CLOS'</Query> <TableName>dual</TableName> </WFReusableComponent_Input>
+
+[21 Oct 2026 17:24:20,533] - 
+ [miriyalaudayakrishna]  <?xml version="1.0"?>
+<WFSSelectWithColumnNames_Output>
+<Option>WFSSelectWithColumnNames</Option>
+<Status>15</Status><ExecutionTime>63ms</ExecutionTime><Error><Exception><MainCode>15</MainCode><SubErrorCode>801</SubErrorCode><TypeOfError>FATAL</TypeOfError><Subject>The requested filter is invalid.</Subject><Description>Some Database error occurred.</Description></Exception></Error></WFSSelectWithColumnNames_Output>
+
+[21 Oct 2026 17:24:20,555] - 
+ [miriyalaudayakrishna] <WFReusableComponent_Input> <Option>WFSSelectWithColumnNames</Option> <EngineName>nabfid_dev</EngineName> <SessionID>590124254</SessionID> <Query>UPDATE NG_CLOS_Route_Table SET CommentsFinancialTrends = (select CommentsFinancialTrends from ng_clos_route_table where wi_name ='MGTN--00000001-STAGING') WHERE wi_name= 'WF-0000001419-CLOS'</Query> <TableName>dual</TableName> </WFReusableComponent_Input>
+
+[21 Oct 2026 17:24:20,555] - 
+ [miriyalaudayakrishna]  <?xml version="1.0"?>
+<WFSSelectWithColumnNames_Output>
+<Option>WFSSelectWithColumnNames</Option>
+<Status>15</Status><ExecutionTime>8ms</ExecutionTime><Error><Exception><MainCode>15</MainCode><SubErrorCode>801</SubErrorCode><TypeOfError>FATAL</TypeOfError><Subject>The requested filter is invalid.</Subject><Description>Some Database error occurred.</Description></Exception></Error></WFSSelectWithColumnNames_Output>
+
+[21 Oct 2026 17:24:20,569] - 
+ [miriyalaudayakrishna] <WFReusableComponent_Input> <Option>WFSSelectWithColumnNames</Option> <EngineName>nabfid_dev</EngineName> <SessionID>590124254</SessionID> <Query>UPDATE NG_CLOS_Route_Table SET Shareholder_as_on_date = (select Shareholder_as_on_date from ng_clos_route_table where wi_name ='MGTN--00000001-STAGING') WHERE wi_name= 'WF-0000001419-CLOS'</Query> <TableName>dual</TableName> </WFReusableComponent_Input>
+
+[21 Oct 2026 17:24:20,569] - 
+ [miriyalaudayakrishna]  <?xml version="1.0"?>
+<WFSSelectWithColumnNames_Output>
+<Option>WFSSelectWithColumnNames</Option>
+<Status>15</Status><ExecutionTime>2ms</ExecutionTime><Error><Exception><MainCode>15</MainCode><SubErrorCode>801</SubErrorCode><TypeOfError>FATAL</TypeOfError><Subject>The requested filter is invalid.</Subject><Description>Some Database error occurred.</Description></Exception></Error></WFSSelectWithColumnNames_Output>
+
+[21 Oct 2026 17:24:20,584] - 
+ [miriyalaudayakrishna] <WFReusableComponent_Input> <Option>WFSSelectWithColumnNames</Option> <EngineName>nabfid_dev</EngineName> <SessionID>590124254</SessionID> <Query>UPDATE NG_CLOS_Route_Table SET CBS_NAME = (select CBS_NAME from ng_clos_route_table where wi_name ='MGTN--00000001-STAGING') WHERE wi_name= 'WF-0000001419-CLOS'</Query> <TableName>dual</TableName> </WFReusableComponent_Input>
+
+[21 Oct 2026 17:24:20,584] - 
+ [miriyalaudayakrishna]  <?xml version="1.0"?>
+<WFSSelectWithColumnNames_Output>
+<Option>WFSSelectWithColumnNames</Option>
+<Status>15</Status><ExecutionTime>2ms</ExecutionTime><Error><Exception><MainCode>15</MainCode><SubErrorCode>801</SubErrorCode><TypeOfError>FATAL</TypeOfError><Subject>The requested filter is invalid.</Subject><Description>Some Database error occurred.</Description></Exception></Error></WFSSelectWithColumnNames_Output>
+
+[21 Oct 2026 17:24:20,609] - 
+ [miriyalaudayakrishna] <WFReusableComponent_Input> <Option>WFSSelectWithColumnNames</Option> <EngineName>nabfid_dev</EngineName> <SessionID>590124254</SessionID> <Query>UPDATE NG_CLOS_Route_Table SET Branch = (select sourcing_branch  from DLP_MGTN_CI_SD_STAGING where WORKITEM_NUMBER ='MGTN--00000001-STAGING') WHERE wi_name= 'WF-0000001419-CLOS'</Query> <TableName>dual</TableName> </WFReusableComponent_Input>
+
+[21 Oct 2026 17:24:20,609] - 
+ [miriyalaudayakrishna]  <?xml version="1.0"?>
+<WFSSelectWithColumnNames_Output>
+<Option>WFSSelectWithColumnNames</Option>
+<Status>15</Status><ExecutionTime>12ms</ExecutionTime><Error><Exception><MainCode>15</MainCode><SubErrorCode>801</SubErrorCode><TypeOfError>FATAL</TypeOfError><Subject>The requested filter is invalid.</Subject><Description>Some Database error occurred.</Description></Exception></Error></WFSSelectWithColumnNames_Output>
+

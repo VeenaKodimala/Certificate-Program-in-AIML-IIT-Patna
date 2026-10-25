@@ -1,10 +1,15 @@
 import sqlite3
 from pathlib import Path
 
+from logger_config import get_logger
+
+logger = get_logger(__name__)
+
 DATABASE_PATH = f"{Path(__file__).resolve().parent}/log_DB_store/sqlit3LogDB.db"
-print(DATABASE_PATH)
+logger.debug("DATABASE_PATH: %s", DATABASE_PATH)
 def initialise_fts_db():
     """Create a persistant FTS5 table if does noyt exists already."""
+    logger.debug("Initialising FTS5 table in %s", DATABASE_PATH)
     conn = sqlite3.connect(DATABASE_PATH)
 
     try:
@@ -30,6 +35,7 @@ def insert_chunks(file_id,file_name,file_path,log_category,chunks,verbose=True):
     """Insert chunks into the sql FTS table, the same that are inserted into vector DB."""
 
     if not chunks:
+        logger.error("Cannot index empty chunk list for file_id=%s (%s)", file_id, file_name)
         raise ValueError("Cannot index empty chunk list.")
 
     try:
@@ -41,7 +47,7 @@ def insert_chunks(file_id,file_name,file_path,log_category,chunks,verbose=True):
         result = conn.execute("""SELECT COALESCE(MAX(VERSION),0) FROM logs_ftss WHERE file_id = ?""", (file_id,)).fetchone()
     
         if verbose:
-            print(f"version fetch result: {result}")
+            logger.debug("version fetch result: %s", result)
     
         current_version = result[0]+1
     
@@ -63,10 +69,10 @@ def insert_chunks(file_id,file_name,file_path,log_category,chunks,verbose=True):
                 chunk["text"]
             ))   
 
-            if verbose:
-                print(f"rows: {rows}")
+        if verbose:
+            logger.debug("length of rows: %s", len(rows))
     
-            conn.executemany("""INSERT INTO logs_ftss(
+        conn.executemany("""INSERT INTO logs_ftss(
                     chunk_id,
                     file_id,
                     start,
@@ -80,18 +86,20 @@ def insert_chunks(file_id,file_name,file_path,log_category,chunks,verbose=True):
                     text
             ) VALUES (?,?,?,?,?,?,?,?,?,?,?)""", rows)
 
-            conn.commit()
+        conn.commit()
 
     except Exception as e:
+            logger.exception("Failed inserting chunks into FTS table for file_id=%s", file_id)
             conn.rollback()
             raise        
 
     insertCheckResult = conn.execute("""SELECT COUNT(*) FROM logs_ftss WHERE file_id = ? AND version = ?""",(file_id,current_version)).fetchall()
 
     if verbose:
-        print(f"insertCheckResult:: {insertCheckResult}")
+        logger.debug("insertCheckResult: %s", insertCheckResult)
     if insertCheckResult:
         conn.execute("""DELETE FROM logs_ftss where file_id = ? and CAST(version AS INTEGER) < ?""",(file_id,current_version))
+        logger.info("Inserted %d chunks into FTS table for %s (version %s)", len(chunks), file_name, current_version)
     
     conn.close()
     return insertCheckResult

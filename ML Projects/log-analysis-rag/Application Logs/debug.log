@@ -1,0 +1,53 @@
+2026-10-24 18:40:49,841 | DEBUG | lexical_store | lexical_store.py:9 | DATABASE_PATH: D:\Veena\Certificate Program in AI and ML\Certificate-Program-in-AIML-IIT-Patna\ML Projects\log-analysis-rag/log_DB_store/sqlit3LogDB.db
+2026-10-24 18:40:49,981 | INFO | vector_store | vector_store.py:20 | Chroma persistent client initialised
+2026-10-24 18:40:57,246 | WARNING | huggingface_hub.utils._http | _http.py:993 | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-24 18:41:02,823 | INFO | vector_store | vector_store.py:24 | Embedding function loaded: BAAI/bge-m3
+2026-10-24 18:41:02,825 | INFO | vector_store | vector_store.py:28 | Collection ready: LogsRepo
+2026-10-24 18:41:02,825 | INFO | __main__ | test_log_splitting.py:18 | Running test_index_logFiles
+2026-10-24 18:41:02,825 | DEBUG | vector_store | vector_store.py:155 | Path(__file__).resolve().parent: D:\Veena\Certificate Program in AI and ML\Certificate-Program-in-AIML-IIT-Patna\ML Projects\log-analysis-rag
+2026-10-24 18:41:02,826 | DEBUG | vector_store | vector_store.py:156 | root: D:\Veena\Certificate Program in AI and ML\Certificate-Program-in-AIML-IIT-Patna\ML Projects\log-analysis-rag\log_files
+2026-10-24 18:41:02,826 | INFO | vector_store | vector_store.py:159 | Root Directory: D:\Veena\Certificate Program in AI and ML\Certificate-Program-in-AIML-IIT-Patna\ML Projects\log-analysis-rag\resources\log_files
+2026-10-24 18:41:02,826 | DEBUG | vector_store | vector_store.py:51 | path: D:\Veena\Certificate Program in AI and ML\Certificate-Program-in-AIML-IIT-Patna\ML Projects\log-analysis-rag\resources\log_files\of_server\APIDebug.log
+2026-10-24 18:41:02,827 | DEBUG | vector_store | vector_store.py:63 | log_category: of_server
+2026-10-24 18:41:02,827 | DEBUG | vector_store | vector_store.py:64 | path.name: APIDebug.log
+2026-10-24 18:41:02,827 | DEBUG | vector_store | vector_store.py:65 | path.resolve(): D:\Veena\Certificate Program in AI and ML\Certificate-Program-in-AIML-IIT-Patna\ML Projects\log-analysis-rag\resources\log_files\of_server\APIDebug.log
+2026-10-24 18:41:02,827 | DEBUG | log_processing | log_processing.py:17 | Splitting APIDebug.log (chunkSize=1000, chunkOverlap=150)
+2026-10-24 18:41:02,876 | INFO | log_processing | log_processing.py:48 | Split APIDebug.log into 382 chunks
+2026-10-24 18:41:02,876 | DEBUG | vector_store | vector_store.py:72 | No.of chunks returned for D:\Veena\Certificate Program in AI and ML\Certificate-Program-in-AIML-IIT-Patna\ML Projects\log-analysis-rag\resources\log_files\of_server\APIDebug.log: 382
+2026-10-24 18:41:02,876 | DEBUG | vector_store | vector_store.py:80 | file_id (16 chars) for D:\Veena\Certificate Program in AI and ML\Certificate-Program-in-AIML-IIT-Patna\ML Projects\log-analysis-rag\resources\log_files\of_server\APIDebug.log: 6cc973e646605cb7
+2026-10-24 18:41:02,947 | DEBUG | vector_store | vector_store.py:40 | maxPrevVersion: 3
+2026-10-24 18:41:02,947 | DEBUG | vector_store | vector_store.py:44 | nxtVersion: 4
+2026-10-24 18:41:02,947 | DEBUG | vector_store | vector_store.py:85 | currentVersion 4
+2026-10-24 18:41:02,974 | DEBUG | vector_store | vector_store.py:106 | len(ids)=382, len(metadatas)=382, len(documents)=382
+2026-10-24 18:48:17,554 | INFO | vector_store | vector_store.py:126 | Insert into collection completed successfully for APIDebug.log (version 4)
+2026-10-24 18:48:17,556 | DEBUG | lexical_store | lexical_store.py:12 | Initialising FTS5 table in D:\Veena\Certificate Program in AI and ML\Certificate-Program-in-AIML-IIT-Patna\ML Projects\log-analysis-rag/log_DB_store/sqlit3LogDB.db
+2026-10-24 18:48:17,560 | DEBUG | lexical_store | lexical_store.py:50 | version fetch result: (3,)
+2026-10-24 18:48:17,561 | DEBUG | lexical_store | lexical_store.py:73 | length of rows: 382
+2026-10-24 18:48:17,570 | DEBUG | lexical_store | lexical_store.py:99 | insertCheckResult: [(382,)]
+2026-10-24 18:48:17,580 | INFO | lexical_store | lexical_store.py:102 | Inserted 382 chunks into FTS table for APIDebug.log (version 4)
+2026-10-24 18:48:17,581 | DEBUG | vector_store | vector_store.py:142 | sql_insert_result: [(382,)]
+2026-10-24 18:48:17,582 | INFO | vector_store | vector_store.py:180 | Indexed file in vector DB: APIDebug.log present in D:\Veena\Certificate Program in AI and ML\Certificate-Program-in-AIML-IIT-Patna\ML Projects\log-analysis-rag\resources\log_files\of_server\APIDebug.log. Chunks returned: 382
+2026-10-24 18:48:17,582 | DEBUG | vector_store | vector_store.py:187 | Total chunks: 382
+2026-10-24 18:48:17,582 | DEBUG | vector_store | vector_store.py:51 | path: D:\Veena\Certificate Program in AI and ML\Certificate-Program-in-AIML-IIT-Patna\ML Projects\log-analysis-rag\resources\log_files\of_server\Error.log
+2026-10-24 18:48:17,582 | DEBUG | vector_store | vector_store.py:63 | log_category: of_server
+2026-10-24 18:48:17,582 | DEBUG | vector_store | vector_store.py:64 | path.name: Error.log
+2026-10-24 18:48:17,582 | DEBUG | vector_store | vector_store.py:65 | path.resolve(): D:\Veena\Certificate Program in AI and ML\Certificate-Program-in-AIML-IIT-Patna\ML Projects\log-analysis-rag\resources\log_files\of_server\Error.log
+2026-10-24 18:48:17,583 | DEBUG | log_processing | log_processing.py:17 | Splitting Error.log (chunkSize=1000, chunkOverlap=150)
+2026-10-24 18:48:17,866 | INFO | log_processing | log_processing.py:48 | Split Error.log into 823 chunks
+2026-10-24 18:48:17,867 | DEBUG | vector_store | vector_store.py:72 | No.of chunks returned for D:\Veena\Certificate Program in AI and ML\Certificate-Program-in-AIML-IIT-Patna\ML Projects\log-analysis-rag\resources\log_files\of_server\Error.log: 823
+2026-10-24 18:48:17,867 | DEBUG | vector_store | vector_store.py:80 | file_id (16 chars) for D:\Veena\Certificate Program in AI and ML\Certificate-Program-in-AIML-IIT-Patna\ML Projects\log-analysis-rag\resources\log_files\of_server\Error.log: fa8b7e574154c2f8
+2026-10-24 18:48:17,892 | DEBUG | vector_store | vector_store.py:40 | maxPrevVersion: 1
+2026-10-24 18:48:17,892 | DEBUG | vector_store | vector_store.py:44 | nxtVersion: 2
+2026-10-24 18:48:17,893 | DEBUG | vector_store | vector_store.py:85 | currentVersion 2
+2026-10-24 18:48:17,964 | DEBUG | vector_store | vector_store.py:106 | len(ids)=823, len(metadatas)=823, len(documents)=823
+2026-10-24 19:14:06,364 | INFO | vector_store | vector_store.py:126 | Insert into collection completed successfully for Error.log (version 2)
+2026-10-24 19:14:06,371 | DEBUG | lexical_store | lexical_store.py:12 | Initialising FTS5 table in D:\Veena\Certificate Program in AI and ML\Certificate-Program-in-AIML-IIT-Patna\ML Projects\log-analysis-rag/log_DB_store/sqlit3LogDB.db
+2026-10-24 19:14:06,383 | DEBUG | lexical_store | lexical_store.py:50 | version fetch result: (1,)
+2026-10-24 19:14:06,385 | DEBUG | lexical_store | lexical_store.py:73 | length of rows: 823
+2026-10-24 19:14:06,447 | DEBUG | lexical_store | lexical_store.py:99 | insertCheckResult: [(823,)]
+2026-10-24 19:14:06,490 | INFO | lexical_store | lexical_store.py:102 | Inserted 823 chunks into FTS table for Error.log (version 2)
+2026-10-24 19:14:06,496 | DEBUG | vector_store | vector_store.py:142 | sql_insert_result: [(823,)]
+2026-10-24 19:14:06,499 | INFO | vector_store | vector_store.py:180 | Indexed file in vector DB: Error.log present in D:\Veena\Certificate Program in AI and ML\Certificate-Program-in-AIML-IIT-Patna\ML Projects\log-analysis-rag\resources\log_files\of_server\Error.log. Chunks returned: 823
+2026-10-24 19:14:06,499 | DEBUG | vector_store | vector_store.py:187 | Total chunks: 1205
+2026-10-24 19:14:06,500 | INFO | vector_store | vector_store.py:191 | Total chunks: 1205, len(results): 2
+2026-10-24 19:14:06,500 | INFO | __main__ | test_log_splitting.py:20 | Results: {'D:\\Veena\\Certificate Program in AI and ML\\Certificate-Program-in-AIML-IIT-Patna\\ML Projects\\log-analysis-rag\\resources\\log_files\\of_server\\APIDebug.log': 382, 'D:\\Veena\\Certificate Program in AI and ML\\Certificate-Program-in-AIML-IIT-Patna\\ML Projects\\log-analysis-rag\\resources\\log_files\\of_server\\Error.log': 823}

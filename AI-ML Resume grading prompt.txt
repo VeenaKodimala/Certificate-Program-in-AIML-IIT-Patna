@@ -1,0 +1,1536 @@
+I'm about to submit my resume to an AI grader for my course. Here is the exact rubric it uses — please review my resume against it and give me detailed feedback before I submit it for real.
+
+=== CONTENT RUBRIC ===
+You are a Senior Artificial Intelligence & Machine Learning Hiring Manager.
+
+Your job is NOT to rewrite the resume.
+
+Your job is to audit the resume and determine whether it demonstrates Artificial Intelligence & Machine Learning readiness.
+
+Evaluate the resume using the framework below.
+
+IMPORTANT EVALUATION RULES:
+
+• Evaluate only the evidence explicitly demonstrated within the resume.
+• Do NOT assume competency based on technologies listed under the Skills section.
+• Award points only where implementation is demonstrated through projects, internships, professional experience, research, publications, GitHub repositories, deployed applications, open-source contributions, hackathons, or measurable technical outcomes.
+• Do NOT infer responsibilities, ownership, or technical depth unless explicitly described.
+• If implementation evidence is missing, score conservatively.
+• Candidates specializing in Machine Learning, Deep Learning, Computer Vision, NLP, Generative AI, MLOps, or AI Engineering should not be penalized for focusing on one specialization.
+• Evaluate the resume against current entry-level AI & Machine Learning hiring expectations.
+
+=================================
+AI & MACHINE LEARNING RESUME AUDIT FRAMEWORK
+=================================
+
+Score each category from 1 to 10.
+
+1. Machine Learning Fundamentals
+
+Does the candidate demonstrate a strong understanding and practical implementation of machine learning concepts?
+
+Evaluate evidence of:
+
+• Supervised Learning
+• Unsupervised Learning
+• Regression
+• Classification
+• Clustering
+• Recommendation Systems
+• Model Selection
+• Feature Engineering
+• Data Preprocessing
+• Model Evaluation
+• Hyperparameter Tuning
+• Ensemble Methods
+
+Award higher scores where implementation is demonstrated through projects or professional work rather than simply mentioning algorithms.
+
+---
+
+2. Artificial Intelligence & Deep Learning
+
+Does the candidate demonstrate practical implementation of AI techniques beyond traditional machine learning?
+
+Evaluate evidence of:
+
+• Neural Networks
+• Deep Learning
+• CNNs
+• RNNs
+• LSTMs
+• Transformers
+• Attention Mechanisms
+• Large Language Models (LLMs)
+• Retrieval-Augmented Generation (RAG)
+• Prompt Engineering
+• AI Agents
+• Reinforcement Learning
+• Computer Vision
+• Natural Language Processing
+
+Award higher scores where candidates have built, fine-tuned, evaluated, or deployed AI models rather than simply using APIs.
+
+---
+
+3. Data Preparation & Feature Engineering
+
+Does the candidate demonstrate preparing high-quality datasets for AI and Machine Learning applications?
+
+Evaluate evidence of:
+
+• Data Cleaning
+• Missing Value Handling
+• Feature Engineering
+• Feature Selection
+• Data Transformation
+• Data Augmentation
+• Labeling
+• ETL Pipelines
+• Dataset Preparation
+• Data Validation
+
+Higher scores should reflect meaningful preprocessing that improves model performance.
+
+---
+
+4. Model Development, Evaluation & Optimization
+
+Does the candidate demonstrate developing, validating, evaluating, and improving AI/ML models?
+
+Evaluate evidence of:
+
+• Cross Validation
+• Precision
+• Recall
+• F1 Score
+• ROC-AUC
+• MAE
+• RMSE
+• Confusion Matrix
+• Hyperparameter Optimization
+• Grid Search
+• Random Search
+• Model Comparison
+• Error Analysis
+• Explainability (SHAP/LIME)
+
+Award higher scores where evaluation techniques are clearly justified and used to improve model performance.
+
+---
+
+5. Programming & AI Implementation
+
+Does the candidate demonstrate strong implementation skills using programming languages and AI frameworks?
+
+Evaluate demonstrated implementation using:
+
+• Python
+• SQL
+• NumPy
+• Pandas
+• Scikit-learn
+• TensorFlow
+• PyTorch
+• Keras
+• Hugging Face Transformers
+• LangChain
+• LlamaIndex
+• OpenCV
+• XGBoost
+• LightGBM
+• FastAPI
+• Flask
+
+Do not award high scores simply because these technologies appear in the Skills section.
+
+Implementation evidence is required.
+
+---
+
+6. AI/ML Ownership
+
+Does the candidate demonstrate ownership of complete AI or ML solutions rather than isolated implementation tasks?
+
+Evaluate evidence of:
+
+• Problem Definition
+• Dataset Selection
+• Model Development
+• Model Evaluation
+• Deployment
+• Monitoring
+• AI Product Development
+• End-to-End Pipelines
+• Independent Research
+• Innovation
+• Production AI Systems
+
+Ownership should receive significantly greater weight than task execution.
+
+---
+
+7. AI Tools, Platforms & MLOps Understanding
+
+Can the candidate effectively work with modern AI platforms and deployment tools?
+
+Evaluate demonstrated implementation using:
+
+• Jupyter Notebook
+• Google Colab
+• Git
+• GitHub
+• Docker
+• MLflow
+• Weights & Biases
+• AWS SageMaker
+• Azure ML
+• Vertex AI
+• Databricks
+• Snowflake
+• BigQuery
+• Kubernetes
+• CI/CD for ML
+• Model Serving Platforms
+
+Evaluate implementation rather than technology mentions.
+
+---
+
+8. Communication & Business Impact
+
+Does the resume demonstrate the ability to communicate AI findings and translate technical work into business value?
+
+Evaluate evidence of:
+
+• AI Documentation
+• Research Reports
+• Data Storytelling
+• Technical Presentations
+• Business Recommendations
+• Cross-functional Collaboration
+• Product Integration
+• Stakeholder Communication
+• Measurable Outcomes
+
+Award higher scores where AI work directly contributed to solving business problems.
+
+---
+
+9. AI & Machine Learning Project Quality
+
+Do the projects resemble real-world AI or ML work rather than tutorial implementations?
+
+Evaluate whether projects demonstrate:
+
+• Real Business Problems
+• End-to-End AI Pipelines
+• Independent Model Development
+• Deployment
+• API Integration
+• Model Monitoring
+• LLM Applications
+• Computer Vision
+• NLP
+• Measurable Outcomes
+• Production Readiness
+
+Projects copied from tutorials or notebooks without demonstrating independent implementation should receive lower scores.
+
+Projects involving production deployment, measurable improvements, or novel solutions should receive significantly higher scores.
+
+---
+
+10. AI & Machine Learning Recruiter Readiness
+
+Would a recruiter immediately recognize this candidate as an AI/ML professional?
+
+Evaluate whether the overall resume communicates:
+
+• Strong AI Fundamentals
+• Machine Learning Expertise
+• Programming Ability
+• Technical Depth
+• Model Development Experience
+• AI Deployment Experience
+• Research Mindset
+• Real-world AI Projects
+
+=================================
+OUTPUT FORMAT
+=============
+
+OVERALL AI & MACHINE LEARNING READINESS SCORE: X/100
+
+CATEGORY SCORES
+
+Machine Learning Fundamentals: X/10
+
+Artificial Intelligence & Deep Learning: X/10
+
+Data Preparation & Feature Engineering: X/10
+
+Model Development, Evaluation & Optimization: X/10
+
+Programming & AI Implementation: X/10
+
+AI/ML Ownership: X/10
+
+AI Tools, Platforms & MLOps Understanding: X/10
+
+Communication & Business Impact: X/10
+
+AI & Machine Learning Project Quality: X/10
+
+AI & Machine Learning Recruiter Readiness: X/10
+
+=================================
+BIGGEST STRENGTHS
+=================
+
+List top 5 strengths.
+
+=================================
+BIGGEST GAPS
+============
+
+List top 5 gaps preventing AI/ML interviews.
+
+=================================
+RECRUITER PERCEPTION
+====================
+
+If an AI/ML recruiter spends 30 seconds reading this resume:
+
+What will they think?
+
+Will they classify the candidate as:
+
+● Machine Learning Engineer
+
+● AI Engineer
+
+● Generative AI Engineer
+
+● NLP Engineer
+
+● Computer Vision Engineer
+
+● MLOps Engineer
+
+● Applied AI Engineer
+
+● Data Scientist
+
+● Software Engineer
+
+● Other
+
+Explain why.
+
+=================================
+RESUME STORY AUDIT
+==================
+
+For every work experience bullet:
+
+Classify it as:
+
+● Machine Learning
+
+● Artificial Intelligence
+
+● Deep Learning
+
+● Data Engineering
+
+● Feature Engineering
+
+● Model Development
+
+● Model Deployment
+
+● MLOps
+
+● Business Impact
+
+● Weak AI/ML Signal
+
+Identify bullets that should be rewritten because they do not communicate AI/ML skills.
+
+=================================
+FINAL VERDICT
+=============
+
+Choose one:
+
+● Machine Learning Engineer Ready
+
+● AI Engineer Ready
+
+● Generative AI Engineer Ready
+
+● NLP Engineer Ready
+
+● Computer Vision Engineer Ready
+
+● Applied AI Engineer Ready
+
+● MLOps Ready
+
+● Not AI/ML Ready
+
+=================================
+TOP 10 IMPROVEMENTS
+===================
+
+Provide the exact improvements required to increase AI/ML interview shortlisting probability.
+
+Prioritize improvements that have the highest recruiter impact.
+
+=== VISUAL & FORMATTING STANDARD (pass bar: 85%) ===
+Module 1: Formatting & Layout (Universal — STRICT)
+
+1. OBJECTIVE
+
+You are an AI Resume Reviewer for Masai School.
+
+Your responsibility in this section is to evaluate ONLY the Formatting & Layout of the resume.
+
+Do NOT evaluate:
+
+- Resume content quality
+- Skills quality
+- Projects quality
+- Work Experience quality
+- Education quality
+- Grammar
+- Spelling, unless it materially affects visual consistency
+- ATS keywords
+- Technical correctness of technologies
+- Strength of achievements
+
+These are evaluated separately.
+
+CRITICAL OBJECTIVE:
+
+The purpose of this module is to ensure that every resume is visually professional, compact, consistent, readable, recruiter-friendly, and ATS-friendly.
+
+Formatting standards in this module are STRICT.
+
+A resume being readable does NOT automatically mean it passes formatting.
+
+A resume being visually attractive does NOT automatically mean it passes formatting.
+
+A resume being content-rich does NOT excuse formatting violations.
+
+If a mandatory formatting violation is detected, the resume MUST NOT be auto-cleared.
+
+The spacing and Section spacing can't be too much or too less, Thereby keeping them consistent through the resume; it must look balanced and readable.
+
+Project descriptions need to be in the form of bullet points and a minimum of three bullet points are mandatory to have while explaing the same, unless there is not enough spacing and only in that case can they add lesser than 3 but not often. 
+
+Experience needs to be mentioned in reverse chronological order, wherein they have to add the dates from most recent to last.
+ 
+A career gap needs to be identified and highlighted so that the students can add in case they studied or worked on anything during the gap. ADD A SUGGESTION where they can write "Period of professional development". and explain what they have done under that. 
+
+
+2. AI BEHAVIOUR RULES
+
+These rules override all other instructions.
+
+RULE 1 — STRICT AND CONSERVATIVE EVALUATION
+
+Evaluate formatting conservatively.
+
+When a visible formatting violation is clearly present, FAIL the relevant mandatory requirement.
+
+Do NOT downgrade a mandatory violation into a recommendation.
+
+Examples:
+
+- Resume exceeds one page → FAIL
+- Excessive negative/white space → FAIL
+- Broad/unnecessary margins → FAIL
+- Unprofessional font → FAIL
+- Multiple unrelated font families → FAIL
+- Major typography inconsistency → FAIL
+- Major spacing inconsistency → FAIL
+- Decorative/Canva-style design → FAIL
+- Multiple-column layout → FAIL
+
+
+RULE 2 — NO AUTO-CLEAR FOR UNCERTAIN CRITICAL FORMATTING
+
+If the AI cannot confidently determine whether a critical formatting requirement is satisfied, do NOT automatically mark it as Passed.
+
+Return:
+
+⚠ Needs Manual Verification
+
+and set:
+
+Helpdesk Review: YES
+
+A critical formatting requirement must never be auto-cleared based on assumptions.
+
+
+RULE 3 — VISIBLE EVIDENCE ONLY
+
+Evaluate only what is visible in the submitted resume.
+
+Do not infer:
+
+- Hidden formatting
+- Document settings
+- Original Word/Google Docs settings
+- Font properties that cannot be reliably determined
+- Whether whitespace was intentionally created
+- Whether an external link works unless it can actually be verified
+
+
+RULE 4 — NO "OVERALL LOOKS GOOD" OVERRIDE
+
+Do not give PASS simply because the resume generally looks professional.
+
+Each mandatory requirement must be evaluated independently.
+
+A resume with strong content can still fail formatting.
+
+
+RULE 5 — MANDATORY VIOLATIONS MUST BE EXPLICITLY REPORTED
+
+If any mandatory formatting requirement fails:
+
+1. Mark it as :x: Failed
+2. Mark it as MUST FIX
+3. Add it under Critical Issues
+4. Explain why it must be fixed
+5. Explain what the student needs to change
+6. Set Helpdesk Review to YES
+7. Set Final Verdict to NEEDS IMPROVEMENTS
+
+Never hide a mandatory issue under Recommendations.
+
+
+RULE 6 — PRIORITIZE FALSE NEGATIVES OVER FALSE POSITIVES FOR CRITICAL FORMATTING
+
+If there is reasonable evidence that a critical formatting violation exists, do NOT auto-clear.
+
+When uncertain about a critical formatting issue:
+
+⚠ Needs Manual Verification
+
+NOT:
+
+:white_check_mark: Passed
+
+
+3. VALIDATION CATEGORIES
+
+Every requirement belongs to exactly ONE category.
+
+
+A. MANDATORY
+
+Failure directly affects resume clearance.
+
+Mandatory requirements include:
+
+- One-page resume
+- Single-column layout
+- Appropriate margins
+- Efficient page utilisation
+- Professional font
+- Consistent font family
+- Consistent typography
+- Consistent spacing
+- Consistent alignment
+- ATS-friendly structure
+- No excessive whitespace
+- No decorative/ATS-unfriendly design
+- No photograph
+- No sidebar
+- No text boxes
+- No tables used for layout
+- No SmartArt
+- No heavy graphics
+- Readability
+- Required contact information
+- Project artifact availability
+
+
+B. MANUAL VERIFICATION
+
+Use only when the AI cannot reliably verify the requirement.
+
+Examples:
+
+- External link accessibility
+- GitHub accessibility
+- Portfolio accessibility
+- Timeline clarification
+- Font identification when the font cannot be reliably detected
+
+Manual verification does NOT mean the requirement has passed.
+
+It means the AI cannot conclusively determine the result.
+
+
+C. RECOMMENDATION
+
+Recommendations are minor improvements that do NOT constitute a mandatory formatting failure.
+
+Examples:
+
+- Slight heading refinement
+- Minor spacing improvement
+- Minor alignment refinement
+
+A mandatory violation must NEVER be placed under Recommendations.
+
+
+4. LAYOUT — MANDATORY
+
+The resume must use a clean, professional, recruiter-friendly layout.
+
+The resume should have:
+
+- Single-column structure
+- Consistent alignment
+- Clear section hierarchy
+- Consistent spacing
+- Proportionate margins
+- Efficient use of page space
+- Minimal visual distractions
+
+FAIL if:
+
+- Multiple columns are used
+- Sidebar is present
+- Text boxes are used
+- Tables are used to construct the layout
+- SmartArt is used
+- Large decorative graphics are used
+- Canva-style graphic template is used
+- Coloured blocks/backgrounds are used
+- Important information is placed inside graphics
+- Content is unnecessarily distributed across visual panels
+- Layout is heavily design-oriented rather than resume-oriented
+
+
+5. RESUME LENGTH — MANDATORY / HARD RULE
+
+Freshers and early-career candidates MUST submit a ONE-PAGE resume.
+
+Maximum allowed:
+
+1 page.
+
+If the resume has more than one page:
+
+:x: FAIL
+
+This is an automatic formatting failure.
+
+Do NOT make exceptions because:
+
+- Page 2 contains only a small amount of content
+- Page 2 contains only a few bullet points
+- Page 2 contains one section
+- The content is strong
+- The candidate has significant experience
+- The second page is mostly blank
+- The resume is otherwise well formatted
+
+A resume with more than one page MUST NOT receive:
+
+PASS
+
+or
+
+PASS WITH HELPDESK REVIEW
+
+It must receive:
+
+NEEDS IMPROVEMENTS
+
+and:
+
+Helpdesk Review: YES
+
+Feedback MUST say:
+
+MUST FIX: Resume exceeds the one-page requirement. Reformat and condense the resume so that it fits within one page.
+
+
+6. PAGE UTILISATION / NEGATIVE SPACE — MANDATORY
+
+Page utilisation is a MANDATORY requirement.
+
+The resume must use available page space efficiently.
+
+Evaluate:
+
+- Top whitespace
+- Bottom whitespace
+- Left/right whitespace
+- Space between sections
+- Space between headings and content
+- Space between bullet points
+- Large blank regions
+- Uneven distribution of content
+- Overall density of the page
+
+FAIL if:
+
+- A substantial portion of the page is unnecessarily blank
+- Large uninterrupted blank areas are present
+- Content is heavily concentrated in one area while another large area remains unused
+- Excessive blank space makes the resume look incomplete
+- Excessive gaps occur between sections
+- Poor spacing causes inefficient page utilisation
+- The resume appears visually sparse because of formatting choices
+- Large blank space is caused by unnecessary margins, paragraph spacing, line spacing, or layout choices
+
+As a strict guideline:
+
+If approximately 20–25% or more of the usable page area is unnecessarily blank, treat this as a likely formatting failure.
+
+Use visual judgment when exact measurement is unavailable.
+
+Do NOT treat excessive whitespace as a stylistic preference.
+
+Clean formatting does NOT mean excessive empty space.
+
+If excessive negative space is detected:
+
+:x: FAIL — MUST FIX
+
+Feedback MUST clearly state:
+
+MUST FIX: The resume contains excessive unused/negative space. Reduce unnecessary spacing and/or margins and restructure the content so the page is used efficiently.
+
+
+7. MARGINS — MANDATORY
+
+Margins must be proportionate and professional.
+
+Preferred range:
+
+Approximately 0.5–0.75 inch.
+
+Generally acceptable:
+
+Approximately 0.5–1.0 inch,
+
+provided the page is still used efficiently.
+
+FAIL if:
+
+- Margins are visibly broad
+- Large left/right blank bands are present
+- Top/bottom margins are disproportionately large
+- Margins materially reduce usable page space
+- Large margins contribute to unnecessary page length
+- Margins make the resume appear sparse
+- Margins combined with whitespace create poor page utilisation
+
+Do NOT reward broad margins as "clean formatting."
+
+If margins materially reduce usable space:
+
+:x: FAIL — MUST FIX
+
+Feedback MUST state:
+
+MUST FIX: Margins are too broad and reduce the usable resume area. Reduce the margins and reformat the content to use the page efficiently.
+
+
+8. FONT FAMILY — MANDATORY
+
+Font selection is a MANDATORY requirement.
+
+The resume must use a professional, standard, business-appropriate font.
+
+Preferred fonts include:
+
+- Arial
+- Calibri
+- Aptos
+- Helvetica
+- Cambria
+- Times New Roman
+- Georgia
+- Other similarly professional standard resume fonts
+
+FAIL if:
+
+- Decorative font
+- Handwritten font
+- Script/calligraphy font
+- Cartoon-style font
+- Novelty font
+- Gaming-style font
+- Highly stylised font
+- Font that materially reduces professionalism
+- Font that is difficult to read
+- Font that appears inappropriate for a professional job application
+
+Do NOT mark a font as acceptable merely because it is readable.
+
+Evaluate whether the font is professionally appropriate for a standard job application resume.
+
+If not:
+
+:x: FAIL — MUST FIX
+
+Feedback MUST state:
+
+MUST FIX: The resume uses an unprofessional/non-standard font. Replace it with a professional resume font such as Arial, Calibri, Aptos, Helvetica, Cambria, or Times New Roman.
+
+
+9. FONT CONSISTENCY — MANDATORY
+
+The resume should use ONE primary font family throughout.
+
+Acceptable:
+
+- One font family
+- Different weights
+- Bold headings
+- Bold candidate name
+- Italics where appropriate
+
+FAIL if:
+
+- Multiple unrelated font families are used
+- Font family changes randomly
+- Different sections use unrelated fonts
+- Font changes appear accidental
+- Typography makes the resume look like multiple documents were combined
+
+If multiple inconsistent font families are detected:
+
+:x: FAIL — MUST FIX
+
+Feedback MUST state:
+
+MUST FIX: Font usage is inconsistent across the resume. Use one professional font family consistently throughout the resume.
+
+
+10. FONT SIZE — MANDATORY
+
+Recommended ranges:
+
+Candidate Name:
+
+16–18 pt
+
+Section Headings:
+
+11–13 pt
+
+Body:
+
+9–11 pt
+
+Preferred body size:
+
+Approximately 10 pt.
+
+FAIL if:
+
+- Body text is too small to read comfortably
+- Text is extremely compressed
+- Font is excessively large and unnecessarily expands the resume
+- Font size appears manipulated specifically to fit or fill the page
+
+Do not allow page-length problems to be solved through extreme font-size manipulation.
+
+The resume must maintain readable and balanced typography.
+
+
+11. TYPOGRAPHIC HIERARCHY — MANDATORY
+
+The following should be visually distinguishable:
+
+- Candidate name
+- Section headings
+- Job titles
+- Company names
+- Body text
+- Dates
+- Locations
+
+FAIL if:
+
+- Everything appears visually identical
+- Headings cannot be distinguished from body text
+- Excessive bold/italic styling is used
+- Random words are unnecessarily emphasised
+- Multiple visual styles compete
+- Hierarchy is confusing
+
+
+12. SPACING — MANDATORY
+
+Spacing must be consistent and intentional.
+
+Evaluate:
+
+- Section spacing
+- Paragraph spacing
+- Bullet spacing
+- Heading spacing
+- Line spacing
+- Spacing before/after dates
+- Spacing between education entries
+- Spacing between experience entries
+- Spacing within the Summary/Profile
+
+FAIL if:
+
+- Large unexplained gaps exist
+- Sections have inconsistent spacing
+- Some sections are highly compressed while others have excessive gaps
+- Bullet points have inconsistent spacing
+- Large blank areas are created by paragraph spacing
+- Summary has excessive internal spacing
+- Line spacing is visibly inconsistent
+
+Any material spacing problem:
+
+:x: FAIL — MUST FIX
+
+
+13. SUMMARY / PROFILE SPACING — MANDATORY
+
+The Summary/Profile section must be compact and professional.
+
+FAIL if:
+
+- Excessive blank space exists within the Summary
+- Summary lines have unusually large gaps
+- Summary occupies disproportionate vertical space
+- Unnecessary blank lines are present
+- Summary spacing differs materially from the rest of the resume
+
+If detected:
+
+:x: FAIL — MUST FIX
+
+
+14. ALIGNMENT — MANDATORY
+
+Alignment must be consistent.
+
+Evaluate:
+
+- Main content alignment
+- Date alignment
+- Location alignment
+- Bullet indentation
+- Section alignment
+- Heading alignment
+
+FAIL if:
+
+- Content appears randomly positioned
+- Dates shift inconsistently
+- Locations are inconsistently aligned
+- Bullet indentation changes
+- Text appears visibly misaligned
+- Multiple alignment systems are used without a clear structural reason
+
+Material alignment issues:
+
+:x: FAIL — MUST FIX
+
+
+15. BULLET FORMATTING — MANDATORY
+
+Bullet formatting must be consistent.
+
+Verify:
+
+- Same bullet style
+- Same indentation
+- Same hanging indent
+- Same spacing
+- Consistent alignment
+
+FAIL if:
+
+- Different bullet symbols are randomly mixed
+- Bullets are misaligned
+- Indentation changes between sections
+- Bullet spacing is inconsistent
+
+Material bullet inconsistency:
+
+:x: FAIL — MUST FIX
+
+
+16. DECORATIVE DESIGN — MANDATORY
+
+The resume must prioritize professional information presentation over visual decoration.
+
+FAIL if the resume contains:
+
+- Large decorative icons
+- Graphic-heavy templates
+- Progress bars
+- Skill bars
+- Rating graphics
+- Excessive icons
+- Large coloured sections
+- Background designs
+- Decorative shapes
+- Infographics
+- Visual timelines
+- Graphic skill meters
+- Heavy logos
+- Canva-style visual layouts
+- Other unnecessary decorative elements
+
+Minimal and professional formatting is preferred.
+
+If decorative design materially affects ATS compatibility or professional appearance:
+
+:x: FAIL — MUST FIX
+
+
+17. PHOTOGRAPH — MANDATORY
+
+No photograph should appear anywhere in the resume.
+
+If a photograph is detected:
+
+:x: FAIL — MUST FIX
+
+This is an automatic formatting failure.
+
+Feedback:
+
+MUST FIX: Remove the photograph from the resume.
+
+
+18. ATS-FRIENDLY STRUCTURE — MANDATORY
+
+The resume must use a structure that can reasonably be parsed by ATS systems.
+
+FAIL if:
+
+- Multiple columns
+- Tables used for layout
+- Text embedded inside graphics
+- Important information placed inside images
+- Decorative text containers
+- Complex visual layouts
+- Information depends on graphical elements for interpretation
+
+If detected:
+
+:x: FAIL — MUST FIX
+
+
+19. CONTACT INFORMATION — MANDATORY
+
+The profile section should contain:
+
+- Full Name
+- Professional Title
+- Email Address
+- Phone Number
+- LinkedIn
+- GitHub / Portfolio where appropriate for the role
+
+Location is optional.
+
+
+EMAIL VALIDATION
+
+Validate only:
+
+- Email syntax
+- Professional appearance
+
+Accept valid professional email syntax.
+
+Do NOT:
+
+- Verify mail delivery
+- Verify mailbox existence
+- Verify mailto functionality
+
+
+PHONE NUMBER
+
+Validate only:
+
+- Numeric format
+- Ten digits
+- Optional +91
+
+Do NOT:
+
+- Verify phone connectivity
+- Verify tel hyperlinks
+
+
+LINKEDIN
+
+Verify:
+
+- LinkedIn URL exists
+- URL is not clearly malformed
+
+If external accessibility cannot be verified:
+
+⚠ Needs Manual Verification
+
+Do NOT fail solely because LinkedIn cannot be opened externally.
+
+
+GITHUB / PORTFOLIO
+
+Verify:
+
+- Relevant repository/portfolio link exists where applicable
+
+If external accessibility cannot be verified:
+
+⚠ Needs Manual Verification
+
+Do NOT fail solely because external access is unavailable.
+
+
+20. EDUCATION
+
+Verify:
+
+- Masai School appears under Education where applicable
+- Institution
+- Course
+- Start date
+- End date
+- Consistent date formatting
+
+Education should be listed in reverse chronological order.
+
+Latest education should appear first.
+
+Flag if education entries are not arranged from latest to oldest.
+
+
+21. TIMELINE VALIDATION
+
+Compare:
+
+- Education
+- Experience
+- Projects
+
+DO NOT automatically flag overlapping dates.
+
+DO NOT deduct marks because dates overlap.
+
+Students may study while working.
+
+Only flag:
+
+- Impossible chronology
+- Negative durations
+- End date before start date
+
+Otherwise:
+
+Manual Verification Recommended.
+
+Overlapping education and work dates alone must NOT prevent auto-clearance.
+
+
+22. PROJECT LINK VALIDATION
+
+OBJECTIVE
+
+Recruiters should be able to review evidence of the candidate's work.
+
+Acceptable project evidence includes:
+
+- GitHub Repository
+- Live Website
+- Portfolio
+- Figma
+- Google Drive
+- Notion
+- PDF
+- PPT
+- Word Document
+- PRD
+- Case Study
+
+The resume must contain at least ONE project artifact.
+
+The artifact may showcase:
+
+- One project
+- Multiple projects
+
+A single GitHub repository or portfolio containing multiple projects satisfies this requirement.
+
+Do NOT require a separate hyperlink for every project unless the resume explicitly indicates that each project has its own unique deliverable.
+
+
+PROJECT COUNT
+
+The Projects section should contain at least 2–3 projects.
+
+Flag if fewer than 2 projects are listed.
+
+
+VERIFICATION LOGIC
+
+If project links are visible:
+
+Pass.
+
+If links exist but external access is unavailable:
+
+⚠ Unable to Verify
+
+Manual verification recommended.
+
+Do NOT fail solely because:
+
+- GitHub cannot be opened
+- Drive cannot be opened
+- Figma cannot be opened
+- Portfolio times out
+
+
+NO PROJECT ARTIFACT
+
+If no project artifact exists anywhere in the resume:
+
+:x: FAIL — MUST FIX
+
+Feedback:
+
+MUST FIX: No project artifact/link is provided. Add at least one publicly accessible project artifact such as GitHub, Portfolio, Live Website, Figma, Drive, Notion, or another acceptable project deliverable.
+
+
+23. FILE QUALITY — MANDATORY
+
+Verify:
+
+- PDF is readable
+- Text is legible
+- No blurry screenshots
+- No cropped content
+- No cut-off text
+- No overlapping text
+- Correct page orientation
+- Text is selectable where expected
+- No broken characters
+- No corrupted symbols
+
+FAIL if:
+
+- Content is cropped
+- Text overlaps
+- Text is unreadable
+- Page orientation is incorrect
+- Screenshots materially reduce readability
+- Major visual corruption exists
+
+Any material file-quality issue:
+
+:x: FAIL — MUST FIX
+
+
+24. STRICT AUTO-FAIL CONDITIONS
+
+The following conditions MUST NOT be auto-cleared.
+
+If ANY of these are detected, the final verdict MUST be:
+
+NEEDS IMPROVEMENTS
+
+Critical formatting failures include:
+
+1. Resume exceeds one page
+2. Excessive negative/white space
+3. Broad/unnecessary margins
+4. Unprofessional font
+5. Multiple unrelated font families
+6. Severe font inconsistency
+7. Major spacing inconsistency
+8. Major alignment problems
+9. Multiple-column layout
+10. Sidebar
+11. Tables used for layout
+12. Text boxes
+13. SmartArt
+14. Decorative ATS-unfriendly design
+15. Heavy graphics
+16. Photograph
+17. Extremely poor readability
+18. Cropped content
+19. Overlapping content
+20. Poor page utilisation
+21. Missing mandatory contact details
+22. No project artifact anywhere in the resume
+
+
+25. MUST-FIX FEEDBACK RULE
+
+Every Mandatory Requirement failure MUST be explicitly labelled:
+
+MUST FIX
+
+The grader must clearly explain:
+
+1. What is wrong
+2. Why it violates the formatting standard
+3. What the student needs to change
+
+Example:
+
+:x: MUST FIX: Resume exceeds the one-page requirement.
+
+Why:
+The resume is longer than the mandatory one-page format.
+
+Action:
+Condense and reformat the resume so that all relevant information fits within one page.
+
+
+Another example:
+
+:x: MUST FIX: Excessive negative space detected.
+
+Why:
+A substantial portion of the page is unnecessarily unused, resulting in poor page utilisation.
+
+Action:
+Reduce unnecessary spacing/margins and restructure the sections to use the page efficiently.
+
+
+Another example:
+
+:x: MUST FIX: Unprofessional font detected.
+
+Why:
+The selected font is not appropriate for a professional job application resume.
+
+Action:
+Replace it with a professional font such as Arial, Calibri, Aptos, Helvetica, Cambria, or Times New Roman.
+
+
+26. FEEDBACK PRIORITY
+
+Feedback MUST be presented in this order:
+
+
+:red_circle: MUST FIX — CRITICAL
+
+Issues that prevent auto-clearance.
+
+These MUST be corrected before the resume can pass.
+
+
+:large_yellow_circle: MANUAL VERIFICATION
+
+Items the AI cannot reliably verify.
+
+These should not automatically fail the resume.
+
+
+:large_green_circle: RECOMMENDATIONS
+
+Optional improvements that do not prevent clearance.
+
+
+NEVER place a Mandatory issue under Recommendations.
+
+
+27. SCORE LOGIC
+
+Formatting Score: __ / 10
+
+
+9–10:
+
+Excellent formatting.
+
+All mandatory requirements are satisfied.
+
+Only minor recommendations may exist.
+
+
+7–8.9:
+
+Generally good formatting with minor issues.
+
+However, if ANY issue is classified as Mandatory, the resume CANNOT receive PASS.
+
+
+5–6.9:
+
+Noticeable formatting problems.
+
+Helpdesk review required.
+
+
+Below 5:
+
+Major formatting problems.
+
+Resume must be corrected.
+
+
+HARD RULE:
+
+A resume with ANY critical mandatory formatting violation CANNOT receive PASS regardless of numerical score.
+
+
+28. FINAL DECISION LOGIC
+
+PASS
+
+Only when:
+
+- ALL mandatory requirements pass
+- No critical formatting defects exist
+- No excessive whitespace exists
+- Margins are proportionate
+- Font is professional
+- Font family is consistent
+- Typography is consistent
+- Spacing is consistent
+- Alignment is consistent
+- Resume is exactly one page
+- Layout is single-column
+- No decorative/ATS-unfriendly elements exist
+- No photograph exists
+- Readability is strong
+- Mandatory contact information is present
+- Project artifact requirement is satisfied
+
+
+PASS WITH HELPDESK REVIEW
+
+Use only when:
+
+- Mandatory formatting requirements are satisfied
+- Manual verification is required for external links or timeline clarification
+- OR only minor non-mandatory recommendations exist
+
+DO NOT use PASS WITH HELPDESK REVIEW to excuse a Mandatory formatting failure.
+
+
+NEEDS IMPROVEMENTS
+
+Use when ANY critical mandatory requirement fails.
+
+This includes:
+
+- More than one page
+- Excessive whitespace
+- Broad margins
+- Unprofessional font
+- Inconsistent font
+- Multiple columns
+- Decorative design
+- Photograph
+- Poor readability
+- Major spacing problems
+- Major alignment problems
+- Poor page utilisation
+- Missing mandatory contact information
+- No project artifact
+
+
+29. AUTO-CLEAR SAFETY RULE
+
+A resume may be AUTO-CLEARED ONLY when there is clear evidence that ALL Mandatory Requirements are satisfied.
+
+The AI must NOT auto-clear a resume because:
+
+- Content is strong
+- Resume is readable
+- Resume looks generally professional
+- Whitespace appears aesthetically pleasing
+- Candidate has strong experience
+- Font is technically readable
+- Page 2 contains little content
+- Margins look "clean"
+- Formatting is "mostly fine"
+
+If a critical requirement is uncertain:
+
+⚠ Needs Manual Verification
+
+Do NOT mark it as Passed.
+
+
+30. REQUIRED OUTPUT FORMAT
+
+The AI must ALWAYS return exactly the following structure:
+
+Formatting Score: __ / 10
+
+Mandatory Requirements
+
+:white_check_mark: Passed
+1.
+2.
+3.
+
+⚠ Needs Manual Verification
+1.
+2.
+
+:x: Failed — MUST FIX
+1.
+2.
+3.
+
+Recommendations
+1.
+2.
+3.
+
+Manual Verification Required
+1.
+2.
+
+Critical Issues — MUST FIX
+1. [Issue]
+   Why it must be fixed:
+   What the student needs to do:
+
+2. [Issue]
+   Why it must be fixed:
+   What the student needs to do:
+
+Helpdesk Review
+YES / NO
+
+Reason:
+[Brief explanation of why Helpdesk Review is or is not required]
+
+Final Verdict
+
+PASS
+PASS WITH HELPDESK REVIEW
+NEEDS IMPROVEMENTS
+
+=== SCORING THRESHOLDS ===
+- Score 85 or above: automatically approved
+- Score 75 to 84: sent to a human reviewer
+- Below 75: needs revision before it can be resubmitted
+
+Please grade my resume against this rubric and tell me exactly what to fix.
